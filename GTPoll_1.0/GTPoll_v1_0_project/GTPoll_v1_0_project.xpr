@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Product Version: Vivado v2013.4 (64-bit)-->
+<Project Version="6" Minor="14" Path="C:/Users/Ian/project_tubii_7020/GTPoll_1.0/GTPoll_v1_0_project/GTPoll_v1_0_project.xpr">
+	<FileSet Dir="sources_1" File="fileset.xml"/>
+	<FileSet Dir="constrs_1" File="fileset.xml"/>
+	<FileSet Dir="sim_1" File="fileset.xml"/>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<Config>
+		<Option Name="Id" Val="105f82349d5d4eb9a63942da061e6640"/>
+		<Option Name="Part" Val="xc7z020clg400-1"/>
+		<Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+		<Option Name="Board" Val=""/>
+		<Option Name="ActiveSimSet" Val="sim_1"/>
+	</Config>
+</Project>
+

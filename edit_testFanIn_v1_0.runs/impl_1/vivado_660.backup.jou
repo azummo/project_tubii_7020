@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Mon Jul 07 14:27:21 2014
+# Process ID: 1976
+# Log file: C:/Users/HEP/project_tubii/edit_testFanIn_v1_0.runs/impl_1/testFanIn_v1_0.rdi
+# Journal file: C:/Users/HEP/project_tubii/edit_testFanIn_v1_0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source testFanIn_v1_0.tcl -notrace

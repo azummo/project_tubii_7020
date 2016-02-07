@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Wed Apr 15 12:43:46 2015
+# Process ID: 6812
+# Log file: C:/Users/Ian/project_tubii_7020/edit_testFIFO_v1_0.runs/synth_1/testFIFO_v1_0.rds
+# Journal file: C:/Users/Ian/project_tubii_7020/edit_testFIFO_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source testFIFO_v1_0.tcl

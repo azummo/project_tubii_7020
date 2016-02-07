@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Fri Jul 11 11:32:07 2014
+# Process ID: 3448
+# Log file: C:/Users/HEP/project_tubii/edit_testDelay_v1_0.runs/synth_1/testDelay_v1_0.rds
+# Journal file: C:/Users/HEP/project_tubii/edit_testDelay_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source testDelay_v1_0.tcl

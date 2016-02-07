@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Product Version: Vivado v2013.4 (64-bit)-->
+<Project Version="6" Minor="14" Path="C:/Users/Ian/project_tubii_7020/edit_tubiiFIFO_v1_0.xpr">
+	<FileSet Dir="sources_1" File="fileset.xml"/>
+	<FileSet Dir="constrs_1" File="fileset.xml"/>
+	<FileSet Dir="sim_1" File="fileset.xml"/>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<Config>
+		<Option Name="Id" Val="8da5ff2e89aa4b81b2092f9ca9f3a5e4"/>
+		<Option Name="Part" Val="xc7z020clg400-1"/>
+		<Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+		<Option Name="Board" Val=""/>
+		<Option Name="ActiveSimSet" Val="sim_1"/>
+	</Config>
+</Project>
+

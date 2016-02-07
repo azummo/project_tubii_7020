@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu Sep 11 11:38:37 2014
+# Process ID: 6440
+# Log file: C:/Users/Ian/project_tubii/edit_testFanIn_v1_0.runs/synth_1/testFanIn_v1_0.rds
+# Journal file: C:/Users/Ian/project_tubii/edit_testFanIn_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source testFanIn_v1_0.tcl

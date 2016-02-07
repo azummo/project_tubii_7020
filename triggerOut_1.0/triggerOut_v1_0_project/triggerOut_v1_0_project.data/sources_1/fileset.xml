@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../hdl/triggerOut_v1_0_S00_AXI.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/triggerOut_v1_0.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="triggerOut_v1_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/../hdl/triggerOut_v1_0.vhd"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../oneshot_pulse_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../fifo_readout_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../counter_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../ShiftRegs_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../countDisplay_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../check_gtid_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../readShift_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../dataready_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../GTPoll_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../muxerInput_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../loadShift_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../comboTrigger_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../testFIFO_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../tubiiFIFO_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../nothing_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../masterOut_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../testmaster_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../testPulser_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../triggerOut_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../clockLogic_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../triggerSplit_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../testDelay_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../prescaleTrigger_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../burstTrigger_1.0"/>
+    </Config>
+  </FileSet>
+</DARoots>
