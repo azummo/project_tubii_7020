@@ -6,20 +6,24 @@
       <FileInfo>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../hdl/testPulser_v1_0.vhd">
       <FileInfo>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../component.xml">
-      <FileInfo SFType="IPXACT"/>
+      <FileInfo SFType="IPXACT">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>

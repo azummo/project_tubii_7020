@@ -761,8 +761,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>comboTrigger_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>5</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-01-20T20:03:11Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>7</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-02-10T21:43:53Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

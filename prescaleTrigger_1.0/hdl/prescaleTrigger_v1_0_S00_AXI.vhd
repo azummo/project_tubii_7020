@@ -214,16 +214,24 @@ begin
         -- reg 2 prescale rate
         -- reg 3 prescale mask
 
-        if(PRESCALE_TRIGIN(15)='1' and slv_reg1(0)='0') then
+        for i in 0 to 15 loop
+          if(slv_reg3(i)='1' and PRESCALE_TRIGIN(i)='1') then
+            slv_reg1(31)<='1';
+            exit;
+          end if;
+          slv_reg1(31)<='0';
+        end loop;
+
+        if(slv_reg1(31)='1' and slv_reg1(0)='0') then
           slv_reg0 <= slv_reg0+1;
           slv_reg1(0)<='1';
-        elsif(PRESCALE_TRIGIN(15)='0') then
+        elsif(slv_reg1(31)='0') then
           slv_reg1(0)<='0';
         end if;
         
-        if((slv_reg0=slv_reg2)) then
+        if((slv_reg0=slv_reg2-1)) then
           PRESCALE_TRIGOUT <= PRESCALE_TRIGIN(15);
-        elsif((slv_reg0>slv_reg2)) then
+        elsif((slv_reg0>slv_reg2-1)) then
           PRESCALE_TRIGOUT <= '0';
           slv_reg0 <= (others=>'0');
         else

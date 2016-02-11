@@ -761,8 +761,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>prescaleTrigger_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>12</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-01-21T21:05:25Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>14</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-02-11T21:27:41Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

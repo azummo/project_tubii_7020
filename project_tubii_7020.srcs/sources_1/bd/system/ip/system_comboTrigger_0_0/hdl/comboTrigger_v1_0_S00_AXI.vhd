@@ -215,21 +215,26 @@ begin
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
 
-        -- For example,
+        -- An example combination trigger,
+        -- Reg2 selects the triggers we care about and then
+        -- Reg3 is the state we want them in
         -- Reg0 contains the triggers in
-        -- Reg1 contains the trigger out
-        -- Reg3 contains the trigger mask
+        -- Reg2 contains the enabled trigger mask
+        -- Reg1 contains the (triggers in).(enabled mask)
+        -- Reg3 contains the logical trigger mask
         slv_reg0(15 downto 0) <= COMBO_TRIGIN;
+
+        for i in 0 to 15 loop
+          slv_reg1(i) <= (COMBO_TRIGIN(i) and slv_reg2(i));
+        end loop; 
 
         -- Check if trigger mask equals triggers in
         -- Could have more complex logic        
-        if (slv_reg0 = slv_reg3 and slv_reg3(15 downto 0)>"0000") then
+        if (slv_reg1(15 downto 0) = slv_reg3(15 downto 0) and slv_reg3(15 downto 0)>"0000") then
             -- Send combo trigger
-            slv_reg1(0)<='1';
             COMBO_TRIGOUT<='1';
         else
             -- No combo trigger
-            slv_reg1<=(others=>'0');
             COMBO_TRIGOUT<='0';
         end if;
 

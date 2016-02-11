@@ -1131,7 +1131,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>1344639193</spirit:value>
+            <spirit:value>3435966619</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -1139,7 +1139,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Feb 04 15:33:31 UTC 2016</spirit:value>
+            <spirit:value>Thu Feb 11 21:35:04 UTC 2016</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -1434,7 +1434,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1461,7 +1461,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1488,7 +1488,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1515,7 +1515,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1542,7 +1542,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1569,7 +1569,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_PNTR_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1849,7 +1849,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_COUNT_WIDTH&apos;)) - 1)">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_COUNT_WIDTH&apos;)) - 1)">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1873,7 +1873,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_DATA_COUNT_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_RD_DATA_COUNT_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1897,7 +1897,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_DATA_COUNT_WIDTH&apos;))-1">9</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_WR_DATA_COUNT_WIDTH&apos;))-1">14</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -6548,7 +6548,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_DATA_COUNT_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DATA_COUNT_WIDTH">10</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DATA_COUNT_WIDTH">15</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>C_DEFAULT_VALUE</spirit:name>
@@ -6676,7 +6676,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>C_PRIM_FIFO_TYPE</spirit:name>
-        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PRIM_FIFO_TYPE">1kx36</spirit:value>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PRIM_FIFO_TYPE">8kx4</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROG_EMPTY_THRESH_ASSERT_VAL</spirit:name>
@@ -6692,11 +6692,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROG_FULL_THRESH_ASSERT_VAL</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PROG_FULL_THRESH_ASSERT_VAL">1021</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PROG_FULL_THRESH_ASSERT_VAL">32765</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROG_FULL_THRESH_NEGATE_VAL</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PROG_FULL_THRESH_NEGATE_VAL">1020</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PROG_FULL_THRESH_NEGATE_VAL">32764</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROG_FULL_TYPE</spirit:name>
@@ -6704,11 +6704,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_RD_DATA_COUNT_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_DATA_COUNT_WIDTH">10</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_DATA_COUNT_WIDTH">15</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_RD_DEPTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_DEPTH">1024</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_DEPTH">32768</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_RD_FREQ</spirit:name>
@@ -6716,7 +6716,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_RD_PNTR_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_PNTR_WIDTH">10</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RD_PNTR_WIDTH">15</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_UNDERFLOW_LOW</spirit:name>
@@ -6752,11 +6752,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_WR_DATA_COUNT_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_DATA_COUNT_WIDTH">10</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_DATA_COUNT_WIDTH">15</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_WR_DEPTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_DEPTH">1024</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_DEPTH">32768</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_WR_FREQ</spirit:name>
@@ -6764,7 +6764,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_WR_PNTR_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_PNTR_WIDTH">10</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_WR_PNTR_WIDTH">15</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_WR_RESPONSE_LATENCY</spirit:name>
@@ -8329,7 +8329,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Input_Depth</spirit:name>
-      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.INPUT_DEPTH" spirit:choiceRef="xippack_UserParameter_choiceref_Input_Depth" spirit:order="7">1024</spirit:value>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.INPUT_DEPTH" spirit:choiceRef="xippack_UserParameter_choiceref_Input_Depth" spirit:order="7">32768</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8353,7 +8353,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Output_Depth</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OUTPUT_DEPTH" spirit:order="9" spirit:minimum="16" spirit:maximum="33554432" spirit:rangeType="long">1024</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OUTPUT_DEPTH" spirit:order="9" spirit:minimum="16" spirit:maximum="33554432" spirit:rangeType="long">32768</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8629,7 +8629,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Data_Count_Width</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_COUNT_WIDTH" spirit:order="32" spirit:minimum="1" spirit:maximum="10" spirit:rangeType="long">10</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_COUNT_WIDTH" spirit:order="32" spirit:minimum="1" spirit:maximum="15" spirit:rangeType="long">15</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8653,7 +8653,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Write_Data_Count_Width</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.WRITE_DATA_COUNT_WIDTH" spirit:order="34" spirit:minimum="1" spirit:maximum="10" spirit:rangeType="long">10</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.WRITE_DATA_COUNT_WIDTH" spirit:order="34" spirit:minimum="1" spirit:maximum="15" spirit:rangeType="long">15</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8677,7 +8677,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Read_Data_Count_Width</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.READ_DATA_COUNT_WIDTH" spirit:order="36" spirit:minimum="1" spirit:maximum="10" spirit:rangeType="long">10</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.READ_DATA_COUNT_WIDTH" spirit:order="36" spirit:minimum="1" spirit:maximum="15" spirit:rangeType="long">15</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8737,7 +8737,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Full_Threshold_Assert_Value</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FULL_THRESHOLD_ASSERT_VALUE" spirit:order="41" spirit:minimum="4" spirit:maximum="1021" spirit:rangeType="long">1021</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FULL_THRESHOLD_ASSERT_VALUE" spirit:order="41" spirit:minimum="4" spirit:maximum="32765" spirit:rangeType="long">32765</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8749,7 +8749,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Full_Threshold_Negate_Value</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FULL_THRESHOLD_NEGATE_VALUE" spirit:order="42" spirit:minimum="3" spirit:maximum="1020" spirit:rangeType="long">1020</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FULL_THRESHOLD_NEGATE_VALUE" spirit:order="42" spirit:minimum="3" spirit:maximum="32764" spirit:rangeType="long">32764</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8773,7 +8773,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Empty_Threshold_Assert_Value</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.EMPTY_THRESHOLD_ASSERT_VALUE" spirit:order="44" spirit:minimum="2" spirit:maximum="1019" spirit:rangeType="long">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.EMPTY_THRESHOLD_ASSERT_VALUE" spirit:order="44" spirit:minimum="2" spirit:maximum="32763" spirit:rangeType="long">2</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -8785,7 +8785,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Empty_Threshold_Negate_Value</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.EMPTY_THRESHOLD_NEGATE_VALUE" spirit:order="45" spirit:minimum="3" spirit:maximum="1020" spirit:rangeType="long">3</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.EMPTY_THRESHOLD_NEGATE_VALUE" spirit:order="45" spirit:minimum="3" spirit:maximum="32764" spirit:rangeType="long">3</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
