@@ -127,9 +127,9 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
 00:00:072default:default2
-00:00:222default:default2
-268.9532default:default2
-81.4492default:defaultZ17-268
+00:00:202default:default2
+269.9732default:default2
+82.1522default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -151,7 +151,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:03:55 ; elapsed = 00:04:33 . Memory (MB): peak = 333.445 ; gain = 184.559
+xStarting RTL Elaboration : Time (s): cpu = 00:04:55 ; elapsed = 00:05:31 . Memory (MB): peak = 336.609 ; gain = 187.906
 2default:default
 ˝
 synthesizing module '%s'638*oasys2"
@@ -600,22 +600,22 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 19032default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_2972default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v2default:default2
+system_auto_cc_3092default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_2972default:default2Å
+system_auto_cc_3092default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 20352default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_2972default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v2default:default2
+system_auto_cc_3092default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
 572default:default8@Z8-638
 Ô
 synthesizing module '%s'638*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -6695,21 +6695,21 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 fifo_generator_v11_02default:default2
 2302default:default2
 2282default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 7992default:default8@Z8-350
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2
 432default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_2972default:default2
+system_auto_cc_3092default:default2
 442default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -6737,24 +6737,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 22392default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_2982default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v2default:default2
+system_auto_cc_3102default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_2982default:default2Å
+system_auto_cc_3102default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 23712default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_2982default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v2default:default2
+system_auto_cc_3102default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_2982default:default2
+system_auto_cc_3102default:default2
 472default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -6770,24 +6770,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 24662default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_2992default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v2default:default2
+system_auto_cc_3112default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_2992default:default2Å
+system_auto_cc_3112default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 25982default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_2992default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v2default:default2
+system_auto_cc_3112default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_2992default:default2
+system_auto_cc_3112default:default2
 492default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -6815,24 +6815,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 28022default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3002default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v2default:default2
+system_auto_cc_3122default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3002default:default2Å
+system_auto_cc_3122default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 29342default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3002default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v2default:default2
+system_auto_cc_3122default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3002default:default2
+system_auto_cc_3122default:default2
 522default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -6848,22 +6848,22 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 30482default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_pc_3502default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v2default:default2
+system_auto_pc_3532default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v2default:default2
 572default:default2
 auto_pc2default:default2&
-system_auto_pc_3502default:default2Å
+system_auto_pc_3532default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 32312default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_pc_3502default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v2default:default2
+system_auto_pc_3532default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v2default:default2
 572default:default8@Z8-638
 ˛
 synthesizing module '%s'638*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Ê
-œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -6968,7 +6968,7 @@ X
 ÿ
 synthesizing module '%s'638*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2”
-ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -8225,7 +8225,7 @@ a
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8238,7 +8238,7 @@ W
 ˆ
 synthesizing module '%s'638*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2‚
-Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -8259,7 +8259,7 @@ N
 Í
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8274,12 +8274,12 @@ _
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 582default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
 Í
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8294,19 +8294,19 @@ _
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 592default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ≤
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 602default:default2
 12default:default2‚
-Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
 Ó
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8326,26 +8326,26 @@ L
 2default:default
 ±
 default block is never used226*oasys2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 612default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 622default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
 Ï
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -8394,7 +8394,7 @@ U
 Ô
 synthesizing module '%s'638*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8429,12 +8429,12 @@ J
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 632default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -8469,19 +8469,19 @@ J
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 632default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 642default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8494,7 +8494,7 @@ W
 Ó
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8514,26 +8514,26 @@ $	Parameter SM_DONE bound to: 2'b11
 2default:default
 ±
 default block is never used226*oasys2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 652default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 662default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
 Ï
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -8570,7 +8570,7 @@ V
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8605,12 +8605,12 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 662default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8645,14 +8645,14 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 662default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 672default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 ı
 synthesizing module '%s'638*oasys2N
@@ -9887,21 +9887,21 @@ a
 axi_protocol_converter_v2_1_b2s2default:default2
 682default:default2
 12default:default2”
-ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 ∫
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 692default:default2
 12default:default2Ê
-œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_pc_3502default:default2
+system_auto_pc_3532default:default2
 702default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -9912,17 +9912,17 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 30482default:default8@Z8-256
 »
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_tier2_xbar_0_9742default:default2¨
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v2default:default2
+system_tier2_xbar_0_9832default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v2default:default2
 572default:default2 
 tier2_xbar_02default:default2+
-system_tier2_xbar_0_9742default:default2Å
+system_tier2_xbar_0_9832default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 64772default:default8@Z8-3491
 ´
 synthesizing module '%s'638*oasys2+
-system_tier2_xbar_0_9742default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v2default:default2
+system_tier2_xbar_0_9832default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v2default:default2
 572default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys22
@@ -10990,24 +10990,24 @@ U
 542default:default8@Z8-256
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2+
-system_tier2_xbar_0_9742default:default2
+system_tier2_xbar_0_9832default:default2
 812default:default2
 12default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v2default:default2
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v2default:default2
 572default:default8@Z8-256
 »
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_tier2_xbar_1_9752default:default2¨
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v2default:default2
+system_tier2_xbar_1_9842default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v2default:default2
 572default:default2 
 tier2_xbar_12default:default2+
-system_tier2_xbar_1_9752default:default2Å
+system_tier2_xbar_1_9842default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 66532default:default8@Z8-3491
 ´
 synthesizing module '%s'638*oasys2+
-system_tier2_xbar_1_9752default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v2default:default2
+system_tier2_xbar_1_9842default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -11747,24 +11747,24 @@ U
 542default:default8@Z8-256
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2+
-system_tier2_xbar_1_9752default:default2
+system_tier2_xbar_1_9842default:default2
 822default:default2
 12default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v2default:default2
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v2default:default2
 572default:default8@Z8-256
 »
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_tier2_xbar_2_9762default:default2¨
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v2default:default2
+system_tier2_xbar_2_9852default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v2default:default2
 572default:default2 
 tier2_xbar_22default:default2+
-system_tier2_xbar_2_9762default:default2Å
+system_tier2_xbar_2_9852default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 68622default:default8@Z8-3491
 ´
 synthesizing module '%s'638*oasys2+
-system_tier2_xbar_2_9762default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v2default:default2
+system_tier2_xbar_2_9852default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -12480,10 +12480,10 @@ X
 542default:default8@Z8-256
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2+
-system_tier2_xbar_2_9762default:default2
+system_tier2_xbar_2_9852default:default2
 832default:default2
 12default:default2Æ
-óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v2default:default2
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v2default:default2
 572default:default8@Z8-256
 ò
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
@@ -12538,11 +12538,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
+Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
 2default:default
 [
 %s*synth2L
@@ -12731,11 +12731,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 2default:default
 é
 %s*synth2
@@ -12944,11 +12944,11 @@ X
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+©	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 2default:default
 O
 %s*synth2@
@@ -69571,7 +69571,7 @@ sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 652default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:05:46 ; elapsed = 00:06:32 . Memory (MB): peak = 539.828 ; gain = 390.941
+xFinished RTL Elaboration : Time (s): cpu = 00:06:46 ; elapsed = 00:07:27 . Memory (MB): peak = 543.898 ; gain = 395.195
 2default:default
 ;
 %s*synth2,
@@ -69679,7 +69679,7 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 π
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_pc_346 || ORIG_REF_NAME==system_auto_pc_346}2default:default2u
+[get_cells -hier -filter {REF_NAME==system_auto_cc_298 || ORIG_REF_NAME==system_auto_cc_298}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 852default:default8@Z12-180
 
@@ -69691,7 +69691,7 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 π
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_288 || ORIG_REF_NAME==system_auto_cc_288}2default:default2u
+[get_cells -hier -filter {REF_NAME==system_auto_cc_301 || ORIG_REF_NAME==system_auto_cc_301}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 882default:default8@Z12-180
 
@@ -69703,7 +69703,7 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 π
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_290 || ORIG_REF_NAME==system_auto_cc_290}2default:default2u
+[get_cells -hier -filter {REF_NAME==system_auto_cc_303 || ORIG_REF_NAME==system_auto_cc_303}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 912default:default8@Z12-180
 
@@ -69715,7 +69715,7 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 π
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_292 || ORIG_REF_NAME==system_auto_cc_292}2default:default2u
+[get_cells -hier -filter {REF_NAME==system_auto_pc_351 || ORIG_REF_NAME==system_auto_pc_351}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 942default:default8@Z12-180
 
@@ -69724,6 +69724,30 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 942default:default8@Z17-55
+∫
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_301 || ORIG_REF_NAME==system_auto_cc_301}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1362default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1362default:default8@Z12-180
+∫
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_303 || ORIG_REF_NAME==system_auto_cc_303}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1412default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1412default:default8@Z12-180
 ≤
 Finished Parsing XDC File [%s]
 178*designutils2s
@@ -69770,109 +69794,119 @@ aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command 
 233*project2Õ
 ∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3012default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/system_auto_cc_301_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3032default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_303/system_auto_cc_303_clocks.xdc2default:defaultZ20-1280
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
@@ -69888,11 +69922,11 @@ u
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:16 ; elapsed = 00:07:09 . Memory (MB): peak = 802.980 ; gain = 654.094
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:16 ; elapsed = 00:08:03 . Memory (MB): peak = 807.305 ; gain = 658.602
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:06:16 ; elapsed = 00:07:09 . Memory (MB): peak = 802.980 ; gain = 654.094
+yFinished RTL Optimization : Time (s): cpu = 00:07:16 ; elapsed = 00:08:03 . Memory (MB): peak = 807.305 ; gain = 658.602
 2default:default
 Ü
 merging register '%s' into '%s'3619*oasys22
@@ -70043,7 +70077,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:06:33 ; elapsed = 00:07:28 . Memory (MB): peak = 802.980 ; gain = 654.094
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:07:34 ; elapsed = 00:08:21 . Memory (MB): peak = 807.305 ; gain = 658.602
 2default:default
 B
 %s*synth23
@@ -70259,11 +70293,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 162   
+.	   8 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   8 Input     32 Bit        Muxes := 3     
+.	   3 Input     32 Bit        Muxes := 11    
 2default:default
 Q
 %s*synth2B
@@ -70271,7 +70305,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 11    
+.	   2 Input     32 Bit        Muxes := 162   
 2default:default
 Q
 %s*synth2B
@@ -70287,7 +70321,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 205   
+.	   2 Input      8 Bit        Muxes := 204   
 2default:default
 Q
 %s*synth2B
@@ -70303,11 +70337,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      2 Bit        Muxes := 108   
+2default:default
+Q
+%s*synth2B
 .	   4 Input      2 Bit        Muxes := 23    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 108   
+.	   4 Input      1 Bit        Muxes := 40    
 2default:default
 Q
 %s*synth2B
@@ -70316,10 +70354,6 @@ Q
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 549   
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 40    
 2default:default
 F
 %s*synth27
@@ -71111,7 +71145,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_297 
+Module system_auto_cc_309 
 2default:default
 B
 %s*synth23
@@ -71135,7 +71169,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_298 
+Module system_auto_cc_310 
 2default:default
 B
 %s*synth23
@@ -71151,7 +71185,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_299 
+Module system_auto_cc_311 
 2default:default
 B
 %s*synth23
@@ -71175,7 +71209,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_300 
+Module system_auto_cc_312 
 2default:default
 B
 %s*synth23
@@ -71819,7 +71853,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_pc_350 
+Module system_auto_pc_353 
 2default:default
 B
 %s*synth23
@@ -72143,7 +72177,7 @@ B
 2default:default
 C
 %s*synth24
- Module system_tier2_xbar_0_974 
+ Module system_tier2_xbar_0_983 
 2default:default
 B
 %s*synth23
@@ -72267,7 +72301,7 @@ B
 2default:default
 C
 %s*synth24
- Module system_tier2_xbar_1_975 
+ Module system_tier2_xbar_1_984 
 2default:default
 B
 %s*synth23
@@ -72415,7 +72449,7 @@ B
 2default:default
 C
 %s*synth24
- Module system_tier2_xbar_2_976 
+ Module system_tier2_xbar_2_985 
 2default:default
 B
 %s*synth23
@@ -74211,7 +74245,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 14    
+.	   2 Input      8 Bit        Muxes := 13    
 2default:default
 Q
 %s*synth2B
@@ -74664,179 +74698,179 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[65] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[64] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[63] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[62] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[65] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[64] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[63] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[62] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[65] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[64] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[63] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[62] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Ò
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
@@ -74854,83 +74888,83 @@ Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2defau
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 Í
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] 2default:default2&
-system_auto_pc_3502default:defaultZ8-3332
+system_auto_pc_3532default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -74966,7 +75000,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:06:38 ; elapsed = 00:07:33 . Memory (MB): peak = 802.980 ; gain = 654.094
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:07:39 ; elapsed = 00:08:27 . Memory (MB): peak = 807.305 ; gain = 658.602
 2default:default
 ¢
 %s*synth2í
@@ -74996,23 +75030,23 @@ Distributed RAM:
 2default:default
 ©
 %s*synth2ô
-Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__22 | 
+Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__22 | 
 2default:default
 ©
 %s*synth2ô
-Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__24 | 
+Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__24 | 
 2default:default
 ©
 %s*synth2ô
-Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__26 | 
+Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__26 | 
 2default:default
 ©
 %s*synth2ô
-Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__28 | 
+Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__28 | 
 2default:default
 ©
 %s*synth2ô
-Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__30 | 
+Ñ|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__30 | 
 2default:default
 ©
 %s*synth2ô
@@ -75034,7 +75068,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:06:58 ; elapsed = 00:07:55 . Memory (MB): peak = 846.395 ; gain = 697.508
+zFinished Area Optimization : Time (s): cpu = 00:07:58 ; elapsed = 00:08:48 . Memory (MB): peak = 856.660 ; gain = 707.957
 2default:default
 {
 %s*synth2l
@@ -75042,19 +75076,19 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 Æ
 %s*synth2û
-âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:07:03 ; elapsed = 00:08:00 . Memory (MB): peak = 1000.574 ; gain = 851.688
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:08:03 ; elapsed = 00:08:56 . Memory (MB): peak = 1004.617 ; gain = 855.914
 2default:default
 °
 %s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:07:06 ; elapsed = 00:08:04 . Memory (MB): peak = 1020.559 ; gain = 871.672
+}Finished Timing Optimization : Time (s): cpu = 00:08:07 ; elapsed = 00:09:05 . Memory (MB): peak = 1024.563 ; gain = 875.859
 2default:default
 †
 %s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:07:37 ; elapsed = 00:08:39 . Memory (MB): peak = 1102.734 ; gain = 953.848
+|Finished Technology Mapping : Time (s): cpu = 00:08:38 ; elapsed = 00:09:41 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 m
 %s*synth2^
-Jdesign system_auto_pc_350 has 4 max_fanout violations cannot be satisfied
+Jdesign system_auto_pc_353 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -75062,7 +75096,7 @@ D
 2default:default
 ö
 %s*synth2ä
-vFinished IO Insertion : Time (s): cpu = 00:07:42 ; elapsed = 00:08:43 . Memory (MB): peak = 1102.734 ; gain = 953.848
+vFinished IO Insertion : Time (s): cpu = 00:08:42 ; elapsed = 00:09:46 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 ;
 %s*synth2,
@@ -75091,11 +75125,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:07:42 ; elapsed = 00:08:44 . Memory (MB): peak = 1102.734 ; gain = 953.848
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:08:43 ; elapsed = 00:09:46 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:07:44 ; elapsed = 00:08:46 . Memory (MB): peak = 1102.734 ; gain = 953.848
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:08:45 ; elapsed = 00:09:48 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 ¢
 %s*synth2í
@@ -75213,7 +75247,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|6     |LUT2       |   756|
+|6     |LUT2       |   757|
 2default:default
 ?
 %s*synth20
@@ -75221,15 +75255,15 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|8     |LUT4       |  1891|
+|8     |LUT4       |  1888|
 2default:default
 ?
 %s*synth20
-|9     |LUT5       |  2584|
+|9     |LUT5       |  2585|
 2default:default
 ?
 %s*synth20
-|10    |LUT6       |  3092|
+|10    |LUT6       |  3090|
 2default:default
 ?
 %s*synth20
@@ -75314,11 +75348,11 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ç
 %s*synth2~
-j|1     |top                          |                                                           | 19939|
+j|1     |top                          |                                                           | 19936|
 2default:default
 ç
 %s*synth2~
-j|2     |  system_i                   |system                                                     | 19884|
+j|2     |  system_i                   |system                                                     | 19881|
 2default:default
 ç
 %s*synth2~
@@ -75330,11 +75364,11 @@ j|4     |    ShiftRegs_0              |system_ShiftRegs_0_0                     
 2default:default
 ç
 %s*synth2~
-j|5     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  6666|
+j|5     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  6664|
 2default:default
 ç
 %s*synth2~
-j|6     |      \m14_couplers/auto_cc  |system_auto_cc_297                                         |   926|
+j|6     |      \m14_couplers/auto_cc  |system_auto_cc_309                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -75342,7 +75376,7 @@ j|7     |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|8     |      \m16_couplers/auto_cc  |system_auto_cc_298                                         |   926|
+j|8     |      \m16_couplers/auto_cc  |system_auto_cc_310                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -75350,7 +75384,7 @@ j|9     |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|10    |      \m17_couplers/auto_cc  |system_auto_cc_299                                         |   926|
+j|10    |      \m17_couplers/auto_cc  |system_auto_cc_311                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -75358,7 +75392,7 @@ j|11    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|12    |      \m19_couplers/auto_cc  |system_auto_cc_300                                         |   926|
+j|12    |      \m19_couplers/auto_cc  |system_auto_cc_312                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -75366,23 +75400,23 @@ j|13    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|14    |      \s00_couplers/auto_pc  |system_auto_pc_350                                         |  1276|
+j|14    |      \s00_couplers/auto_pc  |system_auto_pc_353                                         |  1276|
 2default:default
 ç
 %s*synth2~
-j|15    |      tier2_xbar_0           |system_tier2_xbar_0_974                                    |   511|
+j|15    |      tier2_xbar_0           |system_tier2_xbar_0_983                                    |   511|
 2default:default
 ç
 %s*synth2~
-j|16    |      tier2_xbar_1           |system_tier2_xbar_1_975                                    |   504|
+j|16    |      tier2_xbar_1           |system_tier2_xbar_1_984                                    |   504|
 2default:default
 ç
 %s*synth2~
-j|17    |      tier2_xbar_2           |system_tier2_xbar_2_976                                    |   344|
+j|17    |      tier2_xbar_2           |system_tier2_xbar_2_985                                    |   344|
 2default:default
 ç
 %s*synth2~
-j|18    |      xbar                   |system_xbar_0                                              |   327|
+j|18    |      xbar                   |system_xbar_0                                              |   325|
 2default:default
 ç
 %s*synth2~
@@ -75434,7 +75468,7 @@ j|30    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                 
 2default:default
 ç
 %s*synth2~
-j|31    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   661|
+j|31    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
 2default:default
 ç
 %s*synth2~
@@ -75482,7 +75516,7 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ß
 %s*synth2ó
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:07:46 ; elapsed = 00:08:47 . Memory (MB): peak = 1102.734 ; gain = 953.848
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:08:46 ; elapsed = 00:09:50 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 j
 %s*synth2[
@@ -75490,7 +75524,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 36 warnings.
 2default:default
 •
 %s*synth2ï
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:07:46 ; elapsed = 00:08:48 . Memory (MB): peak = 1102.734 ; gain = 953.848
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:08:46 ; elapsed = 00:09:50 . Memory (MB): peak = 1110.301 ; gain = 961.598
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
@@ -75529,8 +75563,8 @@ L
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 10222default:default2
-1632default:default2
-42default:default2
+1672default:default2
+62default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -75540,10 +75574,10 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:08:042default:default2
-00:09:122default:default2
-1497.8482default:default2
-1228.8952default:defaultZ17-268
+00:09:052default:default2
+00:11:002default:default2
+1502.4572default:default2
+1232.4842default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
@@ -75552,14 +75586,14 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2&
 write_checkpoint: 2default:default2
 00:00:032default:default2
-00:00:072default:default2
-1501.7732default:default2
-3.9262default:defaultZ17-268
+00:00:092default:default2
+1505.4492default:default2
+2.9922default:defaultZ17-268
 |
-preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1501.773 ; gain = 0.000
+preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1505.449 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Feb 11 16:45:47 20162default:defaultZ17-206
+Fri Feb 12 15:49:55 20162default:defaultZ17-206

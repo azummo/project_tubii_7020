@@ -74,24 +74,29 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ian/Documents/GitHub
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleTrigger_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2013.4/data/ip'.
-add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 268.953 ; gain = 81.449
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 269.973 ; gain = 82.152
 # set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/system_tier2_xbar_0_974_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/system_tier2_xbar_1_975_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/system_tier2_xbar_2_976_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/system_auto_pc_350_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/system_auto_cc_301_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/system_auto_cc_301_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_303/system_auto_cc_303_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_303/system_auto_cc_303_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/system_auto_pc_351_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/system_tier2_xbar_0_983_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/system_tier2_xbar_1_984_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/system_tier2_xbar_2_985_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/system_auto_pc_353_ooc.xdc]
 # set_property used_in_implementation false [get_files -all C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/system_ooc.xdc]
 # set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 # set_property is_locked true [get_files C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/system.bd]
@@ -111,7 +116,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:55 ; elapsed = 00:04:33 . Memory (MB): peak = 333.445 ; gain = 184.559
+Starting RTL Elaboration : Time (s): cpu = 00:04:55 ; elapsed = 00:05:31 . Memory (MB): peak = 336.609 ; gain = 187.906
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:65]
 INFO: [Synth 8-3491] module 'system' declared at 'C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:7046' bound to instance 'system_i' of component 'system' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:128]
@@ -191,9 +196,9 @@ INFO: [Synth 8-256] done synthesizing module 'm12_couplers_imp_16NSM6I' (22#1) [
 INFO: [Synth 8-638] synthesizing module 'm13_couplers_imp_WQS2GK' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:1794]
 INFO: [Synth 8-256] done synthesizing module 'm13_couplers_imp_WQS2GK' (23#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:1794]
 INFO: [Synth 8-638] synthesizing module 'm14_couplers_imp_15B0VF1' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:1903]
-INFO: [Synth 8-3491] module 'system_auto_cc_297' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_297' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2035]
-INFO: [Synth 8-638] synthesizing module 'system_auto_cc_297' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_axi_clock_converter' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:71]
+INFO: [Synth 8-3491] module 'system_auto_cc_309' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_309' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2035]
+INFO: [Synth 8-638] synthesizing module 'system_auto_cc_309' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_axi_clock_converter' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:71]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -1669,33 +1674,33 @@ INFO: [Synth 8-256] done synthesizing module 'fifo_generator_ramfifo__parameteri
 INFO: [Synth 8-256] done synthesizing module 'fifo_generator_top__parameterized2' (40#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd:271]
 INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v11_0_synth' (41#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd:678]
 INFO: [Synth 8-256] done synthesizing module 'fifo_generator_v11_0' (42#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd:661]
-WARNING: [Synth 8-350] instance 'asyncfifo_axi' of module 'fifo_generator_v11_0' requires 230 connections, but only 228 given [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:799]
-INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_axi_clock_converter' (43#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:71]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_297' (44#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/synth/system_auto_cc_297.v:57]
+WARNING: [Synth 8-350] instance 'asyncfifo_axi' of module 'fifo_generator_v11_0' requires 230 connections, but only 228 given [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:799]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_axi_clock_converter' (43#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v:71]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_309' (44#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm14_couplers_imp_15B0VF1' (45#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:1903]
 INFO: [Synth 8-638] synthesizing module 'm15_couplers_imp_Y5QALV' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2130]
 INFO: [Synth 8-256] done synthesizing module 'm15_couplers_imp_Y5QALV' (46#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2130]
 INFO: [Synth 8-638] synthesizing module 'm16_couplers_imp_14023HS' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2239]
-INFO: [Synth 8-3491] module 'system_auto_cc_298' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_298' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2371]
-INFO: [Synth 8-638] synthesizing module 'system_auto_cc_298' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v:57]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_298' (47#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/synth/system_auto_cc_298.v:57]
+INFO: [Synth 8-3491] module 'system_auto_cc_310' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_310' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2371]
+INFO: [Synth 8-638] synthesizing module 'system_auto_cc_310' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_310' (47#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm16_couplers_imp_14023HS' (48#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2239]
 INFO: [Synth 8-638] synthesizing module 'm17_couplers_imp_ZHOD1Q' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2466]
-INFO: [Synth 8-3491] module 'system_auto_cc_299' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_299' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2598]
-INFO: [Synth 8-638] synthesizing module 'system_auto_cc_299' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v:57]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_299' (49#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/synth/system_auto_cc_299.v:57]
+INFO: [Synth 8-3491] module 'system_auto_cc_311' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_311' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2598]
+INFO: [Synth 8-638] synthesizing module 'system_auto_cc_311' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_311' (49#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/synth/system_auto_cc_311.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm17_couplers_imp_ZHOD1Q' (50#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2466]
 INFO: [Synth 8-638] synthesizing module 'm18_couplers_imp_13N81VN' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2693]
 INFO: [Synth 8-256] done synthesizing module 'm18_couplers_imp_13N81VN' (51#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2693]
 INFO: [Synth 8-638] synthesizing module 'm19_couplers_imp_QY5Y2L' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2802]
-INFO: [Synth 8-3491] module 'system_auto_cc_300' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_300' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2934]
-INFO: [Synth 8-638] synthesizing module 'system_auto_cc_300' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v:57]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_300' (52#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/synth/system_auto_cc_300.v:57]
+INFO: [Synth 8-3491] module 'system_auto_cc_312' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v:57' bound to instance 'auto_cc' of component 'system_auto_cc_312' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2934]
+INFO: [Synth 8-638] synthesizing module 'system_auto_cc_312' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_cc_312' (52#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/synth/system_auto_cc_312.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm19_couplers_imp_QY5Y2L' (53#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:2802]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1FHMR11' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:3048]
-INFO: [Synth 8-3491] module 'system_auto_pc_350' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_350' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:3231]
-INFO: [Synth 8-638] synthesizing module 'system_auto_pc_350' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-3491] module 'system_auto_pc_353' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_353' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:3231]
+INFO: [Synth 8-638] synthesizing module 'system_auto_pc_353' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -1721,7 +1726,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protoco
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -2028,32 +2033,32 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (56#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (57#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter P_AXBURST_FIXED bound to: 2'b00 
 	Parameter P_AXBURST_INCR bound to: 2'b01 
 	Parameter P_AXBURST_WRAP bound to: 2'b10 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (58#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (58#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (59#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (60#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (59#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (60#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (61#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (62#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-226] default block is never used [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (61#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (62#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
 	Parameter LP_RESP_EXOKAY bound to: 2'b01 
@@ -2065,7 +2070,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_chann
 	Parameter P_RWIDTH bound to: 2 - type: integer 
 	Parameter P_RDEPTH bound to: 4 - type: integer 
 	Parameter P_RAWIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 20 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -2073,8 +2078,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (63#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (63#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -2082,20 +2087,20 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (63#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (64#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (63#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (64#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (65#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-226] default block is never used [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (65#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter P_WIDTH bound to: 13 - type: integer 
@@ -2104,7 +2109,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_chann
 	Parameter P_D_WIDTH bound to: 34 - type: integer 
 	Parameter P_D_DEPTH bound to: 32 - type: integer 
 	Parameter P_D_AWIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 34 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -2112,8 +2117,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 13 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -2121,8 +2126,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (67#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (66#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (67#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
@@ -2423,12 +2428,12 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__par
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (67#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (67#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (68#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (69#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_350' (70#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_350/synth/system_auto_pc_350.v:57]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (68#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (69#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_351/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_353' (70#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_353/synth/system_auto_pc_353.v:57]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1FHMR11' (71#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:3048]
-INFO: [Synth 8-3491] module 'system_tier2_xbar_0_974' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v:57' bound to instance 'tier2_xbar_0' of component 'system_tier2_xbar_0_974' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6477]
-INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_0_974' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v:57]
+INFO: [Synth 8-3491] module 'system_tier2_xbar_0_983' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v:57' bound to instance 'tier2_xbar_0' of component 'system_tier2_xbar_0_983' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6477]
+INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_0_983' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v:57]
 INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
@@ -2674,9 +2679,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_decerr_slave' [c:/Use
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_decerr_slave' (78#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:64]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' (79#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar' (80#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
-INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_0_974' (81#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_974/synth/system_tier2_xbar_0_974.v:57]
-INFO: [Synth 8-3491] module 'system_tier2_xbar_1_975' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v:57' bound to instance 'tier2_xbar_1' of component 'system_tier2_xbar_1_975' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6653]
-INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_1_975' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_0_983' (81#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_983/synth/system_tier2_xbar_0_983.v:57]
+INFO: [Synth 8-3491] module 'system_tier2_xbar_1_984' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v:57' bound to instance 'tier2_xbar_1' of component 'system_tier2_xbar_1_984' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6653]
+INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_1_984' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v:57]
 INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar__parameterized0' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
@@ -2851,9 +2856,9 @@ INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_comparator
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_addr_decoder__parameterized0' (81#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v:69]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd__parameterized0' (81#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar__parameterized0' (81#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
-INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_1_975' (82#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_975/synth/system_tier2_xbar_1_975.v:57]
-INFO: [Synth 8-3491] module 'system_tier2_xbar_2_976' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v:57' bound to instance 'tier2_xbar_2' of component 'system_tier2_xbar_2_976' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6862]
-INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_2_976' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_1_984' (82#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_984/synth/system_tier2_xbar_1_984.v:57]
+INFO: [Synth 8-3491] module 'system_tier2_xbar_2_985' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v:57' bound to instance 'tier2_xbar_2' of component 'system_tier2_xbar_2_985' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6862]
+INFO: [Synth 8-638] synthesizing module 'system_tier2_xbar_2_985' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v:57]
 INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar__parameterized1' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
@@ -3022,7 +3027,7 @@ INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parame
 INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized5' (82#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd__parameterized1' (82#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar__parameterized1' (82#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
-INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_2_976' (83#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_976/synth/system_tier2_xbar_2_976.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_tier2_xbar_2_985' (83#1) [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_985/synth/system_tier2_xbar_2_985.v:57]
 INFO: [Synth 8-3491] module 'system_xbar_0' declared at 'c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57' bound to instance 'xbar' of component 'system_xbar_0' [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:6962]
 INFO: [Synth 8-638] synthesizing module 'system_xbar_0' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57]
 INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar__parameterized2' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
@@ -3034,8 +3039,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar__paramet
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_NUM_ADDR_RANGES bound to: 8 - type: integer 
-	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
-	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
+	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
 	Parameter C_S_AXI_BASE_ID bound to: 0 - type: integer 
 	Parameter C_S_AXI_THREAD_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
@@ -3082,8 +3087,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_crossbar_sasd__parame
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
-	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
-	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 	Parameter C_S_AXI_BASE_ID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_S_AXI_HIGH_ID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
 	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
@@ -3135,8 +3140,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_decoder__paramet
 	Parameter C_TARGET_ENC bound to: 1 - type: integer 
 	Parameter C_TARGET_HOT bound to: 1 - type: integer 
 	Parameter C_REGION_ENC bound to: 1 - type: integer 
-	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
-	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 	Parameter C_TARGET_QUAL bound to: 4'b0111 
 	Parameter C_RESOLUTION bound to: 2 - type: integer 
 	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
@@ -17016,7 +17021,7 @@ INFO: [Synth 8-256] done synthesizing module 'system_xlconstant_1_1' (143#1) [c:
 INFO: [Synth 8-256] done synthesizing module 'system' (144#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd:7110]
 INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (145#1) [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:65]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:46 ; elapsed = 00:06:32 . Memory (MB): peak = 539.828 ; gain = 390.941
+Finished RTL Elaboration : Time (s): cpu = 00:06:46 ; elapsed = 00:07:27 . Memory (MB): peak = 543.898 ; gain = 395.195
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -17050,14 +17055,18 @@ Finished Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/proj
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_pc_346 || ORIG_REF_NAME==system_auto_pc_346}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:85]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_298 || ORIG_REF_NAME==system_auto_cc_298}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:85]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:85]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_288 || ORIG_REF_NAME==system_auto_cc_288}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:88]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_301 || ORIG_REF_NAME==system_auto_cc_301}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:88]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:88]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_290 || ORIG_REF_NAME==system_auto_cc_290}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:91]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_303 || ORIG_REF_NAME==system_auto_cc_303}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:91]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:91]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_292 || ORIG_REF_NAME==system_auto_cc_292}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:94]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_pc_351 || ORIG_REF_NAME==system_auto_pc_351}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:94]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:94]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_301 || ORIG_REF_NAME==system_auto_cc_301}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:136]
+WARNING: [Vivado 12-180] No cells matched '/inst'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:136]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==system_auto_cc_303 || ORIG_REF_NAME==system_auto_cc_303}'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:141]
+WARNING: [Vivado 12-180] No cells matched '/inst'. [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc:141]
 Finished Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -17069,29 +17078,31 @@ INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_gene
 Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc] for cell 'system_i/fifo_generator_0/U0'
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc:17]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc:17]
-Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_297/system_auto_cc_297_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'system_auto_cc_301'. The XDC file c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_301/system_auto_cc_301_clocks.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'system_auto_cc_303'. The XDC file c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_303/system_auto_cc_303_clocks.xdc will not be read for any cell of this module.
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc:17]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc:17]
-Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_298/system_auto_cc_298_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc:17]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc:17]
-Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_299/system_auto_cc_299_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc:17]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc:17]
-Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_300/system_auto_cc_300_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports Clk_in]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
@@ -17143,16 +17154,16 @@ Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 118).
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 121).
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 126).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 142).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 147).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 152).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 157).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 154).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 159).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 164).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc, line 169).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:16 ; elapsed = 00:07:09 . Memory (MB): peak = 802.980 ; gain = 654.094
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:16 ; elapsed = 00:08:03 . Memory (MB): peak = 807.305 ; gain = 658.602
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:06:16 ; elapsed = 00:07:09 . Memory (MB): peak = 802.980 ; gain = 654.094
+Finished RTL Optimization : Time (s): cpu = 00:07:16 ; elapsed = 00:08:03 . Memory (MB): peak = 807.305 ; gain = 658.602
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:136]
@@ -17190,7 +17201,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:06:33 ; elapsed = 00:07:28 . Memory (MB): peak = 802.980 ; gain = 654.094
+Finished Loading Part and Timing Information : Time (s): cpu = 00:07:34 ; elapsed = 00:08:21 . Memory (MB): peak = 807.305 ; gain = 658.602
 ---------------------------------------------------------------------------------
 
 
@@ -17250,22 +17261,22 @@ Detailed RTL Component Info :
 	   2 Input     64 Bit        Muxes := 4     
 	   2 Input     47 Bit        Muxes := 1     
 	   2 Input     36 Bit        Muxes := 4     
-	   2 Input     32 Bit        Muxes := 162   
 	   8 Input     32 Bit        Muxes := 3     
-	   4 Input     32 Bit        Muxes := 10    
 	   3 Input     32 Bit        Muxes := 11    
+	   4 Input     32 Bit        Muxes := 10    
+	   2 Input     32 Bit        Muxes := 162   
 	   2 Input     14 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 4     
 	   2 Input      9 Bit        Muxes := 6     
-	   2 Input      8 Bit        Muxes := 205   
+	   2 Input      8 Bit        Muxes := 204   
 	   2 Input      5 Bit        Muxes := 5     
 	   2 Input      4 Bit        Muxes := 14    
 	   2 Input      3 Bit        Muxes := 3     
-	   4 Input      2 Bit        Muxes := 23    
 	   2 Input      2 Bit        Muxes := 108   
+	   4 Input      2 Bit        Muxes := 23    
+	   4 Input      1 Bit        Muxes := 40    
 	   3 Input      1 Bit        Muxes := 20    
 	   2 Input      1 Bit        Muxes := 549   
-	   4 Input      1 Bit        Muxes := 40    
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -17471,23 +17482,23 @@ Module fifo_generator_v11_0
 Detailed RTL Component Info : 
 Module axi_clock_converter_v2_1_axi_clock_converter 
 Detailed RTL Component Info : 
-Module system_auto_cc_297 
+Module system_auto_cc_309 
 Detailed RTL Component Info : 
 Module m14_couplers_imp_15B0VF1 
 Detailed RTL Component Info : 
 Module m15_couplers_imp_Y5QALV 
 Detailed RTL Component Info : 
-Module system_auto_cc_298 
+Module system_auto_cc_310 
 Detailed RTL Component Info : 
 Module m16_couplers_imp_14023HS 
 Detailed RTL Component Info : 
-Module system_auto_cc_299 
+Module system_auto_cc_311 
 Detailed RTL Component Info : 
 Module m17_couplers_imp_ZHOD1Q 
 Detailed RTL Component Info : 
 Module m18_couplers_imp_13N81VN 
 Detailed RTL Component Info : 
-Module system_auto_cc_300 
+Module system_auto_cc_312 
 Detailed RTL Component Info : 
 Module m19_couplers_imp_QY5Y2L 
 Detailed RTL Component Info : 
@@ -17648,7 +17659,7 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 1     
 Module axi_protocol_converter_v2_1_axi_protocol_converter 
 Detailed RTL Component Info : 
-Module system_auto_pc_350 
+Module system_auto_pc_353 
 Detailed RTL Component Info : 
 Module s00_couplers_imp_1FHMR11 
 Detailed RTL Component Info : 
@@ -17729,7 +17740,7 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit        Muxes := 2     
 Module axi_crossbar_v2_1_axi_crossbar 
 Detailed RTL Component Info : 
-Module system_tier2_xbar_0_974 
+Module system_tier2_xbar_0_983 
 Detailed RTL Component Info : 
 Module generic_baseblocks_v2_1_comparator_static__parameterized7 
 Detailed RTL Component Info : 
@@ -17760,7 +17771,7 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit        Muxes := 2     
 Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
 Detailed RTL Component Info : 
-Module system_tier2_xbar_1_975 
+Module system_tier2_xbar_1_984 
 Detailed RTL Component Info : 
 Module generic_baseblocks_v2_1_comparator_static__parameterized14 
 Detailed RTL Component Info : 
@@ -17797,7 +17808,7 @@ Detailed RTL Component Info :
 	   2 Input      3 Bit        Muxes := 2     
 Module axi_crossbar_v2_1_axi_crossbar__parameterized1 
 Detailed RTL Component Info : 
-Module system_tier2_xbar_2_976 
+Module system_tier2_xbar_2_985 
 Detailed RTL Component Info : 
 Module axi_crossbar_v2_1_addr_decoder__parameterized2 
 Detailed RTL Component Info : 
@@ -18246,7 +18257,7 @@ Detailed RTL Component Info :
 	   3 Input     32 Bit        Muxes := 1     
 	   4 Input     32 Bit        Muxes := 1     
 	   2 Input     32 Bit        Muxes := 41    
-	   2 Input      8 Bit        Muxes := 14    
+	   2 Input      8 Bit        Muxes := 13    
 	   2 Input      1 Bit        Muxes := 79    
 Module prescaleTrigger_v1_0__parameterized0 
 Detailed RTL Component Info : 
@@ -18361,79 +18372,79 @@ INFO: [Synth 8-4471] merging register 'gen_clock_conv.gen_async_conv.asyncfifo_a
 INFO: [Synth 8-4471] merging register 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg' into 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd:616]
 INFO: [Synth 8-4471] merging register 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg' into 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd:617]
 INFO: [Synth 8-4471] merging register 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg' into 'gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg' [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd:618]
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[65] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[64] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[63] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[62] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[65] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[64] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[63] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[62] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_350.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[65] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[64] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[63] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[62] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[65] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[64] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[63] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[62] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_353.
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_350.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_350.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] ) is unused and will be removed from module system_auto_pc_353.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] ) is unused and will be removed from module system_auto_pc_353.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:06:38 ; elapsed = 00:07:33 . Memory (MB): peak = 802.980 ; gain = 654.094
+Finished Cross Boundary Optimization : Time (s): cpu = 00:07:39 ; elapsed = 00:08:27 . Memory (MB): peak = 807.305 ; gain = 658.602
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -18444,11 +18455,11 @@ Distributed RAM:
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------+----------------+------------------------------------------------------------------------------------------------------------------------------------+
 |Module Name                                  | RTL Object                                                                                                                                     | Inference Criteria | Size (depth X width) | Primitives     | Hierarchical Name                                                                                                                  | 
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------+----------------+------------------------------------------------------------------------------------------------------------------------------------+
-|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__22 | 
-|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__24 | 
-|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__26 | 
-|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__28 | 
-|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_297/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__30 | 
+|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__22 | 
+|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__24 | 
+|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__26 | 
+|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__28 | 
+|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_wrapper/system/system_axi_interconnect_0_0/system_auto_cc_309/Multiple/axi_clock_converter_v2_1_axi_clock_converter/ram__30 | 
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+----------------------+----------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 Note: Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
@@ -18460,7 +18471,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:06:58 ; elapsed = 00:07:55 . Memory (MB): peak = 846.395 ; gain = 697.508
+Finished Area Optimization : Time (s): cpu = 00:07:58 ; elapsed = 00:08:48 . Memory (MB): peak = 856.660 ; gain = 707.957
 ---------------------------------------------------------------------------------
 
 
@@ -18473,11 +18484,11 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:03 ; elapsed = 00:08:00 . Memory (MB): peak = 1000.574 ; gain = 851.688
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:08:03 ; elapsed = 00:08:56 . Memory (MB): peak = 1004.617 ; gain = 855.914
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:07:06 ; elapsed = 00:08:04 . Memory (MB): peak = 1020.559 ; gain = 871.672
+Finished Timing Optimization : Time (s): cpu = 00:08:07 ; elapsed = 00:09:05 . Memory (MB): peak = 1024.563 ; gain = 875.859
 ---------------------------------------------------------------------------------
 
 
@@ -18485,7 +18496,7 @@ Finished Timing Optimization : Time (s): cpu = 00:07:06 ; elapsed = 00:08:04 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:07:37 ; elapsed = 00:08:39 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Finished Technology Mapping : Time (s): cpu = 00:08:38 ; elapsed = 00:09:41 . Memory (MB): peak = 1110.301 ; gain = 961.598
 ---------------------------------------------------------------------------------
 
 
@@ -18504,14 +18515,14 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-design system_auto_pc_350 has 4 max_fanout violations cannot be satisfied
+design system_auto_pc_353 has 4 max_fanout violations cannot be satisfied
 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:07:42 ; elapsed = 00:08:43 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Finished IO Insertion : Time (s): cpu = 00:08:42 ; elapsed = 00:09:46 . Memory (MB): peak = 1110.301 ; gain = 961.598
 ---------------------------------------------------------------------------------
 
 
@@ -18526,7 +18537,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:07:42 ; elapsed = 00:08:44 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Finished Renaming Generated Instances : Time (s): cpu = 00:08:43 ; elapsed = 00:09:46 . Memory (MB): peak = 1110.301 ; gain = 961.598
 ---------------------------------------------------------------------------------
 
 
@@ -18534,7 +18545,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:07:42 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:44 ; elapsed = 00:08:46 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:08:45 ; elapsed = 00:09:48 . Memory (MB): peak = 1110.301 ; gain = 961.598
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -18574,11 +18585,11 @@ Report Cell Usage:
 |3     |CARRY4     |   394|
 |4     |GND        |     1|
 |5     |LUT1       |  1135|
-|6     |LUT2       |   756|
+|6     |LUT2       |   757|
 |7     |LUT3       |  1979|
-|8     |LUT4       |  1891|
-|9     |LUT5       |  2584|
-|10    |LUT6       |  3092|
+|8     |LUT4       |  1888|
+|9     |LUT5       |  2585|
+|10    |LUT6       |  3090|
 |11    |MUXCY      |    32|
 |12    |MUXF7      |    46|
 |13    |PS7        |     1|
@@ -18600,24 +18611,24 @@ Report Instance Areas:
 +------+-----------------------------+-----------------------------------------------------------+------+
 |      |Instance                     |Module                                                     |Cells |
 +------+-----------------------------+-----------------------------------------------------------+------+
-|1     |top                          |                                                           | 19939|
-|2     |  system_i                   |system                                                     | 19884|
+|1     |top                          |                                                           | 19936|
+|2     |  system_i                   |system                                                     | 19881|
 |3     |    mz_happy_RnM             |system_testPulser_0_7                                      |   757|
 |4     |    ShiftRegs_0              |system_ShiftRegs_0_0                                       |  1185|
-|5     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  6666|
-|6     |      \m14_couplers/auto_cc  |system_auto_cc_297                                         |   926|
+|5     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  6664|
+|6     |      \m14_couplers/auto_cc  |system_auto_cc_309                                         |   926|
 |7     |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__4            |   926|
-|8     |      \m16_couplers/auto_cc  |system_auto_cc_298                                         |   926|
+|8     |      \m16_couplers/auto_cc  |system_auto_cc_310                                         |   926|
 |9     |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__5            |   926|
-|10    |      \m17_couplers/auto_cc  |system_auto_cc_299                                         |   926|
+|10    |      \m17_couplers/auto_cc  |system_auto_cc_311                                         |   926|
 |11    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__6            |   926|
-|12    |      \m19_couplers/auto_cc  |system_auto_cc_300                                         |   926|
+|12    |      \m19_couplers/auto_cc  |system_auto_cc_312                                         |   926|
 |13    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter               |   926|
-|14    |      \s00_couplers/auto_pc  |system_auto_pc_350                                         |  1276|
-|15    |      tier2_xbar_0           |system_tier2_xbar_0_974                                    |   511|
-|16    |      tier2_xbar_1           |system_tier2_xbar_1_975                                    |   504|
-|17    |      tier2_xbar_2           |system_tier2_xbar_2_976                                    |   344|
-|18    |      xbar                   |system_xbar_0                                              |   327|
+|14    |      \s00_couplers/auto_pc  |system_auto_pc_353                                         |  1276|
+|15    |      tier2_xbar_0           |system_tier2_xbar_0_983                                    |   511|
+|16    |      tier2_xbar_1           |system_tier2_xbar_1_984                                    |   504|
+|17    |      tier2_xbar_2           |system_tier2_xbar_2_985                                    |   344|
+|18    |      xbar                   |system_xbar_0                                              |   325|
 |19    |    burstTrigger_0           |system_burstTrigger_0_0                                    |   762|
 |20    |    clockLogic_0             |system_clockLogic_0_0                                      |   502|
 |21    |    comboTrigger_0           |system_comboTrigger_0_0                                    |   483|
@@ -18630,7 +18641,7 @@ Report Instance Areas:
 |28    |    genericPulser            |system_testPulser_0_9                                      |   757|
 |29    |    gtDelay                  |system_testDelay_0_7                                       |   646|
 |30    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                                   |   614|
-|31    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   661|
+|31    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
 |32    |    processing_system7_0     |system_processing_system7_0_0                              |   221|
 |33    |      U0                     |processing_system7_v5_3_processing_system7__parameterized0 |   221|
 |34    |    smellieDelay             |system_testDelay_3_6                                       |   646|
@@ -18643,11 +18654,11 @@ Report Instance Areas:
 |41    |    xlconstant_1             |system_xlconstant_1_1                                      |     0|
 +------+-----------------------------+-----------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:07:46 ; elapsed = 00:08:47 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:46 ; elapsed = 00:09:50 . Memory (MB): peak = 1110.301 ; gain = 961.598
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:07:46 ; elapsed = 00:08:48 . Memory (MB): peak = 1102.734 ; gain = 953.848
+Synthesis Optimization Complete : Time (s): cpu = 00:08:46 ; elapsed = 00:09:50 . Memory (MB): peak = 1110.301 ; gain = 961.598
 INFO: [Netlist 29-17] Analyzing 174 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -18661,12 +18672,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 96 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-1022 Infos, 163 Warnings, 4 Critical Warnings and 0 Errors encountered.
+1022 Infos, 167 Warnings, 6 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:08:04 ; elapsed = 00:09:12 . Memory (MB): peak = 1497.848 ; gain = 1228.895
+synth_design: Time (s): cpu = 00:09:05 ; elapsed = 00:11:00 . Memory (MB): peak = 1502.457 ; gain = 1232.484
 # write_checkpoint system_wrapper.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1501.773 ; gain = 3.926
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1505.449 ; gain = 2.992
 # report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1501.773 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 11 16:45:47 2016...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1505.449 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 12 15:49:55 2016...

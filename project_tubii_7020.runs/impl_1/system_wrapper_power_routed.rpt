@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Thu Feb 11 16:51:33 2016
+| Date             : Fri Feb 12 15:56:20 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -51,8 +51,8 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.038 |        2 |       --- |             --- |
-| Slice Logic              |     0.011 |    19626 |       --- |             --- |
-|   LUT as Logic           |     0.010 |     8529 |     53200 |           16.03 |
+| Slice Logic              |     0.011 |    19623 |       --- |             --- |
+|   LUT as Logic           |     0.010 |     8527 |     53200 |           16.02 |
 |   LUT as Distributed RAM |    <0.001 |      392 |     17400 |            2.25 |
 |   Register               |    <0.001 |     7611 |    106400 |            7.15 |
 |   CARRY4                 |    <0.001 |      402 |     13300 |            3.02 |
@@ -60,7 +60,7 @@ Table of Contents
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      210 |       --- |             --- |
-| Signals                  |     0.015 |    14650 |       --- |             --- |
+| Signals                  |     0.015 |    14647 |       --- |             --- |
 | Block RAM                |    <0.001 |       43 |       140 |           30.71 |
 | I/O                      |     0.008 |       54 |       125 |           43.20 |
 | PS7                      |     1.309 |        1 |       --- |             --- |
