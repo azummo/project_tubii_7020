@@ -114,9 +114,8 @@ architecture arch_imp of burstTrigger_v1_0_S00_AXI is
 	signal slv_reg1	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg2	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg3	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-	signal clkcnt_reg	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal target_reg   :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal length_reg   :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+	signal slv_reg4	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+	signal slv_reg5	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg_rden	: std_logic;
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
@@ -212,21 +211,38 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
+
+        -- reg0 is record of past triggers (for last 32 trigger windows)
+        -- reg1 is number of triggers
+        -- reg2 is rate
+        -- reg3 is mask
+        -- reg4(0) is trig flag (current)
+        -- reg4(1) is trig flag (window)
+        -- reg5 is a clock
+
         -- Count triggers
         -- if # trigs > X
         -- emit trigger for Y cnts
 
+        for i in 0 to 15 loop
+          if(slv_reg3(i)='1' and BURST_TRIGIN(i)='1') then
+            slv_reg4(0)<='1';
+            exit;
+          end if;
+          slv_reg4(0)<='0';
+        end loop;
+
         -- internal clock
-        clkcnt_reg <= clkcnt_reg+1;
+        slv_reg5 <= slv_reg5+1;
 
         -- is there a flag within window?
-        if clkcnt_reg<"00000000000000000000000010000000" then
-            if(BURST_TRIGIN(15)='1') then
-              slv_reg2(0) <= '1';
+        if slv_reg5<"00000000000000000000000000101000" then
+            if(slv_reg4(0)='1') then
+              slv_reg4(1) <= '1';
             end if;
         end if;
 
-        if clkcnt_reg="00000000000000000010000000000000" then
+        if slv_reg5="00000000000000000000000000101001" then
             slv_reg1 <= (others=>'0');
 
             -- shift right one
@@ -235,12 +251,12 @@ begin
             end loop;
         end if;
         
-        if clkcnt_reg="00000000000000000010000000000001" then
+        if slv_reg5="00000000000000000000000000101010" then
             -- fill in new trigger
-            slv_reg0(0) <= slv_reg2(0);
+            slv_reg0(0) <= slv_reg4(1);
         end if;
         
-        if clkcnt_reg="00000000000000000010000000000010" then
+        if slv_reg5="00000000000000000000000000101011" then
             -- count the number of bits
             --for i in 0 to C_S_AXI_DATA_WIDTH-1 loop
             --    slv_reg1 <= slv_reg1+slv_reg0(i);
@@ -248,19 +264,34 @@ begin
             slv_reg1 <= slv_reg1+slv_reg0(0)+slv_reg0(1)+slv_reg0(2)+slv_reg0(3)+slv_reg0(4)+slv_reg0(5)+slv_reg0(6)+slv_reg0(7)+slv_reg0(8)+slv_reg0(9)+slv_reg0(10)+slv_reg0(11)+slv_reg0(12)+slv_reg0(13)+slv_reg0(14)+slv_reg0(15)+slv_reg0(16)+slv_reg0(17)+slv_reg0(18)+slv_reg0(19)+slv_reg0(20)+slv_reg0(21)+slv_reg0(22)+slv_reg0(23)+slv_reg0(24)+slv_reg0(25)+slv_reg0(26)+slv_reg0(27)+slv_reg0(28)+slv_reg0(29)+slv_reg0(30)+slv_reg0(31);
         end if;
 
-        if clkcnt_reg="00000000000000000010000000000011" then
+        if slv_reg5="00000000000000000000000000101100" then
             -- compare to threshold
             -- set output
-            if slv_reg1>slv_reg3 then
+            if slv_reg1>slv_reg2 then
                 BURST_TRIGOUT <= '1';
             else
                 BURST_TRIGOUT <= '0';
-            end if;
 
-            -- reset the clock
-            clkcnt_reg <= (others=>'0');
-            slv_reg2 <= (others=>'0');
+                -- reset the clock
+                slv_reg4 <= (others=>'0');
+                slv_reg5 <= (others=>'0');
+            end if;
         end if;
+
+        -- Hold trigger for half a second then release
+        if slv_reg5="00000010111110101111000010000000" then
+            -- reset the clock and count
+            slv_reg0 <= (others=>'0');
+            slv_reg1 <= (others=>'0');
+            slv_reg4 <= (others=>'0');
+            --slv_reg5 <= (others=>'0');
+            BURST_TRIGOUT <= '0';
+        end if;
+
+        -- Lock out for another half second
+        if slv_reg5="00000101111101011110000100000000" then
+            slv_reg5 <= (others=>'0');
+        end if;            
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
