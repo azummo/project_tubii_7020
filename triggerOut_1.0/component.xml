@@ -916,8 +916,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>triggerOut_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>56</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-02-25T21:17:39Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>57</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-02-26T17:38:33Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

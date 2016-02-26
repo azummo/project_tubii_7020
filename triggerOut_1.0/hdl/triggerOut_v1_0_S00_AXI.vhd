@@ -253,7 +253,9 @@ begin
         ---- Synchronise the GT
         if(SYNC ='1' and synced='0') then
           slv_regGT(15 downto 0) <= (others => '0');
-          slv_regGT(23 downto 16) <= slv_regGT(23 downto 16)+1;
+          if(SYNC24='0') then
+            slv_regGT(23 downto 16) <= slv_regGT(23 downto 16)+1;
+          end if;
           synced <= '1';
         elsif(SYNC='0') then
           synced <= '0';
