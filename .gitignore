@@ -49,3 +49,14 @@ Temporary Items
 
 .project_tubii_7020.runs/
 .project_tubii_7020.srcs/sources_1/
+.edit_burstTrigger_v1_0.runs/
+.edit_comboTrigger_v1_0.runs/
+.edit_counter_v1_0.runs/
+.edit_fifo_readout_v1_0.runs/
+.edit_oneshot_pulse_v1_0.runs/
+.edit_prescaleTrigger_v1_0.runs/
+.edit_ShiftRegs_v1_0.runs/
+.edit_testDelay_v1_0.runs/
+.edit_testPulser_v1_0.runs/
+.edit_triggerOut_v1_0.runs/
+.edit_triggerSplit_v1_0.runs/
