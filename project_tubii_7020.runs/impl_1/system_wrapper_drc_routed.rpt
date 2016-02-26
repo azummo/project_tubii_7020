@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Thu Feb 18 16:31:36 2016
+| Date         : Thu Feb 25 16:35:32 2016
 | Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -119,20 +119,10 @@ REPORT SUMMARY
                      Delay constraint missing on IO port
                      PS7 block required
            Max violations: <unlimited>
-         Violations found: 191
+         Violations found: 189
 
 2. REPORT DETAILS
 -----------------
-BUFC-1#1 Warning
-Input Buffer Connections  
-Input buffer IBUF has no loads. An input buffer must drive an internal load.
-Related violations: <none>
-
-BUFC-1#2 Warning
-Input Buffer Connections  
-Input buffer IBUF_1 has no loads. An input buffer must drive an internal load.
-Related violations: <none>
-
 CFGBVS-1#1 Warning
 Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
 Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
@@ -1083,7 +1073,7 @@ Related violations: <none>
 
 RTSTAT-10#1 Advisory
 No routable loads  
-302 net(s) have no routable loads. The problem net(s) are system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWLOCK[0] (the first 15 of 302 listed).
+300 net(s) have no routable loads. The problem net(s) are system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWLOCK[0] (the first 15 of 300 listed).
 Related violations: <none>
 
 

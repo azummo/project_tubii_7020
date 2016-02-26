@@ -40,12 +40,12 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 234.395 ; gain = 85.742
+rStarting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 234.453 ; gain = 85.418
 2default:default
-Ÿ
+Í
 synthesizing module '%s'638*oasys2&
-oneshot_pulse_v1_02default:default2b
-Lc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
+oneshot_pulse_v1_02default:default2s
+]c:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -63,19 +63,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˘
+õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
-oneshot_pulse_v1_0_S00_AXI2default:default2h
-Tc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+oneshot_pulse_v1_0_S00_AXI2default:default2y
+ec:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 62default:default23
 oneshot_pulse_v1_0_S00_AXI_inst2default:default2.
-oneshot_pulse_v1_0_S00_AXI2default:default2b
-Lc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
+oneshot_pulse_v1_0_S00_AXI2default:default2s
+]c:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-˘
+ä
 synthesizing module '%s'638*oasys2>
-*oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2j
-Tc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+*oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2{
+ec:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-638
 _
 %s*synth2P
@@ -85,35 +85,35 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ω
-default block is never used226*oasys2j
-Tc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
-2382default:default8@Z8-226
-Ω
-default block is never used226*oasys2j
-Tc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
-3712default:default8@Z8-226
-¥
+Œ
+default block is never used226*oasys2{
+ec:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+2422default:default8@Z8-226
+Œ
+default block is never used226*oasys2{
+ec:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+3752default:default8@Z8-226
+≈
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2
 12default:default2
-12default:default2j
-Tc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+12default:default2{
+ec:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
-î
+•
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 oneshot_pulse_v1_02default:default2
 22default:default2
-12default:default2b
-Lc:/Users/Ian/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
+12default:default2s
+]c:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.0/hdl/oneshot_pulse_v1_0.vhd2default:default2
 512default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 267.676 ; gain = 119.023
+sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 267.641 ; gain = 118.605
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 267.676 ; gain = 119.023
+yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 267.641 ; gain = 118.605
 2default:default
 <
 %s*synth2-
@@ -168,7 +168,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 548.836 ; gain = 400.184
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:51 . Memory (MB): peak = 549.309 ; gain = 400.273
 2default:default
 B
 %s*synth23
@@ -364,7 +364,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 559.555 ; gain = 410.902
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:51 . Memory (MB): peak = 560.047 ; gain = 411.012
 2default:default
 ¢
 %s*synth2í
@@ -402,15 +402,15 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 oneshot_pulse_v1_02default:defaultZ8-3332
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 585.027 ; gain = 436.375
+zFinished Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:55 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 585.027 ; gain = 436.375
+|Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:55 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+{Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:55 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 D
 %s*synth25
@@ -418,7 +418,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+uFinished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:55 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 ;
 %s*synth2,
@@ -447,11 +447,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:55 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:56 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 ¢
 %s*synth2í
@@ -523,23 +523,23 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|4     |LUT2   |     5|
+|4     |LUT2   |    16|
 2default:default
 ;
 %s*synth2,
-|5     |LUT3   |     3|
+|5     |LUT3   |     8|
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |   111|
+|6     |LUT4   |    11|
 2default:default
 ;
 %s*synth2,
-|7     |LUT5   |     4|
+|7     |LUT5   |    25|
 2default:default
 ;
 %s*synth2,
-|8     |LUT6   |   139|
+|8     |LUT6   |   200|
 2default:default
 ;
 %s*synth2,
@@ -580,11 +580,11 @@ _+------+----------------------------------+------------------------------------
 2default:default
 Ç
 %s*synth2s
-_|1     |top                               |                                           |   563|
+_|1     |top                               |                                           |   561|
 2default:default
 Ç
 %s*synth2s
-_|2     |  oneshot_pulse_v1_0_S00_AXI_inst |oneshot_pulse_v1_0_S00_AXI__parameterized0 |   472|
+_|2     |  oneshot_pulse_v1_0_S00_AXI_inst |oneshot_pulse_v1_0_S00_AXI__parameterized0 |   470|
 2default:default
 Ç
 %s*synth2s
@@ -592,7 +592,7 @@ _+------+----------------------------------+------------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:56 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 j
 %s*synth2[
@@ -600,7 +600,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 22 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 585.027 ; gain = 436.375
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:56 . Memory (MB): peak = 586.461 ; gain = 437.426
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -647,18 +647,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:00:402default:default2
-00:00:492default:default2
-972.0122default:default2
-784.7342default:defaultZ17-268
+00:00:432default:default2
+00:01:222default:default2
+972.4922default:default2
+784.3282default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.210 . Memory (MB): peak = 972.012 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 972.492 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Feb 04 10:31:42 20162default:defaultZ17-206
+Tue Feb 23 17:06:46 20162default:defaultZ17-206

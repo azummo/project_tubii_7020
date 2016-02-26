@@ -130,6 +130,7 @@ architecture arch_imp of triggerOut_v1_0_S00_AXI is
 	signal slv_reg_rden	: std_logic;
 	signal slv_reg_wren	: std_logic;
 	signal unread	: std_logic;
+    signal synced   : std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
 
@@ -250,13 +251,17 @@ begin
         end if;
 
         ---- Synchronise the GT
-        --if(SYNC ='1') then
-        --  slv_regGT(15 downto 0) <= (others => '0');
-        --end if;
+        if(SYNC ='1' and synced='0') then
+          slv_regGT(15 downto 0) <= (others => '0');
+          slv_regGT(23 downto 16) <= slv_regGT(23 downto 16)+1;
+          synced <= '1';
+        elsif(SYNC='0') then
+          synced <= '0';
+        end if;
 
-        --if(SYNC24 ='1') then
-        --  slv_regGT(23 downto 16) <= (others => '0');
-        --end if;
+        if(SYNC24 ='1') then
+          slv_regGT(23 downto 16) <= (others => '0');
+        end if;
 
         ---- TUBII TRIGGER
         if((EXT_TRIG_IN(0)='1' and slv_reg3(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg3(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg3(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg3(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg3(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg3(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg3(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg3(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg3(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg3(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg3(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg3(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg3(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg3(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg3(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg3(15)='1')) then

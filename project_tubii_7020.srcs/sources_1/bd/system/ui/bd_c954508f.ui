@@ -40,10 +40,10 @@ preplace portBus generic_pulser_out -pg 1 -y 1430 -defaultsOSRD
 preplace portBus smellie_pulser_out -pg 1 -y 1470 -defaultsOSRD
 preplace portBus tellie_pulser_out -pg 1 -y 1410 -defaultsOSRD
 preplace inst tellieDelay -pg 1 -lvl 4 -y 760 -defaultsOSRD
-preplace inst comboTrigger_0 -pg 1 -lvl 3 -y 250 -defaultsOSRD
-preplace inst triggerSplit_0 -pg 1 -lvl 5 -y 520 -defaultsOSRD
 preplace inst genericPulser -pg 1 -lvl 4 -y 1320 -defaultsOSRD
 preplace inst MZ_Happy -pg 1 -lvl 4 -y 1710 -defaultsOSRD
+preplace inst comboTrigger_0 -pg 1 -lvl 3 -y 250 -defaultsOSRD
+preplace inst triggerSplit_0 -pg 1 -lvl 5 -y 520 -defaultsOSRD
 preplace inst gtDelay -pg 1 -lvl 7 -y 490 -defaultsOSRD
 preplace inst xlconstant_0 -pg 1 -lvl 6 -y 640 -defaultsOSRD
 preplace inst telliePulser -pg 1 -lvl 4 -y 1450 -defaultsOSRD
@@ -51,9 +51,9 @@ preplace inst smellieDelay -pg 1 -lvl 4 -y 940 -defaultsOSRD
 preplace inst genericDelay -pg 1 -lvl 4 -y 590 -defaultsOSRD
 preplace inst xlconstant_1 -pg 1 -lvl 3 -y 620 -defaultsOSRD
 preplace inst oneshot_pulse_1 -pg 1 -lvl 7 -y 930 -defaultsOSRD
+preplace inst smelliePulser -pg 1 -lvl 4 -y 1580 -defaultsOSRD
 preplace inst ShiftRegs_0 -pg 1 -lvl 6 -y 1270 -defaultsOSRD
 preplace inst countDisplay_0 -pg 1 -lvl 8 -y 1070 -defaultsOSRD
-preplace inst smelliePulser -pg 1 -lvl 4 -y 1580 -defaultsOSRD
 preplace inst prescaleTrigger_0 -pg 1 -lvl 3 -y 460 -defaultsOSRD
 preplace inst clockLogic_0 -pg 1 -lvl 6 -y 800 -defaultsOSRD
 preplace inst triggerOut_0 -pg 1 -lvl 6 -y 430 -defaultsOSRD

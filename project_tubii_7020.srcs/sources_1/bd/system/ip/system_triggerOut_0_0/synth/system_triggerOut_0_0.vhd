@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggerOut:1.0
--- IP Revision: 53
+-- IP Revision: 56
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -143,7 +143,7 @@ ARCHITECTURE system_triggerOut_0_0_arch OF system_triggerOut_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggerOut_0_0_arch : ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggerOut_0_0_arch: ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggerOut,x_ipVersion=1.0,x_ipCoreRevision=53,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggerOut_0_0_arch: ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggerOut,x_ipVersion=1.0,x_ipCoreRevision=56,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";

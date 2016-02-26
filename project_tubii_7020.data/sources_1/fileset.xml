@@ -28,56 +28,35 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_7/system_testPulser_0_7.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_9/system_testPulser_0_9.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_1_11/system_testPulser_1_11.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_10/system_testPulser_0_10.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_triggerOut_0_0/system_triggerOut_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_triggerSplit_0_0/system_triggerSplit_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_comboTrigger_0_0/system_comboTrigger_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_prescaleTrigger_0_0/system_prescaleTrigger_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_burstTrigger_0_0/system_burstTrigger_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_ShiftRegs_0_0/system_ShiftRegs_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_readShift_0_0/system_readShift_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_countDisplay_0_0/system_countDisplay_0_0.upgrade_log">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -100,18 +79,18 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/counter_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegs_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/countDisplay_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/check_gtid_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/readShift_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/dataready_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/GTPoll_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/muxerInput_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/loadShift_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/check_gtid_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/readShift_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/dataready_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/GTPoll_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/muxerInput_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/loadShift_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/comboTrigger_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/testFIFO_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/tubiiFIFO_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/nothing_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/masterOut_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/testmaster_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/testFIFO_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/tubiiFIFO_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/nothing_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/masterOut_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/testmaster_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/testPulser_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/triggerOut_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/clockLogic_1.0"/>

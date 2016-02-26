@@ -217,7 +217,7 @@ begin
 
         slv_reg2 <= slv_reg2+1;
 
-        if slv_reg3 = null_reg then
+        if slv_reg3 = null_reg and pulse_on = '0' then
           PULSER_OUT <= '0';
           pulse_on <= '0';
           slv_reg2 <= (others=>'0');

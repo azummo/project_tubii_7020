@@ -23,14 +23,11 @@
     <File Path="$PDATADIR/sources_1/ports.xml">
       <FileInfo SFType="PortsDb"/>
     </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_7/system_testPulser_0_7.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_9/system_testPulser_0_9.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_1_11/system_testPulser_1_11.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_10/system_testPulser_0_10.upgrade_log"/>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_triggerOut_0_0/system_triggerOut_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_triggerSplit_0_0/system_triggerSplit_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_comboTrigger_0_0/system_comboTrigger_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_prescaleTrigger_0_0/system_prescaleTrigger_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_burstTrigger_0_0/system_burstTrigger_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_ShiftRegs_0_0/system_ShiftRegs_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_readShift_0_0/system_readShift_0_0.upgrade_log"/>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_countDisplay_0_0/system_countDisplay_0_0.upgrade_log"/>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_oneshot_pulse_1_1/system_oneshot_pulse_1_1.upgrade_log"/>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>

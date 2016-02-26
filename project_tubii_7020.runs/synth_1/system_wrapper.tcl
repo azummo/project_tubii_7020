@@ -15,18 +15,18 @@ set_property ip_repo_paths {
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/counter_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/ShiftRegs_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/countDisplay_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/check_gtid_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/readShift_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/dataready_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/GTPoll_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/muxerInput_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/loadShift_1.0
+  C:/Users/Ian/project_tubii_7020/check_gtid_1.0
+  C:/Users/Ian/project_tubii_7020/readShift_1.0
+  C:/Users/Ian/project_tubii_7020/dataready_1.0
+  C:/Users/Ian/project_tubii_7020/GTPoll_1.0
+  C:/Users/Ian/project_tubii_7020/muxerInput_1.0
+  C:/Users/Ian/project_tubii_7020/loadShift_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/comboTrigger_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/testFIFO_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/tubiiFIFO_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/nothing_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/masterOut_1.0
-  C:/Users/Ian/Documents/GitHub/project_tubii_7020/testmaster_1.0
+  C:/Users/Ian/project_tubii_7020/testFIFO_1.0
+  C:/Users/Ian/project_tubii_7020/tubiiFIFO_1.0
+  C:/Users/Ian/project_tubii_7020/nothing_1.0
+  C:/Users/Ian/project_tubii_7020/masterOut_1.0
+  C:/Users/Ian/project_tubii_7020/testmaster_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/testPulser_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/triggerOut_1.0
   C:/Users/Ian/Documents/GitHub/project_tubii_7020/clockLogic_1.0
@@ -42,18 +42,18 @@ set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents
 set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1004/system_tier2_xbar_0_1004_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1005/system_tier2_xbar_1_1005_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1006/system_tier2_xbar_2_1006_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_337/system_auto_cc_337_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_337/system_auto_cc_337_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_338/system_auto_cc_338_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_338/system_auto_cc_338_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_339/system_auto_cc_339_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_339/system_auto_cc_339_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_340/system_auto_cc_340_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_340/system_auto_cc_340_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_360/system_auto_pc_360_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1019/system_tier2_xbar_0_1019_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1020/system_tier2_xbar_1_1020_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1021/system_tier2_xbar_2_1021_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_357/system_auto_cc_357_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_357/system_auto_cc_357_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_358/system_auto_cc_358_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_358/system_auto_cc_358_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_359/system_auto_cc_359_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_359/system_auto_cc_359_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_360/system_auto_cc_360_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_360/system_auto_cc_360_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_365/system_auto_pc_365_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/system_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/system.bd]

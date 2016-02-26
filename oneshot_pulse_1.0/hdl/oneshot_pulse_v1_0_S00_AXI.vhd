@@ -209,8 +209,8 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
-        -- if Pulse is always high (or longer than 2us), this will pulse constantly.
-        -- may need to add some deadtime
+        -- Extend any pulse 2us (followed by 2us deadtime).
+        -- So that the counter can detect it.
         if(PULSE_i = '1') then
           PULSE_o <= '1';
           slv_reg3(0) <= '1';
@@ -221,8 +221,12 @@ begin
         end if;
         
         if(slv_reg0 > "11001000") then
-          -- wait for 500 clock pulses (or 5 us)
+          -- begin deadtime
           PULSE_o <= '0';
+        end if;
+
+        if(slv_reg0 > "110010000") then
+          -- reset after deadtime
           slv_reg3(0) <= '0';
           slv_reg0 <= (others=>'0');
         end if;

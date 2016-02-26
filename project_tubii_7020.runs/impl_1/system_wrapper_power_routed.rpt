@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Thu Feb 18 16:32:12 2016
+| Date             : Thu Feb 25 16:36:03 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.534 |
-| Dynamic (W)              | 1.383 |
+| Total On-Chip Power (W)  | 1.532 |
+| Dynamic (W)              | 1.381 |
 | Device Static (W)        | 0.151 |
 | Total Off-Chip Power (W) | 0.121 |
 | Effective TJA (C/W)      | 11.5  |
@@ -50,22 +50,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.040 |        2 |       --- |             --- |
-| Slice Logic              |     0.011 |    19729 |       --- |             --- |
-|   LUT as Logic           |     0.010 |     8609 |     53200 |           16.18 |
+| Clocks                   |     0.038 |        2 |       --- |             --- |
+| Slice Logic              |     0.011 |    19650 |       --- |             --- |
+|   LUT as Logic           |     0.010 |     8578 |     53200 |           16.12 |
 |   LUT as Distributed RAM |    <0.001 |      392 |     17400 |            2.25 |
-|   Register               |    <0.001 |     7613 |    106400 |            7.15 |
+|   Register               |    <0.001 |     7614 |    106400 |            7.15 |
 |   CARRY4                 |    <0.001 |      402 |     13300 |            3.02 |
 |   F7/F8 Muxes            |    <0.001 |       46 |     53200 |            0.08 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      210 |       --- |             --- |
-| Signals                  |     0.015 |    14751 |       --- |             --- |
+| Signals                  |     0.015 |    14674 |       --- |             --- |
 | Block RAM                |    <0.001 |       43 |       140 |           30.71 |
 | I/O                      |     0.008 |       54 |       125 |           43.20 |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.151 |          |           |                 |
-| Total                    |     1.534 |          |           |                 |
+| Total                    |     1.532 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.081 |       0.066 |      0.014 |
+| Vccint    |       1.000 |     0.078 |       0.064 |      0.014 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -152,10 +152,10 @@ Table of Contents
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                                                                | Power (W) |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| system_wrapper                                                                                                                                                      |     1.383 |
-|   system_i                                                                                                                                                          |     1.375 |
+| system_wrapper                                                                                                                                                      |     1.381 |
+|   system_i                                                                                                                                                          |     1.373 |
 |     ShiftRegs_0                                                                                                                                                     |     0.004 |
-|     axi_interconnect_0                                                                                                                                              |     0.028 |
+|     axi_interconnect_0                                                                                                                                              |     0.027 |
 |       m14_couplers/auto_cc                                                                                                                                          |     0.004 |
 |         inst                                                                                                                                                        |     0.004 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
