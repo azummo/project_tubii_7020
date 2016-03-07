@@ -26,7 +26,9 @@ entity triggerOut_v1_0 is
         gtrigout       : out std_logic;
         sync           : in std_logic;
         sync24         : in std_logic;
-        trig_word      : out std_logic_vector(47 downto 0);
+        trig_word      : out std_logic_vector(23 downto 0);
+        dtrig_word     : in std_logic_vector(23 downto 0);
+        tubii_word     : out std_logic_vector(47 downto 0);
         trig_out       : out std_logic;
         speaker       : out std_logic;
         counter       : out std_logic;
@@ -98,7 +100,9 @@ architecture arch_imp of triggerOut_v1_0 is
         GTRIGout        : out std_logic;
         SYNC            : in std_logic;
         SYNC24          : in std_logic;
-        TRIG_WORD       : out std_logic_vector(47 downto 0);
+        TRIG_WORD       : out std_logic_vector(23 downto 0);
+        DTRIG_WORD      : in std_logic_vector(23 downto 0);
+        TUBII_WORD      : out std_logic_vector(47 downto 0);
         TRIG_OUT        : out std_logic;
         SPEAKER         : out std_logic;
         COUNTER         : out std_logic
@@ -145,6 +149,8 @@ triggerOut_v1_0_S00_AXI_inst : triggerOut_v1_0_S00_AXI
         SYNC            => sync,
         SYNC24          => sync24,
         TRIG_WORD       => trig_word,
+        DTRIG_WORD      => dtrig_word,
+        TUBII_WORD      => tubii_word,
         TRIG_OUT        => trig_out,
         SPEAKER         => speaker,
         COUNTER         => counter

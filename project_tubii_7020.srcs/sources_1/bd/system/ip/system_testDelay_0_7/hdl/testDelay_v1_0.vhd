@@ -17,8 +17,8 @@ entity testDelay_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        s00_axi_userin  : in std_logic;
-        s00_axi_userout : out std_logic;
+        pulse_in  : in std_logic;
+        pulse_out : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -78,8 +78,8 @@ architecture arch_imp of testDelay_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-		S_AXI_USERIN    : in std_logic;
-        S_AXI_USEROUT   : out std_logic
+		PULSE_IN    : in std_logic;
+        PULSE_OUT   : out std_logic
 		);
 	end component testDelay_v1_0_S00_AXI;
 
@@ -113,8 +113,8 @@ testDelay_v1_0_S00_AXI_inst : testDelay_v1_0_S00_AXI
 		S_AXI_RRESP	=> s00_axi_rresp,
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
-		S_AXI_USERIN    => s00_axi_userin,
-        S_AXI_USEROUT   => s00_axi_userout
+		PULSE_IN    => pulse_in,
+        PULSE_OUT   => pulse_out
 	);
 
 	-- Add user logic here

@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:testDelay:1.0
--- IP Revision: 2
+-- IP Revision: 5
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -55,8 +55,8 @@ USE ieee.numeric_std.ALL;
 
 ENTITY system_testDelay_0_0 IS
   PORT (
-    s00_axi_userin : IN STD_LOGIC;
-    s00_axi_userout : OUT STD_LOGIC;
+    pulse_in : IN STD_LOGIC;
+    pulse_out : OUT STD_LOGIC;
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -91,8 +91,8 @@ ARCHITECTURE system_testDelay_0_0_arch OF system_testDelay_0_0 IS
       C_S00_AXI_ADDR_WIDTH : INTEGER
     );
     PORT (
-      s00_axi_userin : IN STD_LOGIC;
-      s00_axi_userout : OUT STD_LOGIC;
+      pulse_in : IN STD_LOGIC;
+      pulse_out : OUT STD_LOGIC;
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -121,7 +121,7 @@ ARCHITECTURE system_testDelay_0_0_arch OF system_testDelay_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_testDelay_0_0_arch : ARCHITECTURE IS "system_testDelay_0_0,testDelay_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_testDelay_0_0_arch: ARCHITECTURE IS "system_testDelay_0_0,testDelay_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=testDelay,x_ipVersion=1.0,x_ipCoreRevision=2,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_testDelay_0_0_arch: ARCHITECTURE IS "system_testDelay_0_0,testDelay_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=testDelay,x_ipVersion=1.0,x_ipCoreRevision=5,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -151,8 +151,8 @@ BEGIN
       C_S00_AXI_ADDR_WIDTH => 4
     )
     PORT MAP (
-      s00_axi_userin => s00_axi_userin,
-      s00_axi_userout => s00_axi_userout,
+      pulse_in => pulse_in,
+      pulse_out => pulse_out,
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,

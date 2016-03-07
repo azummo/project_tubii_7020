@@ -91,7 +91,6 @@ architecture STRUCTURE of system_wrapper is
     display_reset : out STD_LOGIC;
     display_latch : out STD_LOGIC;
     display_count : out STD_LOGIC;
-    generic_delay_out : out STD_LOGIC;
     generic_delay_in : in STD_LOGIC;
     tellie_delay_in : in STD_LOGIC;
     tellie_delay_out : out STD_LOGIC;
@@ -121,7 +120,8 @@ architecture STRUCTURE of system_wrapper is
     smellie_pulser_out : out STD_LOGIC_VECTOR ( 0 to 0 );
     Clk_in : in STD_LOGIC;
     speaker : out STD_LOGIC;
-    Outtt : out STD_LOGIC
+    Outtt : out STD_LOGIC;
+    generic_delay_out : out STD_LOGIC
   );
   end component system;
 begin

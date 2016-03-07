@@ -10,7 +10,7 @@
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
-    <File Path="$PDATADIR/constrs_1/designprops.xml">
+    <File Path="$PPRDIR/../../../project_tubii_7020/project_tubii_7020.data/constrs_1/designprops.xml">
       <FileInfo SFType="CompatPartsDb"/>
     </File>
     <File Path="$PDATADIR/constrs_1/usercols.xml">

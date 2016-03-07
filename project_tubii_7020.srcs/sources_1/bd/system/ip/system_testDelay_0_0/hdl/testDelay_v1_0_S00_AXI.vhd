@@ -18,9 +18,9 @@ entity testDelay_v1_0_S00_AXI is
 	port (
 		-- Users to add ports here
         -- Signal In
-        S_AXI_USERIN : in std_logic;
+        PULSE_IN : in std_logic;
         -- Delayed Signal Out
-        S_AXI_USEROUT : out std_logic;
+        PULSE_OUT : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -211,8 +211,8 @@ begin
 	process (S_AXI_ACLK)
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
-	  if rising_edge(S_AXI_ACLK) then
-        -- Reg0 is pulse length + delay length
+	  if rising_edge(S_AXI_ACLK) then	    
+    	-- Reg0 is pulse length + delay length
         -- Reg1 is pulse length
         -- Reg2 is length since input started
         -- Reg3 is delay length
@@ -220,27 +220,27 @@ begin
 
         -- when Reg2 > Reg3, send output
         -- when Reg2 > Reg1+Reg3, stop output
-
-        if S_AXI_USERIN>'0' then         -- Record a pulse
-            sgnl <= S_AXI_USERIN;
-            slv_reg1 <= slv_reg1+1;
+        if PULSE_IN>'0' then         -- Record a pulse
+          sgnl <= PULSE_IN;
+          slv_reg1 <= slv_reg1+1;
         end if;
 
         if sgnl > '0' then
           slv_reg2 <= slv_reg2+1;        -- time since start of pulse
           slv_reg0 <= slv_reg1+slv_reg3; -- time to end of pulse
-          
+
           if slv_reg2 > slv_reg3 then    -- start of delayed pulse
-            S_AXI_USEROUT <= sgnl;
+            PULSE_OUT <= sgnl;
           end if;
+
           if slv_reg2 > slv_reg0 then    -- end of delayed pulse
             slv_reg1 <= (others => '0');
             slv_reg2 <= (others => '0');
             sgnl <= '0';
-            S_AXI_USEROUT <= '0';
+            PULSE_OUT <= '0';
           end if;
-        end if;                
-	    
+        end if;
+
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
 	      slv_reg1 <= (others => '0');

@@ -220,12 +220,12 @@ begin
           slv_reg0 <= slv_reg0+1;
         end if;
         
-        if(slv_reg0 > "11001000") then
+        if(slv_reg0 > slv_reg1) then
           -- begin deadtime
           PULSE_o <= '0';
         end if;
 
-        if(slv_reg0 > "110010000") then
+        if(slv_reg0 > slv_reg2) then
           -- reset after deadtime
           slv_reg3(0) <= '0';
           slv_reg0 <= (others=>'0');

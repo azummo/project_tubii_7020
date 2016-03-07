@@ -26,7 +26,9 @@ entity triggerOut_v1_0_S00_AXI is
         SYNC           : in std_logic;
         SYNC24         : in std_logic;
         GTRIGout       : out std_logic;   
-        TRIG_WORD      : out std_logic_vector(47 downto 0);
+        TRIG_WORD      : out std_logic_vector(23 downto 0);
+        DTRIG_WORD     : in std_logic_vector(23 downto 0);
+        TUBII_WORD     : out std_logic_vector(47 downto 0);
         TRIG_OUT       : out std_logic;
         SPEAKER        : out std_logic;
         COUNTER        : out std_logic;
@@ -238,7 +240,8 @@ begin
         TRIG_WORD(21 downto 18) <= INT_TRIG_IN(3 downto 0);
         TRIG_WORD(22) <= TELLIE_TRIG_IN;
         TRIG_WORD(23) <= SMELLIE_TRIG_IN;
-        TRIG_WORD(47 downto 24) <= slv_regGT(23 downto 0);        
+        TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
+        TUBII_WORD(47 downto 24) <= slv_regGT(23 downto 0);        
 
         GTRIGout <= GTRIG;
 

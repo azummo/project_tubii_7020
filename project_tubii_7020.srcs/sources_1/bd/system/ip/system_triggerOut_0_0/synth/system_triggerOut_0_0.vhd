@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggerOut:1.0
--- IP Revision: 57
+-- IP Revision: 58
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -64,7 +64,9 @@ ENTITY system_triggerOut_0_0 IS
     gtrigout : OUT STD_LOGIC;
     sync : IN STD_LOGIC;
     sync24 : IN STD_LOGIC;
-    trig_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
+    trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+    dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+    tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
     trig_out : OUT STD_LOGIC;
     speaker : OUT STD_LOGIC;
     counter : OUT STD_LOGIC;
@@ -111,7 +113,9 @@ ARCHITECTURE system_triggerOut_0_0_arch OF system_triggerOut_0_0 IS
       gtrigout : OUT STD_LOGIC;
       sync : IN STD_LOGIC;
       sync24 : IN STD_LOGIC;
-      trig_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
+      trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+      dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+      tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
       trig_out : OUT STD_LOGIC;
       speaker : OUT STD_LOGIC;
       counter : OUT STD_LOGIC;
@@ -143,7 +147,7 @@ ARCHITECTURE system_triggerOut_0_0_arch OF system_triggerOut_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggerOut_0_0_arch : ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggerOut_0_0_arch: ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggerOut,x_ipVersion=1.0,x_ipCoreRevision=57,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggerOut_0_0_arch: ARCHITECTURE IS "system_triggerOut_0_0,triggerOut_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggerOut,x_ipVersion=1.0,x_ipCoreRevision=58,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -183,6 +187,8 @@ BEGIN
       sync => sync,
       sync24 => sync24,
       trig_word => trig_word,
+      dtrig_word => dtrig_word,
+      tubii_word => tubii_word,
       trig_out => trig_out,
       speaker => speaker,
       counter => counter,
