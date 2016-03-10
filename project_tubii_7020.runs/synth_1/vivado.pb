@@ -22,6 +22,10 @@ AC:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:def
 5
 Refreshing IP repositories
 234*coregenZ19-234
+ï
+ Loaded user IP repository '%s'.
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.02default:defaultZ19-1700
 î
  Loaded user IP repository '%s'.
 1135*coregen2V
@@ -136,10 +140,10 @@ s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
-00:00:072default:default2
-00:00:152default:default2
-269.8872default:default2
-81.9492default:defaultZ17-268
+00:00:082default:default2
+00:00:102default:default2
+277.2772default:default2
+89.4692default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -161,7 +165,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:03:54 ; elapsed = 00:04:29 . Memory (MB): peak = 333.723 ; gain = 184.582
+xStarting RTL Elaboration : Time (s): cpu = 00:08:52 ; elapsed = 00:09:45 . Memory (MB): peak = 356.457 ; gain = 207.141
 2default:default
 ˝
 synthesizing module '%s'638*oasys2"
@@ -172,7 +176,7 @@ sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 system2default:default2
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-72682default:default2
+77592default:default2
 system_i2default:default2
 system2default:default2â
 sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
@@ -181,13 +185,13 @@ sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 synthesizing module '%s'638*oasys2
 system2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-73322default:default8@Z8-638
+78232default:default8@Z8-638
 ô
 ,binding component instance '%s' to cell '%s'113*oasys2
 GND2default:default2
 GND2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-85672default:default8@Z8-113
+91112default:default8@Z8-113
 ¬
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
 system_testPulser_0_72default:default2™
@@ -196,7 +200,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 mz_happy_RnM2default:default2)
 system_testPulser_0_72default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-85712default:default8@Z8-3491
+91152default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_testPulser_0_72default:default2¨
@@ -299,7 +303,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ShiftRegs_02default:default2(
 system_ShiftRegs_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-85962default:default8@Z8-3491
+91402default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_ShiftRegs_0_02default:default2™
@@ -402,7 +406,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 TrigWordDelay_02default:default2,
 system_TrigWordDelay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-86302default:default8@Z8-3491
+91742default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_TrigWordDelay_0_02default:default2≤
@@ -501,7 +505,7 @@ _
 synthesizing module '%s'638*oasys2/
 system_axi_interconnect_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-38932default:default8@Z8-638
+42592default:default8@Z8-638
 ˛
 synthesizing module '%s'638*oasys2+
 i00_couplers_imp_QKBO3S2default:default2Å
@@ -591,144 +595,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 m04_couplers_imp_NO5YH92default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 8132default:default8@Z8-638
-ª
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-m04_couplers_imp_NO5YH92default:default2
-172default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-8132default:default8@Z8-256
-Ä
-synthesizing module '%s'638*oasys2,
-m05_couplers_imp_1FRM8DV2default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-9222default:default8@Z8-638
-º
-%done synthesizing module '%s' (%s#%s)256*oasys2,
-m05_couplers_imp_1FRM8DV2default:default2
-182default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-9222default:default8@Z8-256
-Ä
-synthesizing module '%s'638*oasys2+
-m06_couplers_imp_MNJY0G2default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-10312default:default8@Z8-638
-º
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-m06_couplers_imp_MNJY0G2default:default2
-192default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-10312default:default8@Z8-256
-Å
-synthesizing module '%s'638*oasys2,
-m07_couplers_imp_1GTWGY62default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-11402default:default8@Z8-638
-Ω
-%done synthesizing module '%s' (%s#%s)256*oasys2,
-m07_couplers_imp_1GTWGY62default:default2
-202default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-11402default:default8@Z8-256
-Ä
-synthesizing module '%s'638*oasys2+
-m08_couplers_imp_M1CY832default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-12492default:default8@Z8-638
-º
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-m08_couplers_imp_M1CY832default:default2
-212default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-12492default:default8@Z8-256
-Å
-synthesizing module '%s'638*oasys2,
-m09_couplers_imp_18L0AKD2default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-13582default:default8@Z8-638
-Ω
-%done synthesizing module '%s' (%s#%s)256*oasys2,
-m09_couplers_imp_18L0AKD2default:default2
-222default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-13582default:default8@Z8-256
-Å
-synthesizing module '%s'638*oasys2,
-m10_couplers_imp_17MBB072default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-14672default:default8@Z8-638
-Ω
-%done synthesizing module '%s' (%s#%s)256*oasys2,
-m10_couplers_imp_17MBB072default:default2
-232default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-14672default:default8@Z8-256
-Ä
-synthesizing module '%s'638*oasys2+
-m11_couplers_imp_VWCOY12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-15762default:default8@Z8-638
-º
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-m11_couplers_imp_VWCOY12default:default2
-242default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-15762default:default8@Z8-256
-Å
-synthesizing module '%s'638*oasys2,
-m12_couplers_imp_16NSM6I2default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-16852default:default8@Z8-638
-Ω
-%done synthesizing module '%s' (%s#%s)256*oasys2,
-m12_couplers_imp_16NSM6I2default:default2
-252default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-16852default:default8@Z8-256
-Ä
-synthesizing module '%s'638*oasys2+
-m13_couplers_imp_WQS2GK2default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-17942default:default8@Z8-638
-º
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-m13_couplers_imp_WQS2GK2default:default2
-262default:default2
-12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-17942default:default8@Z8-256
-Å
-synthesizing module '%s'638*oasys2,
-m14_couplers_imp_15B0VF12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-19032default:default8@Z8-638
-Ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_4012default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/synth/system_auto_cc_401.v2default:default2
+™
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_482default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/synth/system_auto_cc_48.v2default:default2
 572default:default2
-auto_cc2default:default2&
-system_auto_cc_4012default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-20352default:default8@Z8-3491
-ú
-synthesizing module '%s'638*oasys2&
-system_auto_cc_4012default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/synth/system_auto_cc_401.v2default:default2
+auto_cc2default:default2%
+system_auto_cc_482default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+9452default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_482default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/synth/system_auto_cc_48.v2default:default2
 572default:default8@Z8-638
 Ô
 synthesizing module '%s'638*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -3344,7 +3228,7 @@ W
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 reset_blk_ramfifo2default:default2
-272default:default2
+172default:default2
 12default:default2∑
 †c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
@@ -3428,7 +3312,7 @@ Z
 ⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	input_blk2default:default2
-282default:default2
+182default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -3595,14 +3479,14 @@ W
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2
 dmem2default:default2
-292default:default2
+192default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 memory2default:default2
-302default:default2
+202default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -3653,14 +3537,14 @@ S
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 synchronizer_ff2default:default2
-312default:default2
+212default:default2
 12default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 clk_x_pntrs2default:default2
-322default:default2
+222default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
@@ -3781,7 +3665,7 @@ X
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_bin_cntr2default:default2
-332default:default2
+232default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
@@ -3818,14 +3702,14 @@ S
 ◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 compare2default:default2
-342default:default2
+242default:default2
 12default:default2≠
 ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 rd_status_flags_as2default:default2
-352default:default2
+252default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
@@ -3865,14 +3749,14 @@ W
 ◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_fwft2default:default2
-362default:default2
+262default:default2
 12default:default2≠
 ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-256
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_logic2default:default2
-372default:default2
+272default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-256
@@ -4001,7 +3885,7 @@ Z
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_bin_cntr2default:default2
-382default:default2
+282default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
@@ -4033,14 +3917,14 @@ U
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wr_status_flags_as2default:default2
-392default:default2
+292default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_logic2default:default2
-402default:default2
+302default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-256
@@ -4154,21 +4038,21 @@ W
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 output_blk2default:default2
-412default:default2
+312default:default2
 12default:default2Ø
 òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 fifo_generator_ramfifo2default:default2
-422default:default2
+322default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 fifo_generator_top2default:default2
-432default:default2
+332default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
@@ -4746,7 +4630,7 @@ Z
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -4907,14 +4791,14 @@ W
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -5026,21 +4910,21 @@ W
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2Ø
 òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized02default:default2
-432default:default2
+332default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
@@ -5618,7 +5502,7 @@ Z
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -5779,14 +5663,14 @@ W
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -5898,21 +5782,21 @@ W
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2Ø
 òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized12default:default2
-432default:default2
+332default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
@@ -6490,7 +6374,7 @@ Z
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -6651,14 +6535,14 @@ W
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -6770,35 +6654,35 @@ W
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2Ø
 òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized22default:default2
-432default:default2
+332default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 fifo_generator_v11_0_synth2default:default2
-442default:default2
+342default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-256
 È
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 fifo_generator_v11_02default:default2
-452default:default2
+352default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-256
@@ -6808,187 +6692,361 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 fifo_generator_v11_02default:default2
 2302default:default2
 2282default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 7992default:default8@Z8-350
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2
-462default:default2
+362default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-256
-ÿ
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_4012default:default2
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_482default:default2
+372default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/synth/system_auto_cc_48.v2default:default2
+572default:default8@Z8-256
+ª
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+m04_couplers_imp_NO5YH92default:default2
+382default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+8132default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m05_couplers_imp_1FRM8DV2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+10402default:default8@Z8-638
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m05_couplers_imp_1FRM8DV2default:default2
+392default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+10402default:default8@Z8-256
+Ä
+synthesizing module '%s'638*oasys2+
+m06_couplers_imp_MNJY0G2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+11492default:default8@Z8-638
+º
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+m06_couplers_imp_MNJY0G2default:default2
+402default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+11492default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m07_couplers_imp_1GTWGY62default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12582default:default8@Z8-638
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m07_couplers_imp_1GTWGY62default:default2
+412default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12582default:default8@Z8-256
+Ä
+synthesizing module '%s'638*oasys2+
+m08_couplers_imp_M1CY832default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+13672default:default8@Z8-638
+º
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+m08_couplers_imp_M1CY832default:default2
+422default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+13672default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m09_couplers_imp_18L0AKD2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+14762default:default8@Z8-638
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m09_couplers_imp_18L0AKD2default:default2
+432default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+14762default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m10_couplers_imp_17MBB072default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+15852default:default8@Z8-638
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m10_couplers_imp_17MBB072default:default2
+442default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+15852default:default8@Z8-256
+Ä
+synthesizing module '%s'638*oasys2+
+m11_couplers_imp_VWCOY12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+16942default:default8@Z8-638
+º
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+m11_couplers_imp_VWCOY12default:default2
+452default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+16942default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m12_couplers_imp_16NSM6I2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+18032default:default8@Z8-638
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m12_couplers_imp_16NSM6I2default:default2
+462default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+18032default:default8@Z8-256
+Ä
+synthesizing module '%s'638*oasys2+
+m13_couplers_imp_WQS2GK2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+19122default:default8@Z8-638
+º
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+m13_couplers_imp_WQS2GK2default:default2
 472default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/synth/system_auto_cc_401.v2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+19122default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m14_couplers_imp_15B0VF12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+20212default:default8@Z8-638
+´
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_492default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/synth/system_auto_cc_49.v2default:default2
+572default:default2
+auto_cc2default:default2%
+system_auto_cc_492default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+21532default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_492default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/synth/system_auto_cc_49.v2default:default2
+572default:default8@Z8-638
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_492default:default2
+482default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/synth/system_auto_cc_49.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m14_couplers_imp_15B0VF12default:default2
-482default:default2
+492default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-19032default:default8@Z8-256
+20212default:default8@Z8-256
 Ä
 synthesizing module '%s'638*oasys2+
 m15_couplers_imp_Y5QALV2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-21302default:default8@Z8-638
+22482default:default8@Z8-638
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m15_couplers_imp_Y5QALV2default:default2
-492default:default2
+502default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-21302default:default8@Z8-256
+22482default:default8@Z8-256
 Å
 synthesizing module '%s'638*oasys2,
 m16_couplers_imp_14023HS2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-22392default:default8@Z8-638
-Ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_4022default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/synth/system_auto_cc_402.v2default:default2
+23572default:default8@Z8-638
+´
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_502default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/synth/system_auto_cc_50.v2default:default2
 572default:default2
-auto_cc2default:default2&
-system_auto_cc_4022default:default2Å
+auto_cc2default:default2%
+system_auto_cc_502default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-23712default:default8@Z8-3491
-ú
-synthesizing module '%s'638*oasys2&
-system_auto_cc_4022default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/synth/system_auto_cc_402.v2default:default2
+24892default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_502default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/synth/system_auto_cc_50.v2default:default2
 572default:default8@Z8-638
-ÿ
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_4022default:default2
-502default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/synth/system_auto_cc_402.v2default:default2
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_502default:default2
+512default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/synth/system_auto_cc_50.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m16_couplers_imp_14023HS2default:default2
-512default:default2
+522default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-22392default:default8@Z8-256
+23572default:default8@Z8-256
 Ä
 synthesizing module '%s'638*oasys2+
 m17_couplers_imp_ZHOD1Q2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-24662default:default8@Z8-638
-Ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_4032default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/synth/system_auto_cc_403.v2default:default2
+25842default:default8@Z8-638
+´
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_512default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/synth/system_auto_cc_51.v2default:default2
 572default:default2
-auto_cc2default:default2&
-system_auto_cc_4032default:default2Å
+auto_cc2default:default2%
+system_auto_cc_512default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-25982default:default8@Z8-3491
-ú
-synthesizing module '%s'638*oasys2&
-system_auto_cc_4032default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/synth/system_auto_cc_403.v2default:default2
+27162default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_512default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/synth/system_auto_cc_51.v2default:default2
 572default:default8@Z8-638
-ÿ
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_4032default:default2
-522default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/synth/system_auto_cc_403.v2default:default2
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_512default:default2
+532default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/synth/system_auto_cc_51.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m17_couplers_imp_ZHOD1Q2default:default2
-532default:default2
+542default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-24662default:default8@Z8-256
+25842default:default8@Z8-256
 Å
 synthesizing module '%s'638*oasys2,
 m18_couplers_imp_13N81VN2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-26932default:default8@Z8-638
+28112default:default8@Z8-638
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m18_couplers_imp_13N81VN2default:default2
-542default:default2
+552default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-26932default:default8@Z8-256
+28112default:default8@Z8-256
 Ä
 synthesizing module '%s'638*oasys2+
 m19_couplers_imp_QY5Y2L2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-28022default:default8@Z8-638
-Ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_4042default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/synth/system_auto_cc_404.v2default:default2
+29202default:default8@Z8-638
+´
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_522default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/synth/system_auto_cc_52.v2default:default2
 572default:default2
-auto_cc2default:default2&
-system_auto_cc_4042default:default2Å
+auto_cc2default:default2%
+system_auto_cc_522default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-29342default:default8@Z8-3491
-ú
-synthesizing module '%s'638*oasys2&
-system_auto_cc_4042default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/synth/system_auto_cc_404.v2default:default2
+30522default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_522default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/synth/system_auto_cc_52.v2default:default2
 572default:default8@Z8-638
-ÿ
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_4042default:default2
-552default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/synth/system_auto_cc_404.v2default:default2
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_522default:default2
+562default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/synth/system_auto_cc_52.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m19_couplers_imp_QY5Y2L2default:default2
-562default:default2
+572default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-28022default:default8@Z8-256
+29202default:default8@Z8-256
 Ä
 synthesizing module '%s'638*oasys2+
 m20_couplers_imp_1CCFAU2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-30292default:default8@Z8-638
+31472default:default8@Z8-638
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m20_couplers_imp_1CCFAU2default:default2
-572default:default2
+582default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-30292default:default8@Z8-256
+31472default:default8@Z8-256
+Å
+synthesizing module '%s'638*oasys2,
+m21_couplers_imp_1T86MH42default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+32562default:default8@Z8-638
+´
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_cc_532default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/synth/system_auto_cc_53.v2default:default2
+572default:default2
+auto_cc2default:default2%
+system_auto_cc_532default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+33882default:default8@Z8-3491
+ô
+synthesizing module '%s'638*oasys2%
+system_auto_cc_532default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/synth/system_auto_cc_53.v2default:default2
+572default:default8@Z8-638
+’
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_cc_532default:default2
+592default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/synth/system_auto_cc_53.v2default:default2
+572default:default8@Z8-256
+Ω
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m21_couplers_imp_1T86MH42default:default2
+602default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+32562default:default8@Z8-256
 Å
 synthesizing module '%s'638*oasys2,
 s00_couplers_imp_1FHMR112default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-31572default:default8@Z8-638
-Ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_pc_3762default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/synth/system_auto_pc_376.v2default:default2
+35022default:default8@Z8-638
+ß
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2$
+system_auto_pc_82default:default2û
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_8/synth/system_auto_pc_8.v2default:default2
 572default:default2
-auto_pc2default:default2&
-system_auto_pc_3762default:default2Å
+auto_pc2default:default2$
+system_auto_pc_82default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-33402default:default8@Z8-3491
-ú
-synthesizing module '%s'638*oasys2&
-system_auto_pc_3762default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/synth/system_auto_pc_376.v2default:default2
+36852default:default8@Z8-3491
+ñ
+synthesizing module '%s'638*oasys2$
+system_auto_pc_82default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_8/synth/system_auto_pc_8.v2default:default2
 572default:default8@Z8-638
 ˛
 synthesizing module '%s'638*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Ê
-œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -7093,7 +7151,7 @@ X
 ÿ
 synthesizing module '%s'638*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2”
-ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -7864,7 +7922,7 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
-582default:default2
+612default:default2
 12default:default2Õ
 ∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -7888,7 +7946,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
-592default:default2
+622default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -7912,7 +7970,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
-592default:default2
+622default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -7936,7 +7994,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
-592default:default2
+622default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -7960,7 +8018,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
-592default:default2
+622default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -8336,21 +8394,21 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
-602default:default2
+632default:default2
 12default:default2Õ
 ∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
-612default:default2
+642default:default2
 12default:default2’
 æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8363,7 +8421,7 @@ W
 ˆ
 synthesizing module '%s'638*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2‚
-Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -8384,7 +8442,7 @@ N
 Í
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8397,14 +8455,14 @@ _
 ¶
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
-622default:default2
+652default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
 Í
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8417,21 +8475,21 @@ _
 ¶
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
-632default:default2
+662default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ≤
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
-642default:default2
+672default:default2
 12default:default2‚
-Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+Àc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
 Ó
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8451,26 +8509,26 @@ L
 2default:default
 ±
 default block is never used226*oasys2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
-652default:default2
+682default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
-662default:default2
+692default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
 Ï
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -8519,7 +8577,7 @@ U
 Ô
 synthesizing module '%s'638*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8552,14 +8610,14 @@ J
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
-672default:default2
+702default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -8592,21 +8650,21 @@ J
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
-672default:default2
+702default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
-682default:default2
+712default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8619,7 +8677,7 @@ W
 Ó
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8639,26 +8697,26 @@ $	Parameter SM_DONE bound to: 2'b11
 2default:default
 ±
 default block is never used226*oasys2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
-692default:default2
+722default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
-702default:default2
+732default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
 Ï
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -8695,7 +8753,7 @@ V
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8728,14 +8786,14 @@ M
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
-702default:default2
+732default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˇ
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8768,16 +8826,16 @@ M
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
-702default:default2
+732default:default2
 12default:default2ﬂ
-»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+»c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
-712default:default2
+742default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 ı
 synthesizing module '%s'638*oasys2N
@@ -9524,7 +9582,7 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
-712default:default2
+742default:default2
 12default:default2Õ
 ∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -9548,7 +9606,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
-712default:default2
+742default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -9572,7 +9630,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
-712default:default2
+742default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -9596,7 +9654,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
-712default:default2
+742default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -9620,7 +9678,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
-712default:default2
+742default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -9996,58 +10054,58 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
-712default:default2
+742default:default2
 12default:default2Õ
 ∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
-712default:default2
+742default:default2
 12default:default2’
 æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
-722default:default2
+752default:default2
 12default:default2”
-ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 ∫
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
-732default:default2
+762default:default2
 12default:default2Ê
-œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_378/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-ÿ
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_pc_3762default:default2
-742default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_376/synth/system_auto_pc_376.v2default:default2
+“
+%done synthesizing module '%s' (%s#%s)256*oasys2$
+system_auto_pc_82default:default2
+772default:default2
+12default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_8/synth/system_auto_pc_8.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_1FHMR112default:default2
-752default:default2
+782default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-31572default:default8@Z8-256
+35022default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_0_10552default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1055/synth/system_tier2_xbar_0_1055.v2default:default2
+system_tier2_xbar_0_10912default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1091/synth/system_tier2_xbar_0_1091.v2default:default2
 572default:default2 
 tier2_xbar_02default:default2,
-system_tier2_xbar_0_10552default:default2Å
+system_tier2_xbar_0_10912default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-67132default:default8@Z8-3491
+71852default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_0_10552default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1055/synth/system_tier2_xbar_0_1055.v2default:default2
+system_tier2_xbar_0_10912default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1091/synth/system_tier2_xbar_0_1091.v2default:default2
 572default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys22
@@ -10491,7 +10549,7 @@ J
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_crossbar_v2_1_addr_arbiter_sasd2default:default2
-762default:default2
+792default:default2
 12default:default2»
 ±c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-256
@@ -10593,14 +10651,14 @@ U
 è
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !generic_baseblocks_v2_1_carry_and2default:default2
-772default:default2
+802default:default2
 12default:default2Ã
 µc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-256
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )generic_baseblocks_v2_1_comparator_static2default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10636,7 +10694,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10672,7 +10730,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10708,7 +10766,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10744,7 +10802,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized32default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10780,7 +10838,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized42default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10816,7 +10874,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized52default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -10852,14 +10910,14 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2
-782default:default2
+812default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_decoder2default:default2
-792default:default2
+822default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -10875,7 +10933,7 @@ S
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_splitter2default:default2
-802default:default2
+832default:default2
 12default:default2ø
 ®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -10891,7 +10949,7 @@ S
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_splitter__parameterized02default:default2
-802default:default2
+832default:default2
 12default:default2ø
 ®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -10919,7 +10977,7 @@ X
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys23
 generic_baseblocks_v2_1_mux_enc2default:default2
-812default:default2
+842default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -10947,7 +11005,7 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized02default:default2
-812default:default2
+842default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -10975,7 +11033,7 @@ Y
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized12default:default2
-812default:default2
+842default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -10999,7 +11057,7 @@ X
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2
-812default:default2
+842default:default2
 12default:default2÷
 øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -11027,7 +11085,7 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized22default:default2
-812default:default2
+842default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -11095,44 +11153,44 @@ U
 É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_decerr_slave2default:default2
-822default:default2
+852default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_crossbar_sasd2default:default2
-832default:default2
+862default:default2
 12default:default2ƒ
 ≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_axi_crossbar2default:default2
-842default:default2
+872default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_0_10552default:default2
-852default:default2
+system_tier2_xbar_0_10912default:default2
+882default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1055/synth/system_tier2_xbar_0_1055.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1091/synth/system_tier2_xbar_0_1091.v2default:default2
 572default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_1_10562default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1056/synth/system_tier2_xbar_1_1056.v2default:default2
+system_tier2_xbar_1_10922default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1092/synth/system_tier2_xbar_1_1092.v2default:default2
 572default:default2 
 tier2_xbar_12default:default2,
-system_tier2_xbar_1_10562default:default2Å
+system_tier2_xbar_1_10922default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-68892default:default8@Z8-3491
+73612default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_1_10562default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1056/synth/system_tier2_xbar_1_1056.v2default:default2
+system_tier2_xbar_1_10922default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1092/synth/system_tier2_xbar_1_1092.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -11629,7 +11687,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized72default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11665,7 +11723,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized82default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11701,7 +11759,7 @@ U
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized92default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11737,7 +11795,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized102default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11773,7 +11831,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized112default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11809,7 +11867,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized122default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11845,7 +11903,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized132default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -11881,51 +11939,51 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized142default:default2
-852default:default2
+882default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized02default:default2
-852default:default2
+882default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized02default:default2
-852default:default2
+882default:default2
 12default:default2ƒ
 ≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
-852default:default2
+882default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_1_10562default:default2
-862default:default2
+system_tier2_xbar_1_10922default:default2
+892default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1056/synth/system_tier2_xbar_1_1056.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1092/synth/system_tier2_xbar_1_1092.v2default:default2
 572default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_2_10572default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1057/synth/system_tier2_xbar_2_1057.v2default:default2
+system_tier2_xbar_2_10932default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1093/synth/system_tier2_xbar_2_1093.v2default:default2
 572default:default2 
 tier2_xbar_22default:default2,
-system_tier2_xbar_2_10572default:default2Å
+system_tier2_xbar_2_10932default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-70652default:default8@Z8-3491
+75372default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_2_10572default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1057/synth/system_tier2_xbar_2_1057.v2default:default2
+system_tier2_xbar_2_10932default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1093/synth/system_tier2_xbar_2_1093.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -11942,7 +12000,7 @@ V
 2default:default
 ^
 %s*synth2O
-;	Parameter C_NUM_MASTER_SLOTS bound to: 5 - type: integer 
+;	Parameter C_NUM_MASTER_SLOTS bound to: 6 - type: integer 
 2default:default
 Z
 %s*synth2K
@@ -11964,13 +12022,13 @@ Z
 %s*synth2N
 :	Parameter C_NUM_ADDR_RANGES bound to: 1 - type: integer 
 2default:default
-ì
-%s*synth2É
-Ó	Parameter C_M_AXI_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
+”
+%s*synth2√
+Æ	Parameter C_M_AXI_BASE_ADDR bound to: 384'b000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
 2default:default
-Ù
-%s*synth2‰
-œ	Parameter C_M_AXI_ADDR_WIDTH bound to: 160'b0000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
+î
+%s*synth2Ñ
+Ô	Parameter C_M_AXI_ADDR_WIDTH bound to: 192'b000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
 2default:default
 [
 %s*synth2L
@@ -12004,13 +12062,13 @@ D	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer
 %s*synth2N
 :	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
 2default:default
-¸
-%s*synth2Ï
-◊	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+ú
+%s*synth2å
+˜	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
-˚
-%s*synth2Î
-÷	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+õ
+%s*synth2ã
+ˆ	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
 X
 %s*synth2I
@@ -12028,21 +12086,21 @@ c
 %s*synth2T
 @	Parameter C_S_AXI_READ_ACCEPTANCE bound to: 1 - type: integer 
 2default:default
-˜
-%s*synth2Á
-“	Parameter C_M_AXI_WRITE_ISSUING bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+ó
+%s*synth2á
+Ú	Parameter C_M_AXI_WRITE_ISSUING bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
-ˆ
-%s*synth2Ê
-—	Parameter C_M_AXI_READ_ISSUING bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+ñ
+%s*synth2Ü
+Ò	Parameter C_M_AXI_READ_ISSUING bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
 `
 %s*synth2Q
 =	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
 2default:default
-
-%s*synth2‡
-À	Parameter C_M_AXI_SECURE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+ê
+%s*synth2Ä
+Î	Parameter C_M_AXI_SECURE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 _
 %s*synth2P
@@ -12080,13 +12138,13 @@ F
 %s*synth27
 #	Parameter P_INCR bound to: 2'b01 
 2default:default
+Z
+%s*synth2K
+7	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 6'b111111 
+2default:default
 Y
 %s*synth2J
-6	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 5'b11111 
-2default:default
-X
-%s*synth2I
-5	Parameter P_M_AXI_SUPPORTS_READ bound to: 5'b11111 
+6	Parameter P_M_AXI_SUPPORTS_READ bound to: 6'b111111 
 2default:default
 U
 %s*synth2F
@@ -12108,9 +12166,9 @@ Y
 %s*synth2J
 6	Parameter P_ADDR_DECODE bound to: 1 - type: integer 
 2default:default
-Ú
-%s*synth2‚
-Õ	Parameter P_M_AXI_ERR_MODE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+í
+%s*synth2Ç
+Ì	Parameter P_M_AXI_ERR_MODE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 Q
 %s*synth2B
@@ -12135,7 +12193,7 @@ V
 2default:default
 ^
 %s*synth2O
-;	Parameter C_NUM_MASTER_SLOTS bound to: 5 - type: integer 
+;	Parameter C_NUM_MASTER_SLOTS bound to: 6 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -12157,13 +12215,13 @@ Z
 %s*synth2K
 7	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 2default:default
-ì
-%s*synth2É
-Ó	Parameter C_M_AXI_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
+”
+%s*synth2√
+Æ	Parameter C_M_AXI_BASE_ADDR bound to: 384'b000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
 2default:default
-ì
-%s*synth2É
-Ó	Parameter C_M_AXI_HIGH_ADDR bound to: 320'b00000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000001000111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001110111111111111 
+”
+%s*synth2√
+Æ	Parameter C_M_AXI_HIGH_ADDR bound to: 384'b000000000000000000000000000000000100001111000001010111111111111100000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000001000111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001110111111111111 
 2default:default
 é
 %s*synth2
@@ -12205,25 +12263,25 @@ T
 %s*synth2E
 1	Parameter C_S_AXI_SUPPORTS_READ bound to: 1'b1 
 2default:default
+Z
+%s*synth2K
+7	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 6'b111111 
+2default:default
 Y
 %s*synth2J
-6	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 5'b11111 
-2default:default
-X
-%s*synth2I
-5	Parameter C_M_AXI_SUPPORTS_READ bound to: 5'b11111 
+6	Parameter C_M_AXI_SUPPORTS_READ bound to: 6'b111111 
 2default:default
 `
 %s*synth2Q
 =	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
 2default:default
-
-%s*synth2‡
-À	Parameter C_M_AXI_SECURE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+ê
+%s*synth2Ä
+Î	Parameter C_M_AXI_SECURE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
-Ú
-%s*synth2‚
-Õ	Parameter C_M_AXI_ERR_MODE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+í
+%s*synth2Ç
+Ì	Parameter C_M_AXI_ERR_MODE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 X
 %s*synth2I
@@ -12255,7 +12313,7 @@ U
 2default:default
 a
 %s*synth2R
->	Parameter P_NUM_MASTER_SLOTS_DE bound to: 6 - type: integer 
+>	Parameter P_NUM_MASTER_SLOTS_DE bound to: 7 - type: integer 
 2default:default
 b
 %s*synth2S
@@ -12301,13 +12359,13 @@ Z
 %s*synth2L
 8	Parameter P_NONSECURE_BIT bound to: 1 - type: integer 
 2default:default
-R
-%s*synth2C
-/	Parameter P_M_SECURE_MASK bound to: 5'b00000 
-2default:default
 S
 %s*synth2D
-0	Parameter P_M_AXILITE_MASK bound to: 5'b00000 
+0	Parameter P_M_SECURE_MASK bound to: 6'b000000 
+2default:default
+T
+%s*synth2E
+1	Parameter P_M_AXILITE_MASK bound to: 6'b000000 
 2default:default
 G
 %s*synth28
@@ -12344,7 +12402,7 @@ V
 2default:default
 Y
 %s*synth2J
-6	Parameter C_NUM_TARGETS bound to: 5 - type: integer 
+6	Parameter C_NUM_TARGETS bound to: 6 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -12370,17 +12428,17 @@ X
 %s*synth2I
 5	Parameter C_REGION_ENC bound to: 1 - type: integer 
 2default:default
-ç
-%s*synth2˝
-Ë	Parameter C_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
+Õ
+%s*synth2Ω
+®	Parameter C_BASE_ADDR bound to: 384'b000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000001000000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001110000000000000 
 2default:default
-ç
-%s*synth2˝
-Ë	Parameter C_HIGH_ADDR bound to: 320'b00000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000001000111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001110111111111111 
+Õ
+%s*synth2Ω
+®	Parameter C_HIGH_ADDR bound to: 384'b000000000000000000000000000000000100001111000001010111111111111100000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000001000111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001110111111111111 
 2default:default
-Q
-%s*synth2B
-.	Parameter C_TARGET_QUAL bound to: 6'b011111 
+R
+%s*synth2C
+/	Parameter C_TARGET_QUAL bound to: 7'b0111111 
 2default:default
 X
 %s*synth2I
@@ -12422,7 +12480,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized152default:default2
-862default:default2
+892default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -12458,7 +12516,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized162default:default2
-862default:default2
+892default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -12494,7 +12552,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized172default:default2
-862default:default2
+892default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -12530,7 +12588,7 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized182default:default2
-862default:default2
+892default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -12566,14 +12624,50 @@ U
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized192default:default2
-862default:default2
+892default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+612default:default8@Z8-256
+Ù
+synthesizing module '%s'638*oasys2N
+:generic_baseblocks_v2_1_comparator_static__parameterized202default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+612default:default8@Z8-638
+U
+%s*synth2F
+2	Parameter C_FAMILY bound to: rtl - type: string 
+2default:default
+d
+%s*synth2U
+A	Parameter C_VALUE bound to: 30'b010000111100000101010000000000 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 30 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
+2default:default
+U
+%s*synth2F
+2	Parameter C_NUM_LUT bound to: 5 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
+2default:default
+∞
+%done synthesizing module '%s' (%s#%s)256*oasys2N
+:generic_baseblocks_v2_1_comparator_static__parameterized202default:default2
+892default:default2
 12default:default2‘
 Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized12default:default2
-862default:default2
+892default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -12588,7 +12682,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 6 - type: integer 
+0	Parameter C_RATIO bound to: 7 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -12601,7 +12695,7 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized32default:default2
-862default:default2
+892default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -12616,7 +12710,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 6 - type: integer 
+0	Parameter C_RATIO bound to: 7 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -12629,7 +12723,7 @@ Y
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
-862default:default2
+892default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -12644,7 +12738,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 6 - type: integer 
+0	Parameter C_RATIO bound to: 7 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -12657,30 +12751,30 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized52default:default2
-862default:default2
+892default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized12default:default2
-862default:default2
+892default:default2
 12default:default2ƒ
 ≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized12default:default2
-862default:default2
+892default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_2_10572default:default2
-872default:default2
+system_tier2_xbar_2_10932default:default2
+902default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1057/synth/system_tier2_xbar_2_1057.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1093/synth/system_tier2_xbar_2_1093.v2default:default2
 572default:default8@Z8-256
 ò
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
@@ -12690,7 +12784,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 xbar2default:default2!
 system_xbar_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-71842default:default8@Z8-3491
+76752default:default8@Z8-3491
 ç
 synthesizing module '%s'638*oasys2!
 system_xbar_02default:default2ö
@@ -12735,11 +12829,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001000100000000000000000000000000000000000000000000010000111100000011000000000000000000000000000000000000000000000001000011110000001011000000000000000000000000000000000000000000000100001111000000101000000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000010000000000000000000000000000000000000000000000000100001111000000111000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
+Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
 2default:default
 [
 %s*synth2L
@@ -12928,11 +13022,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001000100000000000000000000000000000000000000000000010000111100000011000000000000000000000000000000000000000000000001000011110000001011000000000000000000000000000000000000000000000100001111000000101000000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000010000000000000000000000000000000000000000000000000100001111000000111000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001001111111111111100000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000001010111111111111000000000000000000000000000000000100001111000000011111111111111100000000000000000000000000000000010000111100000001101111111111110000000000000000000000000000000001000011110000000101111111111111000000000000000000000000000000000100001111000000001111111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
+Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001000111111111111100000000000000000000000000000000010000111100000011001111111111110000000000000000000000000000000001000011110000001011111111111111000000000000000000000000000000000100001111000000101011111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001010111111111111100000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000010000111111111111000000000000000000000000000000000100001111000000111011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001000111111111111 
 2default:default
 é
 %s*synth2
@@ -13141,11 +13235,11 @@ X
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
+©	Parameter C_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001000100000000000000000000000000000000000000000000010000111100000011000000000000000000000000000000000000000000000001000011110000001011000000000000000000000000000000000000000000000100001111000000101000000000000000000000000000000000000000000000010000111100000001110000000000000000000000000000000000000000000001000011110000000110000000000000000000000000000000000000000000000100001111000000010100000000000000000000000000000000000000000000010000111100000000110000000000000000000000000000000000000000000001000011110000010100000000000000000000000000000000000000000000000100001111000001001000000000000000000000000000000000000000000000010000111100000011110000000000000000000000000000000000000000000001000011110000001001000000000000000000000000000000000000000000000100001111000000010000000000000000000000000000000000000000000000010000111100000000100000000000000000000000000000000000000000000001000011110000000001000000000000000000000000000000000000000000000100001111000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001010100000000000000000000000000000000000000000000010000111100000100110000000000000000000000000000000000000000000001000011110000010000000000000000000000000000000000000000000000000100001111000000111000000000000000000000000000000000000000000000010000111100000011010000000000000000000000000000000000000000000001000011110000001000000000000000 
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001001111111111111100000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000001010111111111111000000000000000000000000000000000100001111000000011111111111111100000000000000000000000000000000010000111100000001101111111111110000000000000000000000000000000001000011110000000101111111111111000000000000000000000000000000000100001111000000001111111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
+©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001000111111111111100000000000000000000000000000000010000111100000011001111111111110000000000000000000000000000000001000011110000001011111111111111000000000000000000000000000000000100001111000000101011111111111100000000000000000000000000000000010000111100000001111111111111110000000000000000000000000000000001000011110000000110111111111111000000000000000000000000000000000100001111000000010111111111111100000000000000000000000000000000010000111100000000111111111111110000000000000000000000000000000001000011110000010100111111111111000000000000000000000000000000000100001111000001001011111111111100000000000000000000000000000000010000111100000011111111111111110000000000000000000000000000000001000011110000001001111111111111000000000000000000000000000000000100001111000000010011111111111100000000000000000000000000000000010000111100000000101111111111110000000000000000000000000000000001000011110000000001111111111111000000000000000000000000000000000100001111000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001010111111111111100000000000000000000000000000000010000111100000100111111111111110000000000000000000000000000000001000011110000010000111111111111000000000000000000000000000000000100001111000000111011111111111100000000000000000000000000000000010000111100000011011111111111110000000000000000000000000000000001000011110000001000111111111111 
 2default:default
 O
 %s*synth2@
@@ -13162,7 +13256,7 @@ b
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized22default:default2
-872default:default2
+902default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -13190,7 +13284,7 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized62default:default2
-872default:default2
+902default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -13218,7 +13312,7 @@ Y
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized72default:default2
-872default:default2
+902default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -13246,38 +13340,38 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized82default:default2
-872default:default2
+902default:default2
 12default:default2 
 ≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized22default:default2
-872default:default2
+902default:default2
 12default:default2ƒ
 ≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized22default:default2
-872default:default2
+902default:default2
 12default:default2√
 ¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 …
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 system_xbar_02default:default2
-882default:default2
+912default:default2
 12default:default2ö
 Éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
 572default:default8@Z8-256
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 system_axi_interconnect_0_02default:default2
-892default:default2
+922default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-38932default:default8@Z8-256
+42592default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
 system_burstTrigger_0_02default:default2Æ
@@ -13286,7 +13380,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 burstTrigger_02default:default2+
 system_burstTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-91422default:default8@Z8-3491
+97072default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_burstTrigger_0_02default:default2∞
@@ -13363,21 +13457,21 @@ _
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )burstTrigger_v1_0_S00_AXI__parameterized02default:default2
-902default:default2
+932default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !burstTrigger_v1_0__parameterized02default:default2
-912default:default2
+942default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
 È
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_burstTrigger_0_02default:default2
-922default:default2
+952default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
@@ -13389,7 +13483,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 clockLogic_02default:default2)
 system_clockLogic_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-91682default:default8@Z8-3491
+97332default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_clockLogic_0_02default:default2¨
@@ -13466,21 +13560,21 @@ _
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'clockLogic_v1_0_S00_AXI__parameterized02default:default2
-932default:default2
+962default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys23
 clockLogic_v1_0__parameterized02default:default2
-942default:default2
+972default:default2
 12default:default2©
 íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
 512default:default8@Z8-256
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_clockLogic_0_02default:default2
-952default:default2
+982default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
 872default:default8@Z8-256
@@ -13492,7 +13586,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 comboTrigger_02default:default2+
 system_comboTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-91942default:default8@Z8-3491
+97592default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_comboTrigger_0_02default:default2∞
@@ -13569,21 +13663,21 @@ _
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )comboTrigger_v1_0_S00_AXI__parameterized02default:default2
-962default:default2
+992default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
-Î
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
-!comboTrigger_v1_0__parameterized02default:default2
-972default:default2
+!comboTrigger_v1_0__parameterized02default:default2
+1002default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
-È
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
-system_comboTrigger_0_02default:default2
-982default:default2
+system_comboTrigger_0_02default:default2
+1012default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
@@ -13595,7 +13689,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 countDisplay_02default:default2+
 system_countDisplay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92202default:default8@Z8-3491
+97852default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_countDisplay_0_02default:default2∞
@@ -13669,24 +13763,24 @@ _
 default block is never used226*oasys2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 3642default:default8@Z8-226
-˚
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
-)countDisplay_v1_0_S00_AXI__parameterized02default:default2
-992default:default2
+)countDisplay_v1_0_S00_AXI__parameterized02default:default2
+1022default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !countDisplay_v1_0__parameterized02default:default2
-1002default:default2
+1032default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
 532default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_countDisplay_0_02default:default2
-1012default:default2
+1042default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
 862default:default8@Z8-256
@@ -13698,7 +13792,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 	counter_02default:default2&
 system_counter_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92482default:default8@Z8-3491
+98132default:default8@Z8-3491
 û
 synthesizing module '%s'638*oasys2&
 system_counter_0_02default:default2¶
@@ -13775,21 +13869,21 @@ _
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $counter_v1_0_S00_AXI__parameterized02default:default2
-1022default:default2
+1052default:default2
 12default:default2¶
 èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-256
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys20
 counter_v1_0__parameterized02default:default2
-1032default:default2
+1062default:default2
 12default:default2û
 ác:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
 502default:default8@Z8-256
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 system_counter_0_02default:default2
-1042default:default2
+1072default:default2
 12default:default2¶
 èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
 822default:default8@Z8-256
@@ -13801,7 +13895,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 fifo_generator_02default:default2-
 system_fifo_generator_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92722default:default8@Z8-3491
+98372default:default8@Z8-3491
 ≥
 synthesizing module '%s'638*oasys2-
 system_fifo_generator_0_02default:default2¥
@@ -16744,7 +16838,7 @@ W
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !reset_blk_ramfifo__parameterized02default:default2
-1042default:default2
+1072default:default2
 12default:default2∑
 †c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
@@ -16828,7 +16922,7 @@ Z
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized32default:default2
-1042default:default2
+1072default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -18093,7 +18187,7 @@ Y
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 blk_mem_input_block2default:default2
-1052default:default2
+1082default:default2
 12default:default2≠
 ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
@@ -18385,7 +18479,7 @@ W
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2
 bindec2default:default2
-1062default:default2
+1092default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_bindec.vhd2default:default2
 1672default:default8@Z8-256
@@ -19516,14 +19610,14 @@ Y
 Ó
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_prim_wrapper2default:default2
-1072default:default2
+1102default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -20654,14 +20748,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized02default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized02default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -21792,14 +21886,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized12default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized12default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -22922,14 +23016,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized22default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized22default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -24052,14 +24146,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized32default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized32default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -25182,14 +25276,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized42default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized42default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -26312,14 +26406,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized52default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized52default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -27442,14 +27536,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized62default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized62default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -28572,14 +28666,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized72default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized72default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -29702,14 +29796,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized82default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized82default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -30832,14 +30926,14 @@ Y
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized92default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized92default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -31962,14 +32056,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized102default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized102default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -33092,14 +33186,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized112default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized112default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -34222,14 +34316,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized122default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized122default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -35352,14 +35446,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized132default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized132default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -36482,14 +36576,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized142default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized142default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -37612,14 +37706,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized152default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized152default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -38742,14 +38836,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized162default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized162default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -39872,14 +39966,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized172default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized172default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -41002,14 +41096,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized182default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized182default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -42132,14 +42226,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized192default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized192default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -43262,14 +43356,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized202default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized202default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -44392,14 +44486,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized212default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized212default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -45522,14 +45616,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized222default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized222default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -46652,14 +46746,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized232default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized232default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -47782,14 +47876,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized242default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized242default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -48912,14 +49006,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized252default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized252default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -50042,14 +50136,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized262default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized262default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -51172,14 +51266,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized272default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized272default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -52302,14 +52396,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized282default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized282default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -53432,14 +53526,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized292default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized292default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -54562,14 +54656,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized302default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized302default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -55692,14 +55786,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized312default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized312default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -56822,14 +56916,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized322default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized322default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -57952,14 +58046,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized332default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized332default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -59082,14 +59176,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized342default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized342default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -60212,14 +60306,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized352default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized352default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -61342,14 +61436,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized362default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized362default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -62472,14 +62566,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized372default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized372default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -63602,14 +63696,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized382default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized382default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -64732,14 +64826,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized392default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized392default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -65862,14 +65956,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized402default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized402default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -66992,14 +67086,14 @@ Y
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized412default:default2
-1082default:default2
+1112default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized412default:default2
-1082default:default2
+1112default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -67095,7 +67189,7 @@ W
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_mux2default:default2
-1092default:default2
+1122default:default2
 12default:default2©
 íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-256
@@ -67191,14 +67285,14 @@ W
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys23
 blk_mem_gen_mux__parameterized02default:default2
-1092default:default2
+1122default:default2
 12default:default2©
 íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-256
 Ó
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
-1102default:default2
+1132default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-256
@@ -67250,35 +67344,35 @@ U
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
-1112default:default2
+1142default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
-1122default:default2
+1152default:default2
 12default:default2©
 íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_1_synth2default:default2
-1132default:default2
+1162default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1_synth.vhd2default:default2
 3112default:default8@Z8-256
 Ó
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_v8_1__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
 2502default:default8@Z8-256
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -67323,14 +67417,14 @@ T
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys23
 synchronizer_ff__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 clk_x_pntrs__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
@@ -67451,7 +67545,7 @@ Y
 
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 rd_bin_cntr__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
@@ -67536,21 +67630,21 @@ T
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 compare__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2≠
 ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "rd_status_flags_as__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 rd_logic__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-256
@@ -67679,7 +67773,7 @@ Z
 
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 wr_bin_cntr__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2±
 öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
@@ -67711,14 +67805,14 @@ U
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "wr_status_flags_as__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wr_logic__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-256
@@ -67830,42 +67924,42 @@ W
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2Ø
 òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2∏
 °c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-256
 ˙
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized12default:default2
-1142default:default2
+1172default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 system_fifo_generator_0_02default:default2
-1152default:default2
+1182default:default2
 12default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
 732default:default8@Z8-256
@@ -67877,7 +67971,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 fifo_readout_02default:default2+
 system_fifo_readout_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92842default:default8@Z8-3491
+98492default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_fifo_readout_0_02default:default2∞
@@ -67954,21 +68048,21 @@ _
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )fifo_readout_v1_0_S00_AXI__parameterized02default:default2
-1162default:default2
+1192default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 922default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !fifo_readout_v1_0__parameterized02default:default2
-1172default:default2
+1202default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_fifo_readout_0_02default:default2
-1182default:default2
+1212default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
 872default:default8@Z8-256
@@ -67980,7 +68074,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 genericDelay2default:default2(
 system_testDelay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93132default:default8@Z8-3491
+98782default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_0_02default:default2™
@@ -68057,21 +68151,21 @@ _
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &testDelay_v1_0_S00_AXI__parameterized02default:default2
-1192default:default2
+1222default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-256
 „
 %done synthesizing module '%s' (%s#%s)256*oasys22
 testDelay_v1_0__parameterized02default:default2
-1202default:default2
+1232default:default2
 12default:default2¢
 ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 512default:default8@Z8-256
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_0_02default:default2
-1212default:default2
+1242default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
 842default:default8@Z8-256
@@ -68083,7 +68177,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 genericPulser2default:default2)
 system_testPulser_0_92default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93392default:default8@Z8-3491
+99042default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_testPulser_0_92default:default2¨
@@ -68109,7 +68203,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_testPulser_0_92default:default2
-1222default:default2
+1252default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
 832default:default8@Z8-256
@@ -68121,7 +68215,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 gtDelay2default:default2(
 system_testDelay_0_72default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93642default:default8@Z8-3491
+99292default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_0_72default:default2™
@@ -68147,10 +68241,113 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_0_72default:default2
-1232default:default2
+1262default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
 842default:default8@Z8-256
+÷
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
+system_implement_gtid_0_02default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+562default:default2$
+implement_gtid_02default:default2-
+system_implement_gtid_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+99552default:default8@Z8-3491
+≥
+synthesizing module '%s'638*oasys2-
+system_implement_gtid_0_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+852default:default8@Z8-638
+a
+%s*synth2R
+>	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+Â
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
+implement_gtid_v1_02default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+62default:default2
+U02default:default2'
+implement_gtid_v1_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+1502default:default8@Z8-3491
+µ
+synthesizing module '%s'638*oasys27
+#implement_gtid_v1_0__parameterized02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+522default:default8@Z8-638
+a
+%s*synth2R
+>	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+í
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2/
+implement_gtid_v1_0_S00_AXI2default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+62default:default24
+ implement_gtid_v1_0_S00_AXI_inst2default:default2/
+implement_gtid_v1_0_S00_AXI2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+912default:default8@Z8-3491
+≈
+synthesizing module '%s'638*oasys2?
++implement_gtid_v1_0_S00_AXI__parameterized02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+892default:default8@Z8-638
+_
+%s*synth2P
+<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+2322default:default8@Z8-226
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+3652default:default8@Z8-226
+Ç
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++implement_gtid_v1_0_S00_AXI__parameterized02default:default2
+1272default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+892default:default8@Z8-256
+Ú
+%done synthesizing module '%s' (%s#%s)256*oasys27
+#implement_gtid_v1_0__parameterized02default:default2
+1282default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+522default:default8@Z8-256
+
+%done synthesizing module '%s' (%s#%s)256*oasys2-
+system_implement_gtid_0_02default:default2
+1292default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+852default:default8@Z8-256
 —
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
 system_oneshot_pulse_0_22default:default2∞
@@ -68159,7 +68356,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 oneshot_pulse_02default:default2,
 system_oneshot_pulse_0_22default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93902default:default8@Z8-3491
+99822default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_oneshot_pulse_0_22default:default2≤
@@ -68236,33 +68433,33 @@ _
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2
-1242default:default2
+1302default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "oneshot_pulse_v1_0__parameterized02default:default2
-1252default:default2
+1312default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 512default:default8@Z8-256
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_oneshot_pulse_0_22default:default2
-1262default:default2
+1322default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
 842default:default8@Z8-256
-—
+“
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
 system_oneshot_pulse_1_12default:default2∞
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 562default:default2#
 oneshot_pulse_12default:default2,
 system_oneshot_pulse_1_12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-94162default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+100082default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_oneshot_pulse_1_12default:default2≤
@@ -68288,19 +68485,19 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_oneshot_pulse_1_12default:default2
-1272default:default2
+1332default:default2
 12default:default2≤
 õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 842default:default8@Z8-256
-€
+‹
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
 system_prescaleTrigger_0_02default:default2¥
 üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 562default:default2%
 prescaleTrigger_02default:default2.
 system_prescaleTrigger_0_02default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-94422default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+100342default:default8@Z8-3491
 ∂
 synthesizing module '%s'638*oasys2.
 system_prescaleTrigger_0_02default:default2∂
@@ -68377,33 +68574,33 @@ _
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,prescaleTrigger_v1_0_S00_AXI__parameterized02default:default2
-1282default:default2
+1342default:default2
 12default:default2∂
 üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 892default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $prescaleTrigger_v1_0__parameterized02default:default2
-1292default:default2
+1352default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 system_prescaleTrigger_0_02default:default2
-1302default:default2
+1362default:default2
 12default:default2∂
 üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
-Í
+Î
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys21
 system_processing_system7_0_02default:default2∫
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 562default:default2(
 processing_system7_02default:default21
 system_processing_system7_0_02default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-94682default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+100602default:default8@Z8-3491
 ¿
 synthesizing module '%s'638*oasys21
 system_processing_system7_0_02default:default2º
@@ -68751,7 +68948,7 @@ V
 Ú
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-1312default:default2
+1372default:default2
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 6122default:default8@Z8-256
@@ -68767,7 +68964,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
-1322default:default2
+1382default:default2
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 2682default:default8@Z8-256
@@ -69180,7 +69377,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
-1332default:default2
+1392default:default2
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 267372default:default8@Z8-256
@@ -69301,26 +69498,26 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :processing_system7_v5_3_processing_system7__parameterized02default:default2
-1342default:default2
+1402default:default2
 12default:default2Õ
 ∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys21
 system_processing_system7_0_02default:default2
-1352default:default2
+1412default:default2
 12default:default2º
 •c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 1262default:default8@Z8-256
-æ
+ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
 system_testDelay_3_62default:default2®
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 562default:default2 
 smellieDelay2default:default2(
 system_testDelay_3_62default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-95362default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+101282default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_3_62default:default2™
@@ -69346,19 +69543,19 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_3_62default:default2
-1362default:default2
+1422default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 842default:default8@Z8-256
-«
+»
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2*
 system_testPulser_1_112default:default2¨
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 562default:default2!
 smelliePulser2default:default2*
 system_testPulser_1_112default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-95622default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+101542default:default8@Z8-3491
 ™
 synthesizing module '%s'638*oasys2*
 system_testPulser_1_112default:default2Æ
@@ -69384,19 +69581,19 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 system_testPulser_1_112default:default2
-1372default:default2
+1432default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 832default:default8@Z8-256
-Ω
+æ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
 system_testDelay_2_52default:default2®
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 562default:default2
 tellieDelay2default:default2(
 system_testDelay_2_52default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-95872default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+101792default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_2_52default:default2™
@@ -69422,19 +69619,19 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_2_52default:default2
-1382default:default2
+1442default:default2
 12default:default2™
 ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 842default:default8@Z8-256
-∆
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2*
 system_testPulser_0_102default:default2¨
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 562default:default2 
 telliePulser2default:default2*
 system_testPulser_0_102default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-96132default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+102052default:default8@Z8-3491
 ™
 synthesizing module '%s'638*oasys2*
 system_testPulser_0_102default:default2Æ
@@ -69460,24 +69657,24 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 system_testPulser_0_102default:default2
-1392default:default2
+1452default:default2
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 832default:default8@Z8-256
-¬
+√
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
 system_triggerOut_0_02default:default2™
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
 562default:default2 
 triggerOut_02default:default2)
 system_triggerOut_0_02default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-96382default:default8@Z8-3491
-ß
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+102302default:default8@Z8-3491
+®
 synthesizing module '%s'638*oasys2)
 system_triggerOut_0_02default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-972default:default8@Z8-638
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
+1002default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -69494,12 +69691,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 U02default:default2#
 triggerOut_v1_02default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-1742default:default8@Z8-3491
+1802default:default8@Z8-3491
 ©
 synthesizing module '%s'638*oasys23
 triggerOut_v1_0__parameterized02default:default2§
 çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-642default:default8@Z8-638
+672default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -69524,12 +69721,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 triggerOut_v1_0_S00_AXI_inst2default:default2+
 triggerOut_v1_0_S00_AXI2default:default2§
 çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-1152default:default8@Z8-3491
+1212default:default8@Z8-3491
 ∫
 synthesizing module '%s'638*oasys2;
 'triggerOut_v1_0_S00_AXI__parameterized02default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-1012default:default8@Z8-638
+1042default:default8@Z8-638
 _
 %s*synth2P
 <	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -69541,41 +69738,41 @@ _
 Ä
 default block is never used226*oasys2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-3222default:default8@Z8-226
+3472default:default8@Z8-226
 Ä
 default block is never used226*oasys2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-4552default:default8@Z8-226
+4802default:default8@Z8-226
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'triggerOut_v1_0_S00_AXI__parameterized02default:default2
-1402default:default2
+1462default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-1012default:default8@Z8-256
+1042default:default8@Z8-256
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys23
 triggerOut_v1_0__parameterized02default:default2
-1412default:default2
+1472default:default2
 12default:default2§
 çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-642default:default8@Z8-256
-‰
+672default:default8@Z8-256
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_triggerOut_0_02default:default2
-1422default:default2
+1482default:default2
 12default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-972default:default8@Z8-256
-Ã
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
+1002default:default8@Z8-256
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
 system_triggerSplit_0_02default:default2Æ
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 562default:default2"
 triggerSplit_02default:default2+
 system_triggerSplit_0_02default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-96772default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+102722default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_triggerSplit_0_02default:default2∞
@@ -69652,33 +69849,33 @@ _
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )triggerSplit_v1_0_S00_AXI__parameterized02default:default2
-1432default:default2
+1492default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !triggerSplit_v1_0__parameterized02default:default2
-1442default:default2
+1502default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_triggerSplit_0_02default:default2
-1452default:default2
+1512default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 872default:default8@Z8-256
-¬
+√
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
 system_xlconstant_0_22default:default2™
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
 592default:default2 
 xlconstant_02default:default2)
 system_xlconstant_0_22default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-97062default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+103012default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_xlconstant_0_22default:default2¨
@@ -69719,26 +69916,26 @@ W
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 xlconstant__parameterized02default:default2
-1462default:default2
+1522default:default2
 12default:default2†
 âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_1_1/work/xlconstant.vhd2default:default2
 362default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_xlconstant_0_22default:default2
-1472default:default2
+1532default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
 652default:default8@Z8-256
-¬
+√
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
 system_xlconstant_1_12default:default2™
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_1_1/synth/system_xlconstant_1_1.vhd2default:default2
 592default:default2 
 xlconstant_12default:default2)
 system_xlconstant_1_12default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-97102default:default8@Z8-3491
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+103052default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_xlconstant_1_12default:default2¨
@@ -69779,34 +69976,34 @@ W
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 xlconstant__parameterized22default:default2
-1472default:default2
+1532default:default2
 12default:default2†
 âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_1_1/work/xlconstant.vhd2default:default2
 362default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_xlconstant_1_12default:default2
-1482default:default2
+1542default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_1_1/synth/system_xlconstant_1_1.vhd2default:default2
 652default:default8@Z8-256
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2
 system2default:default2
-1492default:default2
+1552default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-73322default:default8@Z8-256
+78232default:default8@Z8-256
 ∫
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 system_wrapper2default:default2
-1502default:default2
+1562default:default2
 12default:default2â
 sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
 652default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:05:50 ; elapsed = 00:06:33 . Memory (MB): peak = 549.168 ; gain = 400.027
+xFinished RTL Elaboration : Time (s): cpu = 00:10:47 ; elapsed = 00:11:48 . Memory (MB): peak = 572.730 ; gain = 423.414
 2default:default
 ;
 %s*synth2,
@@ -69914,7 +70111,7 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 π
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_391 || ORIG_REF_NAME==system_auto_cc_391}2default:default2u
+[get_cells -hier -filter {REF_NAME==system_auto_pc_378 || ORIG_REF_NAME==system_auto_pc_378}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 912default:default8@Z12-180
 
@@ -69923,22 +70120,10 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 912default:default8@Z17-55
-π
+µ
 No cells matched '%s'.
-180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_393 || ORIG_REF_NAME==system_auto_cc_393}2default:default2u
-_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-942default:default8@Z12-180
-
-"'%s' expects at least one object.
-55*common2 
-set_property2default:default2u
-_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-942default:default8@Z17-55
-π
-No cells matched '%s'.
-180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_395 || ORIG_REF_NAME==system_auto_cc_395}2default:default2u
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z12-180
 
@@ -69947,10 +70132,10 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z17-55
-∫
+∂
 No cells matched '%s'.
-180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_pc_374 || ORIG_REF_NAME==system_auto_pc_374}2default:default2u
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_7 || ORIG_REF_NAME==system_auto_cc_7}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z12-180
 Ò
@@ -69959,6 +70144,78 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z17-55
+∂
+No cells matched '%s'.
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_9 || ORIG_REF_NAME==system_auto_cc_9}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1032default:default8@Z12-180
+Ò
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1032default:default8@Z17-55
+∏
+No cells matched '%s'.
+180*	planAhead2m
+Yget_cells -hier -filter {REF_NAME==system_auto_cc_11 || ORIG_REF_NAME==system_auto_cc_11}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1062default:default8@Z12-180
+Ò
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1062default:default8@Z17-55
+∂
+No cells matched '%s'.
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1562default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1562default:default8@Z12-180
+∂
+No cells matched '%s'.
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_7 || ORIG_REF_NAME==system_auto_cc_7}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1612default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1612default:default8@Z12-180
+∂
+No cells matched '%s'.
+180*	planAhead2k
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_9 || ORIG_REF_NAME==system_auto_cc_9}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1662default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1662default:default8@Z12-180
+∏
+No cells matched '%s'.
+180*	planAhead2m
+Yget_cells -hier -filter {REF_NAME==system_auto_cc_11 || ORIG_REF_NAME==system_auto_cc_11}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1712default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1712default:default8@Z12-180
 ≤
 Finished Parsing XDC File [%s]
 178*designutils2s
@@ -70005,109 +70262,211 @@ aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command 
 233*project2Õ
 ∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-µ
+∆
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2$
+system_auto_cc_52default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/system_auto_cc_5_clocks.xdc2default:defaultZ20-1280
+ƒ
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2$
+system_auto_cc_72default:default2°
+åc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_7/system_auto_cc_7_clocks.xdc2default:defaultZ20-1280
+ƒ
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2$
+system_auto_cc_92default:default2°
+åc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_112default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_422default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_42/system_auto_cc_42_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_432default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_43/system_auto_cc_43_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_442default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_44/system_auto_cc_44_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_452default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_45/system_auto_cc_45_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_462default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_46/system_auto_cc_46_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_472default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_47/system_auto_cc_47_clocks.xdc2default:defaultZ20-1280
+≥
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/system_auto_cc_401_clocks.xdc2default:default2I
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/system_auto_cc_48_clocks.xdc2default:default2I
+5system_i/axi_interconnect_0/m04_couplers/auto_cc/inst2default:defaultZ20-848
+≈
+"No clocks found for command '%s'.
+1008*	planAhead2=
+)get_clocks -of_objects [get_ports Clk_in]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/system_auto_cc_48_clocks.xdc2default:default2
+172default:default8@Z12-1008
+√
+aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/system_auto_cc_48_clocks.xdc2default:default2
+172default:default8@Z12-626
+º
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/system_auto_cc_48_clocks.xdc2default:default2I
+5system_i/axi_interconnect_0/m04_couplers/auto_cc/inst2default:defaultZ20-847
+°
+ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_48/system_auto_cc_48_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+≥
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/system_auto_cc_49_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-848
-«
+≈
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/system_auto_cc_401_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/system_auto_cc_49_clocks.xdc2default:default2
 172default:default8@Z12-1008
-≈
+√
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/system_auto_cc_401_clocks.xdc2default:default2
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/system_auto_cc_49_clocks.xdc2default:default2
 172default:default8@Z12-626
-æ
+º
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/system_auto_cc_401_clocks.xdc2default:default2I
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/system_auto_cc_49_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-847
-£
+°
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_401/system_auto_cc_401_clocks.xdc2default:default2Ö
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_49/system_auto_cc_49_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-µ
+≥
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/system_auto_cc_402_clocks.xdc2default:default2I
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/system_auto_cc_50_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-848
-«
+≈
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/system_auto_cc_402_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/system_auto_cc_50_clocks.xdc2default:default2
 172default:default8@Z12-1008
-≈
+√
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/system_auto_cc_402_clocks.xdc2default:default2
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/system_auto_cc_50_clocks.xdc2default:default2
 172default:default8@Z12-626
-æ
+º
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/system_auto_cc_402_clocks.xdc2default:default2I
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/system_auto_cc_50_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-847
-£
+°
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_402/system_auto_cc_402_clocks.xdc2default:default2Ö
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_50/system_auto_cc_50_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-µ
+≥
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/system_auto_cc_403_clocks.xdc2default:default2I
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/system_auto_cc_51_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-848
-«
+≈
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/system_auto_cc_403_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/system_auto_cc_51_clocks.xdc2default:default2
 172default:default8@Z12-1008
-≈
+√
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/system_auto_cc_403_clocks.xdc2default:default2
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/system_auto_cc_51_clocks.xdc2default:default2
 172default:default8@Z12-626
-æ
+º
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/system_auto_cc_403_clocks.xdc2default:default2I
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/system_auto_cc_51_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-847
-£
+°
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_403/system_auto_cc_403_clocks.xdc2default:default2Ö
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_51/system_auto_cc_51_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-µ
+≥
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/system_auto_cc_404_clocks.xdc2default:default2I
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/system_auto_cc_52_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-848
-«
+≈
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/system_auto_cc_404_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/system_auto_cc_52_clocks.xdc2default:default2
 172default:default8@Z12-1008
-≈
+√
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/system_auto_cc_404_clocks.xdc2default:default2
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/system_auto_cc_52_clocks.xdc2default:default2
 172default:default8@Z12-626
-æ
+º
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/system_auto_cc_404_clocks.xdc2default:default2I
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/system_auto_cc_52_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-847
-£
+°
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_404/system_auto_cc_404_clocks.xdc2default:default2Ö
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_52/system_auto_cc_52_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+≥
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/system_auto_cc_53_clocks.xdc2default:default2I
+5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-848
+˛
+"No clocks found for command '%s'.
+1008*	planAhead2v
+bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]2default:default2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/system_auto_cc_53_clocks.xdc2default:default2
+172default:default8@Z12-1008
+√
+aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
+626*	planAhead2•
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/system_auto_cc_53_clocks.xdc2default:default2
+172default:default8@Z12-626
+º
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/system_auto_cc_53_clocks.xdc2default:default2I
+5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-847
+°
+ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
+233*project2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_53/system_auto_cc_53_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
@@ -70123,11 +70482,11 @@ u
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:22 ; elapsed = 00:07:16 . Memory (MB): peak = 827.477 ; gain = 678.336
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:11:22 ; elapsed = 00:12:31 . Memory (MB): peak = 878.777 ; gain = 729.461
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:06:22 ; elapsed = 00:07:16 . Memory (MB): peak = 827.477 ; gain = 678.336
+yFinished RTL Optimization : Time (s): cpu = 00:11:22 ; elapsed = 00:12:32 . Memory (MB): peak = 878.777 ; gain = 729.461
 2default:default
 „
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
@@ -70572,6 +70931,19 @@ L'%s' operator could not be merged with '%s' operator due to loss of accuracy
 adder2default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 2612default:default8@Z8-3537
+≈
+merging register '%s' into '%s'3619*oasys2
+	RESET_reg2default:default2
+
+treset_reg2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
+2782default:default8@Z8-4471
+…
+merging register '%s' into '%s'3619*oasys2
+RESET24_reg2default:default2 
+treset24_reg2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
+2832default:default8@Z8-4471
 Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2N
@@ -70705,7 +71077,7 @@ S
 2default:default
 S
 %s*synth2D
-0|1     |system__GB0   |           1|     31314|
+0|1     |system__GB0   |           1|     34777|
 2default:default
 S
 %s*synth2D
@@ -70731,7 +71103,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:06:43 ; elapsed = 00:07:41 . Memory (MB): peak = 827.477 ; gain = 678.336
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:11:41 ; elapsed = 00:12:52 . Memory (MB): peak = 878.777 ; gain = 729.461
 2default:default
 B
 %s*synth23
@@ -70747,11 +71119,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 51    
+.	   3 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit       Adders := 1     
+.	   2 Input     32 Bit       Adders := 51    
 2default:default
 Q
 %s*synth2B
@@ -70767,7 +71139,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
+.	   2 Input      8 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -70779,7 +71151,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 44    
+.	   2 Input      4 Bit       Adders := 64    
 2default:default
 Q
 %s*synth2B
@@ -70791,7 +71163,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 528   
+.	   2 Input      1 Bit         XORs := 748   
 2default:default
 /
 %s*synth2 
@@ -70843,15 +71215,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Wide XORs := 42    
+.	                4 Bit    Wide XORs := 62    
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Wide XORs := 42    
+.	                3 Bit    Wide XORs := 62    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Wide XORs := 42    
+.	                2 Bit    Wide XORs := 62    
 2default:default
 4
 %s*synth2%
@@ -70875,23 +71247,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               36 Bit    Registers := 12    
+.	               36 Bit    Registers := 14    
 2default:default
 Q
 %s*synth2B
-.	               35 Bit    Registers := 8     
+.	               35 Bit    Registers := 12    
 2default:default
 Q
 %s*synth2B
-.	               34 Bit    Registers := 4     
+.	               34 Bit    Registers := 6     
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 110   
+.	               32 Bit    Registers := 115   
 2default:default
 Q
 %s*synth2B
-.	               24 Bit    Registers := 3     
+.	               24 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
@@ -70915,7 +71287,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 1     
+.	                7 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -70923,19 +71295,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 350   
+.	                4 Bit    Registers := 502   
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 29    
+.	                3 Bit    Registers := 39    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 105   
+.	                2 Bit    Registers := 129   
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 624   
+.	                1 Bit    Registers := 820   
 2default:default
 0
 %s*synth2!
@@ -70955,7 +71327,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
 .	   8 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 215   
 2default:default
 Q
 %s*synth2B
@@ -70963,11 +71343,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 11    
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 213   
+.	   2 Input     16 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -70983,7 +71359,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 200   
+.	   2 Input      8 Bit        Muxes := 202   
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -70991,7 +71371,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 5     
+.	   2 Input      5 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -71003,23 +71383,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 108   
+.	   2 Input      2 Bit        Muxes := 158   
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 23    
+.	   4 Input      2 Bit        Muxes := 33    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 643   
+.	   4 Input      1 Bit        Muxes := 60    
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 40    
+.	   3 Input      1 Bit        Muxes := 30    
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 20    
+.	   2 Input      1 Bit        Muxes := 686   
 2default:default
 F
 %s*synth27
@@ -71301,89 +71681,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-C
-%s*synth24
- Module m04_couplers_imp_NO5YH9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m05_couplers_imp_1FRM8DV 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m06_couplers_imp_MNJY0G 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m07_couplers_imp_1GTWGY6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m08_couplers_imp_M1CY83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m09_couplers_imp_18L0AKD 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m10_couplers_imp_17MBB07 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m11_couplers_imp_VWCOY1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m12_couplers_imp_16NSM6I 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m13_couplers_imp_WQS2GK 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 A
 %s*synth22
-Module reset_blk_ramfifo__23 
+Module reset_blk_ramfifo__33 
 2default:default
 B
 %s*synth23
@@ -71405,33 +71705,33 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 10    
 2default:default
-8
-%s*synth2)
-Module input_blk__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 9
 %s*synth2*
-Module output_blk__8 
+Module input_blk__12 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-3
-%s*synth2$
-Module dmem__8 
+:
+%s*synth2+
+Module output_blk__12 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-5
-%s*synth2&
-Module memory__8 
+4
+%s*synth2%
+Module dmem__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__12 
 2default:default
 B
 %s*synth23
@@ -71444,6 +71744,70 @@ B
 Q
 %s*synth2B
 .	               35 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
 2default:default
 ?
 %s*synth20
@@ -71477,73 +71841,9 @@ Q
 %s*synth2B
 .	                4 Bit    Registers := 1     
 2default:default
-?
-%s*synth20
-Module synchronizer_ff__34 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
 ;
 %s*synth2,
-Module clk_x_pntrs__11 
+Module clk_x_pntrs__15 
 2default:default
 B
 %s*synth23
@@ -71583,7 +71883,7 @@ Q
 2default:default
 ;
 %s*synth2,
-Module rd_bin_cntr__11 
+Module rd_bin_cntr__15 
 2default:default
 B
 %s*synth23
@@ -71607,7 +71907,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__26 
+Module compare__30 
 2default:default
 B
 %s*synth23
@@ -71623,7 +71923,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__25 
+Module compare__29 
 2default:default
 B
 %s*synth23
@@ -71639,7 +71939,7 @@ Q
 2default:default
 B
 %s*synth23
-Module rd_status_flags_as__11 
+Module rd_status_flags_as__15 
 2default:default
 B
 %s*synth23
@@ -71655,7 +71955,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module rd_fwft__11 
+Module rd_fwft__15 
 2default:default
 B
 %s*synth23
@@ -71699,7 +71999,7 @@ Q
 2default:default
 8
 %s*synth2)
-Module rd_logic__11 
+Module rd_logic__15 
 2default:default
 B
 %s*synth23
@@ -71707,7 +72007,7 @@ B
 2default:default
 ;
 %s*synth2,
-Module wr_bin_cntr__11 
+Module wr_bin_cntr__15 
 2default:default
 B
 %s*synth23
@@ -71731,7 +72031,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__24 
+Module compare__28 
 2default:default
 B
 %s*synth23
@@ -71747,7 +72047,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__23 
+Module compare__27 
 2default:default
 B
 %s*synth23
@@ -71763,7 +72063,7 @@ Q
 2default:default
 B
 %s*synth23
-Module wr_status_flags_as__11 
+Module wr_status_flags_as__15 
 2default:default
 B
 %s*synth23
@@ -71779,23 +72079,23 @@ Q
 2default:default
 8
 %s*synth2)
-Module wr_logic__11 
+Module wr_logic__15 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module fifo_generator_ramfifo__8 
+F
+%s*synth27
+#Module fifo_generator_ramfifo__12 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-A
-%s*synth22
-Module fifo_generator_top__8 
+B
+%s*synth23
+Module fifo_generator_top__12 
 2default:default
 B
 %s*synth23
@@ -71865,73 +72165,73 @@ Q
 %s*synth2B
 .	               36 Bit    Registers := 1     
 2default:default
->
-%s*synth2/
-Module synchronizer_ff__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
->
-%s*synth2/
-Module synchronizer_ff__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
 ?
 %s*synth20
 Module synchronizer_ff__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__16 
 2default:default
 B
 %s*synth23
@@ -72027,7 +72327,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__10 
+Module compare__14 
 2default:default
 B
 %s*synth23
@@ -72149,9 +72449,9 @@ Q
 %s*synth2B
 .	                4 Bit    Registers := 3     
 2default:default
-6
-%s*synth2'
-Module compare__8 
+7
+%s*synth2(
+Module compare__12 
 2default:default
 B
 %s*synth23
@@ -72165,9 +72465,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 4     
 2default:default
-6
-%s*synth2'
-Module compare__9 
+7
+%s*synth2(
+Module compare__13 
 2default:default
 B
 %s*synth23
@@ -72223,7 +72523,7 @@ B
 2default:default
 A
 %s*synth22
-Module reset_blk_ramfifo__22 
+Module reset_blk_ramfifo__32 
 2default:default
 B
 %s*synth23
@@ -72287,6 +72587,70 @@ Q
 2default:default
 ?
 %s*synth20
+Module synchronizer_ff__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
 Module synchronizer_ff__30 
 2default:default
 B
@@ -72304,6506 +72668,6 @@ Q
 ?
 %s*synth20
 Module synchronizer_ff__29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-5
-%s*synth2&
-Module input_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module output_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-Module dmem 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-2
-%s*synth2#
-Module memory 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-:
-%s*synth2+
-Module clk_x_pntrs__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-:
-%s*synth2+
-Module rd_bin_cntr__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-A
-%s*synth22
-Module rd_status_flags_as__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-6
-%s*synth2'
-Module rd_fwft__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-7
-%s*synth2(
-Module rd_logic__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module wr_bin_cntr__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-A
-%s*synth22
-Module wr_status_flags_as__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module wr_logic__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module fifo_generator_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module dmem__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               34 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-:
-%s*synth2+
-Module clk_x_pntrs__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-:
-%s*synth2+
-Module rd_bin_cntr__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-A
-%s*synth22
-Module rd_status_flags_as__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-6
-%s*synth2'
-Module rd_fwft__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-7
-%s*synth2(
-Module rd_logic__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module wr_bin_cntr__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-A
-%s*synth22
-Module wr_status_flags_as__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module wr_logic__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_v11_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module fifo_generator_v11_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_clock_converter_v2_1_axi_clock_converter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module system_auto_cc_401 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m14_couplers_imp_15B0VF1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m15_couplers_imp_Y5QALV 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-9
-%s*synth2*
-Module input_blk__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module output_blk__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module dmem__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module memory__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__126 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__125 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__124 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__123 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__122 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__121 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__86 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__85 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__84 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_ramfifo__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_top__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__120 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__119 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__118 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__117 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__116 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__115 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__82 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__81 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__80 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__79 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__114 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__113 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__112 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__111 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__110 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__109 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__78 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__77 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__76 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__75 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-9
-%s*synth2*
-Module input_blk__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module output_blk__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module dmem__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module memory__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__108 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__107 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__106 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__105 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__104 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__103 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__74 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__73 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__72 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__71 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_ramfifo__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_top__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__34 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               34 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__102 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__101 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module synchronizer_ff__100 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__99 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__98 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__97 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__70 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__69 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__68 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__67 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized2__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module fifo_generator_v11_0_synth__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module fifo_generator_v11_0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_clock_converter_v2_1_axi_clock_converter__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module system_auto_cc_402 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m16_couplers_imp_14023HS 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-9
-%s*synth2*
-Module input_blk__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module output_blk__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module dmem__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module memory__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__96 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__95 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__94 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__93 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__92 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__91 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__66 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__65 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__64 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__63 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_ramfifo__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_top__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__90 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__89 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__88 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__87 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__86 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__85 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__62 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__61 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__60 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__59 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__84 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__82 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__81 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__80 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__79 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__58 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__57 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__56 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__55 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-9
-%s*synth2*
-Module input_blk__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module output_blk__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module dmem__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module memory__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__78 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__77 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__76 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__75 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__74 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__73 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__54 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__53 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__52 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__51 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_ramfifo__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_top__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               34 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__72 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__71 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__70 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__69 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__68 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__67 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__50 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__49 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__48 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module fifo_generator_v11_0_synth__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module fifo_generator_v11_0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_clock_converter_v2_1_axi_clock_converter__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module system_auto_cc_403 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m17_couplers_imp_ZHOD1Q 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m18_couplers_imp_13N81VN 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-9
-%s*synth2*
-Module input_blk__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module output_blk__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module dmem__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module memory__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               35 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__66 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__65 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__64 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__63 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__62 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__61 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__46 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__45 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__44 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__43 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_ramfifo__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module fifo_generator_top__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__60 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__59 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__58 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__57 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__56 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__55 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module clk_x_pntrs__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 6     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module rd_bin_cntr__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module compare__42 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module rd_status_flags_as__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-7
-%s*synth2(
-Module rd_fwft__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module rd_logic__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wr_bin_cntr__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-7
-%s*synth2(
-Module compare__40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-7
-%s*synth2(
-Module compare__39 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-B
-%s*synth23
-Module wr_status_flags_as__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module wr_logic__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized0__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__54 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__53 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__52 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__51 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__50 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-?
-%s*synth20
-Module synchronizer_ff__49 
 2default:default
 B
 %s*synth23
@@ -78883,7 +72747,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__38 
+Module compare__26 
 2default:default
 B
 %s*synth23
@@ -78899,7 +72763,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__37 
+Module compare__25 
 2default:default
 B
 %s*synth23
@@ -79007,7 +72871,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__36 
+Module compare__20 
 2default:default
 B
 %s*synth23
@@ -79023,7 +72887,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__35 
+Module compare__19 
 2default:default
 B
 %s*synth23
@@ -79061,17 +72925,17 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized1__4 
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized1__4 
+N
+%s*synth2?
++Module fifo_generator_top__parameterized1 
 2default:default
 B
 %s*synth23
@@ -79079,7 +72943,7 @@ B
 2default:default
 A
 %s*synth22
-Module reset_blk_ramfifo__25 
+Module reset_blk_ramfifo__31 
 2default:default
 B
 %s*synth23
@@ -79101,33 +72965,33 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 10    
 2default:default
-8
-%s*synth2)
-Module input_blk__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-9
-%s*synth2*
-Module output_blk__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module dmem__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 5
 %s*synth2&
-Module memory__9 
+Module input_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module output_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
+Module dmem 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+2
+%s*synth2#
+Module memory 
 2default:default
 B
 %s*synth23
@@ -79143,7 +73007,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__48 
+Module synchronizer_ff__28 
 2default:default
 B
 %s*synth23
@@ -79159,7 +73023,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__47 
+Module synchronizer_ff__27 
 2default:default
 B
 %s*synth23
@@ -79175,7 +73039,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__46 
+Module synchronizer_ff__26 
 2default:default
 B
 %s*synth23
@@ -79191,7 +73055,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__45 
+Module synchronizer_ff__25 
 2default:default
 B
 %s*synth23
@@ -79207,7 +73071,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__44 
+Module synchronizer_ff__24 
 2default:default
 B
 %s*synth23
@@ -79223,7 +73087,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__43 
+Module synchronizer_ff__23 
 2default:default
 B
 %s*synth23
@@ -79303,7 +73167,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__34 
+Module compare__24 
 2default:default
 B
 %s*synth23
@@ -79319,7 +73183,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__33 
+Module compare__23 
 2default:default
 B
 %s*synth23
@@ -79427,7 +73291,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__32 
+Module compare__18 
 2default:default
 B
 %s*synth23
@@ -79443,7 +73307,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__31 
+Module compare__17 
 2default:default
 B
 %s*synth23
@@ -79481,9 +73345,17 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module fifo_generator_ramfifo__9 
+B
+%s*synth23
+Module fifo_generator_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module fifo_generator_top 
 2default:default
 B
 %s*synth23
@@ -79491,15 +73363,7 @@ B
 2default:default
 A
 %s*synth22
-Module fifo_generator_top__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module reset_blk_ramfifo__24 
+Module reset_blk_ramfifo__30 
 2default:default
 B
 %s*synth23
@@ -79521,33 +73385,33 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 10    
 2default:default
-H
-%s*synth29
-%Module input_blk__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 E
 %s*synth26
-"Module memory__parameterized2__4 
+"Module input_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized2 
 2default:default
 B
 %s*synth23
@@ -79563,7 +73427,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__42 
+Module synchronizer_ff__22 
 2default:default
 B
 %s*synth23
@@ -79579,7 +73443,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__41 
+Module synchronizer_ff__21 
 2default:default
 B
 %s*synth23
@@ -79595,7 +73459,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__40 
+Module synchronizer_ff__20 
 2default:default
 B
 %s*synth23
@@ -79611,7 +73475,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__39 
+Module synchronizer_ff__19 
 2default:default
 B
 %s*synth23
@@ -79627,7 +73491,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__38 
+Module synchronizer_ff__18 
 2default:default
 B
 %s*synth23
@@ -79643,7 +73507,7 @@ Q
 2default:default
 ?
 %s*synth20
-Module synchronizer_ff__37 
+Module synchronizer_ff__17 
 2default:default
 B
 %s*synth23
@@ -79723,7 +73587,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__30 
+Module compare__22 
 2default:default
 B
 %s*synth23
@@ -79739,7 +73603,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__29 
+Module compare__21 
 2default:default
 B
 %s*synth23
@@ -79847,7 +73711,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__28 
+Module compare__16 
 2default:default
 B
 %s*synth23
@@ -79863,7 +73727,7 @@ Q
 2default:default
 7
 %s*synth2(
-Module compare__27 
+Module compare__15 
 2default:default
 B
 %s*synth23
@@ -79901,25 +73765,49 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized2__4 
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized2__4 
+N
+%s*synth2?
++Module fifo_generator_top__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-I
-%s*synth2:
-&Module fifo_generator_v11_0_synth__4 
+F
+%s*synth27
+#Module fifo_generator_v11_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module fifo_generator_v11_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_clock_converter_v2_1_axi_clock_converter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module system_auto_cc_48 
 2default:default
 B
 %s*synth23
@@ -79927,7 +73815,4343 @@ B
 2default:default
 C
 %s*synth24
- Module fifo_generator_v11_0__4 
+ Module m04_couplers_imp_NO5YH9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m05_couplers_imp_1FRM8DV 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m06_couplers_imp_MNJY0G 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m07_couplers_imp_1GTWGY6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m08_couplers_imp_M1CY83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m09_couplers_imp_18L0AKD 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m10_couplers_imp_17MBB07 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m11_couplers_imp_VWCOY1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m12_couplers_imp_16NSM6I 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m13_couplers_imp_WQS2GK 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__190 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__189 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__188 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__187 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__186 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__185 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__130 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__129 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__128 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__127 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__57 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+I
+%s*synth2:
+&Module input_blk__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module output_blk__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module dmem__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module memory__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__184 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__183 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__182 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__181 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__180 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__179 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__126 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__125 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__124 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__123 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_ramfifo__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_top__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+I
+%s*synth2:
+&Module input_blk__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module output_blk__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module dmem__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module memory__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__178 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__177 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__176 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__175 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__174 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__173 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__122 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__121 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__120 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__119 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_ramfifo__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_top__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__55 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__172 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__171 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__170 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__169 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__168 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__167 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__118 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__117 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__116 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__115 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__54 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+I
+%s*synth2:
+&Module input_blk__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module output_blk__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module dmem__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module memory__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               34 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__166 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__165 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__164 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__163 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__162 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__161 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__114 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__113 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__112 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__111 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_ramfifo__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_top__parameterized2__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module fifo_generator_v11_0_synth__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module fifo_generator_v11_0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_clock_converter_v2_1_axi_clock_converter__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module system_auto_cc_49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m14_couplers_imp_15B0VF1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m15_couplers_imp_Y5QALV 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__160 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__159 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__158 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__157 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__156 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__155 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__110 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__109 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__108 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__107 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__154 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__153 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__152 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__151 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__150 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__149 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__106 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__105 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__104 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__103 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized0__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__148 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__147 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__146 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__145 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__144 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__143 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module compare__102 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+8
+%s*synth2)
+Module compare__101 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+8
+%s*synth2)
+Module compare__100 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__99 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__142 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__141 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__140 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__139 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__138 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__137 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__98 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__97 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__96 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__95 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               34 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__136 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__135 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__134 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__133 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__132 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__131 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__94 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__93 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__92 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__91 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized2__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module fifo_generator_v11_0_synth__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module fifo_generator_v11_0__9 
 2default:default
 B
 %s*synth23
@@ -79935,15 +78159,4303 @@ B
 2default:default
 [
 %s*synth2L
-8Module axi_clock_converter_v2_1_axi_clock_converter__4 
+8Module axi_clock_converter_v2_1_axi_clock_converter__9 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
->
-%s*synth2/
-Module system_auto_cc_404 
+=
+%s*synth2.
+Module system_auto_cc_50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m16_couplers_imp_14023HS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__130 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__129 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__128 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__127 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__126 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__125 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__90 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__89 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__88 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__87 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__47 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__124 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__123 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__122 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__121 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__120 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__119 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__86 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__85 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__84 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__118 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__117 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__116 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__115 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__114 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__113 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__82 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__81 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__80 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__79 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__45 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__112 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__111 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__110 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__109 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__108 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__107 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__78 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__77 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__76 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__75 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               34 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__106 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__105 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__104 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__103 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__102 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__101 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__74 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__73 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__72 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__71 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized2__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module fifo_generator_v11_0_synth__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module fifo_generator_v11_0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_clock_converter_v2_1_axi_clock_converter__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module system_auto_cc_51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m17_couplers_imp_ZHOD1Q 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m18_couplers_imp_13N81VN 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module synchronizer_ff__100 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__99 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__98 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__97 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__96 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__95 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__70 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__69 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__68 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__67 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__94 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__93 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__92 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__91 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__90 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__89 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__66 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__65 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__64 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__63 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__88 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__87 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__86 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__85 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__84 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__62 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__61 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__60 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__59 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__82 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__81 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__80 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__79 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__78 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__77 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__57 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__55 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               34 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__76 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__75 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__74 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__73 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__72 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__71 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__54 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized2__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module fifo_generator_v11_0_synth__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module fifo_generator_v11_0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_clock_converter_v2_1_axi_clock_converter__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module system_auto_cc_52 
 2default:default
 B
 %s*synth23
@@ -79960,6 +82472,2146 @@ B
 C
 %s*synth24
  Module m20_couplers_imp_1CCFAU 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__70 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__69 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__68 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__67 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__66 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__65 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__47 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__64 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__63 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__62 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__61 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__60 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__59 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__45 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__57 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__55 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__54 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+9
+%s*synth2*
+Module input_blk__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module output_blk__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module dmem__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module memory__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               35 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__47 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_ramfifo__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_top__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module reset_blk_ramfifo__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               34 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__45 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module synchronizer_ff__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module clk_x_pntrs__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 6     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module rd_bin_cntr__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module compare__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module rd_status_flags_as__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+7
+%s*synth2(
+Module rd_fwft__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+8
+%s*synth2)
+Module rd_logic__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wr_bin_cntr__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+7
+%s*synth2(
+Module compare__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+7
+%s*synth2(
+Module compare__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+B
+%s*synth23
+Module wr_status_flags_as__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+8
+%s*synth2)
+Module wr_logic__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized2__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module fifo_generator_v11_0_synth__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module fifo_generator_v11_0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_clock_converter_v2_1_axi_clock_converter__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module system_auto_cc_53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m21_couplers_imp_1T86MH4 
 2default:default
 B
 %s*synth23
@@ -80781,9 +85433,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
->
-%s*synth2/
-Module system_auto_pc_376 
+<
+%s*synth2-
+Module system_auto_pc_8 
 2default:default
 B
 %s*synth23
@@ -80831,6 +85483,102 @@ Q
 2default:default
 Q
 %s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__47 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module generic_baseblocks_v2_1_comparator_static 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__61 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__62 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__63 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__64 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__65 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
 .Module generic_baseblocks_v2_1_carry_and__71 
 2default:default
 B
@@ -80869,105 +85617,105 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module generic_baseblocks_v2_1_comparator_static 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__86 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__87 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__88 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__89 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__90 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__96 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__97 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__98 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__99 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__100 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 e
 %s*synth2V
 BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__45 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__57 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__59 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__60 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized3 
 2default:default
 B
 %s*synth23
@@ -81015,151 +85763,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__81 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__82 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__84 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__85 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__91 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__92 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__93 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__94 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__95 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
 BModule generic_baseblocks_v2_1_comparator_static__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__101 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__102 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__103 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__104 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized5 
 2default:default
 B
 %s*synth23
@@ -81200,6 +85804,54 @@ B
 Q
 %s*synth2B
 .Module generic_baseblocks_v2_1_carry_and__80 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__54 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__55 
 2default:default
 B
 %s*synth23
@@ -81491,7 +86143,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_0_1055 
+!Module system_tier2_xbar_0_1091 
 2default:default
 B
 %s*synth23
@@ -81528,6 +86180,54 @@ Q
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
@@ -81571,54 +86271,6 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__56 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__57 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__58 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__59 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__60 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
 BModule generic_baseblocks_v2_1_comparator_static__parameterized8 
 2default:default
 B
@@ -81627,7 +86279,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__61 
+.Module generic_baseblocks_v2_1_carry_and__36 
 2default:default
 B
 %s*synth23
@@ -81635,7 +86287,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__62 
+.Module generic_baseblocks_v2_1_carry_and__37 
 2default:default
 B
 %s*synth23
@@ -81643,7 +86295,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__63 
+.Module generic_baseblocks_v2_1_carry_and__38 
 2default:default
 B
 %s*synth23
@@ -81651,7 +86303,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__64 
+.Module generic_baseblocks_v2_1_carry_and__39 
 2default:default
 B
 %s*synth23
@@ -81659,7 +86311,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__65 
+.Module generic_baseblocks_v2_1_carry_and__40 
 2default:default
 B
 %s*synth23
@@ -81668,150 +86320,6 @@ B
 e
 %s*synth2V
 BModule generic_baseblocks_v2_1_comparator_static__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__51 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__52 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__53 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__54 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__55 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule generic_baseblocks_v2_1_comparator_static__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__46 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__48 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__49 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__50 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule generic_baseblocks_v2_1_comparator_static__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__42 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__43 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__44 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__45 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule generic_baseblocks_v2_1_comparator_static__parameterized12 
 2default:default
 B
 %s*synth23
@@ -81859,6 +86367,150 @@ B
 2default:default
 f
 %s*synth2W
+CModule generic_baseblocks_v2_1_comparator_static__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule generic_baseblocks_v2_1_comparator_static__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule generic_baseblocks_v2_1_comparator_static__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
 CModule generic_baseblocks_v2_1_comparator_static__parameterized13 
 2default:default
 B
@@ -81867,7 +86519,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__36 
+.Module generic_baseblocks_v2_1_carry_and__11 
 2default:default
 B
 %s*synth23
@@ -81875,7 +86527,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__37 
+.Module generic_baseblocks_v2_1_carry_and__12 
 2default:default
 B
 %s*synth23
@@ -81883,7 +86535,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__38 
+.Module generic_baseblocks_v2_1_carry_and__13 
 2default:default
 B
 %s*synth23
@@ -81891,7 +86543,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__39 
+.Module generic_baseblocks_v2_1_carry_and__14 
 2default:default
 B
 %s*synth23
@@ -81899,7 +86551,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__40 
+.Module generic_baseblocks_v2_1_carry_and__15 
 2default:default
 B
 %s*synth23
@@ -82191,7 +86843,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_1_1056 
+!Module system_tier2_xbar_1_1092 
 2default:default
 B
 %s*synth23
@@ -82231,7 +86883,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__11 
+.Module generic_baseblocks_v2_1_carry_and__96 
 2default:default
 B
 %s*synth23
@@ -82239,7 +86891,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__12 
+.Module generic_baseblocks_v2_1_carry_and__97 
 2default:default
 B
 %s*synth23
@@ -82247,7 +86899,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__13 
+.Module generic_baseblocks_v2_1_carry_and__98 
 2default:default
 B
 %s*synth23
@@ -82255,15 +86907,15 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__14 
+.Module generic_baseblocks_v2_1_carry_and__99 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__15 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__100 
 2default:default
 B
 %s*synth23
@@ -82277,41 +86929,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__16 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__101 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__17 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__102 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__18 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__103 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__19 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__104 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__20 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__105 
 2default:default
 B
 %s*synth23
@@ -82325,33 +86977,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__9 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__91 
 2default:default
 B
 %s*synth23
@@ -82359,7 +86987,31 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__10 
+.Module generic_baseblocks_v2_1_carry_and__92 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__93 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__94 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__95 
 2default:default
 B
 %s*synth23
@@ -82373,41 +87025,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__21 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__106 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__22 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__107 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__23 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__108 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__24 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__109 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__25 
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
 2default:default
 B
 %s*synth23
@@ -82421,41 +87073,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__1 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__86 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__2 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__87 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__3 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__88 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__4 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__89 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__5 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__90 
 2default:default
 B
 %s*synth23
@@ -82464,6 +87116,54 @@ B
 f
 %s*synth2W
 CModule generic_baseblocks_v2_1_comparator_static__parameterized19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__81 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__82 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__84 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__85 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule generic_baseblocks_v2_1_comparator_static__parameterized20 
 2default:default
 B
 %s*synth23
@@ -82483,7 +87183,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 1     
 2default:default
 I
 %s*synth2:
@@ -82531,7 +87231,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 ^
 %s*synth2O
@@ -82547,7 +87247,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 ^
 %s*synth2O
@@ -82563,7 +87263,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 ^
 %s*synth2O
@@ -82595,7 +87295,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 [
 %s*synth2L
@@ -82611,7 +87311,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 j
 %s*synth2[
@@ -82659,7 +87359,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 [
 %s*synth2L
@@ -82675,7 +87375,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 M
 %s*synth2>
@@ -82715,7 +87415,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 1     
+.	                7 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -82731,7 +87431,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
+.	   2 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -82747,7 +87447,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_2_1057 
+!Module system_tier2_xbar_2_1093 
 2default:default
 B
 %s*synth23
@@ -82784,6 +87484,102 @@ Q
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__219 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__218 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__217 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__216 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__215 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized18__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__214 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__213 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__212 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__211 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__210 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized16__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 R
 %s*synth2C
@@ -82825,9 +87621,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized5__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized15__1 
 2default:default
 B
 %s*synth23
@@ -82873,9 +87669,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized17__1 
 2default:default
 B
 %s*synth23
@@ -82921,9 +87717,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized4__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized19__1 
 2default:default
 B
 %s*synth23
@@ -82969,9 +87765,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized0__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized20__1 
 2default:default
 B
 %s*synth23
@@ -83019,7 +87815,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized3__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized5__1 
 2default:default
 B
 %s*synth23
@@ -83067,7 +87863,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized6__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
 2default:default
 B
 %s*synth23
@@ -83113,9 +87909,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized4__1 
 2default:default
 B
 %s*synth23
@@ -83163,7 +87959,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized0__1 
 2default:default
 B
 %s*synth23
@@ -83211,7 +88007,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized9__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized3__1 
 2default:default
 B
 %s*synth23
@@ -83259,7 +88055,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized8__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized6__1 
 2default:default
 B
 %s*synth23
@@ -83305,9 +88101,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized10__1 
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__1 
 2default:default
 B
 %s*synth23
@@ -83353,9 +88149,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized11__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
 2default:default
 B
 %s*synth23
@@ -83401,9 +88197,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized12__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized9__1 
 2default:default
 B
 %s*synth23
@@ -83449,9 +88245,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized14__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized8__1 
 2default:default
 B
 %s*synth23
@@ -83497,9 +88293,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized7__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized10__1 
 2default:default
 B
 %s*synth23
@@ -83547,7 +88343,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized13__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized11__1 
 2default:default
 B
 %s*synth23
@@ -83595,7 +88391,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized18__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized12__1 
 2default:default
 B
 %s*synth23
@@ -83643,7 +88439,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized16__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized14__1 
 2default:default
 B
 %s*synth23
@@ -83689,9 +88485,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized15__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized7__1 
 2default:default
 B
 %s*synth23
@@ -83739,55 +88535,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized17__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__109 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__108 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__107 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__106 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__105 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized19__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized13__1 
 2default:default
 B
 %s*synth23
@@ -84313,18 +89061,6 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
 4
 %s*synth2%
 +---Registers : 
@@ -84351,7 +89087,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 11    
+.	                1 Bit    Registers := 12    
 2default:default
 0
 %s*synth2!
@@ -84363,11 +89099,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 9     
+.	   2 Input     32 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 5     
+.	   2 Input      8 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -84680,6 +89416,82 @@ B
 B
 %s*synth23
 Module system_testPulser_0_10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module implement_gtid_v1_0_S00_AXI__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	               24 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+O
+%s*synth2@
+,Module implement_gtid_v1_0__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module system_implement_gtid_0_0 
 2default:default
 B
 %s*synth23
@@ -86833,86 +91645,86 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
 †c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
-û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‹
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
-°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-·
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
-¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-Ÿ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
-û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‹
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
-°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-·
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
-¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-Ÿ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
-û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‹
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
-°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-·
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
-¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-ÿ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
-ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
 ⁄
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
-ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
-•\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-ÿ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
-ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
+û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+›
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
+°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
+†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
+¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
 ⁄
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
+û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+›
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
+°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‹
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
+†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
+¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+⁄
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
+û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+›
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
+°\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‹
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
+†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
+¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+Ÿ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
+ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‹
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
+†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+€
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
-ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‡
+ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
-•\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
+•\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+Ÿ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
+ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+‹
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
+†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+€
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
+ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
+·
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
+•\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2D
+0axi_clock_converter_v2_1_axi_clock_converter__102default:defaultZ8-3332
 Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
@@ -86988,83 +91800,83 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
 ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ⁄
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
 ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ‡
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
 ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ⁄
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
 ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 ‡
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__52default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__92default:defaultZ8-3332
 Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
@@ -87140,72 +91952,216 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ‹
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∂
 °\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ·
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2ª
 ¶\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
 ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
 †\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ⁄
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
 ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ‡
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__42default:defaultZ8-3332
+/axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Û
+merging register '%s' into '%s'3619*oasys2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Ú
+merging register '%s' into '%s'3619*oasys2≠
+ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Ú
+merging register '%s' into '%s'3619*oasys2≠
+ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Á
+merging register '%s' into '%s'3619*oasys2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Û
+merging register '%s' into '%s'3619*oasys2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Ú
+merging register '%s' into '%s'3619*oasys2≠
+ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6152default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6162default:default8@Z8-4471
+Ê
+merging register '%s' into '%s'3619*oasys2ß
+ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6172default:default8@Z8-4471
+Ú
+merging register '%s' into '%s'3619*oasys2≠
+ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+6182default:default8@Z8-4471
 Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
@@ -87322,7 +92278,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:06:50 ; elapsed = 00:07:49 . Memory (MB): peak = 827.477 ; gain = 678.336
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:11:49 ; elapsed = 00:13:00 . Memory (MB): peak = 878.777 ; gain = 729.461
 2default:default
 ¢
 %s*synth2í
@@ -87352,83 +92308,123 @@ Distributed RAM:
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_401/axi_clock_converter_v2_1_axi_clock_converter/ram__40 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_48/axi_clock_converter_v2_1_axi_clock_converter/ram__60  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_401/axi_clock_converter_v2_1_axi_clock_converter/ram__42 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_48/axi_clock_converter_v2_1_axi_clock_converter/ram__62  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_401/axi_clock_converter_v2_1_axi_clock_converter/ram__44 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_48/axi_clock_converter_v2_1_axi_clock_converter/ram__64  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_401/axi_clock_converter_v2_1_axi_clock_converter/ram__46 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_48/axi_clock_converter_v2_1_axi_clock_converter/ram__66  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_401/axi_clock_converter_v2_1_axi_clock_converter/ram__48 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_48/axi_clock_converter_v2_1_axi_clock_converter/ram__68  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_402/axi_clock_converter_v2_1_axi_clock_converter/ram__50 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_49/axi_clock_converter_v2_1_axi_clock_converter/ram__70  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_402/axi_clock_converter_v2_1_axi_clock_converter/ram__52 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_49/axi_clock_converter_v2_1_axi_clock_converter/ram__72  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_402/axi_clock_converter_v2_1_axi_clock_converter/ram__54 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_49/axi_clock_converter_v2_1_axi_clock_converter/ram__74  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_402/axi_clock_converter_v2_1_axi_clock_converter/ram__56 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_49/axi_clock_converter_v2_1_axi_clock_converter/ram__76  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_402/axi_clock_converter_v2_1_axi_clock_converter/ram__58 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_49/axi_clock_converter_v2_1_axi_clock_converter/ram__78  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_403/axi_clock_converter_v2_1_axi_clock_converter/ram__60 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_50/axi_clock_converter_v2_1_axi_clock_converter/ram__80  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_403/axi_clock_converter_v2_1_axi_clock_converter/ram__62 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_50/axi_clock_converter_v2_1_axi_clock_converter/ram__82  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_403/axi_clock_converter_v2_1_axi_clock_converter/ram__64 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_50/axi_clock_converter_v2_1_axi_clock_converter/ram__84  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_403/axi_clock_converter_v2_1_axi_clock_converter/ram__66 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_50/axi_clock_converter_v2_1_axi_clock_converter/ram__86  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_403/axi_clock_converter_v2_1_axi_clock_converter/ram__68 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_50/axi_clock_converter_v2_1_axi_clock_converter/ram__88  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_404/axi_clock_converter_v2_1_axi_clock_converter/ram__70 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_51/axi_clock_converter_v2_1_axi_clock_converter/ram__90  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_404/axi_clock_converter_v2_1_axi_clock_converter/ram__72 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_51/axi_clock_converter_v2_1_axi_clock_converter/ram__92  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_404/axi_clock_converter_v2_1_axi_clock_converter/ram__74 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_51/axi_clock_converter_v2_1_axi_clock_converter/ram__94  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_404/axi_clock_converter_v2_1_axi_clock_converter/ram__76 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_51/axi_clock_converter_v2_1_axi_clock_converter/ram__96  | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_404/axi_clock_converter_v2_1_axi_clock_converter/ram__78 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_51/axi_clock_converter_v2_1_axi_clock_converter/ram__98  | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_52/axi_clock_converter_v2_1_axi_clock_converter/ram__100 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_52/axi_clock_converter_v2_1_axi_clock_converter/ram__102 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_52/axi_clock_converter_v2_1_axi_clock_converter/ram__104 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_52/axi_clock_converter_v2_1_axi_clock_converter/ram__106 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_52/axi_clock_converter_v2_1_axi_clock_converter/ram__108 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_53/axi_clock_converter_v2_1_axi_clock_converter/ram__110 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_53/axi_clock_converter_v2_1_axi_clock_converter/ram__112 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_53/axi_clock_converter_v2_1_axi_clock_converter/ram__114 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_53/axi_clock_converter_v2_1_axi_clock_converter/ram__116 | 
+2default:default
+ä
+%s*synth2˙
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_53/axi_clock_converter_v2_1_axi_clock_converter/ram__118 | 
 2default:default
 ä
 %s*synth2˙
@@ -87450,7 +92446,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:07:13 ; elapsed = 00:08:13 . Memory (MB): peak = 881.117 ; gain = 731.977
+zFinished Area Optimization : Time (s): cpu = 00:12:12 ; elapsed = 00:13:25 . Memory (MB): peak = 922.734 ; gain = 773.418
 2default:default
 {
 %s*synth2l
@@ -87458,19 +92454,19 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 Æ
 %s*synth2û
-âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:07:18 ; elapsed = 00:08:20 . Memory (MB): peak = 1027.684 ; gain = 878.543
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:12:17 ; elapsed = 00:13:31 . Memory (MB): peak = 1070.367 ; gain = 921.051
 2default:default
 °
 %s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:07:23 ; elapsed = 00:08:25 . Memory (MB): peak = 1050.609 ; gain = 901.469
+}Finished Timing Optimization : Time (s): cpu = 00:12:22 ; elapsed = 00:13:36 . Memory (MB): peak = 1093.402 ; gain = 944.086
 2default:default
 †
 %s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:08:01 ; elapsed = 00:09:06 . Memory (MB): peak = 1101.832 ; gain = 952.691
+|Finished Technology Mapping : Time (s): cpu = 00:13:01 ; elapsed = 00:14:17 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
-m
-%s*synth2^
-Jdesign system_auto_pc_376 has 4 max_fanout violations cannot be satisfied
+k
+%s*synth2\
+Hdesign system_auto_pc_8 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -87478,7 +92474,7 @@ D
 2default:default
 ö
 %s*synth2ä
-vFinished IO Insertion : Time (s): cpu = 00:08:07 ; elapsed = 00:09:12 . Memory (MB): peak = 1101.832 ; gain = 952.691
+vFinished IO Insertion : Time (s): cpu = 00:13:06 ; elapsed = 00:14:22 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
 ;
 %s*synth2,
@@ -87507,11 +92503,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:08:08 ; elapsed = 00:09:12 . Memory (MB): peak = 1101.832 ; gain = 952.691
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:13:06 ; elapsed = 00:14:23 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:08:10 ; elapsed = 00:09:15 . Memory (MB): peak = 1101.832 ; gain = 952.691
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:13:09 ; elapsed = 00:14:26 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
 ¢
 %s*synth2í
@@ -87617,31 +92613,31 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|3     |CARRY4     |  1282|
+|3     |CARRY4     |  1284|
 2default:default
 ?
 %s*synth20
-|4     |LUT1       |  2590|
+|4     |LUT1       |  2639|
 2default:default
 ?
 %s*synth20
-|5     |LUT2       |  2437|
+|5     |LUT2       |  2620|
 2default:default
 ?
 %s*synth20
-|6     |LUT3       |  2406|
+|6     |LUT3       |  2521|
 2default:default
 ?
 %s*synth20
-|7     |LUT4       |  2795|
+|7     |LUT4       |  3006|
 2default:default
 ?
 %s*synth20
-|8     |LUT5       |  2562|
+|8     |LUT5       |  2675|
 2default:default
 ?
 %s*synth20
-|9     |LUT6       |  3144|
+|9     |LUT6       |  3211|
 2default:default
 ?
 %s*synth20
@@ -87657,11 +92653,11 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|13    |RAM16X1D   |     8|
+|13    |RAM16X1D   |    12|
 2default:default
 ?
 %s*synth20
-|14    |RAM32M     |    96|
+|14    |RAM32M     |   144|
 2default:default
 ?
 %s*synth20
@@ -87681,19 +92677,19 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|19    |FDCE       |  1381|
+|19    |FDCE       |  1975|
 2default:default
 ?
 %s*synth20
-|20    |FDPE       |   341|
+|20    |FDPE       |   503|
 2default:default
 ?
 %s*synth20
-|21    |FDRE       |  7854|
+|21    |FDRE       |  8655|
 2default:default
 ?
 %s*synth20
-|22    |FDSE       |   106|
+|22    |FDSE       |   108|
 2default:default
 ?
 %s*synth20
@@ -87726,11 +92722,11 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ç
 %s*synth2~
-j|1     |top                          |                                                           | 27378|
+j|1     |top                          |                                                           | 29729|
 2default:default
 ç
 %s*synth2~
-j|2     |  system_i                   |system                                                     | 27323|
+j|2     |  system_i                   |system                                                     | 29674|
 2default:default
 ç
 %s*synth2~
@@ -87746,11 +92742,11 @@ j|5     |    triggerSplit_0           |system_triggerSplit_0_0                  
 2default:default
 ç
 %s*synth2~
-j|6     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  6736|
+j|6     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  8614|
 2default:default
 ç
 %s*synth2~
-j|7     |      \m14_couplers/auto_cc  |system_auto_cc_401                                         |   926|
+j|7     |      \m04_couplers/auto_cc  |system_auto_cc_48                                          |   926|
 2default:default
 ç
 %s*synth2~
@@ -87758,143 +92754,163 @@ j|8     |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|9     |      \m16_couplers/auto_cc  |system_auto_cc_402                                         |   926|
+j|9     |      \m14_couplers/auto_cc  |system_auto_cc_49                                          |   926|
 2default:default
 ç
 %s*synth2~
-j|10    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__6            |   926|
+j|10    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__10           |   926|
 2default:default
 ç
 %s*synth2~
-j|11    |      \m17_couplers/auto_cc  |system_auto_cc_403                                         |   926|
+j|11    |      \m16_couplers/auto_cc  |system_auto_cc_50                                          |   926|
 2default:default
 ç
 %s*synth2~
-j|12    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__5            |   926|
+j|12    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__9            |   926|
 2default:default
 ç
 %s*synth2~
-j|13    |      \m19_couplers/auto_cc  |system_auto_cc_404                                         |   926|
+j|13    |      \m17_couplers/auto_cc  |system_auto_cc_51                                          |   926|
 2default:default
 ç
 %s*synth2~
-j|14    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__4            |   926|
+j|14    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__8            |   926|
 2default:default
 ç
 %s*synth2~
-j|15    |      \s00_couplers/auto_pc  |system_auto_pc_376                                         |  1276|
+j|15    |      \m19_couplers/auto_cc  |system_auto_cc_52                                          |   926|
 2default:default
 ç
 %s*synth2~
-j|16    |      tier2_xbar_0           |system_tier2_xbar_0_1055                                   |   519|
+j|16    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__7            |   926|
 2default:default
 ç
 %s*synth2~
-j|17    |      tier2_xbar_1           |system_tier2_xbar_1_1056                                   |   502|
+j|17    |      \m21_couplers/auto_cc  |system_auto_cc_53                                          |   926|
 2default:default
 ç
 %s*synth2~
-j|18    |      tier2_xbar_2           |system_tier2_xbar_2_1057                                   |   407|
+j|18    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__6            |   926|
 2default:default
 ç
 %s*synth2~
-j|19    |      xbar                   |system_xbar_0                                              |   328|
+j|19    |      \s00_couplers/auto_pc  |system_auto_pc_8                                           |  1276|
 2default:default
 ç
 %s*synth2~
-j|20    |    smellieDelay             |system_testDelay_3_6                                       |   644|
+j|20    |      tier2_xbar_0           |system_tier2_xbar_0_1091                                   |   519|
 2default:default
 ç
 %s*synth2~
-j|21    |    processing_system7_0     |system_processing_system7_0_0                              |   221|
+j|21    |      tier2_xbar_1           |system_tier2_xbar_1_1092                                   |   502|
 2default:default
 ç
 %s*synth2~
-j|22    |      U0                     |processing_system7_v5_3_processing_system7__parameterized0 |   221|
+j|22    |      tier2_xbar_2           |system_tier2_xbar_2_1093                                   |   431|
 2default:default
 ç
 %s*synth2~
-j|23    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
+j|23    |      xbar                   |system_xbar_0                                              |   330|
 2default:default
 ç
 %s*synth2~
-j|24    |    countDisplay_0           |system_countDisplay_0_0                                    |   504|
+j|24    |    smellieDelay             |system_testDelay_3_6                                       |   644|
 2default:default
 ç
 %s*synth2~
-j|25    |    triggerOut_0             |system_triggerOut_0_0                                      |   672|
+j|25    |    processing_system7_0     |system_processing_system7_0_0                              |   221|
 2default:default
 ç
 %s*synth2~
-j|26    |    xlconstant_1             |system_xlconstant_1_1                                      |     0|
+j|26    |      U0                     |processing_system7_v5_3_processing_system7__parameterized0 |   221|
 2default:default
 ç
 %s*synth2~
-j|27    |    fifo_readout_0           |system_fifo_readout_0_0                                    |   455|
+j|27    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
 2default:default
 ç
 %s*synth2~
-j|28    |    genericDelay             |system_testDelay_0_0                                       |   644|
+j|28    |    countDisplay_0           |system_countDisplay_0_0                                    |   504|
 2default:default
 ç
 %s*synth2~
-j|29    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                                   |   621|
+j|29    |    triggerOut_0             |system_triggerOut_0_0                                      |   612|
 2default:default
 ç
 %s*synth2~
-j|30    |    telliePulser             |system_testPulser_0_10                                     |   703|
+j|30    |    xlconstant_1             |system_xlconstant_1_1                                      |     0|
 2default:default
 ç
 %s*synth2~
-j|31    |    gtDelay                  |system_testDelay_0_7                                       |   644|
+j|31    |    fifo_readout_0           |system_fifo_readout_0_0                                    |   455|
 2default:default
 ç
 %s*synth2~
-j|32    |    genericPulser            |system_testPulser_0_9                                      |   703|
+j|32    |    genericDelay             |system_testDelay_0_0                                       |   644|
 2default:default
 ç
 %s*synth2~
-j|33    |    comboTrigger_0           |system_comboTrigger_0_0                                    |   483|
+j|33    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                                   |   621|
 2default:default
 ç
 %s*synth2~
-j|34    |    clockLogic_0             |system_clockLogic_0_0                                      |   502|
+j|34    |    telliePulser             |system_testPulser_0_10                                     |   703|
 2default:default
 ç
 %s*synth2~
-j|35    |    burstTrigger_0           |system_burstTrigger_0_0                                    |   817|
+j|35    |    implement_gtid_0         |system_implement_gtid_0_0                                  |   533|
 2default:default
 ç
 %s*synth2~
-j|36    |    smelliePulser            |system_testPulser_1_11                                     |   703|
+j|36    |    gtDelay                  |system_testDelay_0_7                                       |   644|
 2default:default
 ç
 %s*synth2~
-j|37    |    mz_happy_RnM             |system_testPulser_0_7                                      |   703|
+j|37    |    genericPulser            |system_testPulser_0_9                                      |   703|
 2default:default
 ç
 %s*synth2~
-j|38    |    oneshot_pulse_0          |system_oneshot_pulse_0_2                                   |   621|
+j|38    |    comboTrigger_0           |system_comboTrigger_0_0                                    |   483|
 2default:default
 ç
 %s*synth2~
-j|39    |    counter_0                |system_counter_0_0                                         |   517|
+j|39    |    clockLogic_0             |system_clockLogic_0_0                                      |   502|
 2default:default
 ç
 %s*synth2~
-j|40    |    TrigWordDelay_0          |system_TrigWordDelay_0_0                                   |  6884|
+j|40    |    burstTrigger_0           |system_burstTrigger_0_0                                    |   817|
 2default:default
 ç
 %s*synth2~
-j|41    |    xlconstant_0             |system_xlconstant_0_2                                      |     0|
+j|41    |    smelliePulser            |system_testPulser_1_11                                     |   703|
 2default:default
 ç
 %s*synth2~
-j|42    |    fifo_generator_0         |system_fifo_generator_0_0                                  |   582|
+j|42    |    mz_happy_RnM             |system_testPulser_0_7                                      |   703|
 2default:default
 ç
 %s*synth2~
-j|43    |      U0                     |fifo_generator_v11_0__parameterized1                       |   582|
+j|43    |    oneshot_pulse_0          |system_oneshot_pulse_0_2                                   |   621|
+2default:default
+ç
+%s*synth2~
+j|44    |    counter_0                |system_counter_0_0                                         |   517|
+2default:default
+ç
+%s*synth2~
+j|45    |    TrigWordDelay_0          |system_TrigWordDelay_0_0                                   |  6884|
+2default:default
+ç
+%s*synth2~
+j|46    |    xlconstant_0             |system_xlconstant_0_2                                      |     0|
+2default:default
+ç
+%s*synth2~
+j|47    |    fifo_generator_0         |system_fifo_generator_0_0                                  |   582|
+2default:default
+ç
+%s*synth2~
+j|48    |      U0                     |fifo_generator_v11_0__parameterized1                       |   582|
 2default:default
 ç
 %s*synth2~
@@ -87902,7 +92918,7 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ß
 %s*synth2ó
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:08:12 ; elapsed = 00:09:17 . Memory (MB): peak = 1101.832 ; gain = 952.691
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:13:11 ; elapsed = 00:14:28 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
 j
 %s*synth2[
@@ -87910,12 +92926,12 @@ GSynthesis finished with 0 errors, 0 critical warnings and 44 warnings.
 2default:default
 •
 %s*synth2ï
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:08:12 ; elapsed = 00:09:17 . Memory (MB): peak = 1101.832 ; gain = 952.691
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:13:11 ; elapsed = 00:14:28 . Memory (MB): peak = 1145.445 ; gain = 996.129
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-1742default:defaultZ29-17
+2262default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -87926,6 +92942,36 @@ a
 ^
 1Inserted %s OBUFs to IO ports without IO buffers.101*opt2
 02default:defaultZ31-141
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_422default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_42/system_auto_cc_42_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_432default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_43/system_auto_cc_43_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_442default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_44/system_auto_cc_44_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_452default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_45/system_auto_cc_45_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_462default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_46/system_auto_cc_46_clocks.xdc2default:defaultZ20-1280
+«
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2%
+system_auto_cc_472default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_47/system_auto_cc_47_clocks.xdc2default:defaultZ20-1280
 C
 Pushed %s inverter(s).
 98*opt2
@@ -87933,24 +92979,24 @@ C
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-144
-¬
+ƒ
 !Unisim Transformation Summary:
-%s111*project2Ö
-  A total of 112 instances were transformed.
+%s111*project2á
+Ú  A total of 164 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 8 instances
-  RAM16X1D => RAM16X1D (RAMD32, RAMD32, GND): 8 instances
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 96 instances
+  RAM16X1D => RAM16X1D (RAMD32, RAMD32, GND): 12 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 144 instances
 2default:defaultZ1-111
 L
 Releasing license: %s
 83*common2
 	Synthesis2default:defaultZ17-83
-¡
+¬
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-11522default:default2
-1632default:default2
-42default:default2
+12032default:default2
+1742default:default2
+212default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -87960,10 +93006,10 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:08:292default:default2
-00:09:362default:default2
-1434.2232default:default2
-1164.3362default:defaultZ17-268
+00:13:252default:default2
+00:14:482default:default2
+1480.1802default:default2
+1202.9022default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
@@ -87971,15 +93017,15 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2&
 write_checkpoint: 2default:default2
-00:00:042default:default2
-00:00:122default:default2
-1442.9962default:default2
-8.7732default:defaultZ17-268
+00:00:052default:default2
+00:00:072default:default2
+1489.1132default:default2
+8.9342default:defaultZ17-268
 |
-preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1442.996 ; gain = 0.000
+preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1489.113 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Fri Mar 04 11:14:19 20162default:defaultZ17-206
+Wed Mar 09 22:20:12 20162default:defaultZ17-206

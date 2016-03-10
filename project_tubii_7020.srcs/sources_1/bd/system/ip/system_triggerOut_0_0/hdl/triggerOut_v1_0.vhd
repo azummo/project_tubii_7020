@@ -23,6 +23,9 @@ entity triggerOut_v1_0 is
         tellie_trig_in : in std_logic;
         smellie_trig_in : in std_logic;
         gtrig          : in std_logic;
+        gtid_in        : in std_logic_vector(23 downto 0);
+        reset          : out std_logic;
+        reset24        : out std_logic;
         gtrigout       : out std_logic;
         sync           : in std_logic;
         sync24         : in std_logic;
@@ -97,6 +100,9 @@ architecture arch_imp of triggerOut_v1_0 is
         TELLIE_TRIG_IN  : in std_logic;
         SMELLIE_TRIG_IN : in std_logic;
         GTRIG           : in std_logic;
+        GTID_in         : in std_logic_vector(23 downto 0);
+        RESET           : out std_logic;
+        RESET24         : out std_logic;
         GTRIGout        : out std_logic;
         SYNC            : in std_logic;
         SYNC24          : in std_logic;
@@ -145,6 +151,9 @@ triggerOut_v1_0_S00_AXI_inst : triggerOut_v1_0_S00_AXI
         TELLIE_TRIG_IN  => tellie_trig_in,
         SMELLIE_TRIG_IN => smellie_trig_in,
         GTRIG           => gtrig,
+        GTID_in         => gtid_in,
+        RESET           => reset,
+        RESET24         => reset24,
         GTRIGout        => gtrigout,
         SYNC            => sync,
         SYNC24          => sync24,

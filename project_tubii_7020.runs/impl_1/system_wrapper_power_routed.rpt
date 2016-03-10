@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Fri Mar 04 11:22:37 2016
+| Date             : Wed Mar 09 22:26:37 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -50,19 +50,19 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.046 |        2 |       --- |             --- |
-| Slice Logic              |     0.015 |    25631 |       --- |             --- |
-|   LUT as Logic           |     0.012 |    10973 |     53200 |           20.62 |
-|   CARRY4                 |     0.002 |     1282 |     13300 |            9.63 |
-|   Register               |    <0.001 |     9635 |    106400 |            9.05 |
-|   LUT as Distributed RAM |    <0.001 |      392 |     17400 |            2.25 |
+| Clocks                   |     0.048 |        2 |       --- |             --- |
+| Slice Logic              |     0.015 |    28342 |       --- |             --- |
+|   LUT as Logic           |     0.012 |    11567 |     53200 |           21.74 |
+|   CARRY4                 |     0.002 |     1284 |     13300 |            9.65 |
+|   LUT as Distributed RAM |    <0.001 |      588 |     17400 |            3.37 |
+|   Register               |    <0.001 |    11207 |    106400 |           10.53 |
 |   F7/F8 Muxes            |    <0.001 |       45 |     53200 |            0.08 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
-|   Others                 |     0.000 |      244 |       --- |             --- |
-| Signals                  |     0.020 |    18360 |       --- |             --- |
+|   Others                 |     0.000 |      254 |       --- |             --- |
+| Signals                  |     0.020 |    20411 |       --- |             --- |
 | Block RAM                |    <0.001 |       43 |       140 |           30.71 |
-| I/O                      |     0.008 |       54 |       125 |           43.20 |
+| I/O                      |     0.006 |       54 |       125 |           43.20 |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.151 |          |           |                 |
 | Total                    |     1.550 |          |           |                 |
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.096 |       0.082 |      0.014 |
+| Vccint    |       1.000 |     0.098 |       0.084 |      0.014 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -153,10 +153,38 @@ Table of Contents
 | Name                                                                                                                                                                | Power (W) |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | system_wrapper                                                                                                                                                      |     1.399 |
-|   system_i                                                                                                                                                          |     1.391 |
+|   system_i                                                                                                                                                          |     1.393 |
 |     ShiftRegs_0                                                                                                                                                     |     0.003 |
-|     TrigWordDelay_0                                                                                                                                                 |     0.020 |
-|     axi_interconnect_0                                                                                                                                              |     0.025 |
+|     TrigWordDelay_0                                                                                                                                                 |     0.019 |
+|     axi_interconnect_0                                                                                                                                              |     0.031 |
+|       m04_couplers/auto_cc                                                                                                                                          |     0.003 |
+|         inst                                                                                                                                                        |     0.003 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_33  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_35 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0   |     0.000 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1   |     0.000 |
 |       m14_couplers/auto_cc                                                                                                                                          |     0.003 |
 |         inst                                                                                                                                                        |     0.003 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
@@ -269,6 +297,34 @@ Table of Contents
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0   |     0.000 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1   |     0.000 |
+|       m21_couplers/auto_cc                                                                                                                                          |     0.003 |
+|         inst                                                                                                                                                        |     0.003 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_33  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_35 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0   |     0.000 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1   |     0.000 |
 |       s00_couplers/auto_pc                                                                                                                                          |     0.007 |
 |       tier2_xbar_0                                                                                                                                                  |     0.001 |
 |       tier2_xbar_1                                                                                                                                                  |     0.001 |
@@ -279,15 +335,16 @@ Table of Contents
 |     comboTrigger_0                                                                                                                                                  |     0.001 |
 |     countDisplay_0                                                                                                                                                  |     0.001 |
 |     counter_0                                                                                                                                                       |     0.001 |
-|     fifo_generator_0                                                                                                                                                |     0.002 |
-|       U0                                                                                                                                                            |     0.002 |
+|     fifo_generator_0                                                                                                                                                |     0.001 |
+|       U0                                                                                                                                                            |     0.001 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
 |     genericDelay                                                                                                                                                    |     0.002 |
 |     genericPulser                                                                                                                                                   |     0.001 |
 |     gtDelay                                                                                                                                                         |     0.002 |
+|     implement_gtid_0                                                                                                                                                |    <0.001 |
 |     mz_happy_RnM                                                                                                                                                    |     0.001 |
 |     oneshot_pulse_0                                                                                                                                                 |     0.002 |
-|     oneshot_pulse_1                                                                                                                                                 |     0.002 |
+|     oneshot_pulse_1                                                                                                                                                 |     0.001 |
 |     prescaleTrigger_0                                                                                                                                               |     0.001 |
 |     processing_system7_0                                                                                                                                            |     1.316 |
 |       U0                                                                                                                                                            |     1.316 |
@@ -295,7 +352,7 @@ Table of Contents
 |     smelliePulser                                                                                                                                                   |    <0.001 |
 |     tellieDelay                                                                                                                                                     |    <0.001 |
 |     telliePulser                                                                                                                                                    |    <0.001 |
-|     triggerOut_0                                                                                                                                                    |     0.003 |
+|     triggerOut_0                                                                                                                                                    |    <0.001 |
 |     triggerSplit_0                                                                                                                                                  |     0.001 |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 

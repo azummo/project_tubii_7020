@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Fri Mar 04 11:14:17 2016
+| Date         : Wed Mar 09 22:20:10 2016
 | Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 13810 |     0 |     53200 | 25.95 |
-|   LUT as Logic             | 13341 |     0 |     53200 | 25.07 |
-|   LUT as Memory            |   469 |     0 |     17400 |  2.69 |
-|     LUT as Distributed RAM |   400 |     0 |           |       |
+| Slice LUTs*                | 14607 |     0 |     53200 | 27.45 |
+|   LUT as Logic             | 13938 |     0 |     53200 | 26.19 |
+|   LUT as Memory            |   669 |     0 |     17400 |  3.84 |
+|     LUT as Distributed RAM |   600 |     0 |           |       |
 |     LUT as Shift Register  |    69 |     0 |           |       |
-| Slice Registers            |  9682 |     0 |    106400 |  9.09 |
-|   Register as Flip Flop    |  9682 |     0 |    106400 |  9.09 |
+| Slice Registers            | 11241 |     0 |    106400 | 10.56 |
+|   Register as Flip Flop    | 11241 |     0 |    106400 | 10.56 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |    45 |     0 |     26600 |  0.16 |
 | F8 Muxes                   |     0 |     0 |     13300 |  0.00 |
@@ -131,20 +131,20 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     | 7854 |
-| LUT6     | 3144 |
-| LUT4     | 2795 |
-| LUT1     | 2590 |
-| LUT5     | 2562 |
-| LUT2     | 2437 |
-| LUT3     | 2406 |
-| FDCE     | 1381 |
-| CARRY4   | 1290 |
-| RAMD32   |  592 |
-| FDPE     |  341 |
-| RAMS32   |  192 |
+| FDRE     | 8655 |
+| LUT6     | 3211 |
+| LUT4     | 3006 |
+| LUT5     | 2675 |
+| LUT1     | 2639 |
+| LUT2     | 2620 |
+| LUT3     | 2521 |
+| FDCE     | 1975 |
+| CARRY4   | 1292 |
+| RAMD32   |  888 |
+| FDPE     |  503 |
+| RAMS32   |  288 |
 | BIBUF    |  130 |
-| FDSE     |  106 |
+| FDSE     |  108 |
 | SRLC32E  |   47 |
 | MUXF7    |   45 |
 | RAMB36E1 |   43 |
