@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="snoperator" Host="monag2.sp.snolab.ca" Pid="1631">
-    </Process>
-</ProcessHandle>
