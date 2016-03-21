@@ -47,25 +47,3 @@ Temporary Items
 .apdisk
 
 
-.project_tubii_7020.cache/
-.project_tubii_7020.data/
-.project_tubii_7020.runs/
-.project_tubii_7020.srcs/sources_1/
-
-.edit_burstTrigger_v1_0.runs/
-.edit_comboTrigger_v1_0.cache/
-.edit_comboTrigger_v1_0.data/
-.edit_comboTrigger_v1_0.runs/
-.edit_counter_v1_0.runs/
-.edit_fifo_readout_v1_0.runs/
-.edit_oneshot_pulse_v1_0.runs/
-.edit_prescaleTrigger_v1_0.runs/
-.edit_ShiftRegs_v1_0.runs/
-.edit_testDelay_v1_0.cache/
-.edit_testDelay_v1_0.data/
-.edit_testDelay_v1_0.runs/
-.edit_testPulser_v1_0.cache/
-.edit_testPulser_v1_0.data/
-.edit_testPulser_v1_0.runs/
-.edit_triggerOut_v1_0.runs/
-.edit_triggerSplit_v1_0.runs/
