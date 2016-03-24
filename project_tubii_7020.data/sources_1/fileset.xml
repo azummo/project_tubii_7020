@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PDATADIR/sources_1/ports.xml">
+      <FileInfo SFType="PortsDb">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_7/system_testPulser_0_7.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_9/system_testPulser_0_9.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_1_11/system_testPulser_1_11.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testPulser_0_10/system_testPulser_0_10.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_triggerOut_0_0/system_triggerOut_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_oneshot_pulse_1_1/system_oneshot_pulse_1_1.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_burstTrigger_0_0/system_burstTrigger_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_counter_0_0/system_counter_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_oneshot_pulse_0_2/system_oneshot_pulse_0_2.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testDelay_0_0/system_testDelay_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testDelay_0_7/system_testDelay_0_7.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testDelay_3_6/system_testDelay_3_6.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_testDelay_2_5/system_testDelay_2_5.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_TrigWordDelay_0_0/system_TrigWordDelay_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_implement_gtid_0_0/system_implement_gtid_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_fifo_readout_0_0/system_fifo_readout_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_ShiftRegs_0_0/system_ShiftRegs_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_buttonTrigger_0_0/system_buttonTrigger_0_0.upgrade_log">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="system_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/buttonTrigger_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/ShiftReg_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/implement_gtid_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/TrigWordDelay_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/oneshot_pulse_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/fifo_readout_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/counter_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegs_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/countDisplay_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/comboTrigger_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/testPulser_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/triggerOut_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/clockLogic_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/triggerSplit_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/testDelay_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/prescaleTrigger_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/burstTrigger_1.0"/>
+    </Config>
+  </FileSet>
+</DARoots>

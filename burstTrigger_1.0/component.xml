@@ -761,8 +761,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>burstTrigger_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>25</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-03-04T16:01:53Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>27</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-03-23T16:36:58Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

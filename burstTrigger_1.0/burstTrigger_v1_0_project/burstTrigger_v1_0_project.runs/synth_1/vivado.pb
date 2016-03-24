@@ -40,7 +40,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 234.262 ; gain = 85.145
+rStarting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 233.965 ; gain = 85.750
 2default:default
 Á
 synthesizing module '%s'638*oasys2%
@@ -88,11 +88,11 @@ _
 Ã
 default block is never used226*oasys2y
 cc:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
-2992default:default8@Z8-226
+3102default:default8@Z8-226
 Ã
 default block is never used226*oasys2y
 cc:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
-4322default:default8@Z8-226
+4432default:default8@Z8-226
 ¬
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )burstTrigger_v1_0_S00_AXI__parameterized02default:default2
@@ -109,17 +109,17 @@ cc:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.0/hdl/burstTrig
 512default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 268.387 ; gain = 119.270
+sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 268.934 ; gain = 120.719
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 268.387 ; gain = 119.270
+yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 268.934 ; gain = 120.719
 2default:default
 À
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2y
 cc:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
-2612default:default8@Z8-3537
+2622default:default8@Z8-3537
 <
 %s*synth2-
 
@@ -173,7 +173,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 551.621 ; gain = 402.504
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 551.230 ; gain = 403.016
 2default:default
 B
 %s*synth23
@@ -205,7 +205,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 6     
+.	                1 Bit    Registers := 7     
 2default:default
 0
 %s*synth2!
@@ -213,7 +213,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 46    
+.	   2 Input     32 Bit        Muxes := 44    
 2default:default
 Q
 %s*synth2B
@@ -221,7 +221,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 81    
+.	   2 Input      1 Bit        Muxes := 110   
 2default:default
 F
 %s*synth27
@@ -269,7 +269,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 6     
+.	                1 Bit    Registers := 7     
 2default:default
 0
 %s*synth2!
@@ -277,7 +277,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 46    
+.	   2 Input     32 Bit        Muxes := 44    
 2default:default
 Q
 %s*synth2B
@@ -285,7 +285,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 81    
+.	   2 Input      1 Bit        Muxes := 110   
 2default:default
 Õ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2F
@@ -601,7 +601,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 562.250 ; gain = 413.133
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 562.926 ; gain = 414.711
 2default:default
 ¢
 %s*synth2í
@@ -639,15 +639,15 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 burstTrigger_v1_02default:defaultZ8-3332
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 597.637 ; gain = 448.520
+zFinished Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 597.637 ; gain = 448.520
+|Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 597.637 ; gain = 448.520
+{Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 D
 %s*synth25
@@ -655,7 +655,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 597.637 ; gain = 448.520
+uFinished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 ;
 %s*synth2,
@@ -684,11 +684,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 597.637 ; gain = 448.520
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 597.637 ; gain = 448.520
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 ¢
 %s*synth2í
@@ -760,7 +760,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|4     |LUT2   |    32|
+|4     |LUT2   |    36|
 2default:default
 ;
 %s*synth2,
@@ -768,19 +768,19 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |    93|
+|6     |LUT4   |    91|
 2default:default
 ;
 %s*synth2,
-|7     |LUT5   |    16|
+|7     |LUT5   |    14|
 2default:default
 ;
 %s*synth2,
-|8     |LUT6   |   208|
+|8     |LUT6   |   212|
 2default:default
 ;
 %s*synth2,
-|9     |FDRE   |   302|
+|9     |FDRE   |   303|
 2default:default
 ;
 %s*synth2,
@@ -817,11 +817,11 @@ Report Instance Areas:
 2default:default
 Ä
 %s*synth2q
-]|1     |top                              |                                          |   814|
+]|1     |top                              |                                          |   819|
 2default:default
 Ä
 %s*synth2q
-]|2     |  burstTrigger_v1_0_S00_AXI_inst |burstTrigger_v1_0_S00_AXI__parameterized0 |   708|
+]|2     |  burstTrigger_v1_0_S00_AXI_inst |burstTrigger_v1_0_S00_AXI__parameterized0 |   713|
 2default:default
 Ä
 %s*synth2q
@@ -829,7 +829,7 @@ Report Instance Areas:
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 597.637 ; gain = 448.520
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 j
 %s*synth2[
@@ -837,7 +837,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 82 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 597.637 ; gain = 448.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 592.207 ; gain = 443.992
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -884,18 +884,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:00:442default:default2
-00:01:022default:default2
-974.7542default:default2
-787.0162default:defaultZ17-268
+00:00:422default:default2
+00:00:562default:default2
+974.8832default:default2
+786.8092default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.328 . Memory (MB): peak = 974.754 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.375 . Memory (MB): peak = 974.883 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Fri Mar 04 11:01:32 20162default:defaultZ17-206
+Wed Mar 23 12:36:45 20162default:defaultZ17-206
