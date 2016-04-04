@@ -18,8 +18,8 @@ entity implement_gtid_v1_0_S00_AXI is
 	port (
 		-- Users to add ports here
         GTID        : out std_logic_vector(23 downto 0);
-        RESET       : in std_logic;
-        RESET24     : in std_logic;
+        SYNC       : in std_logic;
+        SYNC24     : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -213,11 +213,11 @@ begin
         GTID <= slv_reg0(23 downto 0);
         slv_reg0 <= slv_reg0+1;
 
-        if(RESET24='1') then
+        if(SYNC24='1') then
           slv_reg0 <= (others => '0');
         end if;
         
-        if(RESET='1') then
+        if(SYNC='1') then
           slv_reg0(15 downto 0) <= (others => '0');
         end if;
 

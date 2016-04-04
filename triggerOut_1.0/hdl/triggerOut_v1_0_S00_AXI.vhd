@@ -23,11 +23,12 @@ entity triggerOut_v1_0_S00_AXI is
         TELLIE_TRIG_IN : in std_logic;
         SMELLIE_TRIG_IN : in std_logic;
         GTRIG          : in std_logic;
-        SYNC           : in std_logic;
-        SYNC24         : in std_logic;
+        SYNCi          : in std_logic;
+        SYNC24i        : in std_logic;
         GTID_in        : in std_logic_vector(23 downto 0);
-        RESET          : out std_logic;
-        RESET24        : out std_logic;
+        SYNCo          : out std_logic;
+        SYNC24o        : out std_logic;
+        RESETGTID      : out std_logic;
         GTRIGout       : out std_logic;   
         TRIG_WORD      : out std_logic_vector(23 downto 0);
         DTRIG_WORD     : in std_logic_vector(23 downto 0);
@@ -257,44 +258,24 @@ begin
           GTRIGout <= GTRIG;      
         end if;
 
-        ---- Increment the GT
-        --if(GTRIG ='1' and unread='0') then
-        --  slv_regGT <= slv_regGT+1;
-        --  unread <= '1';
-        --elsif(GTRIG ='0') then
-        --  unread <= '0';
-        --end if;
+        -- Reset GTID
+        RESETGTID <= slv_reg0(30);
 
-        ---- Synchronise the GT
-        --if(SYNC ='1' and synced='0') then
-        --  slv_regGT(15 downto 0) <= (others => '0');
-        --  if(SYNC24='0') then
-        --    slv_regGT(23 downto 16) <= slv_regGT(23 downto 16)+1;
-        --  end if;
-        --  synced <= '1';
-        --elsif(SYNC='0') then
-        --  synced <= '0';
-        --end if;
-
-        --if(SYNC24 ='1') then
-        --  slv_regGT(23 downto 16) <= (others => '0');
-        --end if;
-
-        if(SYNC ='1' and treset='0') then
+        if(SYNCi ='1' and treset='0') then
           treset<='1';
-          RESET<='1';
+          SYNCo<='1';
         end if;
 
-        if(SYNC24 ='1' and treset24='0') then
+        if(SYNC24i ='1' and treset24='0') then
           treset24<='1';
-          RESET24<='1';
+          SYNC24o<='1';
         end if;
 
         if(GTRIG ='1' and unread='0') then
           treset <= '0';
           treset24 <= '0';
-          RESET<='0';
-          RESET24<='0';
+          SYNCo<='0';
+          SYNC24o<='0';
           unread <= '1';
         elsif(GTRIG ='0') then
           unread <= '0';

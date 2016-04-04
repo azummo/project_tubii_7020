@@ -24,11 +24,12 @@ entity triggerOut_v1_0 is
         smellie_trig_in : in std_logic;
         gtrig          : in std_logic;
         gtid_in        : in std_logic_vector(23 downto 0);
-        reset          : out std_logic;
-        reset24        : out std_logic;
+        synco          : out std_logic;
+        sync24o        : out std_logic;
         gtrigout       : out std_logic;
-        sync           : in std_logic;
-        sync24         : in std_logic;
+        synci          : in std_logic;
+        sync24i        : in std_logic;
+        resetgtid      : out std_logic;
         trig_word      : out std_logic_vector(23 downto 0);
         dtrig_word     : in std_logic_vector(23 downto 0);
         tubii_word     : out std_logic_vector(47 downto 0);
@@ -101,11 +102,12 @@ architecture arch_imp of triggerOut_v1_0 is
         SMELLIE_TRIG_IN : in std_logic;
         GTRIG           : in std_logic;
         GTID_in         : in std_logic_vector(23 downto 0);
-        RESET           : out std_logic;
-        RESET24         : out std_logic;
+        SYNCo           : out std_logic;
+        SYNC24o         : out std_logic;
         GTRIGout        : out std_logic;
-        SYNC            : in std_logic;
-        SYNC24          : in std_logic;
+        SYNCi           : in std_logic;
+        SYNC24i         : in std_logic;
+        RESETGTID       : out std_logic;
         TRIG_WORD       : out std_logic_vector(23 downto 0);
         DTRIG_WORD      : in std_logic_vector(23 downto 0);
         TUBII_WORD      : out std_logic_vector(47 downto 0);
@@ -152,11 +154,12 @@ triggerOut_v1_0_S00_AXI_inst : triggerOut_v1_0_S00_AXI
         SMELLIE_TRIG_IN => smellie_trig_in,
         GTRIG           => gtrig,
         GTID_in         => gtid_in,
-        RESET           => reset,
-        RESET24         => reset24,
+        SYNCo           => synco,
+        SYNC24o         => sync24o,
         GTRIGout        => gtrigout,
-        SYNC            => sync,
-        SYNC24          => sync24,
+        SYNCi           => synci,
+        SYNC24i         => sync24i,
+        RESETGTID       => resetgtid,
         TRIG_WORD       => trig_word,
         DTRIG_WORD      => dtrig_word,
         TUBII_WORD      => tubii_word,
