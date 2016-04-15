@@ -19,6 +19,8 @@ entity fifo_readout_v1_0_S00_AXI is
 		-- Users to add ports here
 		READ    : out std_logic;
         RESET   : out std_logic;
+        RENABLE : out std_logic;
+        WENABLE : out std_logic;
         DATA    : in std_logic_vector(47 downto 0);
         FULL    : in std_logic;
         EMPTY   : in std_logic;
@@ -213,8 +215,14 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
+
+        -- Inputs to the FIFO
         READ <= slv_reg0(0);
         RESET <= slv_reg0(1);
+        RENABLE <= '1';
+        WENABLE <= slv_reg0(3);
+
+        -- Outputs from the FIFO
         slv_reg1(23 downto 0) <= DATA(23 downto 0);
         slv_reg2(23 downto 0) <= DATA(47 downto 24);
         slv_reg3(0) <= EMPTY;

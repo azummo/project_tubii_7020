@@ -135,10 +135,12 @@ architecture arch_imp of triggerOut_v1_0_S00_AXI is
 	--signal counter	:std_logic_vector(4 downto 0);
 	signal slv_reg_rden	: std_logic;
 	signal slv_reg_wren	: std_logic;
+    signal gt_flag  : std_logic;
 	signal unread	: std_logic;
     signal synced   : std_logic;
     signal treset    : std_logic;
-    signal treset24  : std_logic;
+    signal tsync    : std_logic;
+    signal tsync24  : std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
 
@@ -255,27 +257,32 @@ begin
         if(slv_reg0(31)='1') then
           GTRIGout <= '1';
         else
-          GTRIGout <= GTRIG;      
+          GTRIGout <= GTRIG;
         end if;
 
         -- Reset GTID
-        RESETGTID <= slv_reg0(30);
-
-        if(SYNCi ='1' and treset='0') then
+        if(slv_reg0(30) ='1' and treset='0') then
           treset<='1';
+          RESETGTID<='1';
+        end if;
+
+        if(SYNCi ='1' and tsync='0') then
+          tsync<='1';
           SYNCo<='1';
         end if;
 
-        if(SYNC24i ='1' and treset24='0') then
-          treset24<='1';
+        if(SYNC24i ='1' and tsync24='0') then
+          tsync24<='1';
           SYNC24o<='1';
         end if;
 
         if(GTRIG ='1' and unread='0') then
           treset <= '0';
-          treset24 <= '0';
+          tsync <= '0';
+          tsync24 <= '0';
           SYNCo<='0';
           SYNC24o<='0';
+          RESETGTID<='0';
           unread <= '1';
         elsif(GTRIG ='0') then
           unread <= '0';

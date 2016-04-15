@@ -22,6 +22,21 @@ AC:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:def
 5
 Refreshing IP repositories
 234*coregenZ19-234
+è
+ Loaded user IP repository '%s'.
+1135*coregen2Q
+=c:/Users/Ian/Documents/GitHub/project_tubii_7020/triggers_1.02default:defaultZ19-1700
+ï
+ Loaded user IP repository '%s'.
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:defaultZ19-1700
+∂
+ARepository '%s' already exists; ignoring attempt to add it again.1296*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:defaultZ19-2207
+ï
+ Loaded user IP repository '%s'.
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:defaultZ19-1700
 ï
  Loaded user IP repository '%s'.
 1135*coregen2W
@@ -112,9 +127,9 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
 00:00:072default:default2
-00:00:112default:default2
-271.6762default:default2
-83.8132default:defaultZ17-268
+00:00:162default:default2
+274.0862default:default2
+85.5352default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -136,7 +151,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:05:12 ; elapsed = 00:05:45 . Memory (MB): peak = 338.723 ; gain = 189.984
+xStarting RTL Elaboration : Time (s): cpu = 00:05:43 ; elapsed = 00:06:27 . Memory (MB): peak = 342.422 ; gain = 193.184
 2default:default
 ˝
 synthesizing module '%s'638*oasys2"
@@ -162,7 +177,7 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 GND2default:default2
 GND2default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92902default:default8@Z8-113
+92892default:default8@Z8-113
 ¬
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
 system_testPulser_0_72default:default2™
@@ -171,7 +186,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 mz_happy_RnM2default:default2)
 system_testPulser_0_72default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-92942default:default8@Z8-3491
+92932default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_testPulser_0_72default:default2¨
@@ -274,7 +289,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ShiftRegisters_02default:default2-
 system_ShiftRegisters_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93192default:default8@Z8-3491
+93182default:default8@Z8-3491
 ≥
 synthesizing module '%s'638*oasys2-
 system_ShiftRegisters_0_02default:default2¥
@@ -377,7 +392,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 TrigWordDelay_02default:default2,
 system_TrigWordDelay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-93532default:default8@Z8-3491
+93522default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_TrigWordDelay_0_02default:default2≤
@@ -688,17 +703,17 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 19032default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_1132default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/synth/system_auto_cc_113.v2default:default2
+system_auto_cc_2032default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/synth/system_auto_cc_203.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_1132default:default2Å
+system_auto_cc_2032default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 20352default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_1132default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/synth/system_auto_cc_113.v2default:default2
+system_auto_cc_2032default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/synth/system_auto_cc_203.v2default:default2
 572default:default8@Z8-638
 Ô
 synthesizing module '%s'638*oasys2@
@@ -6794,10 +6809,10 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 712default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_1132default:default2
+system_auto_cc_2032default:default2
 472default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/synth/system_auto_cc_113.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/synth/system_auto_cc_203.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -6825,24 +6840,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 22392default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_1142default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/synth/system_auto_cc_114.v2default:default2
+system_auto_cc_2042default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/synth/system_auto_cc_204.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_1142default:default2Å
+system_auto_cc_2042default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 23712default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_1142default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/synth/system_auto_cc_114.v2default:default2
+system_auto_cc_2042default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/synth/system_auto_cc_204.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_1142default:default2
+system_auto_cc_2042default:default2
 502default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/synth/system_auto_cc_114.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/synth/system_auto_cc_204.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -6858,24 +6873,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 24662default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_1152default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/synth/system_auto_cc_115.v2default:default2
+system_auto_cc_2052default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/synth/system_auto_cc_205.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_1152default:default2Å
+system_auto_cc_2052default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 25982default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_1152default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/synth/system_auto_cc_115.v2default:default2
+system_auto_cc_2052default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/synth/system_auto_cc_205.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_1152default:default2
+system_auto_cc_2052default:default2
 522default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/synth/system_auto_cc_115.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/synth/system_auto_cc_205.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -6903,24 +6918,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 28022default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_1162default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/synth/system_auto_cc_116.v2default:default2
+system_auto_cc_2062default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/synth/system_auto_cc_206.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_1162default:default2Å
+system_auto_cc_2062default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 29342default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_1162default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/synth/system_auto_cc_116.v2default:default2
+system_auto_cc_2062default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/synth/system_auto_cc_206.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_1162default:default2
+system_auto_cc_2062default:default2
 552default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/synth/system_auto_cc_116.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/synth/system_auto_cc_206.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -6948,24 +6963,24 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 31382default:default8@Z8-638
 Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_1172default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/synth/system_auto_cc_117.v2default:default2
+system_auto_cc_2072default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/synth/system_auto_cc_207.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_1172default:default2Å
+system_auto_cc_2072default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 32702default:default8@Z8-3491
 ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_1172default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/synth/system_auto_cc_117.v2default:default2
+system_auto_cc_2072default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/synth/system_auto_cc_207.v2default:default2
 572default:default8@Z8-638
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_1172default:default2
+system_auto_cc_2072default:default2
 582default:default2
 12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/synth/system_auto_cc_117.v2default:default2
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/synth/system_auto_cc_207.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -6993,22 +7008,22 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 34932default:default8@Z8-638
 ´
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-system_auto_pc_202default:default2†
-ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_20/synth/system_auto_pc_20.v2default:default2
+system_auto_pc_382default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/synth/system_auto_pc_38.v2default:default2
 572default:default2
 auto_pc2default:default2%
-system_auto_pc_202default:default2Å
+system_auto_pc_382default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 36762default:default8@Z8-3491
 ô
 synthesizing module '%s'638*oasys2%
-system_auto_pc_202default:default2¢
-ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_20/synth/system_auto_pc_20.v2default:default2
+system_auto_pc_382default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/synth/system_auto_pc_38.v2default:default2
 572default:default8@Z8-638
 ˝
 synthesizing module '%s'638*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Â
-Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -7113,7 +7128,7 @@ X
 ◊
 synthesizing module '%s'638*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2“
-ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -8370,7 +8385,7 @@ a
 Ï
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8383,7 +8398,7 @@ W
 ı
 synthesizing module '%s'638*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2·
- c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+ c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -8404,7 +8419,7 @@ N
 È
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2€
-ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8419,12 +8434,12 @@ _
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 652default:default2
 12default:default2€
-ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
 È
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2€
-ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8439,19 +8454,19 @@ _
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 662default:default2
 12default:default2€
-ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 672default:default2
 12default:default2·
- c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+ c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8471,26 +8486,26 @@ L
 2default:default
 ∞
 default block is never used226*oasys2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 682default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 692default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
 Î
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -8539,7 +8554,7 @@ U
 Ó
 synthesizing module '%s'638*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8574,12 +8589,12 @@ J
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 702default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˛
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -8614,19 +8629,19 @@ J
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 702default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 712default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
 Ï
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8639,7 +8654,7 @@ W
 Ì
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8659,26 +8674,26 @@ $	Parameter SM_DONE bound to: 2'b11
 2default:default
 ∞
 default block is never used226*oasys2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 722default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 732default:default2
 12default:default2›
-∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
 Î
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -8715,7 +8730,7 @@ V
 ˛
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8750,12 +8765,12 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 732default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˛
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8790,14 +8805,14 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 732default:default2
 12default:default2ﬁ
-«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 742default:default2
 12default:default2‹
-≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 ı
 synthesizing module '%s'638*oasys2N
@@ -10032,21 +10047,21 @@ a
 axi_protocol_converter_v2_1_b2s2default:default2
 752default:default2
 12default:default2“
-ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 π
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 762default:default2
 12default:default2Â
-Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_17/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-system_auto_pc_202default:default2
+system_auto_pc_382default:default2
 772default:default2
 12default:default2¢
-ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_20/synth/system_auto_pc_20.v2default:default2
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_38/synth/system_auto_pc_38.v2default:default2
 572default:default8@Z8-256
 Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -10057,17 +10072,17 @@ kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/source
 34932default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_0_11302default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1130/synth/system_tier2_xbar_0_1130.v2default:default2
+system_tier2_xbar_0_11842default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1184/synth/system_tier2_xbar_0_1184.v2default:default2
 572default:default2 
 tier2_xbar_02default:default2,
-system_tier2_xbar_0_11302default:default2Å
+system_tier2_xbar_0_11842default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 73032default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_0_11302default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1130/synth/system_tier2_xbar_0_1130.v2default:default2
+system_tier2_xbar_0_11842default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1184/synth/system_tier2_xbar_0_1184.v2default:default2
 572default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys22
@@ -11135,24 +11150,24 @@ U
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_0_11302default:default2
+system_tier2_xbar_0_11842default:default2
 882default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1130/synth/system_tier2_xbar_0_1130.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1184/synth/system_tier2_xbar_0_1184.v2default:default2
 572default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_1_11312default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1131/synth/system_tier2_xbar_1_1131.v2default:default2
+system_tier2_xbar_1_11852default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1185/synth/system_tier2_xbar_1_1185.v2default:default2
 572default:default2 
 tier2_xbar_12default:default2,
-system_tier2_xbar_1_11312default:default2Å
+system_tier2_xbar_1_11852default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 74792default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_1_11312default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1131/synth/system_tier2_xbar_1_1131.v2default:default2
+system_tier2_xbar_1_11852default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1185/synth/system_tier2_xbar_1_1185.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -11928,24 +11943,24 @@ U
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_1_11312default:default2
+system_tier2_xbar_1_11852default:default2
 892default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1131/synth/system_tier2_xbar_1_1131.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1185/synth/system_tier2_xbar_1_1185.v2default:default2
 572default:default8@Z8-256
 Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_2_11322default:default2Æ
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1132/synth/system_tier2_xbar_2_1132.v2default:default2
+system_tier2_xbar_2_11862default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1186/synth/system_tier2_xbar_2_1186.v2default:default2
 572default:default2 
 tier2_xbar_22default:default2,
-system_tier2_xbar_2_11322default:default2Å
+system_tier2_xbar_2_11862default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 76552default:default8@Z8-3491
 Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_2_11322default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1132/synth/system_tier2_xbar_2_1132.v2default:default2
+system_tier2_xbar_2_11862default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1186/synth/system_tier2_xbar_2_1186.v2default:default2
 572default:default8@Z8-638
 ◊
 synthesizing module '%s'638*oasys2B
@@ -12769,10 +12784,10 @@ X
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_2_11322default:default2
+system_tier2_xbar_2_11862default:default2
 902default:default2
 12default:default2∞
-ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1132/synth/system_tier2_xbar_2_1132.v2default:default2
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1186/synth/system_tier2_xbar_2_1186.v2default:default2
 572default:default8@Z8-256
 ò
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
@@ -12827,11 +12842,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001010000000000000000000000000000000000000000000000010000111100000100100000000000000000000000000000000000000000000001000011110000001111000000000000000000000000000000000000000000000100001111000000100100000000000000000000000000000000000000000000010000111100000001000000000000000000000000000000000000000000000001000011110000000010000000000000000000000000000000000000000000000100001111000000000100000000000000000000000000000000000000000000010000111100000000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001011000000000000000000000000000000000000000000000010000111100000101010000000000000000000000000000000000000000000001000011110000010011000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000010100000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000101100000000000000000000000000000000000000000000001000011110000010101000000000000000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
+Ø	Parameter C_M_AXI_ADDR_WIDTH bound to: 768'b000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000110000000000000000000000000000001100 
 2default:default
 [
 %s*synth2L
@@ -13020,11 +13035,11 @@ Z
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001010000000000000000000000000000000000000000000000010000111100000100100000000000000000000000000000000000000000000001000011110000001111000000000000000000000000000000000000000000000100001111000000100100000000000000000000000000000000000000000000010000111100000001000000000000000000000000000000000000000000000001000011110000000010000000000000000000000000000000000000000000000100001111000000000100000000000000000000000000000000000000000000010000111100000000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001011000000000000000000000000000000000000000000000010000111100000101010000000000000000000000000000000000000000000001000011110000010011000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000010100000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+Ø	Parameter C_M_AXI_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000101100000000000000000000000000000000000000000000001000011110000010101000000000000000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 ‘
 %s*synth2ƒ
-Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001010011111111111100000000000000000000000000000000010000111100000100101111111111110000000000000000000000000000000001000011110000001111111111111111000000000000000000000000000000000100001111000000100111111111111100000000000000000000000000000000010000111100000001001111111111110000000000000000000000000000000001000011110000000010111111111111000000000000000000000000000000000100001111000000000111111111111100000000000000000000000000000000010000111100000000001111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001011011111111111100000000000000000000000000000000010000111100000101011111111111110000000000000000000000000000000001000011110000010011111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000010101111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+Ø	Parameter C_M_AXI_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000101101111111111110000000000000000000000000000000001000011110000010101111111111111000000000000000000000000000000000100001111000001001111111111111100000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000001010111111111111000000000000000000000000000000000100001111000000011111111111111100000000000000000000000000000000010000111100000001101111111111110000000000000000000000000000000001000011110000000101111111111111000000000000000000000000000000000100001111000000001111111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 2default:default
 é
 %s*synth2
@@ -13233,11 +13248,11 @@ X
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_BASE_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001010000000000000000000000000000000000000000000000010000111100000100100000000000000000000000000000000000000000000001000011110000001111000000000000000000000000000000000000000000000100001111000000100100000000000000000000000000000000000000000000010000111100000001000000000000000000000000000000000000000000000001000011110000000010000000000000000000000000000000000000000000000100001111000000000100000000000000000000000000000000000000000000010000111100000000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000001011000000000000000000000000000000000000000000000010000111100000101010000000000000000000000000000000000000000000001000011110000010011000000000000000000000000000000000000000000000100001111000001000000000000000000000000000000000000000000000000010000111100000011100000000000000000000000000000000000000000000001000011110000001101000000000000000000000000000000000000000000000100001111000000100000000000000000000000000000000000000000000000010000111100000100010000000000000000000000000000000000000000000001000011110000001100000000000000000000000000000000000000000000000100001111000000101100000000000000000000000000000000000000000000010000111100000010100000000000000000000000000000000000000000000001000011110000000111000000000000000000000000000000000000000000000100001111000000011000000000000000000000000000000000000000000000010000111100000001010000000000000000000000000000000000000000000001000011110000000011000000000000 
+©	Parameter C_BASE_ADDR bound to: 1536'b111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000010000111100000101100000000000000000000000000000000000000000000001000011110000010101000000000000000000000000000000000000000000000100001111000001001100000000000000000000000000000000000000000000010000111100000100000000000000000000000000000000000000000000000001000011110000001110000000000000000000000000000000000000000000000100001111000000110100000000000000000000000000000000000000000000010000111100000010000000000000000000000000000000000000000000000001000011110000010001000000000000000000000000000000000000000000000100001111000000110000000000000000000000000000000000000000000000010000111100000010110000000000000000000000000000000000000000000001000011110000001010000000000000000000000000000000000000000000000100001111000000011100000000000000000000000000000000000000000000010000111100000001100000000000000000000000000000000000000000000001000011110000000101000000000000000000000000000000000000000000000100001111000000001100000000000000000000000000000000000000000000010000111100000101000000000000000000000000000000000000000000000001000011110000010010000000000000000000000000000000000000000000000100001111000000111100000000000000000000000000000000000000000000010000111100000010010000000000000000000000000000000000000000000001000011110000000100000000000000000000000000000000000000000000000100001111000000001000000000000000000000000000000000000000000000010000111100000000010000000000000000000000000000000000000000000001000011110000000000000000000000 
 2default:default
 Œ
 %s*synth2æ
-©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000100001111000001010011111111111100000000000000000000000000000000010000111100000100101111111111110000000000000000000000000000000001000011110000001111111111111111000000000000000000000000000000000100001111000000100111111111111100000000000000000000000000000000010000111100000001001111111111110000000000000000000000000000000001000011110000000010111111111111000000000000000000000000000000000100001111000000000111111111111100000000000000000000000000000000010000111100000000001111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000001011011111111111100000000000000000000000000000000010000111100000101011111111111110000000000000000000000000000000001000011110000010011111111111111000000000000000000000000000000000100001111000001000011111111111100000000000000000000000000000000010000111100000011101111111111110000000000000000000000000000000001000011110000001101111111111111000000000000000000000000000000000100001111000000100011111111111100000000000000000000000000000000010000111100000100011111111111110000000000000000000000000000000001000011110000001100111111111111000000000000000000000000000000000100001111000000101111111111111100000000000000000000000000000000010000111100000010101111111111110000000000000000000000000000000001000011110000000111111111111111000000000000000000000000000000000100001111000000011011111111111100000000000000000000000000000000010000111100000001011111111111110000000000000000000000000000000001000011110000000011111111111111 
+©	Parameter C_HIGH_ADDR bound to: 1536'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000111100000101101111111111110000000000000000000000000000000001000011110000010101111111111111000000000000000000000000000000000100001111000001001111111111111100000000000000000000000000000000010000111100000100001111111111110000000000000000000000000000000001000011110000001110111111111111000000000000000000000000000000000100001111000000110111111111111100000000000000000000000000000000010000111100000010001111111111110000000000000000000000000000000001000011110000010001111111111111000000000000000000000000000000000100001111000000110011111111111100000000000000000000000000000000010000111100000010111111111111110000000000000000000000000000000001000011110000001010111111111111000000000000000000000000000000000100001111000000011111111111111100000000000000000000000000000000010000111100000001101111111111110000000000000000000000000000000001000011110000000101111111111111000000000000000000000000000000000100001111000000001111111111111100000000000000000000000000000000010000111100000101001111111111110000000000000000000000000000000001000011110000010010111111111111000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000111100000010011111111111110000000000000000000000000000000001000011110000000100111111111111000000000000000000000000000000000100001111000000001011111111111100000000000000000000000000000000010000111100000000011111111111110000000000000000000000000000000001000011110000000000111111111111 
 2default:default
 O
 %s*synth2@
@@ -13378,7 +13393,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 burstTrigger_02default:default2+
 system_burstTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-99072default:default8@Z8-3491
+99062default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_burstTrigger_0_02default:default2∞
@@ -13481,7 +13496,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 buttonTrigger_02default:default2,
 system_buttonTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-99332default:default8@Z8-3491
+99322default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_buttonTrigger_0_02default:default2≤
@@ -13584,7 +13599,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 clockLogic_02default:default2)
 system_clockLogic_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-99582default:default8@Z8-3491
+99572default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_clockLogic_0_02default:default2¨
@@ -13687,7 +13702,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 comboTrigger_02default:default2+
 system_comboTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-99842default:default8@Z8-3491
+99832default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_comboTrigger_0_02default:default2∞
@@ -13790,7 +13805,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 countDisplay_02default:default2+
 system_countDisplay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-100102default:default8@Z8-3491
+100092default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_countDisplay_0_02default:default2∞
@@ -13893,7 +13908,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 	counter_02default:default2&
 system_counter_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-100382default:default8@Z8-3491
+100372default:default8@Z8-3491
 û
 synthesizing module '%s'638*oasys2&
 system_counter_0_02default:default2¶
@@ -13996,7 +14011,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 fifo_generator_02default:default2-
 system_fifo_generator_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-100622default:default8@Z8-3491
+100612default:default8@Z8-3491
 ≥
 synthesizing module '%s'638*oasys2-
 system_fifo_generator_0_02default:default2¥
@@ -68072,12 +68087,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 fifo_readout_02default:default2+
 system_fifo_readout_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-100742default:default8@Z8-3491
+100732default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_fifo_readout_0_02default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
-872default:default8@Z8-638
+892default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68094,12 +68109,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 U02default:default2%
 fifo_readout_v1_02default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
-1542default:default8@Z8-3491
+1582default:default8@Z8-3491
 Ø
 synthesizing module '%s'638*oasys25
 !fifo_readout_v1_0__parameterized02default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
-542default:default8@Z8-638
+562default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68124,12 +68139,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 fifo_readout_v1_0_S00_AXI_inst2default:default2-
 fifo_readout_v1_0_S00_AXI2default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
-952default:default8@Z8-3491
+992default:default8@Z8-3491
 ø
 synthesizing module '%s'638*oasys2=
 )fifo_readout_v1_0_S00_AXI__parameterized02default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
-922default:default8@Z8-638
+942default:default8@Z8-638
 _
 %s*synth2P
 <	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68141,32 +68156,32 @@ _
 Ñ
 default block is never used226*oasys2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
-2312default:default8@Z8-226
+2392default:default8@Z8-226
 Ñ
 default block is never used226*oasys2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
-3642default:default8@Z8-226
+3722default:default8@Z8-226
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )fifo_readout_v1_0_S00_AXI__parameterized02default:default2
 1222default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
-922default:default8@Z8-256
+942default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !fifo_readout_v1_0__parameterized02default:default2
 1232default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
-542default:default8@Z8-256
+562default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_fifo_readout_0_02default:default2
 1242default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
-872default:default8@Z8-256
+892default:default8@Z8-256
 ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
 system_testDelay_0_02default:default2®
@@ -68175,7 +68190,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 genericDelay2default:default2(
 system_testDelay_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-101032default:default8@Z8-3491
+101042default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_0_02default:default2™
@@ -68278,7 +68293,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 genericPulser2default:default2)
 system_testPulser_0_92default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-101292default:default8@Z8-3491
+101302default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2)
 system_testPulser_0_92default:default2¨
@@ -68316,7 +68331,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 gtDelay2default:default2(
 system_testDelay_0_72default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-101542default:default8@Z8-3491
+101552default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_0_72default:default2™
@@ -68354,12 +68369,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 implement_gtid_02default:default2-
 system_implement_gtid_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-101802default:default8@Z8-3491
+101812default:default8@Z8-3491
 ≥
 synthesizing module '%s'638*oasys2-
 system_implement_gtid_0_02default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
-852default:default8@Z8-638
+862default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68376,12 +68391,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 U02default:default2'
 implement_gtid_v1_02default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
-1502default:default8@Z8-3491
+1522default:default8@Z8-3491
 µ
 synthesizing module '%s'638*oasys27
 #implement_gtid_v1_0__parameterized02default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
-522default:default8@Z8-638
+532default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68406,12 +68421,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
  implement_gtid_v1_0_S00_AXI_inst2default:default2/
 implement_gtid_v1_0_S00_AXI2default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
-912default:default8@Z8-3491
+932default:default8@Z8-3491
 ≈
 synthesizing module '%s'638*oasys2?
 +implement_gtid_v1_0_S00_AXI__parameterized02default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-892default:default8@Z8-638
+902default:default8@Z8-638
 _
 %s*synth2P
 <	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -68434,21 +68449,21 @@ _
 1302default:default2
 12default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-892default:default8@Z8-256
+902default:default8@Z8-256
 Ú
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #implement_gtid_v1_0__parameterized02default:default2
 1312default:default2
 12default:default2¨
 ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
-522default:default8@Z8-256
+532default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 system_implement_gtid_0_02default:default2
 1322default:default2
 12default:default2¥
 ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
-852default:default8@Z8-256
+862default:default8@Z8-256
 “
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
 system_oneshot_pulse_0_22default:default2∞
@@ -68457,7 +68472,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 oneshot_pulse_02default:default2,
 system_oneshot_pulse_0_22default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-102072default:default8@Z8-3491
+102092default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_oneshot_pulse_0_22default:default2≤
@@ -68560,7 +68575,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 oneshot_pulse_12default:default2,
 system_oneshot_pulse_1_12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-102332default:default8@Z8-3491
+102352default:default8@Z8-3491
 ∞
 synthesizing module '%s'638*oasys2,
 system_oneshot_pulse_1_12default:default2≤
@@ -68598,7 +68613,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 prescaleTrigger_02default:default2.
 system_prescaleTrigger_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-102592default:default8@Z8-3491
+102612default:default8@Z8-3491
 ∂
 synthesizing module '%s'638*oasys2.
 system_prescaleTrigger_0_02default:default2∂
@@ -68701,7 +68716,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 processing_system7_02default:default21
 system_processing_system7_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-102852default:default8@Z8-3491
+102872default:default8@Z8-3491
 ¿
 synthesizing module '%s'638*oasys21
 system_processing_system7_0_02default:default2º
@@ -69618,7 +69633,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 smellieDelay2default:default2(
 system_testDelay_3_62default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-103532default:default8@Z8-3491
+103552default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_3_62default:default2™
@@ -69656,7 +69671,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 smelliePulser2default:default2*
 system_testPulser_1_112default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-103792default:default8@Z8-3491
+103812default:default8@Z8-3491
 ™
 synthesizing module '%s'638*oasys2*
 system_testPulser_1_112default:default2Æ
@@ -69694,7 +69709,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 tellieDelay2default:default2(
 system_testDelay_2_52default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-104042default:default8@Z8-3491
+104062default:default8@Z8-3491
 §
 synthesizing module '%s'638*oasys2(
 system_testDelay_2_52default:default2™
@@ -69732,7 +69747,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 telliePulser2default:default2*
 system_testPulser_0_102default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-104302default:default8@Z8-3491
+104322default:default8@Z8-3491
 ™
 synthesizing module '%s'638*oasys2*
 system_testPulser_0_102default:default2Æ
@@ -69762,109 +69777,6 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 12default:default2Æ
 óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 832default:default8@Z8-256
-√
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-system_triggerOut_0_02default:default2™
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-562default:default2 
-triggerOut_02default:default2)
-system_triggerOut_0_02default:default2Å
-kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-104552default:default8@Z8-3491
-®
-synthesizing module '%s'638*oasys2)
-system_triggerOut_0_02default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-1012default:default8@Z8-638
-a
-%s*synth2R
->	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-2default:default
-Õ
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-triggerOut_v1_02default:default2¢
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-62default:default2
-U02default:default2#
-triggerOut_v1_02default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-1822default:default8@Z8-3491
-©
-synthesizing module '%s'638*oasys23
-triggerOut_v1_0__parameterized02default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-682default:default8@Z8-638
-a
-%s*synth2R
->	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-2default:default
-˜
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-triggerOut_v1_0_S00_AXI2default:default2™
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-62default:default20
-triggerOut_v1_0_S00_AXI_inst2default:default2+
-triggerOut_v1_0_S00_AXI2default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-1232default:default8@Z8-3491
-∫
-synthesizing module '%s'638*oasys2;
-'triggerOut_v1_0_S00_AXI__parameterized02default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-1052default:default8@Z8-638
-_
-%s*synth2P
-<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-2default:default
-Ä
-default block is never used226*oasys2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-3352default:default8@Z8-226
-Ä
-default block is never used226*oasys2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-4682default:default8@Z8-226
-˜
-%done synthesizing module '%s' (%s#%s)256*oasys2;
-'triggerOut_v1_0_S00_AXI__parameterized02default:default2
-1492default:default2
-12default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-1052default:default8@Z8-256
-Ê
-%done synthesizing module '%s' (%s#%s)256*oasys23
-triggerOut_v1_0__parameterized02default:default2
-1502default:default2
-12default:default2§
-çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0.vhd2default:default2
-682default:default8@Z8-256
-Â
-%done synthesizing module '%s' (%s#%s)256*oasys2)
-system_triggerOut_0_02default:default2
-1512default:default2
-12default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/synth/system_triggerOut_0_0.vhd2default:default2
-1012default:default8@Z8-256
 Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
 system_triggerSplit_0_02default:default2Æ
@@ -69873,7 +69785,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 triggerSplit_02default:default2+
 system_triggerSplit_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-104982default:default8@Z8-3491
+104572default:default8@Z8-3491
 ≠
 synthesizing module '%s'638*oasys2+
 system_triggerSplit_0_02default:default2∞
@@ -69950,101 +69862,145 @@ _
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )triggerSplit_v1_0_S00_AXI__parameterized02default:default2
-1522default:default2
+1492default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !triggerSplit_v1_0__parameterized02default:default2
-1532default:default2
+1502default:default2
 12default:default2®
 ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 542default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_triggerSplit_0_02default:default2
-1542default:default2
+1512default:default2
 12default:default2∞
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 872default:default8@Z8-256
-√
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-system_xlconstant_0_22default:default2™
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
-592default:default2 
-xlconstant_02default:default2)
-system_xlconstant_0_22default:default2Å
+π
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
+system_triggers_0_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+562default:default2
+
+triggers_02default:default2'
+system_triggers_0_02default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-105272default:default8@Z8-3491
-ß
-synthesizing module '%s'638*oasys2)
-system_xlconstant_0_22default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
-652default:default8@Z8-638
-U
-%s*synth2F
-2	Parameter CONST_VAL bound to: 1 - type: integer 
+104862default:default8@Z8-3491
+¢
+synthesizing module '%s'638*oasys2'
+system_triggers_0_02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+1012default:default8@Z8-638
+a
+%s*synth2R
+>	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 2default:default
-W
-%s*synth2H
-4	Parameter CONST_WIDTH bound to: 1 - type: integer 
+`
+%s*synth2Q
+=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 2default:default
-ø
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-
-xlconstant2default:default2û
-âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/work/xlconstant.vhd2default:default2
-272default:default2
-U02default:default2
-
-xlconstant2default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
-852default:default8@Z8-3491
-†
-synthesizing module '%s'638*oasys2.
-xlconstant__parameterized02default:default2†
-âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/work/xlconstant.vhd2default:default2
-362default:default8@Z8-638
-U
-%s*synth2F
-2	Parameter CONST_VAL bound to: 1 - type: integer 
+¡
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
+triggers_v1_02default:default2û
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+62default:default2
+U02default:default2!
+triggers_v1_02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+1822default:default8@Z8-3491
+£
+synthesizing module '%s'638*oasys21
+triggers_v1_0__parameterized02default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+682default:default8@Z8-638
+a
+%s*synth2R
+>	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 2default:default
-W
-%s*synth2H
-4	Parameter CONST_WIDTH bound to: 1 - type: integer 
+`
+%s*synth2Q
+=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 2default:default
-›
-%done synthesizing module '%s' (%s#%s)256*oasys2.
-xlconstant__parameterized02default:default2
-1552default:default2
+_
+%s*synth2P
+<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+2default:default
+È
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
+triggers_v1_0_S00_AXI2default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+62default:default2.
+triggers_v1_0_S00_AXI_inst2default:default2)
+triggers_v1_0_S00_AXI2default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+1232default:default8@Z8-3491
+¥
+synthesizing module '%s'638*oasys29
+%triggers_v1_0_S00_AXI__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+1052default:default8@Z8-638
+_
+%s*synth2P
+<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+2default:default
+¸
+default block is never used226*oasys2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+3502default:default8@Z8-226
+¸
+default block is never used226*oasys2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+5192default:default8@Z8-226
+Ò
+%done synthesizing module '%s' (%s#%s)256*oasys29
+%triggers_v1_0_S00_AXI__parameterized02default:default2
+1522default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+1052default:default8@Z8-256
+‡
+%done synthesizing module '%s' (%s#%s)256*oasys21
+triggers_v1_0__parameterized02default:default2
+1532default:default2
 12default:default2†
-âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/work/xlconstant.vhd2default:default2
-362default:default8@Z8-256
-‰
-%done synthesizing module '%s' (%s#%s)256*oasys2)
-system_xlconstant_0_22default:default2
-1562default:default2
-12default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xlconstant_0_2/synth/system_xlconstant_0_2.vhd2default:default2
-652default:default8@Z8-256
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+682default:default8@Z8-256
+ﬂ
+%done synthesizing module '%s' (%s#%s)256*oasys2'
+system_triggers_0_02default:default2
+1542default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+1012default:default8@Z8-256
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2
 system2default:default2
-1572default:default2
+1552default:default2
 12default:default2Å
 kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 79602default:default8@Z8-256
 ∫
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 system_wrapper2default:default2
-1582default:default2
+1562default:default2
 12default:default2â
 sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
 652default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:07:05 ; elapsed = 00:07:42 . Memory (MB): peak = 560.813 ; gain = 412.074
+xFinished RTL Elaboration : Time (s): cpu = 00:07:53 ; elapsed = 00:08:45 . Memory (MB): peak = 564.414 ; gain = 415.176
 2default:default
 ;
 %s*synth2,
@@ -70154,17 +70110,41 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 180*	planAhead2k
 Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-882default:default8@Z12-180
+822default:default8@Z12-180
 
 "'%s' expects at least one object.
 55*common2 
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-882default:default8@Z17-55
-∑
+822default:default8@Z17-55
+π
 No cells matched '%s'.
-180*	planAhead2m
-Yget_cells -hier -filter {REF_NAME==system_auto_cc_99 || ORIG_REF_NAME==system_auto_cc_99}2default:default2u
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_161 || ORIG_REF_NAME==system_auto_cc_161}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+912default:default8@Z12-180
+
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+912default:default8@Z17-55
+π
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_175 || ORIG_REF_NAME==system_auto_cc_175}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+942default:default8@Z12-180
+
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+942default:default8@Z17-55
+π
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_183 || ORIG_REF_NAME==system_auto_cc_183}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z12-180
 
@@ -70173,10 +70153,10 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z17-55
-∏
+∫
 No cells matched '%s'.
-180*	planAhead2m
-Yget_cells -hier -filter {REF_NAME==system_auto_pc_17 || ORIG_REF_NAME==system_auto_pc_17}2default:default2u
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_185 || ORIG_REF_NAME==system_auto_cc_185}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z12-180
 Ò
@@ -70185,30 +70165,66 @@ _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_
 set_property2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z17-55
+∫
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_187 || ORIG_REF_NAME==system_auto_cc_187}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1032default:default8@Z12-180
+Ò
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1032default:default8@Z17-55
 ∂
 No cells matched '%s'.
 180*	planAhead2k
 Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-1452default:default8@Z12-180
+1512default:default8@Z12-180
 ‰
 No cells matched '%s'.
 180*	planAhead2
 /inst2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-1452default:default8@Z12-180
-∏
+1512default:default8@Z12-180
+∫
 No cells matched '%s'.
-180*	planAhead2m
-Yget_cells -hier -filter {REF_NAME==system_auto_cc_99 || ORIG_REF_NAME==system_auto_cc_99}2default:default2u
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_183 || ORIG_REF_NAME==system_auto_cc_183}2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-1502default:default8@Z12-180
+1562default:default8@Z12-180
 ‰
 No cells matched '%s'.
 180*	planAhead2
 /inst2default:default2u
 _C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
-1502default:default8@Z12-180
+1562default:default8@Z12-180
+∫
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_185 || ORIG_REF_NAME==system_auto_cc_185}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1612default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1612default:default8@Z12-180
+∫
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==system_auto_cc_187 || ORIG_REF_NAME==system_auto_cc_187}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1662default:default8@Z12-180
+‰
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+1662default:default8@Z12-180
 ≤
 Finished Parsing XDC File [%s]
 178*designutils2s
@@ -70223,17 +70239,6 @@ $Parsing XDC File [%s] for cell '%s'
 848*designutils2Õ
 ∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default20
 system_i/fifo_generator_0/U02default:defaultZ20-848
-ã
-"No clocks found for command '%s'.
-1008*	planAhead2Y
-Eget_clocks -of_objects [get_pins system_i/fifo_generator_0/U0/wr_clk]2default:default2œ
-∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
-532default:default8@Z12-1008
-Ì
-aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2œ
-∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
-532default:default8@Z12-626
 ã
 "No clocks found for command '%s'.
 1008*	planAhead2Y
@@ -70260,140 +70265,150 @@ ZCould not find module '%s'. The XDC file %s will not be read for any cell of th
 1082*designutils2$
 system_auto_cc_52default:default2£
 éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/system_auto_cc_5_clocks.xdc2default:defaultZ20-1280
-«
+ 
 ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
-1082*designutils2%
-system_auto_cc_992default:default2£
-éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_99/system_auto_cc_99_clocks.xdc2default:defaultZ20-1280
+1082*designutils2&
+system_auto_cc_1832default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_183/system_auto_cc_183_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_1852default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_185/system_auto_cc_185_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_1872default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_187/system_auto_cc_187_clocks.xdc2default:defaultZ20-1280
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/system_auto_cc_113_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/system_auto_cc_203_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/system_auto_cc_113_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/system_auto_cc_203_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/system_auto_cc_113_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/system_auto_cc_203_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/system_auto_cc_113_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/system_auto_cc_203_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_113/system_auto_cc_113_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_203/system_auto_cc_203_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/system_auto_cc_114_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/system_auto_cc_204_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/system_auto_cc_114_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/system_auto_cc_204_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/system_auto_cc_114_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/system_auto_cc_204_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/system_auto_cc_114_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/system_auto_cc_204_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_114/system_auto_cc_114_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_204/system_auto_cc_204_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/system_auto_cc_115_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/system_auto_cc_205_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/system_auto_cc_115_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/system_auto_cc_205_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/system_auto_cc_115_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/system_auto_cc_205_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/system_auto_cc_115_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/system_auto_cc_205_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_115/system_auto_cc_115_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_205/system_auto_cc_205_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/system_auto_cc_116_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/system_auto_cc_206_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-848
 «
 "No clocks found for command '%s'.
 1008*	planAhead2=
 )get_clocks -of_objects [get_ports Clk_in]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/system_auto_cc_116_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/system_auto_cc_206_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/system_auto_cc_116_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/system_auto_cc_206_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/system_auto_cc_116_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/system_auto_cc_206_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_116/system_auto_cc_116_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_206/system_auto_cc_206_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 µ
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/system_auto_cc_117_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/system_auto_cc_207_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-848
 Ä
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]2default:default2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/system_auto_cc_117_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/system_auto_cc_207_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2ß
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/system_auto_cc_117_clocks.xdc2default:default2
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/system_auto_cc_207_clocks.xdc2default:default2
 172default:default8@Z12-626
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/system_auto_cc_117_clocks.xdc2default:default2I
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/system_auto_cc_207_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-847
 £
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2•
-êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_117/system_auto_cc_117_clocks.xdc2default:default2Ö
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_207/system_auto_cc_207_clocks.xdc2default:default2Ö
 qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
@@ -70409,11 +70424,11 @@ u
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:39 ; elapsed = 00:08:27 . Memory (MB): peak = 864.883 ; gain = 716.145
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:08:32 ; elapsed = 00:10:05 . Memory (MB): peak = 872.102 ; gain = 722.863
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:07:39 ; elapsed = 00:08:27 . Memory (MB): peak = 864.883 ; gain = 716.145
+yFinished RTL Optimization : Time (s): cpu = 00:08:32 ; elapsed = 00:10:05 . Memory (MB): peak = 872.102 ; gain = 722.863
 2default:default
 „
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
@@ -70859,18 +70874,24 @@ L'%s' operator could not be merged with '%s' operator due to loss of accuracy
 ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 2622default:default8@Z8-3537
 ≈
-merging register '%s' into '%s'3619*oasys2
-	SYNCo_reg2default:default2
+merging register '%s' into '%s'3619*oasys2!
+RESETGTID_reg2default:default2
 
-treset_reg2default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-2662default:default8@Z8-4471
-…
+treset_reg2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+2702default:default8@Z8-4471
+¿
+merging register '%s' into '%s'3619*oasys2
+	SYNCo_reg2default:default2
+	tsync_reg2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+2752default:default8@Z8-4471
+ƒ
 merging register '%s' into '%s'3619*oasys2
-SYNC24o_reg2default:default2 
-treset24_reg2default:default2¨
-ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerOut_0_0/hdl/triggerOut_v1_0_S00_AXI.vhd2default:default2
-2712default:default8@Z8-4471
+SYNC24o_reg2default:default2
+tsync24_reg2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+2802default:default8@Z8-4471
 Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2N
@@ -70990,37 +71011,37 @@ treset_reg2default:default2¨
 
 Report RTL Partitions: 
 2default:default
-S
-%s*synth2D
-0+------+--------------+------------+----------+
+_
+%s*synth2P
+<+------+--------------------------+------------+----------+
 2default:default
-S
-%s*synth2D
-0|      |RTL Partition |Replication |Instances |
+_
+%s*synth2P
+<|      |RTL Partition             |Replication |Instances |
 2default:default
-S
-%s*synth2D
-0+------+--------------+------------+----------+
+_
+%s*synth2P
+<+------+--------------------------+------------+----------+
 2default:default
-S
-%s*synth2D
-0|1     |system__GB0   |           1|     36901|
+_
+%s*synth2P
+<|1     |system__GB0               |           1|     38892|
 2default:default
-S
-%s*synth2D
-0|2     |system__GB1   |           1|     12117|
+_
+%s*synth2P
+<|2     |system__GB1               |           1|     12117|
 2default:default
-S
-%s*synth2D
-0|3     |system__GB2   |           1|     19590|
+_
+%s*synth2P
+<|3     |system__GB2               |           1|     19590|
 2default:default
-S
-%s*synth2D
-0|4     |system__GB3   |           1|      1483|
+_
+%s*synth2P
+<|4     |system_fifo_generator_0_0 |           1|      1483|
 2default:default
-S
-%s*synth2D
-0+------+--------------+------------+----------+
+_
+%s*synth2P
+<+------+--------------------------+------------+----------+
 2default:default
 z
 %s*synth2k
@@ -71030,7 +71051,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:07:58 ; elapsed = 00:08:49 . Memory (MB): peak = 864.883 ; gain = 716.145
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:08:52 ; elapsed = 00:10:31 . Memory (MB): peak = 872.102 ; gain = 722.863
 2default:default
 B
 %s*synth23
@@ -71186,7 +71207,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 128   
+.	               32 Bit    Registers := 131   
 2default:default
 Q
 %s*synth2B
@@ -71218,11 +71239,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 4     
+.	                5 Bit    Registers := 6     
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 429   
+.	                4 Bit    Registers := 427   
 2default:default
 Q
 %s*synth2B
@@ -71234,7 +71255,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 733   
+.	                1 Bit    Registers := 735   
 2default:default
 0
 %s*synth2!
@@ -71254,23 +71275,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 12    
-2default:default
-Q
-%s*synth2B
 .	  16 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 230   
+.	   4 Input     32 Bit        Muxes := 10    
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 11    
+.	   8 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     16 Bit        Muxes := 1     
+.	   3 Input     32 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 241   
 2default:default
 Q
 %s*synth2B
@@ -71286,7 +71307,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 215   
+.	   2 Input      8 Bit        Muxes := 222   
 2default:default
 Q
 %s*synth2B
@@ -71314,15 +71335,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 50    
-2default:default
-Q
-%s*synth2B
 .	   2 Input      1 Bit        Muxes := 710   
 2default:default
 Q
 %s*synth2B
 .	   3 Input      1 Bit        Muxes := 25    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 50    
 2default:default
 F
 %s*synth27
@@ -71331,6 +71352,1186 @@ F
 :
 %s*synth2+
 Module system_wrapper 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module reset_blk_ramfifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module blk_mem_input_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module blk_mem_output_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module bindec__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+2
+%s*synth2#
+Module bindec 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+D
+%s*synth25
+!Module blk_mem_gen_prim_wrapper 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_prim_width 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+K
+%s*synth2<
+(Module blk_mem_gen_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+D
+%s*synth25
+!Module blk_mem_gen_generic_cstr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_v8_1_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module blk_mem_gen_v8_1__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module synchronizer_ff__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+N
+%s*synth2?
++Module synchronizer_ff__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+N
+%s*synth2?
++Module synchronizer_ff__parameterized0__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+K
+%s*synth2<
+(Module synchronizer_ff__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module clk_x_pntrs__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 28    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	               14 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	               13 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	               11 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	               10 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                7 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Wide XORs := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Wide XORs := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 4     
+2default:default
+G
+%s*synth28
+$Module rd_bin_cntr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+C
+%s*synth24
+ Module compare__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+N
+%s*synth2?
++Module rd_status_flags_as__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+D
+%s*synth25
+!Module rd_logic__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_bin_cntr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+N
+%s*synth2?
++Module wr_status_flags_as__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+D
+%s*synth25
+!Module wr_logic__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module system_fifo_generator_0_0 
 2default:default
 B
 %s*synth23
@@ -71496,9 +72697,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-S
-%s*synth2D
-0Module triggerOut_v1_0_S00_AXI__parameterized0 
+U
+%s*synth2F
+2Module triggerSplit_v1_0_S00_AXI__parameterized0 
 2default:default
 B
 %s*synth23
@@ -71510,19 +72711,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	               48 Bit    Registers := 1     
+.	               32 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 6     
-2default:default
-Q
-%s*synth2B
-.	               24 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
+.	                4 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
@@ -71530,7 +72723,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 13    
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -71538,31 +72731,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 1     
+.	   2 Input     32 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 6     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 14    
-2default:default
-K
-%s*synth2<
-(Module triggerOut_v1_0__parameterized0 
+M
+%s*synth2>
+*Module triggerSplit_v1_0__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-A
-%s*synth22
-Module system_triggerOut_0_0 
+C
+%s*synth24
+ Module system_triggerSplit_0_0 
 2default:default
 B
 %s*synth23
@@ -73830,7 +75015,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_113 
+Module system_auto_cc_203 
 2default:default
 B
 %s*synth23
@@ -75978,7 +77163,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_114 
+Module system_auto_cc_204 
 2default:default
 B
 %s*synth23
@@ -78118,7 +79303,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_115 
+Module system_auto_cc_205 
 2default:default
 B
 %s*synth23
@@ -80266,7 +81451,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_116 
+Module system_auto_cc_206 
 2default:default
 B
 %s*synth23
@@ -82414,7 +83599,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_117 
+Module system_auto_cc_207 
 2default:default
 B
 %s*synth23
@@ -83254,7 +84439,7 @@ B
 2default:default
 =
 %s*synth2.
-Module system_auto_pc_20 
+Module system_auto_pc_38 
 2default:default
 B
 %s*synth23
@@ -83300,33 +84485,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__9 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__81 
 2default:default
 B
 %s*synth23
@@ -83334,7 +84495,31 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__10 
+.Module generic_baseblocks_v2_1_carry_and__82 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__84 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__85 
 2default:default
 B
 %s*synth23
@@ -83350,7 +84535,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__21 
+.Module generic_baseblocks_v2_1_carry_and__96 
 2default:default
 B
 %s*synth23
@@ -83358,7 +84543,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__22 
+.Module generic_baseblocks_v2_1_carry_and__97 
 2default:default
 B
 %s*synth23
@@ -83366,7 +84551,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__23 
+.Module generic_baseblocks_v2_1_carry_and__98 
 2default:default
 B
 %s*synth23
@@ -83374,15 +84559,15 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__24 
+.Module generic_baseblocks_v2_1_carry_and__99 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__25 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__100 
 2default:default
 B
 %s*synth23
@@ -83396,41 +84581,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__31 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__106 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__32 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__107 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__33 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__108 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__34 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__109 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__35 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__110 
 2default:default
 B
 %s*synth23
@@ -83444,41 +84629,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__1 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__76 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__2 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__77 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__3 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__78 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__4 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__79 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__5 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__80 
 2default:default
 B
 %s*synth23
@@ -83494,7 +84679,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__16 
+.Module generic_baseblocks_v2_1_carry_and__91 
 2default:default
 B
 %s*synth23
@@ -83502,7 +84687,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__17 
+.Module generic_baseblocks_v2_1_carry_and__92 
 2default:default
 B
 %s*synth23
@@ -83510,7 +84695,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__18 
+.Module generic_baseblocks_v2_1_carry_and__93 
 2default:default
 B
 %s*synth23
@@ -83518,7 +84703,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__19 
+.Module generic_baseblocks_v2_1_carry_and__94 
 2default:default
 B
 %s*synth23
@@ -83526,7 +84711,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__20 
+.Module generic_baseblocks_v2_1_carry_and__95 
 2default:default
 B
 %s*synth23
@@ -83540,41 +84725,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__26 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__101 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__27 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__102 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__28 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__103 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__29 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__104 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__30 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__105 
 2default:default
 B
 %s*synth23
@@ -83588,41 +84773,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__36 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__111 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__37 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__112 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__38 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__113 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__39 
+R
+%s*synth2C
+/Module generic_baseblocks_v2_1_carry_and__114 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__40 
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
 2default:default
 B
 %s*synth23
@@ -83638,7 +84823,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__11 
+.Module generic_baseblocks_v2_1_carry_and__86 
 2default:default
 B
 %s*synth23
@@ -83646,7 +84831,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__12 
+.Module generic_baseblocks_v2_1_carry_and__87 
 2default:default
 B
 %s*synth23
@@ -83654,7 +84839,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__13 
+.Module generic_baseblocks_v2_1_carry_and__88 
 2default:default
 B
 %s*synth23
@@ -83662,7 +84847,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__14 
+.Module generic_baseblocks_v2_1_carry_and__89 
 2default:default
 B
 %s*synth23
@@ -83670,7 +84855,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__15 
+.Module generic_baseblocks_v2_1_carry_and__90 
 2default:default
 B
 %s*synth23
@@ -83962,7 +85147,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_0_1130 
+!Module system_tier2_xbar_0_1184 
 2default:default
 B
 %s*synth23
@@ -84002,7 +85187,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__81 
+.Module generic_baseblocks_v2_1_carry_and__41 
 2default:default
 B
 %s*synth23
@@ -84010,7 +85195,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__82 
+.Module generic_baseblocks_v2_1_carry_and__42 
 2default:default
 B
 %s*synth23
@@ -84018,7 +85203,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__83 
+.Module generic_baseblocks_v2_1_carry_and__43 
 2default:default
 B
 %s*synth23
@@ -84026,7 +85211,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__84 
+.Module generic_baseblocks_v2_1_carry_and__44 
 2default:default
 B
 %s*synth23
@@ -84034,7 +85219,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__85 
+.Module generic_baseblocks_v2_1_carry_and__45 
 2default:default
 B
 %s*synth23
@@ -84048,41 +85233,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__106 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__66 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__107 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__67 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__108 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__68 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__109 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__69 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__110 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__70 
 2default:default
 B
 %s*synth23
@@ -84096,41 +85281,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__111 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__71 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__112 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__72 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__113 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__73 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__114 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__74 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__75 
 2default:default
 B
 %s*synth23
@@ -84144,41 +85329,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__101 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__61 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__102 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__62 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__103 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__63 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__104 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__64 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__105 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__65 
 2default:default
 B
 %s*synth23
@@ -84194,7 +85379,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__96 
+.Module generic_baseblocks_v2_1_carry_and__56 
 2default:default
 B
 %s*synth23
@@ -84202,7 +85387,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__97 
+.Module generic_baseblocks_v2_1_carry_and__57 
 2default:default
 B
 %s*synth23
@@ -84210,7 +85395,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__98 
+.Module generic_baseblocks_v2_1_carry_and__58 
 2default:default
 B
 %s*synth23
@@ -84218,15 +85403,15 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__99 
+.Module generic_baseblocks_v2_1_carry_and__59 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module generic_baseblocks_v2_1_carry_and__100 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__60 
 2default:default
 B
 %s*synth23
@@ -84242,7 +85427,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__91 
+.Module generic_baseblocks_v2_1_carry_and__51 
 2default:default
 B
 %s*synth23
@@ -84250,7 +85435,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__92 
+.Module generic_baseblocks_v2_1_carry_and__52 
 2default:default
 B
 %s*synth23
@@ -84258,7 +85443,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__93 
+.Module generic_baseblocks_v2_1_carry_and__53 
 2default:default
 B
 %s*synth23
@@ -84266,7 +85451,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__94 
+.Module generic_baseblocks_v2_1_carry_and__54 
 2default:default
 B
 %s*synth23
@@ -84274,7 +85459,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__95 
+.Module generic_baseblocks_v2_1_carry_and__55 
 2default:default
 B
 %s*synth23
@@ -84290,7 +85475,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__76 
+.Module generic_baseblocks_v2_1_carry_and__36 
 2default:default
 B
 %s*synth23
@@ -84298,7 +85483,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__77 
+.Module generic_baseblocks_v2_1_carry_and__37 
 2default:default
 B
 %s*synth23
@@ -84306,7 +85491,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__78 
+.Module generic_baseblocks_v2_1_carry_and__38 
 2default:default
 B
 %s*synth23
@@ -84314,7 +85499,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__79 
+.Module generic_baseblocks_v2_1_carry_and__39 
 2default:default
 B
 %s*synth23
@@ -84322,7 +85507,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__80 
+.Module generic_baseblocks_v2_1_carry_and__40 
 2default:default
 B
 %s*synth23
@@ -84338,7 +85523,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__86 
+.Module generic_baseblocks_v2_1_carry_and__46 
 2default:default
 B
 %s*synth23
@@ -84346,7 +85531,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__87 
+.Module generic_baseblocks_v2_1_carry_and__47 
 2default:default
 B
 %s*synth23
@@ -84354,7 +85539,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__88 
+.Module generic_baseblocks_v2_1_carry_and__48 
 2default:default
 B
 %s*synth23
@@ -84362,7 +85547,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__89 
+.Module generic_baseblocks_v2_1_carry_and__49 
 2default:default
 B
 %s*synth23
@@ -84370,7 +85555,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__90 
+.Module generic_baseblocks_v2_1_carry_and__50 
 2default:default
 B
 %s*synth23
@@ -84662,7 +85847,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_1_1131 
+!Module system_tier2_xbar_1_1185 
 2default:default
 B
 %s*synth23
@@ -84702,7 +85887,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__61 
+.Module generic_baseblocks_v2_1_carry_and__21 
 2default:default
 B
 %s*synth23
@@ -84710,7 +85895,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__62 
+.Module generic_baseblocks_v2_1_carry_and__22 
 2default:default
 B
 %s*synth23
@@ -84718,7 +85903,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__63 
+.Module generic_baseblocks_v2_1_carry_and__23 
 2default:default
 B
 %s*synth23
@@ -84726,7 +85911,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__64 
+.Module generic_baseblocks_v2_1_carry_and__24 
 2default:default
 B
 %s*synth23
@@ -84734,7 +85919,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__65 
+.Module generic_baseblocks_v2_1_carry_and__25 
 2default:default
 B
 %s*synth23
@@ -84750,7 +85935,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__66 
+.Module generic_baseblocks_v2_1_carry_and__26 
 2default:default
 B
 %s*synth23
@@ -84758,7 +85943,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__67 
+.Module generic_baseblocks_v2_1_carry_and__27 
 2default:default
 B
 %s*synth23
@@ -84766,7 +85951,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__68 
+.Module generic_baseblocks_v2_1_carry_and__28 
 2default:default
 B
 %s*synth23
@@ -84774,7 +85959,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__69 
+.Module generic_baseblocks_v2_1_carry_and__29 
 2default:default
 B
 %s*synth23
@@ -84782,7 +85967,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__70 
+.Module generic_baseblocks_v2_1_carry_and__30 
 2default:default
 B
 %s*synth23
@@ -84798,7 +85983,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__56 
+.Module generic_baseblocks_v2_1_carry_and__16 
 2default:default
 B
 %s*synth23
@@ -84806,7 +85991,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__57 
+.Module generic_baseblocks_v2_1_carry_and__17 
 2default:default
 B
 %s*synth23
@@ -84814,7 +85999,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__58 
+.Module generic_baseblocks_v2_1_carry_and__18 
 2default:default
 B
 %s*synth23
@@ -84822,7 +86007,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__59 
+.Module generic_baseblocks_v2_1_carry_and__19 
 2default:default
 B
 %s*synth23
@@ -84830,7 +86015,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__60 
+.Module generic_baseblocks_v2_1_carry_and__20 
 2default:default
 B
 %s*synth23
@@ -84846,7 +86031,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__71 
+.Module generic_baseblocks_v2_1_carry_and__31 
 2default:default
 B
 %s*synth23
@@ -84854,7 +86039,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__72 
+.Module generic_baseblocks_v2_1_carry_and__32 
 2default:default
 B
 %s*synth23
@@ -84862,7 +86047,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__73 
+.Module generic_baseblocks_v2_1_carry_and__33 
 2default:default
 B
 %s*synth23
@@ -84870,7 +86055,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__74 
+.Module generic_baseblocks_v2_1_carry_and__34 
 2default:default
 B
 %s*synth23
@@ -84878,7 +86063,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__75 
+.Module generic_baseblocks_v2_1_carry_and__35 
 2default:default
 B
 %s*synth23
@@ -84894,7 +86079,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__51 
+.Module generic_baseblocks_v2_1_carry_and__11 
 2default:default
 B
 %s*synth23
@@ -84902,7 +86087,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__52 
+.Module generic_baseblocks_v2_1_carry_and__12 
 2default:default
 B
 %s*synth23
@@ -84910,7 +86095,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__53 
+.Module generic_baseblocks_v2_1_carry_and__13 
 2default:default
 B
 %s*synth23
@@ -84918,7 +86103,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__54 
+.Module generic_baseblocks_v2_1_carry_and__14 
 2default:default
 B
 %s*synth23
@@ -84926,7 +86111,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__55 
+.Module generic_baseblocks_v2_1_carry_and__15 
 2default:default
 B
 %s*synth23
@@ -84940,9 +86125,33 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__46 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__9 
 2default:default
 B
 %s*synth23
@@ -84950,31 +86159,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__48 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__49 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__50 
+.Module generic_baseblocks_v2_1_carry_and__10 
 2default:default
 B
 %s*synth23
@@ -84988,41 +86173,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__41 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__42 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__43 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__44 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__45 
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__5 
 2default:default
 B
 %s*synth23
@@ -85310,7 +86495,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_2_1132 
+!Module system_tier2_xbar_2_1186 
 2default:default
 B
 %s*synth23
@@ -85390,7 +86575,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized9__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized5__1 
 2default:default
 B
 %s*synth23
@@ -85438,7 +86623,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized8__1 
+EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
 2default:default
 B
 %s*synth23
@@ -85484,9 +86669,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized10__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized4__1 
 2default:default
 B
 %s*synth23
@@ -85532,9 +86717,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized11__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized0__1 
 2default:default
 B
 %s*synth23
@@ -85580,9 +86765,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized12__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized3__1 
 2default:default
 B
 %s*synth23
@@ -85628,9 +86813,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized14__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized6__1 
 2default:default
 B
 %s*synth23
@@ -85676,9 +86861,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized7__1 
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__1 
 2default:default
 B
 %s*synth23
@@ -85724,9 +86909,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized13__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
 2default:default
 B
 %s*synth23
@@ -85772,9 +86957,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized18__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized9__1 
 2default:default
 B
 %s*synth23
@@ -85820,9 +87005,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized16__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized8__1 
 2default:default
 B
 %s*synth23
@@ -85870,7 +87055,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized15__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized10__1 
 2default:default
 B
 %s*synth23
@@ -85918,7 +87103,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized17__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized11__1 
 2default:default
 B
 %s*synth23
@@ -85966,7 +87151,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized19__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized12__1 
 2default:default
 B
 %s*synth23
@@ -86014,7 +87199,7 @@ B
 2default:default
 i
 %s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized20__1 
+FModule generic_baseblocks_v2_1_comparator_static__parameterized14__1 
 2default:default
 B
 %s*synth23
@@ -86060,9 +87245,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-i
-%s*synth2Z
-FModule generic_baseblocks_v2_1_comparator_static__parameterized21__1 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized7__1 
 2default:default
 B
 %s*synth23
@@ -86108,9 +87293,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized5__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized13__1 
 2default:default
 B
 %s*synth23
@@ -86156,9 +87341,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized18__1 
 2default:default
 B
 %s*synth23
@@ -86204,9 +87389,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized4__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized16__1 
 2default:default
 B
 %s*synth23
@@ -86252,9 +87437,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized0__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized15__1 
 2default:default
 B
 %s*synth23
@@ -86300,9 +87485,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized3__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized17__1 
 2default:default
 B
 %s*synth23
@@ -86348,9 +87533,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized6__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized19__1 
 2default:default
 B
 %s*synth23
@@ -86396,9 +87581,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized20__1 
 2default:default
 B
 %s*synth23
@@ -86444,9 +87629,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
+i
+%s*synth2Z
+FModule generic_baseblocks_v2_1_comparator_static__parameterized21__1 
 2default:default
 B
 %s*synth23
@@ -87084,9 +88269,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module triggerSplit_v1_0_S00_AXI__parameterized0 
+Q
+%s*synth2B
+.Module triggers_v1_0_S00_AXI__parameterized0 
 2default:default
 B
 %s*synth23
@@ -87098,11 +88283,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 5     
+.	               48 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 3     
+.	               32 Bit    Registers := 9     
+2default:default
+Q
+%s*synth2B
+.	               24 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -87110,7 +88303,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 13    
 2default:default
 0
 %s*synth2!
@@ -87118,23 +88311,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 4     
+.	   8 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	   2 Input     32 Bit        Muxes := 14    
 2default:default
-M
-%s*synth2>
-*Module triggerSplit_v1_0__parameterized0 
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 14    
+2default:default
+I
+%s*synth2:
+&Module triggers_v1_0__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-C
-%s*synth24
- Module system_triggerSplit_0_0 
+?
+%s*synth20
+Module system_triggers_0_0 
 2default:default
 B
 %s*synth23
@@ -87166,7 +88367,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 7     
+.	                1 Bit    Registers := 9     
 2default:default
 0
 %s*synth2!
@@ -87402,15 +88603,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     16 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 4     
+.	   2 Input      8 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
@@ -88132,1202 +89329,6 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-M
-%s*synth2>
-*Module reset_blk_ramfifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module blk_mem_input_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module blk_mem_output_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module bindec__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-2
-%s*synth2#
-Module bindec 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-D
-%s*synth25
-!Module blk_mem_gen_prim_wrapper 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_prim_width 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized34 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized34 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized39 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized39 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_mux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-K
-%s*synth2<
-(Module blk_mem_gen_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-D
-%s*synth25
-!Module blk_mem_gen_generic_cstr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_v8_1_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module blk_mem_gen_v8_1__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module synchronizer_ff__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-N
-%s*synth2?
-+Module synchronizer_ff__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-N
-%s*synth2?
-+Module synchronizer_ff__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-K
-%s*synth2<
-(Module synchronizer_ff__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-G
-%s*synth28
-$Module clk_x_pntrs__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 28    
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	               13 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	               11 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	               10 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                7 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Wide XORs := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Wide XORs := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 4     
-2default:default
-G
-%s*synth28
-$Module rd_bin_cntr__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-C
-%s*synth24
- Module compare__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-N
-%s*synth2?
-+Module rd_status_flags_as__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-D
-%s*synth25
-!Module rd_logic__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_bin_cntr__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 2     
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-N
-%s*synth2?
-+Module wr_status_flags_as__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-D
-%s*synth25
-!Module wr_logic__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module system_fifo_generator_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module xlconstant__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module system_xlconstant_0_2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 2
 %s*synth2#
 Module system 
@@ -89336,6 +89337,18 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+Ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2◊
+¬\inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[2] 2default:default28
+$fifo_generator_v11_0__parameterized12default:defaultZ8-3332
+Ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2◊
+¬\inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[1] 2default:default28
+$fifo_generator_v11_0__parameterized12default:defaultZ8-3332
+Ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2◊
+¬\inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default28
+$fifo_generator_v11_0__parameterized12default:defaultZ8-3332
 ”
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
 3\U0/testPulser_v1_0_S00_AXI_inst/axi_awaddr_reg[1] 2default:default2*
@@ -89400,38 +89413,38 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2'
 \axi_araddr_reg[0] 2default:default2?
 +ShiftRegisters_v1_0_S00_AXI__parameterized02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_awaddr_reg[1] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_awaddr_reg[0] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_awaddr_reg[1] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_awaddr_reg[0] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
-“
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\U0/triggerOut_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2)
-system_triggerOut_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_awaddr_reg[1] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_awaddr_reg[0] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_awaddr_reg[1] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_awaddr_reg[0] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2I
+5\U0/triggerSplit_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2+
+system_triggerSplit_0_02default:defaultZ8-3332
 ÷
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
 û\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2@
@@ -89940,18 +89953,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≤
 ù\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i_reg 2default:default2C
 /axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-€
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2µ
-†\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-⁄
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2¥
-ü\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
-‡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
-•\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
-/axi_clock_converter_v2_1_axi_clock_converter__62default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -90145,7 +90146,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:08:06 ; elapsed = 00:08:56 . Memory (MB): peak = 864.883 ; gain = 716.145
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:09:00 ; elapsed = 00:10:39 . Memory (MB): peak = 872.102 ; gain = 722.863
 2default:default
 ¢
 %s*synth2í
@@ -90175,103 +90176,103 @@ Distributed RAM:
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_113/axi_clock_converter_v2_1_axi_clock_converter/ram__50 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_203/axi_clock_converter_v2_1_axi_clock_converter/ram__50 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_113/axi_clock_converter_v2_1_axi_clock_converter/ram__52 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_203/axi_clock_converter_v2_1_axi_clock_converter/ram__52 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_113/axi_clock_converter_v2_1_axi_clock_converter/ram__54 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_203/axi_clock_converter_v2_1_axi_clock_converter/ram__54 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_113/axi_clock_converter_v2_1_axi_clock_converter/ram__56 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_203/axi_clock_converter_v2_1_axi_clock_converter/ram__56 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_113/axi_clock_converter_v2_1_axi_clock_converter/ram__58 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_203/axi_clock_converter_v2_1_axi_clock_converter/ram__58 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_114/axi_clock_converter_v2_1_axi_clock_converter/ram__60 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_204/axi_clock_converter_v2_1_axi_clock_converter/ram__60 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_114/axi_clock_converter_v2_1_axi_clock_converter/ram__62 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_204/axi_clock_converter_v2_1_axi_clock_converter/ram__62 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_114/axi_clock_converter_v2_1_axi_clock_converter/ram__64 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_204/axi_clock_converter_v2_1_axi_clock_converter/ram__64 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_114/axi_clock_converter_v2_1_axi_clock_converter/ram__66 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_204/axi_clock_converter_v2_1_axi_clock_converter/ram__66 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_114/axi_clock_converter_v2_1_axi_clock_converter/ram__68 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_204/axi_clock_converter_v2_1_axi_clock_converter/ram__68 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_115/axi_clock_converter_v2_1_axi_clock_converter/ram__70 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_205/axi_clock_converter_v2_1_axi_clock_converter/ram__70 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_115/axi_clock_converter_v2_1_axi_clock_converter/ram__72 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_205/axi_clock_converter_v2_1_axi_clock_converter/ram__72 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_115/axi_clock_converter_v2_1_axi_clock_converter/ram__74 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_205/axi_clock_converter_v2_1_axi_clock_converter/ram__74 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_115/axi_clock_converter_v2_1_axi_clock_converter/ram__76 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_205/axi_clock_converter_v2_1_axi_clock_converter/ram__76 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_115/axi_clock_converter_v2_1_axi_clock_converter/ram__78 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_205/axi_clock_converter_v2_1_axi_clock_converter/ram__78 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_116/axi_clock_converter_v2_1_axi_clock_converter/ram__80 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_206/axi_clock_converter_v2_1_axi_clock_converter/ram__80 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_116/axi_clock_converter_v2_1_axi_clock_converter/ram__82 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_206/axi_clock_converter_v2_1_axi_clock_converter/ram__82 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_116/axi_clock_converter_v2_1_axi_clock_converter/ram__84 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_206/axi_clock_converter_v2_1_axi_clock_converter/ram__84 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_116/axi_clock_converter_v2_1_axi_clock_converter/ram__86 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_206/axi_clock_converter_v2_1_axi_clock_converter/ram__86 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_116/axi_clock_converter_v2_1_axi_clock_converter/ram__88 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_206/axi_clock_converter_v2_1_axi_clock_converter/ram__88 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_117/axi_clock_converter_v2_1_axi_clock_converter/ram__90 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_207/axi_clock_converter_v2_1_axi_clock_converter/ram__90 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_117/axi_clock_converter_v2_1_axi_clock_converter/ram__92 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_207/axi_clock_converter_v2_1_axi_clock_converter/ram__92 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_117/axi_clock_converter_v2_1_axi_clock_converter/ram__94 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_207/axi_clock_converter_v2_1_axi_clock_converter/ram__94 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_117/axi_clock_converter_v2_1_axi_clock_converter/ram__96 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_207/axi_clock_converter_v2_1_axi_clock_converter/ram__96 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_117/axi_clock_converter_v2_1_axi_clock_converter/ram__98 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_207/axi_clock_converter_v2_1_axi_clock_converter/ram__98 | 
 2default:default
 ä
 %s*synth2˙
@@ -90293,7 +90294,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:08:30 ; elapsed = 00:09:23 . Memory (MB): peak = 917.523 ; gain = 768.785
+zFinished Area Optimization : Time (s): cpu = 00:09:27 ; elapsed = 00:11:08 . Memory (MB): peak = 926.441 ; gain = 777.203
 2default:default
 {
 %s*synth2l
@@ -90301,19 +90302,19 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 Æ
 %s*synth2û
-âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:08:37 ; elapsed = 00:09:32 . Memory (MB): peak = 1061.691 ; gain = 912.953
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:09:33 ; elapsed = 00:11:15 . Memory (MB): peak = 1071.637 ; gain = 922.398
 2default:default
 °
 %s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:08:57 ; elapsed = 00:09:52 . Memory (MB): peak = 1107.188 ; gain = 958.449
+}Finished Timing Optimization : Time (s): cpu = 00:09:54 ; elapsed = 00:11:37 . Memory (MB): peak = 1118.293 ; gain = 969.055
 2default:default
 †
 %s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:09:36 ; elapsed = 00:10:34 . Memory (MB): peak = 1117.223 ; gain = 968.484
+|Finished Technology Mapping : Time (s): cpu = 00:10:40 ; elapsed = 00:12:26 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 l
 %s*synth2]
-Idesign system_auto_pc_20 has 4 max_fanout violations cannot be satisfied
+Idesign system_auto_pc_38 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -90321,7 +90322,7 @@ D
 2default:default
 ö
 %s*synth2ä
-vFinished IO Insertion : Time (s): cpu = 00:09:42 ; elapsed = 00:10:39 . Memory (MB): peak = 1117.223 ; gain = 968.484
+vFinished IO Insertion : Time (s): cpu = 00:10:46 ; elapsed = 00:12:33 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 ;
 %s*synth2,
@@ -90350,11 +90351,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:09:42 ; elapsed = 00:10:40 . Memory (MB): peak = 1117.223 ; gain = 968.484
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:10:47 ; elapsed = 00:12:33 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:09:45 ; elapsed = 00:10:43 . Memory (MB): peak = 1117.223 ; gain = 968.484
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:10:51 ; elapsed = 00:12:38 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 ¢
 %s*synth2í
@@ -90468,23 +90469,23 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|5     |LUT2       |  2530|
+|5     |LUT2       |  2528|
 2default:default
 ?
 %s*synth20
-|6     |LUT3       |  2660|
+|6     |LUT3       |  2559|
 2default:default
 ?
 %s*synth20
-|7     |LUT4       |  3047|
+|7     |LUT4       |  3052|
 2default:default
 ?
 %s*synth20
-|8     |LUT5       |  2925|
+|8     |LUT5       |  2887|
 2default:default
 ?
 %s*synth20
-|9     |LUT6       |  3684|
+|9     |LUT6       |  3964|
 2default:default
 ?
 %s*synth20
@@ -90532,11 +90533,11 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|21    |FDRE       |  8747|
+|21    |FDRE       |  8853|
 2default:default
 ?
 %s*synth20
-|22    |FDSE       |   111|
+|22    |FDSE       |   112|
 2default:default
 ?
 %s*synth20
@@ -90569,131 +90570,131 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ç
 %s*synth2~
-j|1     |top                          |                                                           | 30278|
+j|1     |top                          |                                                           | 30529|
 2default:default
 ç
 %s*synth2~
-j|2     |  system_i                   |system                                                     | 30223|
+j|2     |  system_i                   |system                                                     | 30474|
 2default:default
 ç
 %s*synth2~
-j|3     |    buttonTrigger_0          |system_buttonTrigger_0_0                                   |   507|
+j|3     |    fifo_generator_0         |system_fifo_generator_0_0                                  |   582|
 2default:default
 ç
 %s*synth2~
-j|4     |    burstTrigger_0           |system_burstTrigger_0_0                                    |   840|
+j|4     |      U0                     |fifo_generator_v11_0__parameterized1                       |   582|
 2default:default
 ç
 %s*synth2~
-j|5     |    TrigWordDelay_0          |system_TrigWordDelay_0_0                                   |  6884|
+j|5     |    buttonTrigger_0          |system_buttonTrigger_0_0                                   |   507|
 2default:default
 ç
 %s*synth2~
-j|6     |    fifo_generator_0         |system_fifo_generator_0_0                                  |   582|
+j|6     |    burstTrigger_0           |system_burstTrigger_0_0                                    |   840|
 2default:default
 ç
 %s*synth2~
-j|7     |      U0                     |fifo_generator_v11_0__parameterized1                       |   582|
+j|7     |    TrigWordDelay_0          |system_TrigWordDelay_0_0                                   |  6884|
 2default:default
 ç
 %s*synth2~
-j|8     |    xlconstant_0             |system_xlconstant_0_2                                      |     0|
+j|8     |    smelliePulser            |system_testPulser_1_11                                     |   703|
 2default:default
 ç
 %s*synth2~
-j|9     |    smelliePulser            |system_testPulser_1_11                                     |   703|
+j|9     |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  7739|
 2default:default
 ç
 %s*synth2~
-j|10    |    axi_interconnect_0       |system_axi_interconnect_0_0                                |  7749|
+j|10    |      \m14_couplers/auto_cc  |system_auto_cc_203                                         |   926|
 2default:default
 ç
 %s*synth2~
-j|11    |      \m14_couplers/auto_cc  |system_auto_cc_113                                         |   926|
+j|11    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter               |   926|
 2default:default
 ç
 %s*synth2~
-j|12    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter               |   926|
+j|12    |      \m16_couplers/auto_cc  |system_auto_cc_204                                         |   926|
 2default:default
 ç
 %s*synth2~
-j|13    |      \m16_couplers/auto_cc  |system_auto_cc_114                                         |   926|
+j|13    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__8            |   926|
 2default:default
 ç
 %s*synth2~
-j|14    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__8            |   926|
+j|14    |      \m17_couplers/auto_cc  |system_auto_cc_205                                         |   926|
 2default:default
 ç
 %s*synth2~
-j|15    |      \m17_couplers/auto_cc  |system_auto_cc_115                                         |   926|
+j|15    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__7            |   926|
 2default:default
 ç
 %s*synth2~
-j|16    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__7            |   926|
+j|16    |      \m19_couplers/auto_cc  |system_auto_cc_206                                         |   926|
 2default:default
 ç
 %s*synth2~
-j|17    |      \m19_couplers/auto_cc  |system_auto_cc_116                                         |   926|
+j|17    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__6            |   926|
 2default:default
 ç
 %s*synth2~
-j|18    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__6            |   926|
+j|18    |      \m21_couplers/auto_cc  |system_auto_cc_207                                         |   926|
 2default:default
 ç
 %s*synth2~
-j|19    |      \m21_couplers/auto_cc  |system_auto_cc_117                                         |   926|
+j|19    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__5            |   926|
 2default:default
 ç
 %s*synth2~
-j|20    |        inst                 |axi_clock_converter_v2_1_axi_clock_converter__5            |   926|
+j|20    |      \s00_couplers/auto_pc  |system_auto_pc_38                                          |  1276|
 2default:default
 ç
 %s*synth2~
-j|21    |      \s00_couplers/auto_pc  |system_auto_pc_20                                          |  1276|
+j|21    |      tier2_xbar_0           |system_tier2_xbar_0_1184                                   |   519|
 2default:default
 ç
 %s*synth2~
-j|22    |      tier2_xbar_0           |system_tier2_xbar_0_1130                                   |   519|
+j|22    |      tier2_xbar_1           |system_tier2_xbar_1_1185                                   |   502|
 2default:default
 ç
 %s*synth2~
-j|23    |      tier2_xbar_1           |system_tier2_xbar_1_1131                                   |   502|
+j|23    |      tier2_xbar_2           |system_tier2_xbar_2_1186                                   |   482|
 2default:default
 ç
 %s*synth2~
-j|24    |      tier2_xbar_2           |system_tier2_xbar_2_1132                                   |   482|
+j|24    |      xbar                   |system_xbar_0                                              |   330|
 2default:default
 ç
 %s*synth2~
-j|25    |      xbar                   |system_xbar_0                                              |   340|
+j|25    |    processing_system7_0     |system_processing_system7_0_0                              |   221|
 2default:default
 ç
 %s*synth2~
-j|26    |    processing_system7_0     |system_processing_system7_0_0                              |   221|
+j|26    |      U0                     |processing_system7_v5_3_processing_system7__parameterized0 |   221|
 2default:default
 ç
 %s*synth2~
-j|27    |      U0                     |processing_system7_v5_3_processing_system7__parameterized0 |   221|
+j|27    |    counter_0                |system_counter_0_0                                         |   517|
 2default:default
 ç
 %s*synth2~
-j|28    |    counter_0                |system_counter_0_0                                         |   517|
+j|28    |    fifo_readout_0           |system_fifo_readout_0_0                                    |   456|
 2default:default
 ç
 %s*synth2~
-j|29    |    fifo_readout_0           |system_fifo_readout_0_0                                    |   455|
+j|29    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
 2default:default
 ç
 %s*synth2~
-j|30    |    prescaleTrigger_0        |system_prescaleTrigger_0_0                                 |   660|
+j|30    |    comboTrigger_0           |system_comboTrigger_0_0                                    |   483|
 2default:default
 ç
 %s*synth2~
-j|31    |    comboTrigger_0           |system_comboTrigger_0_0                                    |   483|
+j|31    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                                   |   621|
 2default:default
 ç
 %s*synth2~
-j|32    |    oneshot_pulse_1          |system_oneshot_pulse_1_1                                   |   621|
+j|32    |    implement_gtid_0         |system_implement_gtid_0_0                                  |   555|
 2default:default
 ç
 %s*synth2~
@@ -90709,39 +90710,39 @@ j|35    |    smellieDelay             |system_testDelay_3_6                     
 2default:default
 ç
 %s*synth2~
-j|36    |    clockLogic_0             |system_clockLogic_0_0                                      |   502|
+j|36    |    countDisplay_0           |system_countDisplay_0_0                                    |   504|
 2default:default
 ç
 %s*synth2~
-j|37    |    countDisplay_0           |system_countDisplay_0_0                                    |   504|
+j|37    |    ShiftRegisters_0         |system_ShiftRegisters_0_0                                  |  2037|
 2default:default
 ç
 %s*synth2~
-j|38    |    ShiftRegisters_0         |system_ShiftRegisters_0_0                                  |  2037|
+j|38    |    triggers_0               |system_triggers_0_0                                        |   852|
 2default:default
 ç
 %s*synth2~
-j|39    |    triggerOut_0             |system_triggerOut_0_0                                      |   614|
+j|39    |    genericDelay             |system_testDelay_0_0                                       |   644|
 2default:default
 ç
 %s*synth2~
-j|40    |    genericDelay             |system_testDelay_0_0                                       |   644|
+j|40    |    telliePulser             |system_testPulser_0_10                                     |   703|
 2default:default
 ç
 %s*synth2~
-j|41    |    telliePulser             |system_testPulser_0_10                                     |   703|
+j|41    |    genericPulser            |system_testPulser_0_9                                      |   703|
 2default:default
 ç
 %s*synth2~
-j|42    |    genericPulser            |system_testPulser_0_9                                      |   703|
+j|42    |    oneshot_pulse_0          |system_oneshot_pulse_0_2                                   |   621|
 2default:default
 ç
 %s*synth2~
-j|43    |    oneshot_pulse_0          |system_oneshot_pulse_0_2                                   |   621|
+j|43    |    gtDelay                  |system_testDelay_0_7                                       |   644|
 2default:default
 ç
 %s*synth2~
-j|44    |    gtDelay                  |system_testDelay_0_7                                       |   644|
+j|44    |    clockLogic_0             |system_clockLogic_0_0                                      |   502|
 2default:default
 ç
 %s*synth2~
@@ -90749,23 +90750,19 @@ j|45    |    mz_happy_RnM             |system_testPulser_0_7                    
 2default:default
 ç
 %s*synth2~
-j|46    |    implement_gtid_0         |system_implement_gtid_0_0                                  |   533|
-2default:default
-ç
-%s*synth2~
 j+------+-----------------------------+-----------------------------------------------------------+------+
 2default:default
 ß
 %s*synth2ó
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:09:48 ; elapsed = 00:10:45 . Memory (MB): peak = 1117.223 ; gain = 968.484
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:10:54 ; elapsed = 00:12:40 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 44 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 52 warnings.
 2default:default
 •
 %s*synth2ï
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:09:48 ; elapsed = 00:10:46 . Memory (MB): peak = 1117.223 ; gain = 968.484
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:10:54 ; elapsed = 00:12:41 . Memory (MB): peak = 1123.828 ; gain = 974.590
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
@@ -90800,12 +90797,12 @@ L
 Releasing license: %s
 83*common2
 	Synthesis2default:defaultZ17-83
-¡
+¬
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-11952default:default2
-1672default:default2
-52default:default2
+11862default:default2
+1762default:default2
+102default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -90815,10 +90812,10 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:10:042default:default2
-00:11:062default:default2
-1468.8982default:default2
-1197.2232default:defaultZ17-268
+00:11:082default:default2
+00:12:542default:default2
+1478.3282default:default2
+1204.2422default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
@@ -90828,13 +90825,13 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 write_checkpoint: 2default:default2
 00:00:052default:default2
 00:00:112default:default2
-1480.8202default:default2
-11.9222default:defaultZ17-268
+1490.0702default:default2
+11.7422default:defaultZ17-268
 |
-preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1480.820 ; gain = 0.000
+preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1490.070 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Mon Apr 04 13:34:55 20162default:defaultZ17-206
+Fri Apr 15 13:32:26 20162default:defaultZ17-206

@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:fifo_readout:1.0
--- IP Revision: 10
+-- IP Revision: 13
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -57,6 +57,8 @@ ENTITY system_fifo_readout_0_0 IS
   PORT (
     read : OUT STD_LOGIC;
     reset : OUT STD_LOGIC;
+    renable : OUT STD_LOGIC;
+    wenable : OUT STD_LOGIC;
     data : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
     full : IN STD_LOGIC;
     empty : IN STD_LOGIC;
@@ -96,6 +98,8 @@ ARCHITECTURE system_fifo_readout_0_0_arch OF system_fifo_readout_0_0 IS
     PORT (
       read : OUT STD_LOGIC;
       reset : OUT STD_LOGIC;
+      renable : OUT STD_LOGIC;
+      wenable : OUT STD_LOGIC;
       data : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
       full : IN STD_LOGIC;
       empty : IN STD_LOGIC;
@@ -127,7 +131,7 @@ ARCHITECTURE system_fifo_readout_0_0_arch OF system_fifo_readout_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_fifo_readout_0_0_arch : ARCHITECTURE IS "system_fifo_readout_0_0,fifo_readout_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_fifo_readout_0_0_arch: ARCHITECTURE IS "system_fifo_readout_0_0,fifo_readout_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=fifo_readout,x_ipVersion=1.0,x_ipCoreRevision=10,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_fifo_readout_0_0_arch: ARCHITECTURE IS "system_fifo_readout_0_0,fifo_readout_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=fifo_readout,x_ipVersion=1.0,x_ipCoreRevision=13,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -159,6 +163,8 @@ BEGIN
     PORT MAP (
       read => read,
       reset => reset,
+      renable => renable,
+      wenable => wenable,
       data => data,
       full => full,
       empty => empty,

@@ -140,7 +140,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_ShiftRegs_0_0/system_ShiftRegs_0_0.upgrade_log">
+    <File Path="$PPRDIR/../../../project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegs_0_0/system_ShiftRegs_0_0.upgrade_log">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -158,6 +158,9 @@
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="system_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/triggers_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/tubii_triggers_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/tubii_triggers_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/buttonTrigger_1.0"/>
@@ -167,7 +170,7 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/oneshot_pulse_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/fifo_readout_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/counter_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegs_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../project_tubii_7020/ShiftRegs_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/countDisplay_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/comboTrigger_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/testPulser_1.0"/>

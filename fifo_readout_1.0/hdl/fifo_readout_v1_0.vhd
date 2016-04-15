@@ -19,6 +19,8 @@ entity fifo_readout_v1_0 is
 		-- Users to add ports here
         read    : out std_logic;
         reset   : out std_logic;
+        renable : out std_logic;
+        wenable : out std_logic;
         data    : in std_logic_vector(47 downto 0);
         full    : in std_logic;
         empty   : in std_logic;
@@ -83,6 +85,8 @@ architecture arch_imp of fifo_readout_v1_0 is
 		S_AXI_RREADY	: in std_logic;
 		READ    : out std_logic;
         RESET   : out std_logic;
+        RENABLE : out std_logic;
+        WENABLE : out std_logic;
         DATA    : in std_logic_vector(47 downto 0);
         FULL    : in std_logic;
         EMPTY   : in std_logic
@@ -121,6 +125,8 @@ fifo_readout_v1_0_S00_AXI_inst : fifo_readout_v1_0_S00_AXI
 		S_AXI_RREADY	=> s00_axi_rready,
 		READ    =>  read,
         RESET   =>  reset,
+        RENABLE =>  renable,
+        WENABLE =>  wenable,
         DATA    =>  data,
         FULL    =>  full,
         EMPTY   =>  empty

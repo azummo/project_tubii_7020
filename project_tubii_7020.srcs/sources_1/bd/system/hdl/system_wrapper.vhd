@@ -86,8 +86,8 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    trig_out : out STD_LOGIC;
     Outt : out STD_LOGIC;
+    trig_out : out STD_LOGIC;
     display_reset : out STD_LOGIC;
     display_latch : out STD_LOGIC;
     display_count : out STD_LOGIC;

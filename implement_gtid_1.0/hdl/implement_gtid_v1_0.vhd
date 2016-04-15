@@ -20,6 +20,7 @@ entity implement_gtid_v1_0 is
         gtid    : out std_logic_vector(23 downto 0);
         sync    : in std_logic;
         sync24  : in std_logic;
+        reset   : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -81,7 +82,8 @@ architecture arch_imp of implement_gtid_v1_0 is
 		S_AXI_RREADY	: in std_logic;
 		GTID            : out std_logic_vector(23 downto 0);
 		SYNC            : in std_logic;
-		SYNC24          : in std_logic
+		SYNC24          : in std_logic;
+		RESET           : in std_logic
 		);
 	end component implement_gtid_v1_0_S00_AXI;
 
@@ -117,7 +119,8 @@ implement_gtid_v1_0_S00_AXI_inst : implement_gtid_v1_0_S00_AXI
 		S_AXI_RREADY	=> s00_axi_rready,
         GTID            => gtid,
         SYNC            => sync,
-        SYNC24          => sync24
+        SYNC24          => sync24,
+        RESET           => reset
 	);
 
 	-- Add user logic here
