@@ -826,8 +826,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>fifo_readout_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>13</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-04-13T18:54:24Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>15</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-04-25T19:22:18Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

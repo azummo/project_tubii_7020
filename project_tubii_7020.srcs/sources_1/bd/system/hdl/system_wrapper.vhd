@@ -119,9 +119,9 @@ architecture STRUCTURE of system_wrapper is
     tellie_pulser_out : out STD_LOGIC_VECTOR ( 0 to 0 );
     smellie_pulser_out : out STD_LOGIC_VECTOR ( 0 to 0 );
     Clk_in : in STD_LOGIC;
-    speaker : out STD_LOGIC;
     Outtt : out STD_LOGIC;
-    generic_delay_out : out STD_LOGIC
+    generic_delay_out : out STD_LOGIC;
+    speaker : out STD_LOGIC
   );
   end component system;
 begin

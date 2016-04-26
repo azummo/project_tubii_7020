@@ -214,9 +214,9 @@ begin
         GTID <= slv_reg0(23 downto 0);
 
         if(SYNC24='1' or RESET='1') then
-          slv_reg0 <= (others => '0');
+          slv_reg0 <= "00000000000000000000000000000001";
         elsif(SYNC='1') then
-          slv_reg0(15 downto 0) <= (others => '0');
+          slv_reg0(15 downto 0) <= "0000000000000001";
         else
           slv_reg0 <= slv_reg0+1;
         end if;

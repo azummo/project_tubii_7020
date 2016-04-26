@@ -1006,8 +1006,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>triggers_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-04-15T17:06:30Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>4</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-04-22T16:02:39Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>
