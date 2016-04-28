@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date             : Thu Apr 28 14:22:01 2016
-| Host             : monag2.sp.snolab.ca running 64-bit CentOS release 6.7 (Final)
+| Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
+| Date             : Thu Apr 28 17:06:31 2016
+| Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
 | Device           : xc7z020clg400-1
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.552 |
+| Total On-Chip Power (W)  | 1.551 |
 | Dynamic (W)              | 1.400 |
 | Device Static (W)        | 0.151 |
 | Total Off-Chip Power (W) | 0.121 |
@@ -50,9 +50,9 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.048 |        2 |       --- |             --- |
+| Clocks                   |     0.049 |        2 |       --- |             --- |
 | Slice Logic              |     0.012 |    23556 |       --- |             --- |
-|   LUT as Logic           |     0.012 |    10647 |     53200 |           20.01 |
+|   LUT as Logic           |     0.011 |    10649 |     53200 |           20.01 |
 |   LUT as Distributed RAM |    <0.001 |      392 |     17400 |            2.25 |
 |   Register               |    <0.001 |     8974 |    106400 |            8.43 |
 |   CARRY4                 |    <0.001 |      412 |     13300 |            3.09 |
@@ -60,13 +60,13 @@ Table of Contents
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      219 |       --- |             --- |
-| Signals                  |     0.019 |    17128 |       --- |             --- |
+| Signals                  |     0.018 |    17128 |       --- |             --- |
 | Block RAM                |     0.001 |       43 |       140 |           30.71 |
-| I/O                      |     0.009 |       54 |       125 |           43.20 |
+| I/O                      |     0.008 |       54 |       125 |           43.20 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.151 |          |           |                 |
-| Total                    |     1.552 |          |           |                 |
+| Total                    |     1.551 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -281,8 +281,8 @@ Table of Contents
 |     comboTrigger_0                                                                                                                                                  |     0.002 |
 |     countDisplay_0                                                                                                                                                  |     0.002 |
 |     counter_0                                                                                                                                                       |     0.002 |
-|     fifo_generator_0                                                                                                                                                |     0.005 |
-|       U0                                                                                                                                                            |     0.005 |
+|     fifo_generator_0                                                                                                                                                |     0.004 |
+|       U0                                                                                                                                                            |     0.004 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
 |     genericDelay                                                                                                                                                    |     0.002 |
 |     genericPulser                                                                                                                                                   |     0.002 |

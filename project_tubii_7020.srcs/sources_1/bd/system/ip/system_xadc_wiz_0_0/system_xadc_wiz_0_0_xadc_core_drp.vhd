@@ -981,7 +981,7 @@ alarm_out <= alarm_reg(8 downto 1);-- updated from 2 downto 1 to 8 downto 1 for 
         INIT_5E => X"91EB",  -- Vccpaux lower alarm limit
         INIT_5B => X"6AAA",  -- Vccddro upper alarm limit
         INIT_5F => X"6222",  -- Vccddro lower alarm limit
-        SIM_MONITOR_FILE => "/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
+        SIM_MONITOR_FILE => "c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
         )
 
 port map (
