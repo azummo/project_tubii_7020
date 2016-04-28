@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Fri Apr 22 12:19:51 2016
-| Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
+| Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
+| Date         : Thu Apr 28 14:19:44 2016
+| Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.7 (Final)
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
 | Device       : xc7z020
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 15670 |     0 |     53200 | 29.45 |
-|   LUT as Logic             | 15101 |     0 |     53200 | 28.38 |
-|   LUT as Memory            |   569 |     0 |     17400 |  3.27 |
-|     LUT as Distributed RAM |   500 |     0 |           |       |
+| Slice LUTs*                | 15521 |     0 |     53200 | 29.17 |
+|   LUT as Logic             | 15052 |     0 |     53200 | 28.29 |
+|   LUT as Memory            |   469 |     0 |     17400 |  2.69 |
+|     LUT as Distributed RAM |   400 |     0 |           |       |
 |     LUT as Shift Register  |    69 |     0 |           |       |
-| Slice Registers            | 11303 |     0 |    106400 | 10.62 |
-|   Register as Flip Flop    | 11303 |     0 |    106400 | 10.62 |
+| Slice Registers            | 10619 |     0 |    106400 |  9.98 |
+|   Register as Flip Flop    | 10619 |     0 |    106400 |  9.98 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |   109 |     0 |     26600 |  0.40 |
 | F8 Muxes                   |     0 |     0 |     13300 |  0.00 |
@@ -131,18 +131,18 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     | 9059 |
-| LUT6     | 4106 |
-| LUT4     | 3093 |
-| LUT5     | 2903 |
-| LUT1     | 2622 |
-| LUT3     | 2574 |
-| LUT2     | 2567 |
-| FDCE     | 1678 |
-| CARRY4   | 1292 |
-| RAMD32   |  740 |
-| FDPE     |  422 |
-| RAMS32   |  240 |
+| FDRE     | 8753 |
+| LUT6     | 4140 |
+| LUT4     | 3061 |
+| LUT5     | 2919 |
+| LUT1     | 2634 |
+| LUT3     | 2553 |
+| LUT2     | 2493 |
+| FDCE     | 1381 |
+| CARRY4   | 1300 |
+| RAMD32   |  592 |
+| FDPE     |  341 |
+| RAMS32   |  192 |
 | FDSE     |  144 |
 | BIBUF    |  130 |
 | MUXF7    |  109 |
