@@ -26,6 +26,7 @@ entity triggers_v1_0_S00_AXI is
         SYNCi          : in std_logic;
         SYNC24i        : in std_logic;
         GTID_in        : in std_logic_vector(23 downto 0);
+        GTID_out       : out std_logic_vector(23 downto 0);
         SYNCo          : out std_logic;
         SYNC24o        : out std_logic;
         RESETGTID      : out std_logic;
@@ -36,6 +37,7 @@ entity triggers_v1_0_S00_AXI is
         TRIG_OUT       : out std_logic;
         SPEAKER        : out std_logic;
         COUNTER        : out std_logic;
+        RST_OK         : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -242,6 +244,10 @@ begin
         -- slv_reg1 is counter mask
         -- slv_reg2 is speaker mask
         -- slv_reg3 is trigger mask
+        -- slv_reg4 is gtid
+        -- slv_reg5 is syncs
+        -- slv_reg6 is softgt
+        -- slv_reg7 is soft reset
         slv_reg0(15 downto 0)  <= EXT_TRIG_IN(15 downto 0);
         slv_reg0(17 downto 16) <= MTCA_MIMIC_IN(1 downto 0);
         slv_reg0(21 downto 18) <= INT_TRIG_IN(3 downto 0);
@@ -252,17 +258,12 @@ begin
         TRIG_WORD(21 downto 18) <= INT_TRIG_IN(3 downto 0);
         TRIG_WORD(22) <= TELLIE_TRIG_IN;
         TRIG_WORD(23) <= SMELLIE_TRIG_IN;
-        TUBII_WORD(15 downto 0)  <= EXT_TRIG_IN(15 downto 0);
-        TUBII_WORD(17 downto 16) <= MTCA_MIMIC_IN(1 downto 0);
-        TUBII_WORD(21 downto 18) <= INT_TRIG_IN(3 downto 0);
-        TUBII_WORD(22) <= TELLIE_TRIG_IN;
-        TUBII_WORD(23) <= SMELLIE_TRIG_IN;
-        --TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
+        TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
         TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
 
-        --slv_reg4(23 downto 0) <= GTID_in;
-        slv_reg5(0) <= SYNCi;
-        slv_reg5(1) <= SYNC24i;
+        slv_reg4(23 downto 0) <= GTID_in;
+        slv_reg5(0) <= tsync;
+        slv_reg5(1) <= tsync24;
 
         -- Soft GT for initialisation
         if(slv_reg6(0)='1') then
@@ -272,46 +273,37 @@ begin
         end if;
 
         -- Reset GTID
-        --if(slv_reg7(0) ='1') then -- and treset='0') then
-          --treset<='1';
-        --  RESETGTID<='1';
-        --else
-        --  RESETGTID<='0';
-        --end if;
-
-        if(slv_reg7(0)='1') then
-          slv_reg4 <= "00000000000000000000000000000001";        
-	    elsif(SYNC24i='1') then
-          slv_reg4 <= "00000000000000000000000000000001";
-        elsif(SYNCi='1') then
-          slv_reg4(15 downto 0) <= "0000000000000001";
-	    elsif GTRIG='1' and unread='0' then
-          slv_reg4 <= slv_reg4+1;
-          unread<='1';
-        elsif GTRIG='0' then
-         unread<='0';
+        if slv_reg7(0) ='1' then
+          RESETGTID<='1';
+        else
+          RESETGTID<='0';
         end if;
 
-        --if(SYNCi ='1' and tsync='0') then
-          --tsync<='1';
-          --SYNCo<='1';
-        --end if;
+        if(SYNCi ='1' and tsync='0') then
+          tsync<='1';
+          SYNCo<='1';
+        end if;
 
-        --if(SYNC24i ='1' and tsync24='0') then
-          --tsync24<='1';
-          --SYNC24o<='1';
-        --end if;
+        if(SYNC24i ='1' and tsync24='0') then
+          tsync24<='1';
+          SYNC24o<='1';
+        end if;
 
-        --if(GTRIG ='1' and unread='0') then
-          --treset <= '0';
-          --tsync <= '0';
-          --tsync24 <= '0';
-          --SYNCo<='0';
-          --SYNC24o<='0';
-          --RESETGTID<='0';
-          --unread <= '1';
-        --elsif(GTRIG ='0') then
-          --unread <= '0';
+        if(RST_OK='1') then
+          tsync <= '0';
+          tsync24 <= '0';
+          SYNCo<='0';
+          SYNC24o<='0';
+        end if;
+
+        --if slv_reg7(0)='1' then
+        --  GTID_out <= (others=>'0');
+        --elsif SYNC24i='1' then
+        --  GTID_out <= (others=>'0');
+        --elsif SYNCi='1' then
+        --  GTID_out <= (others=>'0');
+        --else
+        --  GTID_out <= GTID_in;
         --end if;
 
         ---- TUBII TRIGGER
