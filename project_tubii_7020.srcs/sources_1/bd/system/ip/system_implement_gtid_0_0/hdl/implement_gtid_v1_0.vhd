@@ -17,11 +17,12 @@ entity implement_gtid_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        gtid    : out std_logic_vector(23 downto 0);
-        gt      : in std_logic;
+        gtid_in  : in std_logic_vector(23 downto 0);
+        gtid_out : out std_logic_vector(23 downto 0);
         sync    : in std_logic;
         sync24  : in std_logic;
         reset   : in std_logic;
+        rst_ok  : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -81,11 +82,12 @@ architecture arch_imp of implement_gtid_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-		GTID            : out std_logic_vector(23 downto 0);
-        GT              : in std_logic;
+		GTID_in         : in std_logic_vector(23 downto 0);
+		GTID_out        : out std_logic_vector(23 downto 0);
 		SYNC            : in std_logic;
 		SYNC24          : in std_logic;
-		RESET           : in std_logic
+		RESET           : in std_logic;
+        RST_OK          : out std_logic
 		);
 	end component implement_gtid_v1_0_S00_AXI;
 
@@ -119,11 +121,12 @@ implement_gtid_v1_0_S00_AXI_inst : implement_gtid_v1_0_S00_AXI
 		S_AXI_RRESP	=> s00_axi_rresp,
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
-        GTID            => gtid,
-        GT              => gt,
+        GTID_in         => gtid_in,
+        GTID_out        => gtid_out,
         SYNC            => sync,
         SYNC24          => sync24,
-        RESET           => reset
+        RESET           => reset,
+        RST_OK          => rst_ok
 	);
 
 	-- Add user logic here

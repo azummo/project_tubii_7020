@@ -3,171 +3,145 @@
  Attempting to get a license: %s
 78*common2"
 Implementation2default:defaultZ17-78
-Y
-Failed to get a license: %s
-295*common2"
-Implementation2default:defaultZ17-301
-–
-πWARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
-
-4*vivadoZ15-19
-V
- Attempting to get a license: %s
-78*common2
-	Synthesis2default:defaultZ17-78
-T
-Failed to get a license: %s
-295*common2
-	Synthesis2default:defaultZ17-301
-ë
+Q
+Feature available: %s
+81*common2"
+Implementation2default:defaultZ17-81
+É
 +Loading parts and site information from %s
-36*device2M
-9/home/snoperator/Xilinx/Vivado/2013.4/data/parts/arch.xml2default:defaultZ21-36
-û
+36*device2?
++C:/Xilinx/Vivado/2013.4/data/parts/arch.xml2default:defaultZ21-36
+ê
 !Parsing RTL primitives file [%s]
-14*netlist2c
-O/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-14
-ß
+14*netlist2U
+AC:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-14
+ô
 *Finished parsing RTL primitives file [%s]
-11*netlist2c
-O/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-11
-¶
-ÉThe current project part '%s' does not match with the '%s' board part settings. The project part will be reset to '%s' board part.
-153*project2#
-xc7z020clg400-12default:default20
-EM.AVNET.COM:ZYNQ:MICROZED:E2default:default20
-EM.AVNET.COM:ZYNQ:MICROZED:E2default:defaultZ1-153
-t
-Project part set to %s (%s)
-152*project2
-zynq2default:default2#
-xc7z010clg400-12default:defaultZ1-152
+11*netlist2U
+AC:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-11
 5
 Refreshing IP repositories
 234*coregenZ19-234
-É
+ê
  Loaded user IP repository '%s'.
-1135*coregen2E
-1/home/snoperator/project_tubii_7020/sync_gtid_1.02default:defaultZ19-1700
-Ç
+1135*coregen2R
+>c:/Users/Ian/Documents/GitHub/project_tubii_7020/sync_gtid_1.02default:defaultZ19-1700
+è
  Loaded user IP repository '%s'.
-1135*coregen2D
-0/home/snoperator/project_tubii_7020/SyncGTID_1.02default:defaultZ19-1700
-Ç
+1135*coregen2Q
+=c:/Users/Ian/Documents/GitHub/project_tubii_7020/SyncGTID_1.02default:defaultZ19-1700
+è
  Loaded user IP repository '%s'.
-1135*coregen2D
-0/home/snoperator/project_tubii_7020/triggers_1.02default:defaultZ19-1700
-Ω
+1135*coregen2Q
+=c:/Users/Ian/Documents/GitHub/project_tubii_7020/triggers_1.02default:defaultZ19-1700
+ 
 †Failed to load user IP repository '%s'; %s
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-1318*coregen2J
-6/home/snoperator/project_tubii_7020/tubii_triggers_1.02default:default22
+1318*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:default22
 Can't find the specified path.2default:defaultZ19-2248
-©
-ARepository '%s' already exists; ignoring attempt to add it again.1296*coregen2J
-6/home/snoperator/project_tubii_7020/tubii_triggers_1.02default:defaultZ19-2207
-Ω
+∂
+ARepository '%s' already exists; ignoring attempt to add it again.1296*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:defaultZ19-2207
+ 
 †Failed to load user IP repository '%s'; %s
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-1318*coregen2J
-6/home/snoperator/project_tubii_7020/tubii_triggers_1.02default:default22
+1318*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/tubii_triggers_1.02default:default22
 Can't find the specified path.2default:defaultZ19-2248
-à
+ï
  Loaded user IP repository '%s'.
-1135*coregen2J
-6/home/snoperator/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-1700
-©
-ARepository '%s' already exists; ignoring attempt to add it again.1296*coregen2J
-6/home/snoperator/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-2207
-à
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-1700
+∂
+ARepository '%s' already exists; ignoring attempt to add it again.1296*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-2207
+ï
  Loaded user IP repository '%s'.
-1135*coregen2J
-6/home/snoperator/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-1700
-á
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/ShiftRegisters_1.02default:defaultZ19-1700
+î
  Loaded user IP repository '%s'.
-1135*coregen2I
-5/home/snoperator/project_tubii_7020/buttonTrigger_1.02default:defaultZ19-1700
-∑
+1135*coregen2V
+Bc:/Users/Ian/Documents/GitHub/project_tubii_7020/buttonTrigger_1.02default:defaultZ19-1700
+ƒ
 †Failed to load user IP repository '%s'; %s
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-1318*coregen2D
-0/home/snoperator/project_tubii_7020/ShiftReg_1.02default:default22
+1318*coregen2Q
+=c:/Users/Ian/Documents/GitHub/project_tubii_7020/ShiftReg_1.02default:default22
 Can't find the specified path.2default:defaultZ19-2248
-à
+ï
  Loaded user IP repository '%s'.
-1135*coregen2J
-6/home/snoperator/project_tubii_7020/implement_gtid_1.02default:defaultZ19-1700
-á
+1135*coregen2W
+Cc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.02default:defaultZ19-1700
+î
  Loaded user IP repository '%s'.
-1135*coregen2I
-5/home/snoperator/project_tubii_7020/TrigWordDelay_1.02default:defaultZ19-1700
-á
+1135*coregen2V
+Bc:/Users/Ian/Documents/GitHub/project_tubii_7020/TrigWordDelay_1.02default:defaultZ19-1700
+î
  Loaded user IP repository '%s'.
-1135*coregen2I
-5/home/snoperator/project_tubii_7020/oneshot_pulse_1.02default:defaultZ19-1700
-Ü
+1135*coregen2V
+Bc:/Users/Ian/Documents/GitHub/project_tubii_7020/oneshot_pulse_1.02default:defaultZ19-1700
+ì
  Loaded user IP repository '%s'.
-1135*coregen2H
-4/home/snoperator/project_tubii_7020/fifo_readout_1.02default:defaultZ19-1700
-Å
+1135*coregen2U
+Ac:/Users/Ian/Documents/GitHub/project_tubii_7020/fifo_readout_1.02default:defaultZ19-1700
+é
  Loaded user IP repository '%s'.
-1135*coregen2C
-//home/snoperator/project_tubii_7020/counter_1.02default:defaultZ19-1700
-®
-†Failed to load user IP repository '%s'; %s
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-1318*coregen25
-!/project_tubii_7020/ShiftRegs_1.02default:default22
-Can't find the specified path.2default:defaultZ19-2248
-Ü
+1135*coregen2P
+<c:/Users/Ian/Documents/GitHub/project_tubii_7020/counter_1.02default:defaultZ19-1700
+
  Loaded user IP repository '%s'.
-1135*coregen2H
-4/home/snoperator/project_tubii_7020/countDisplay_1.02default:defaultZ19-1700
-Ü
+1135*coregen2A
+-c:/Users/Ian/project_tubii_7020/ShiftRegs_1.02default:defaultZ19-1700
+ì
  Loaded user IP repository '%s'.
-1135*coregen2H
-4/home/snoperator/project_tubii_7020/comboTrigger_1.02default:defaultZ19-1700
-Ñ
+1135*coregen2U
+Ac:/Users/Ian/Documents/GitHub/project_tubii_7020/countDisplay_1.02default:defaultZ19-1700
+ì
  Loaded user IP repository '%s'.
-1135*coregen2F
-2/home/snoperator/project_tubii_7020/testPulser_1.02default:defaultZ19-1700
-Ñ
+1135*coregen2U
+Ac:/Users/Ian/Documents/GitHub/project_tubii_7020/comboTrigger_1.02default:defaultZ19-1700
+ë
  Loaded user IP repository '%s'.
-1135*coregen2F
-2/home/snoperator/project_tubii_7020/triggerOut_1.02default:defaultZ19-1700
-Ñ
+1135*coregen2S
+?c:/Users/Ian/Documents/GitHub/project_tubii_7020/testPulser_1.02default:defaultZ19-1700
+ë
  Loaded user IP repository '%s'.
-1135*coregen2F
-2/home/snoperator/project_tubii_7020/clockLogic_1.02default:defaultZ19-1700
-Ü
+1135*coregen2S
+?c:/Users/Ian/Documents/GitHub/project_tubii_7020/triggerOut_1.02default:defaultZ19-1700
+ë
  Loaded user IP repository '%s'.
-1135*coregen2H
-4/home/snoperator/project_tubii_7020/triggerSplit_1.02default:defaultZ19-1700
-É
+1135*coregen2S
+?c:/Users/Ian/Documents/GitHub/project_tubii_7020/clockLogic_1.02default:defaultZ19-1700
+ì
  Loaded user IP repository '%s'.
-1135*coregen2E
-1/home/snoperator/project_tubii_7020/testDelay_1.02default:defaultZ19-1700
-â
+1135*coregen2U
+Ac:/Users/Ian/Documents/GitHub/project_tubii_7020/triggerSplit_1.02default:defaultZ19-1700
+ê
  Loaded user IP repository '%s'.
-1135*coregen2K
-7/home/snoperator/project_tubii_7020/prescaleTrigger_1.02default:defaultZ19-1700
-Ü
+1135*coregen2R
+>c:/Users/Ian/Documents/GitHub/project_tubii_7020/testDelay_1.02default:defaultZ19-1700
+ñ
  Loaded user IP repository '%s'.
-1135*coregen2H
-4/home/snoperator/project_tubii_7020/burstTrigger_1.02default:defaultZ19-1700
-Å
+1135*coregen2X
+Dc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleTrigger_1.02default:defaultZ19-1700
+ì
+ Loaded user IP repository '%s'.
+1135*coregen2U
+Ac:/Users/Ian/Documents/GitHub/project_tubii_7020/burstTrigger_1.02default:defaultZ19-1700
+s
 "Loaded Vivado IP repository '%s'.
-1332*coregen2A
--/home/snoperator/Xilinx/Vivado/2013.4/data/ip2default:defaultZ19-2313
-«
-êOne or more IPs have been locked in the design '%s'. Please run report_ip_status for more details and recommendations on how to fix this issue.
-638*rsb2
-	system.bd2default:defaultZ41-1303
-Ç
-3Changing the constrs_type of fileset '%s' to '%s'.
-11*project2
-	constrs_12default:default2
-XDC2default:defaultZ1-11
+1332*coregen23
+C:/Xilinx/Vivado/2013.4/data/ip2default:defaultZ19-2313
+¯
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2
+add_files: 2default:default2
+00:00:082default:default2
+00:00:092default:default2
+277.2662default:default2
+89.3402default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -189,46 +163,46 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:12 ; elapsed = 00:01:14 . Memory (MB): peak = 945.875 ; gain = 255.035
+xStarting RTL Elaboration : Time (s): cpu = 00:06:56 ; elapsed = 00:10:03 . Memory (MB): peak = 348.691 ; gain = 199.586
 2default:default
-Ô
+˝
 synthesizing module '%s'638*oasys2"
-system_wrapper2default:default2|
-f/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
+system_wrapper2default:default2â
+sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
 652default:default8@Z8-638
-‚
+˝
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-system2default:default2r
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system2default:default2
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 81312default:default2
 system_i2default:default2
-system2default:default2|
-f/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
+system2default:default2â
+sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
 1282default:default8@Z8-3491
-·
+Ô
 synthesizing module '%s'638*oasys2
-system2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 81952default:default8@Z8-638
-ã
+ô
 ,binding component instance '%s' to cell '%s'113*oasys2
 GND2default:default2
-GND2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+GND2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 95842default:default8@Z8-113
-ß
+¬
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-system_testPulser_0_72default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
+system_testPulser_0_72default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
 562default:default2 
 mz_happy_RnM2default:default2)
-system_testPulser_0_72default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testPulser_0_72default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 95882default:default8@Z8-3491
-ö
+ß
 synthesizing module '%s'638*oasys2)
-system_testPulser_0_72default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
+system_testPulser_0_72default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
 832default:default8@Z8-638
 a
 %s*synth2R
@@ -238,19 +212,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≥
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-testPulser_v1_02default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_02default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 62default:default2
 U02default:default2#
-testPulser_v1_02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
+testPulser_v1_02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
 1462default:default8@Z8-3491
-ú
+©
 synthesizing module '%s'638*oasys23
-testPulser_v1_0__parameterized02default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_0__parameterized02default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 502default:default8@Z8-638
 a
 %s*synth2R
@@ -268,19 +242,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-‹
+ˆ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-testPulser_v1_0_S00_AXI2default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
+testPulser_v1_0_S00_AXI2default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
 62default:default20
 testPulser_v1_0_S00_AXI_inst2default:default2+
-testPulser_v1_0_S00_AXI2default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_0_S00_AXI2default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 872default:default8@Z8-3491
-¨
+π
 synthesizing module '%s'638*oasys2;
-'testPulser_v1_0_S00_AXI__parameterized02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
+'testPulser_v1_0_S00_AXI__parameterized02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-638
 _
 %s*synth2P
@@ -290,48 +264,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Û
-default block is never used226*oasys2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
+Ä
+default block is never used226*oasys2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
 2492default:default8@Z8-226
-Û
-default block is never used226*oasys2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
+Ä
+default block is never used226*oasys2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
 3822default:default8@Z8-226
-Á
+Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'testPulser_v1_0_S00_AXI__parameterized02default:default2
 12default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-256
-◊
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys23
 testPulser_v1_0__parameterized02default:default2
 22default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 502default:default8@Z8-256
-’
+‚
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_testPulser_0_72default:default2
 32default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd2default:default2
 832default:default8@Z8-256
-ª
+÷
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-system_ShiftRegisters_0_02default:default2•
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
+system_ShiftRegisters_0_02default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
 562default:default2$
 ShiftRegisters_02default:default2-
-system_ShiftRegisters_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_ShiftRegisters_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 96132default:default8@Z8-3491
-¶
+≥
 synthesizing module '%s'638*oasys2-
-system_ShiftRegisters_0_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
+system_ShiftRegisters_0_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
 922default:default8@Z8-638
 a
 %s*synth2R
@@ -341,19 +315,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
 2default:default
-À
+Â
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
-ShiftRegisters_v1_02default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
+ShiftRegisters_v1_02default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
 62default:default2
 U02default:default2'
-ShiftRegisters_v1_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
+ShiftRegisters_v1_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
 1642default:default8@Z8-3491
-®
+µ
 synthesizing module '%s'638*oasys27
-#ShiftRegisters_v1_0__parameterized02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
+#ShiftRegisters_v1_0__parameterized02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
 592default:default8@Z8-638
 a
 %s*synth2R
@@ -371,19 +345,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
 2default:default
-˘
+ì
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2/
-ShiftRegisters_v1_0_S00_AXI2default:default2•
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
+ShiftRegisters_v1_0_S00_AXI2default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
 62default:default24
  ShiftRegisters_v1_0_S00_AXI_inst2default:default2/
-ShiftRegisters_v1_0_S00_AXI2default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
+ShiftRegisters_v1_0_S00_AXI2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
 1052default:default8@Z8-3491
-∏
+≈
 synthesizing module '%s'638*oasys2?
-+ShiftRegisters_v1_0_S00_AXI__parameterized02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
++ShiftRegisters_v1_0_S00_AXI__parameterized02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
 962default:default8@Z8-638
 _
 %s*synth2P
@@ -393,48 +367,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
 2default:default
-˚
-default block is never used226*oasys2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
 3092default:default8@Z8-226
-˚
-default block is never used226*oasys2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
 5502default:default8@Z8-226
-Û
+Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +ShiftRegisters_v1_0_S00_AXI__parameterized02default:default2
 42default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd2default:default2
 962default:default8@Z8-256
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #ShiftRegisters_v1_0__parameterized02default:default2
 52default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd2default:default2
 592default:default8@Z8-256
-·
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 system_ShiftRegisters_0_02default:default2
 62default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd2default:default2
 922default:default8@Z8-256
-∂
+—
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_TrigWordDelay_0_02default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
+system_TrigWordDelay_0_02default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
 562default:default2#
 TrigWordDelay_02default:default2,
-system_TrigWordDelay_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_TrigWordDelay_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 96472default:default8@Z8-3491
-£
+∞
 synthesizing module '%s'638*oasys2,
-system_TrigWordDelay_0_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
+system_TrigWordDelay_0_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -444,19 +418,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≈
+ﬂ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-TrigWordDelay_v1_02default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
+TrigWordDelay_v1_02default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2&
-TrigWordDelay_v1_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
+TrigWordDelay_v1_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
 1482default:default8@Z8-3491
-•
+≤
 synthesizing module '%s'638*oasys26
-"TrigWordDelay_v1_0__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
+"TrigWordDelay_v1_0__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -474,19 +448,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ò
+ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
-TrigWordDelay_v1_0_S00_AXI2default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
+TrigWordDelay_v1_0_S00_AXI2default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 62default:default23
 TrigWordDelay_v1_0_S00_AXI_inst2default:default2.
-TrigWordDelay_v1_0_S00_AXI2default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
+TrigWordDelay_v1_0_S00_AXI2default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-µ
+¬
 synthesizing module '%s'638*oasys2>
-*TrigWordDelay_v1_0_S00_AXI__parameterized02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
+*TrigWordDelay_v1_0_S00_AXI__parameterized02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-638
 _
 %s*synth2P
@@ -496,267 +470,267 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2502default:default8@Z8-226
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 3832default:default8@Z8-226
-
+˝
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *TrigWordDelay_v1_0_S00_AXI__parameterized02default:default2
 72default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "TrigWordDelay_v1_0__parameterized02default:default2
 82default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0.vhd2default:default2
 512default:default8@Z8-256
-ﬁ
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_TrigWordDelay_0_02default:default2
 92default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/synth/system_TrigWordDelay_0_0.vhd2default:default2
 842default:default8@Z8-256
-ˆ
+Ñ
 synthesizing module '%s'638*oasys2/
-system_axi_interconnect_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_axi_interconnect_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 43892default:default8@Z8-638
-
+˛
 synthesizing module '%s'638*oasys2+
-i00_couplers_imp_QKBO3S2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+i00_couplers_imp_QKBO3S2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 502default:default8@Z8-638
-¨
+∫
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 i00_couplers_imp_QKBO3S2default:default2
 102default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 502default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2,
-i01_couplers_imp_1CZ06462default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+i01_couplers_imp_1CZ06462default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 1592default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 i01_couplers_imp_1CZ06462default:default2
 112default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 1592default:default8@Z8-256
-Ò
+ˇ
 synthesizing module '%s'638*oasys2+
-i02_couplers_imp_PBSOOL2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+i02_couplers_imp_PBSOOL2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 2682default:default8@Z8-638
-≠
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 i02_couplers_imp_PBSOOL2default:default2
 122default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 2682default:default8@Z8-256
-Ò
+ˇ
 synthesizing module '%s'638*oasys2+
-m00_couplers_imp_PQAAIF2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m00_couplers_imp_PQAAIF2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 3772default:default8@Z8-638
-≠
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m00_couplers_imp_PQAAIF2default:default2
 132default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 3772default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2,
-m01_couplers_imp_1DSQHE12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m01_couplers_imp_1DSQHE12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 4862default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m01_couplers_imp_1DSQHE12default:default2
 142default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 4862default:default8@Z8-256
-Ò
+ˇ
 synthesizing module '%s'638*oasys2+
-m02_couplers_imp_OI2D8Q2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m02_couplers_imp_OI2D8Q2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 5952default:default8@Z8-638
-≠
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m02_couplers_imp_OI2D8Q2default:default2
 152default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 5952default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2,
-m03_couplers_imp_1EXEENO2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m03_couplers_imp_1EXEENO2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 7042default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m03_couplers_imp_1EXEENO2default:default2
 162default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 7042default:default8@Z8-256
-Ò
+ˇ
 synthesizing module '%s'638*oasys2+
-m04_couplers_imp_NO5YH92default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m04_couplers_imp_NO5YH92default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 8132default:default8@Z8-638
-≠
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m04_couplers_imp_NO5YH92default:default2
 172default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 8132default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2,
-m05_couplers_imp_1FRM8DV2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m05_couplers_imp_1FRM8DV2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 9222default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m05_couplers_imp_1FRM8DV2default:default2
 182default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 9222default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m06_couplers_imp_MNJY0G2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m06_couplers_imp_MNJY0G2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 10312default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m06_couplers_imp_MNJY0G2default:default2
 192default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 10312default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m07_couplers_imp_1GTWGY62default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m07_couplers_imp_1GTWGY62default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 11402default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m07_couplers_imp_1GTWGY62default:default2
 202default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 11402default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m08_couplers_imp_M1CY832default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m08_couplers_imp_M1CY832default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 12492default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m08_couplers_imp_M1CY832default:default2
 212default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 12492default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m09_couplers_imp_18L0AKD2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m09_couplers_imp_18L0AKD2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 13582default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m09_couplers_imp_18L0AKD2default:default2
 222default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 13582default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m10_couplers_imp_17MBB072default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m10_couplers_imp_17MBB072default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 14672default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m10_couplers_imp_17MBB072default:default2
 232default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 14672default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m11_couplers_imp_VWCOY12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m11_couplers_imp_VWCOY12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 15762default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m11_couplers_imp_VWCOY12default:default2
 242default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 15762default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m12_couplers_imp_16NSM6I2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m12_couplers_imp_16NSM6I2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 16852default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m12_couplers_imp_16NSM6I2default:default2
 252default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 16852default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m13_couplers_imp_WQS2GK2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m13_couplers_imp_WQS2GK2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 17942default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m13_couplers_imp_WQS2GK2default:default2
 262default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 17942default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m14_couplers_imp_15B0VF12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m14_couplers_imp_15B0VF12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 19032default:default8@Z8-638
-î
+Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3062default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/synth/system_auto_cc_306.v2default:default2
+system_auto_cc_3162default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/synth/system_auto_cc_316.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3062default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_cc_3162default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 20352default:default8@Z8-3491
-è
+ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3062default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/synth/system_auto_cc_306.v2default:default2
+system_auto_cc_3162default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/synth/system_auto_cc_316.v2default:default2
 572default:default8@Z8-638
-‚
+Ô
 synthesizing module '%s'638*oasys2@
-,axi_clock_converter_v2_1_axi_clock_converter2default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+,axi_clock_converter_v2_1_axi_clock_converter2default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -1182,10 +1156,10 @@ V
 %s*synth2L
 8	Parameter C_FIFO_R_WIDTH bound to: 34 - type: integer 
 2default:default
-†
+≠
 synthesizing module '%s'638*oasys2(
-fifo_generator_v11_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+fifo_generator_v11_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-638
 Z
 %s*synth2K
@@ -1979,10 +1953,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-¨
+π
 synthesizing module '%s'638*oasys2.
-fifo_generator_v11_0_synth2default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+fifo_generator_v11_0_synth2default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-638
 Z
 %s*synth2K
@@ -2776,10 +2750,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-ú
+©
 synthesizing module '%s'638*oasys2&
-fifo_generator_top2default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+fifo_generator_top2default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-638
 V
 %s*synth2G
@@ -3053,10 +3027,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-¨
+π
 synthesizing module '%s'638*oasys2*
-fifo_generator_ramfifo2default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+fifo_generator_ramfifo2default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-638
 V
 %s*synth2G
@@ -3270,10 +3244,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 2 - type: integer 
 2default:default
-¢
+Ø
 synthesizing module '%s'638*oasys2%
-reset_blk_ramfifo2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+reset_blk_ramfifo2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-638
 V
 %s*synth2G
@@ -3315,71 +3289,71 @@ W
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2282default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2292default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2312default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2322default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2342default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2352default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 5912default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 5922default:default8@Z8-4472
-ƒ
+—
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 5932default:default8@Z8-4472
-ﬁ
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 reset_blk_ramfifo2default:default2
 272default:default2
-12default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+12default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
-ë
+û
 synthesizing module '%s'638*oasys2
-	input_blk2default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+	input_blk2default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -3453,17 +3427,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-Õ
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	input_blk2default:default2
 282default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-å
+ô
 synthesizing module '%s'638*oasys2
-memory2default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -3557,10 +3531,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-à
+ï
 synthesizing module '%s'638*oasys2
-dmem2default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem2default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -3614,30 +3588,30 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-æ
+À
 &Detected and applied attribute %s = %s3620*oasys2
 	ram_style2default:default2
-distributed2default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+distributed2default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1792default:default8@Z8-4472
-ƒ
+—
 %done synthesizing module '%s' (%s#%s)256*oasys2
 dmem2default:default2
 292default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-»
+’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 memory2default:default2
 302default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-ñ
+£
 synthesizing module '%s'638*oasys2
-clk_x_pntrs2default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
+clk_x_pntrs2default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-638
 U
 %s*synth2F
@@ -3659,10 +3633,10 @@ W
 %s*synth2Q
 =	Parameter C_SYNCHRONIZER_STAGE bound to: 3 - type: integer 
 2default:default
-ù
+™
 synthesizing module '%s'638*oasys2#
-synchronizer_ff2default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
+synchronizer_ff2default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-638
 U
 %s*synth2F
@@ -3672,30 +3646,30 @@ S
 %s*synth2D
 0	Parameter C_WIDTH bound to: 4 - type: integer 
 2default:default
-¡
+Œ
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
+true2default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1432default:default8@Z8-4472
-Ÿ
+Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 synchronizer_ff2default:default2
 312default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
-“
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 clk_x_pntrs2default:default2
 322default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
-ê
+ù
 synthesizing module '%s'638*oasys2
-rd_logic2default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+rd_logic2default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-638
 Z
 %s*synth2K
@@ -3785,10 +3759,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ñ
+£
 synthesizing module '%s'638*oasys2
-rd_bin_cntr2default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+rd_bin_cntr2default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-638
 U
 %s*synth2F
@@ -3806,17 +3780,17 @@ X
 %s*synth2I
 5	Parameter C_PNTR_WIDTH bound to: 4 - type: integer 
 2default:default
-“
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_bin_cntr2default:default2
 332default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
-§
+±
 synthesizing module '%s'638*oasys2&
-rd_status_flags_as2default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
+rd_status_flags_as2default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-638
 U
 %s*synth2F
@@ -3834,33 +3808,33 @@ U
 %s*synth2O
 ;	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
 2default:default
-é
+õ
 synthesizing module '%s'638*oasys2
-compare2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+compare2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-638
 S
 %s*synth2D
 0	Parameter C_WIDTH bound to: 4 - type: integer 
 2default:default
- 
+◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 compare2default:default2
 342default:default2
-12default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+12default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 rd_status_flags_as2default:default2
 352default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
-é
+õ
 synthesizing module '%s'638*oasys2
-rd_fwft2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+rd_fwft2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-638
 U
 %s*synth2F
@@ -3878,36 +3852,36 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-Ù
-default block is never used226*oasys2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+Å
+default block is never used226*oasys2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 2552default:default8@Z8-226
-Ù
-default block is never used226*oasys2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+Å
+default block is never used226*oasys2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 5792default:default8@Z8-226
-Ù
-default block is never used226*oasys2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+Å
+default block is never used226*oasys2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 6642default:default8@Z8-226
- 
+◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_fwft2default:default2
 362default:default2
-12default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+12default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-256
-Ã
+Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_logic2default:default2
 372default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-256
-ê
+ù
 synthesizing module '%s'638*oasys2
-wr_logic2default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+wr_logic2default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-638
 Z
 %s*synth2K
@@ -3993,10 +3967,10 @@ F	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 0 - type: integer
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-ñ
+£
 synthesizing module '%s'638*oasys2
-wr_bin_cntr2default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+wr_bin_cntr2default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-638
 U
 %s*synth2F
@@ -4026,17 +4000,17 @@ Z
 %s*synth2K
 7	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
 2default:default
-“
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_bin_cntr2default:default2
 382default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
-§
+±
 synthesizing module '%s'638*oasys2&
-wr_status_flags_as2default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
+wr_status_flags_as2default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-638
 [
 %s*synth2L
@@ -4058,25 +4032,25 @@ U
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wr_status_flags_as2default:default2
 392default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
-Ã
+Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_logic2default:default2
 402default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-256
-ì
+†
 synthesizing module '%s'638*oasys2
 
-output_blk2default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk2default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -4178,32 +4152,32 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-œ
+‹
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 output_blk2default:default2
 412default:default2
-12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 fifo_generator_ramfifo2default:default2
 422default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
-ÿ
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 fifo_generator_top2default:default2
 432default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
-¨
+π
 synthesizing module '%s'638*oasys26
-"fifo_generator_top__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+"fifo_generator_top__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-638
 V
 %s*synth2G
@@ -4477,10 +4451,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys2:
-&fifo_generator_ramfifo__parameterized02default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+&fifo_generator_ramfifo__parameterized02default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-638
 V
 %s*synth2G
@@ -4694,10 +4668,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 2 - type: integer 
 2default:default
-°
+Æ
 synthesizing module '%s'638*oasys2-
-input_blk__parameterized02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+input_blk__parameterized02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -4771,17 +4745,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized02default:default2
 432default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-ú
+©
 synthesizing module '%s'638*oasys2*
-memory__parameterized02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory__parameterized02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -4875,10 +4849,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ò
+•
 synthesizing module '%s'638*oasys2(
-dmem__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -4932,24 +4906,24 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized02default:default2
 432default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-ÿ
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized02default:default2
 432default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-£
+∞
 synthesizing module '%s'638*oasys2.
-output_blk__parameterized02default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk__parameterized02default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -5051,31 +5025,31 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized02default:default2
 432default:default2
-12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized02default:default2
 432default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized02default:default2
 432default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
-¨
+π
 synthesizing module '%s'638*oasys26
-"fifo_generator_top__parameterized12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+"fifo_generator_top__parameterized12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-638
 V
 %s*synth2G
@@ -5349,10 +5323,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys2:
-&fifo_generator_ramfifo__parameterized12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+&fifo_generator_ramfifo__parameterized12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-638
 V
 %s*synth2G
@@ -5566,10 +5540,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 2 - type: integer 
 2default:default
-°
+Æ
 synthesizing module '%s'638*oasys2-
-input_blk__parameterized12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+input_blk__parameterized12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -5643,17 +5617,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized12default:default2
 432default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-ú
+©
 synthesizing module '%s'638*oasys2*
-memory__parameterized12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory__parameterized12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -5747,10 +5721,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ò
+•
 synthesizing module '%s'638*oasys2(
-dmem__parameterized12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem__parameterized12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -5804,24 +5778,24 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized12default:default2
 432default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-ÿ
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized12default:default2
 432default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-£
+∞
 synthesizing module '%s'638*oasys2.
-output_blk__parameterized12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk__parameterized12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -5923,31 +5897,31 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized12default:default2
 432default:default2
-12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized12default:default2
 432default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized12default:default2
 432default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
-¨
+π
 synthesizing module '%s'638*oasys26
-"fifo_generator_top__parameterized22default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+"fifo_generator_top__parameterized22default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-638
 V
 %s*synth2G
@@ -6221,10 +6195,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys2:
-&fifo_generator_ramfifo__parameterized22default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+&fifo_generator_ramfifo__parameterized22default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-638
 V
 %s*synth2G
@@ -6438,10 +6412,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 2 - type: integer 
 2default:default
-°
+Æ
 synthesizing module '%s'638*oasys2-
-input_blk__parameterized22default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+input_blk__parameterized22default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -6515,17 +6489,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized22default:default2
 432default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-ú
+©
 synthesizing module '%s'638*oasys2*
-memory__parameterized22default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory__parameterized22default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -6619,10 +6593,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ò
+•
 synthesizing module '%s'638*oasys2(
-dmem__parameterized22default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem__parameterized22default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -6676,24 +6650,24 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized22default:default2
 432default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-ÿ
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized22default:default2
 432default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-£
+∞
 synthesizing module '%s'638*oasys2.
-output_blk__parameterized22default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk__parameterized22default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -6795,285 +6769,285 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized22default:default2
 432default:default2
-12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized22default:default2
 432default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized22default:default2
 432default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 fifo_generator_v11_0_synth2default:default2
 442default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-256
-‹
+È
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 fifo_generator_v11_02default:default2
 452default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-256
-œ
+‹
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2!
 asyncfifo_axi2default:default2(
 fifo_generator_v11_02default:default2
 2302default:default2
-2282default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+2282default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 7992default:default8@Z8-350
-û
+´
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2
 462default:default2
-12default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
+12default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/axi_clock_converter_v2_1/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-256
-À
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3062default:default2
+system_auto_cc_3162default:default2
 472default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/synth/system_auto_cc_306.v2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/synth/system_auto_cc_316.v2default:default2
 572default:default8@Z8-256
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m14_couplers_imp_15B0VF12default:default2
 482default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 19032default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m15_couplers_imp_Y5QALV2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m15_couplers_imp_Y5QALV2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 21302default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m15_couplers_imp_Y5QALV2default:default2
 492default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 21302default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m16_couplers_imp_14023HS2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m16_couplers_imp_14023HS2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 22392default:default8@Z8-638
-î
+Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3072default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/synth/system_auto_cc_307.v2default:default2
+system_auto_cc_3172default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/synth/system_auto_cc_317.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3072default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_cc_3172default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 23712default:default8@Z8-3491
-è
+ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3072default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/synth/system_auto_cc_307.v2default:default2
+system_auto_cc_3172default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/synth/system_auto_cc_317.v2default:default2
 572default:default8@Z8-638
-À
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3072default:default2
+system_auto_cc_3172default:default2
 502default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/synth/system_auto_cc_307.v2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/synth/system_auto_cc_317.v2default:default2
 572default:default8@Z8-256
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m16_couplers_imp_14023HS2default:default2
 512default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 22392default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m17_couplers_imp_ZHOD1Q2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m17_couplers_imp_ZHOD1Q2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 24662default:default8@Z8-638
-î
+Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3082default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/synth/system_auto_cc_308.v2default:default2
+system_auto_cc_3182default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/synth/system_auto_cc_318.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3082default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_cc_3182default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 25982default:default8@Z8-3491
-è
+ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3082default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/synth/system_auto_cc_308.v2default:default2
+system_auto_cc_3182default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/synth/system_auto_cc_318.v2default:default2
 572default:default8@Z8-638
-À
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3082default:default2
+system_auto_cc_3182default:default2
 522default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/synth/system_auto_cc_308.v2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/synth/system_auto_cc_318.v2default:default2
 572default:default8@Z8-256
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m17_couplers_imp_ZHOD1Q2default:default2
 532default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 24662default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m18_couplers_imp_13N81VN2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m18_couplers_imp_13N81VN2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 26932default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m18_couplers_imp_13N81VN2default:default2
 542default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 26932default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m19_couplers_imp_QY5Y2L2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m19_couplers_imp_QY5Y2L2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 28022default:default8@Z8-638
-î
+Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3092default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
+system_auto_cc_3192default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/synth/system_auto_cc_319.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3092default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_cc_3192default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 29342default:default8@Z8-3491
-è
+ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3092default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
+system_auto_cc_3192default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/synth/system_auto_cc_319.v2default:default2
 572default:default8@Z8-638
-À
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3092default:default2
+system_auto_cc_3192default:default2
 552default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/synth/system_auto_cc_309.v2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/synth/system_auto_cc_319.v2default:default2
 572default:default8@Z8-256
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m19_couplers_imp_QY5Y2L2default:default2
 562default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 28022default:default8@Z8-256
-Ú
+Ä
 synthesizing module '%s'638*oasys2+
-m20_couplers_imp_1CCFAU2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m20_couplers_imp_1CCFAU2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 30292default:default8@Z8-638
-Æ
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m20_couplers_imp_1CCFAU2default:default2
 572default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 30292default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m21_couplers_imp_1T86MH42default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m21_couplers_imp_1T86MH42default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 31382default:default8@Z8-638
-î
+Ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_auto_cc_3102default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
+system_auto_cc_3202default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/synth/system_auto_cc_320.v2default:default2
 572default:default2
 auto_cc2default:default2&
-system_auto_cc_3102default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_cc_3202default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 32702default:default8@Z8-3491
-è
+ú
 synthesizing module '%s'638*oasys2&
-system_auto_cc_3102default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
+system_auto_cc_3202default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/synth/system_auto_cc_320.v2default:default2
 572default:default8@Z8-638
-À
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-system_auto_cc_3102default:default2
+system_auto_cc_3202default:default2
 582default:default2
-12default:default2ó
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/synth/system_auto_cc_310.v2default:default2
+12default:default2§
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/synth/system_auto_cc_320.v2default:default2
 572default:default8@Z8-256
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m21_couplers_imp_1T86MH42default:default2
 592default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 31382default:default8@Z8-256
-Ò
+ˇ
 synthesizing module '%s'638*oasys2*
-m22_couplers_imp_1CY172default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m22_couplers_imp_1CY172default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 33652default:default8@Z8-638
-≠
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 m22_couplers_imp_1CY172default:default2
 602default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 33652default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-m23_couplers_imp_1UK2L4L2default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+m23_couplers_imp_1UK2L4L2default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 34702default:default8@Z8-638
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m23_couplers_imp_1UK2L4L2default:default2
 612default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 34702default:default8@Z8-256
-Û
+Å
 synthesizing module '%s'638*oasys2,
-s00_couplers_imp_1FHMR112default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+s00_couplers_imp_1FHMR112default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 35922default:default8@Z8-638
-è
+´
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-system_auto_pc_602default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/synth/system_auto_pc_60.v2default:default2
+system_auto_pc_622default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_62/synth/system_auto_pc_62.v2default:default2
 572default:default2
 auto_pc2default:default2%
-system_auto_pc_602default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_auto_pc_622default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 37752default:default8@Z8-3491
-ã
+ô
 synthesizing module '%s'638*oasys2%
-system_auto_pc_602default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/synth/system_auto_pc_60.v2default:default2
+system_auto_pc_622default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_62/synth/system_auto_pc_62.v2default:default2
 572default:default8@Z8-638
-
+˝
 synthesizing module '%s'638*oasys2F
-2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2ÿ
-¡/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Â
+Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -7175,10 +7149,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
- 
+◊
 synthesizing module '%s'638*oasys23
-axi_protocol_converter_v2_1_b2s2default:default2≈
-Æ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+axi_protocol_converter_v2_1_b2s2default:default2“
+ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -7204,10 +7178,10 @@ _
 %s*synth2P
 <	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
 2default:default
-ÿ
+Â
 synthesizing module '%s'638*oasys2>
-*axi_register_slice_v2_1_axi_register_slice2default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+*axi_register_slice_v2_1_axi_register_slice2default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -7577,10 +7551,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-»
+’
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_axi2vector2default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+"axi_infrastructure_v1_1_axi2vector2default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -7946,17 +7920,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-Ñ
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
 622default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-⁄
+Á
 synthesizing module '%s'638*oasys2?
-+axi_register_slice_v2_1_axic_register_slice2default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
++axi_register_slice_v2_1_axic_register_slice2default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -7970,17 +7944,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-ñ
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
 632default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -7994,17 +7968,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
 632default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -8018,17 +7992,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
 632default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -8042,17 +8016,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
 632default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-»
+’
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_vector2axi2default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+"axi_infrastructure_v1_1_vector2axi2default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -8418,24 +8392,24 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-Ñ
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
 642default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-î
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
 652default:default2
-12default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-ﬂ
+Ï
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8445,10 +8419,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-Ë
+ı
 synthesizing module '%s'638*oasys2B
-.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2‘
-Ω/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2·
+ c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -8466,10 +8440,10 @@ N
 %s*synth2?
 +	Parameter P_AXBURST_WRAP bound to: 2'b10 
 2default:default
-‹
+È
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8479,17 +8453,17 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ò
+•
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 662default:default2
-12default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+12default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
-‹
+È
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -8499,24 +8473,24 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ò
+•
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 672default:default2
-12default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+12default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
-§
+±
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 682default:default2
-12default:default2‘
-Ω/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+12default:default2·
+ c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
-‡
+Ì
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8534,28 +8508,28 @@ L
 %s*synth2=
 )	Parameter SM_DONE_WAIT bound to: 2'b11 
 2default:default
-£
-default block is never used226*oasys2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+∞
+default block is never used226*oasys2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
-ú
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 692default:default2
-12default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+12default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-õ
+®
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 702default:default2
-12default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+12default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
-ﬁ
+Î
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_b_channel2default:default2œ
-∏/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_b_channel2default:default2‹
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -8601,10 +8575,10 @@ U
 %s*synth2F
 2	Parameter P_RAWIDTH bound to: 2 - type: integer 
 2default:default
-·
+Ó
 synthesizing module '%s'638*oasys2?
-+axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
++axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8634,17 +8608,17 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-ù
+™
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 712default:default2
-12default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ò
+˛
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -8674,24 +8648,24 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-≠
+∫
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 712default:default2
-12default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ö
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 722default:default2
-12default:default2œ
-∏/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+12default:default2‹
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
-ﬂ
+Ï
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -8701,10 +8675,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-‡
+Ì
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -8722,28 +8696,28 @@ G
 %s*synth28
 $	Parameter SM_DONE bound to: 2'b11 
 2default:default
-£
-default block is never used226*oasys2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+∞
+default block is never used226*oasys2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
-ú
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 732default:default2
-12default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+12default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-õ
+®
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 742default:default2
-12default:default2–
-π/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+12default:default2›
+∆c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
-ﬁ
+Î
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_r_channel2default:default2œ
-∏/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_r_channel2default:default2‹
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -8777,10 +8751,10 @@ V
 %s*synth2G
 3	Parameter P_D_AWIDTH bound to: 5 - type: integer 
 2default:default
-Ò
+˛
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8810,17 +8784,17 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-≠
+∫
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 742default:default2
-12default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ò
+˛
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -8850,24 +8824,24 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-≠
+∫
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 742default:default2
-12default:default2—
-∫/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2ﬁ
+«c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ö
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 752default:default2
-12default:default2œ
-∏/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+12default:default2‹
+≈c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
-Ë
+ı
 synthesizing module '%s'638*oasys2N
-:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -9237,10 +9211,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-ÿ
+Â
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -9606,17 +9580,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-î
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
 752default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -9630,17 +9604,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
 752default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -9654,17 +9628,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
 752default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -9678,17 +9652,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
 752default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -9702,17 +9676,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
 752default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-ÿ
+Â
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -10078,66 +10052,66 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-î
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
 752default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-§
+±
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
 752default:default2
-12default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 762default:default2
-12default:default2≈
-Æ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+12default:default2“
+ªc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
-¨
+π
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 772default:default2
-12default:default2ÿ
-¡/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2Â
+Œc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_61/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-«
+’
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-system_auto_pc_602default:default2
+system_auto_pc_622default:default2
 782default:default2
-12default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_60/synth/system_auto_pc_60.v2default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_pc_62/synth/system_auto_pc_62.v2default:default2
 572default:default8@Z8-256
-Ø
+Ω
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_1FHMR112default:default2
 792default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 35922default:default8@Z8-256
-±
+Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_0_12532default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1253/synth/system_tier2_xbar_0_1253.v2default:default2
+system_tier2_xbar_0_12592default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1259/synth/system_tier2_xbar_0_1259.v2default:default2
 572default:default2 
 tier2_xbar_02default:default2,
-system_tier2_xbar_0_12532default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_tier2_xbar_0_12592default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 75192default:default8@Z8-3491
-°
+Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_0_12532default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1253/synth/system_tier2_xbar_0_1253.v2default:default2
+system_tier2_xbar_0_12592default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1259/synth/system_tier2_xbar_0_1259.v2default:default2
 572default:default8@Z8-638
-∫
+«
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_axi_crossbar2default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+axi_crossbar_v2_1_axi_crossbar2default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-638
 V
 %s*synth2G
@@ -10327,10 +10301,10 @@ R
 %s*synth2C
 /	Parameter P_LOCK bound to: 1 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys23
-axi_crossbar_v2_1_crossbar_sasd2default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+axi_crossbar_v2_1_crossbar_sasd2default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -10540,10 +10514,10 @@ H
 %s*synth29
 %	Parameter P_DECERR bound to: 2'b11 
 2default:default
-ƒ
+—
 synthesizing module '%s'638*oasys27
-#axi_crossbar_v2_1_addr_arbiter_sasd2default:default2ª
-§/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
+#axi_crossbar_v2_1_addr_arbiter_sasd2default:default2»
+±c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-638
 V
 %s*synth2G
@@ -10573,17 +10547,17 @@ J
 %s*synth2;
 '	Parameter P_PRIO_MASK bound to: 1'b0 
 2default:default
-Ä
+ç
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_crossbar_v2_1_addr_arbiter_sasd2default:default2
 802default:default2
-12default:default2ª
-§/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
+12default:default2»
+±c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-256
-∫
+«
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_addr_decoder2default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+axi_crossbar_v2_1_addr_decoder2default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -10637,10 +10611,10 @@ b
 %s*synth2S
 ?	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 2default:default
-÷
+„
 synthesizing module '%s'638*oasys2=
-)generic_baseblocks_v2_1_comparator_static2default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+)generic_baseblocks_v2_1_comparator_static2default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10666,33 +10640,33 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-∆
+”
 synthesizing module '%s'638*oasys25
-!generic_baseblocks_v2_1_carry_and2default:default2ø
-®/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
+!generic_baseblocks_v2_1_carry_and2default:default2Ã
+µc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-638
 U
 %s*synth2F
 2	Parameter C_FAMILY bound to: rtl - type: string 
 2default:default
-Ç
+è
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !generic_baseblocks_v2_1_carry_and2default:default2
 812default:default2
-12default:default2ø
-®/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
+12default:default2Ã
+µc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-256
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )generic_baseblocks_v2_1_comparator_static2default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10718,17 +10692,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10754,17 +10728,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10790,17 +10764,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized32default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized32default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10826,17 +10800,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized32default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized42default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized42default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10862,17 +10836,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized42default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized52default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized52default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10898,17 +10872,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized52default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -10934,56 +10908,56 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2
 822default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-ˆ
+É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_decoder2default:default2
 832default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
-≤
+ø
 synthesizing module '%s'638*oasys2.
-axi_crossbar_v2_1_splitter2default:default2≤
-õ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+axi_crossbar_v2_1_splitter2default:default2ø
+®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-638
 S
 %s*synth2D
 0	Parameter C_NUM_M bound to: 3 - type: integer 
 2default:default
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_splitter2default:default2
 842default:default2
-12default:default2≤
-õ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+12default:default2ø
+®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
-¬
+œ
 synthesizing module '%s'638*oasys2>
-*axi_crossbar_v2_1_splitter__parameterized02default:default2≤
-õ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+*axi_crossbar_v2_1_splitter__parameterized02default:default2ø
+®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-638
 S
 %s*synth2D
 0	Parameter C_NUM_M bound to: 2 - type: integer 
 2default:default
-˛
+ã
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_splitter__parameterized02default:default2
 842default:default2
-12default:default2≤
-õ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+12default:default2ø
+®c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
-¬
+œ
 synthesizing module '%s'638*oasys23
-generic_baseblocks_v2_1_mux_enc2default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+generic_baseblocks_v2_1_mux_enc2default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -11001,17 +10975,17 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
 2default:default
-˛
+ã
 %done synthesizing module '%s' (%s#%s)256*oasys23
 generic_baseblocks_v2_1_mux_enc2default:default2
 852default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized02default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized02default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -11029,17 +11003,17 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized02default:default2
 852default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -11057,17 +11031,17 @@ Y
 %s*synth2J
 6	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized12default:default2
 852default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-Í
+˜
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -11081,17 +11055,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+≥
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2
 852default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized22default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized22default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -11109,17 +11083,17 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 3 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized22default:default2
 852default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-∫
+«
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_decerr_slave2default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+axi_crossbar_v2_1_decerr_slave2default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-638
 Z
 %s*synth2K
@@ -11177,52 +11151,52 @@ U
 %s*synth2F
 2	Parameter P_AXILITE bound to: 2 - type: integer 
 2default:default
-ˆ
+É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_decerr_slave2default:default2
 862default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_crossbar_sasd2default:default2
 872default:default2
-12default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+12default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
-ˆ
+É
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_axi_crossbar2default:default2
 882default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_0_12532default:default2
+system_tier2_xbar_0_12592default:default2
 892default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1253/synth/system_tier2_xbar_0_1253.v2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_0_1259/synth/system_tier2_xbar_0_1259.v2default:default2
 572default:default8@Z8-256
-±
+Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_1_12542default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1254/synth/system_tier2_xbar_1_1254.v2default:default2
+system_tier2_xbar_1_12602default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1260/synth/system_tier2_xbar_1_1260.v2default:default2
 572default:default2 
 tier2_xbar_12default:default2,
-system_tier2_xbar_1_12542default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_tier2_xbar_1_12602default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 76952default:default8@Z8-3491
-°
+Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_1_12542default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1254/synth/system_tier2_xbar_1_1254.v2default:default2
+system_tier2_xbar_1_12602default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1260/synth/system_tier2_xbar_1_1260.v2default:default2
 572default:default8@Z8-638
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+.axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-638
 V
 %s*synth2G
@@ -11412,10 +11386,10 @@ R
 %s*synth2C
 /	Parameter P_LOCK bound to: 1 - type: integer 
 2default:default
-Ã
+Ÿ
 synthesizing module '%s'638*oasys2C
-/axi_crossbar_v2_1_crossbar_sasd__parameterized02default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+/axi_crossbar_v2_1_crossbar_sasd__parameterized02default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -11625,10 +11599,10 @@ H
 %s*synth29
 %	Parameter P_DECERR bound to: 2'b11 
 2default:default
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_addr_decoder__parameterized02default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+.axi_crossbar_v2_1_addr_decoder__parameterized02default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -11682,10 +11656,10 @@ b
 %s*synth2S
 ?	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 2default:default
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized72default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized72default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11711,17 +11685,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized72default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized82default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized82default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11747,17 +11721,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized82default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ê
+Û
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized92default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized92default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11783,17 +11757,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-¢
+Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized92default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized102default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized102default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11819,17 +11793,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized102default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized112default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized112default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11855,17 +11829,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized112default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized122default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized122default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11891,17 +11865,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized122default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized132default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized132default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11927,17 +11901,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized132default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized142default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized142default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11963,59 +11937,59 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized142default:default2
 892default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized02default:default2
 892default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
-à
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized02default:default2
 892default:default2
-12default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+12default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
 892default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_1_12542default:default2
+system_tier2_xbar_1_12602default:default2
 902default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1254/synth/system_tier2_xbar_1_1254.v2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_1260/synth/system_tier2_xbar_1_1260.v2default:default2
 572default:default8@Z8-256
-±
+Ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_tier2_xbar_2_12552default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1255/synth/system_tier2_xbar_2_1255.v2default:default2
+system_tier2_xbar_2_12612default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1261/synth/system_tier2_xbar_2_1261.v2default:default2
 572default:default2 
 tier2_xbar_22default:default2,
-system_tier2_xbar_2_12552default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_tier2_xbar_2_12612default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 78712default:default8@Z8-3491
-°
+Æ
 synthesizing module '%s'638*oasys2,
-system_tier2_xbar_2_12552default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1255/synth/system_tier2_xbar_2_1255.v2default:default2
+system_tier2_xbar_2_12612default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1261/synth/system_tier2_xbar_2_1261.v2default:default2
 572default:default8@Z8-638
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_axi_crossbar__parameterized12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+.axi_crossbar_v2_1_axi_crossbar__parameterized12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-638
 V
 %s*synth2G
@@ -12205,10 +12179,10 @@ R
 %s*synth2C
 /	Parameter P_LOCK bound to: 1 - type: integer 
 2default:default
-Ã
+Ÿ
 synthesizing module '%s'638*oasys2C
-/axi_crossbar_v2_1_crossbar_sasd__parameterized12default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+/axi_crossbar_v2_1_crossbar_sasd__parameterized12default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -12418,10 +12392,10 @@ H
 %s*synth29
 %	Parameter P_DECERR bound to: 2'b11 
 2default:default
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_addr_decoder__parameterized12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+.axi_crossbar_v2_1_addr_decoder__parameterized12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -12475,10 +12449,10 @@ b
 %s*synth2S
 ?	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 2default:default
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized152default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized152default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12504,17 +12478,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized152default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized162default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized162default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12540,17 +12514,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized162default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized172default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized172default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12576,17 +12550,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized172default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized182default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized182default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12612,17 +12586,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized182default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized192default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized192default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12648,17 +12622,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized192default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized202default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized202default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12684,17 +12658,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized202default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized212default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized212default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12720,17 +12694,17 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized212default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Á
+Ù
 synthesizing module '%s'638*oasys2N
-:generic_baseblocks_v2_1_comparator_static__parameterized222default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+:generic_baseblocks_v2_1_comparator_static__parameterized222default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -12756,59 +12730,59 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-£
+∞
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :generic_baseblocks_v2_1_comparator_static__parameterized222default:default2
 902default:default2
-12default:default2«
-∞/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2‘
+Ωc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized12default:default2
 902default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
-à
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized12default:default2
 902default:default2
-12default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+12default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized12default:default2
 902default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-system_tier2_xbar_2_12552default:default2
+system_tier2_xbar_2_12612default:default2
 912default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1255/synth/system_tier2_xbar_2_1255.v2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_1261/synth/system_tier2_xbar_2_1261.v2default:default2
 572default:default8@Z8-256
-¸
+ò
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
-system_xbar_02default:default2ä
-v/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
+system_xbar_02default:default2ò
+Éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
 572default:default2
 xbar2default:default2!
-system_xbar_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_xbar_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 80472default:default8@Z8-3491
-ˇ
+ç
 synthesizing module '%s'638*oasys2!
-system_xbar_02default:default2å
-v/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
+system_xbar_02default:default2ö
+Éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
 572default:default8@Z8-638
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_axi_crossbar__parameterized22default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+.axi_crossbar_v2_1_axi_crossbar__parameterized22default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-638
 V
 %s*synth2G
@@ -12998,10 +12972,10 @@ R
 %s*synth2C
 /	Parameter P_LOCK bound to: 1 - type: integer 
 2default:default
-Ã
+Ÿ
 synthesizing module '%s'638*oasys2C
-/axi_crossbar_v2_1_crossbar_sasd__parameterized22default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+/axi_crossbar_v2_1_crossbar_sasd__parameterized22default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -13211,10 +13185,10 @@ H
 %s*synth29
 %	Parameter P_DECERR bound to: 2'b11 
 2default:default
- 
+◊
 synthesizing module '%s'638*oasys2B
-.axi_crossbar_v2_1_addr_decoder__parameterized22default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+.axi_crossbar_v2_1_addr_decoder__parameterized22default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -13268,17 +13242,17 @@ b
 %s*synth2S
 ?	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 2default:default
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized22default:default2
 912default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized32default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized32default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -13296,17 +13270,17 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized32default:default2
 912default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized42default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized42default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -13324,17 +13298,17 @@ Y
 %s*synth2J
 6	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
 912default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-“
+ﬂ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized52default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized52default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -13352,54 +13326,54 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 3 - type: integer 
 2default:default
-é
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized52default:default2
 912default:default2
-12default:default2Ω
-¶/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2 
+≥c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-à
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_crossbar_sasd__parameterized22default:default2
 912default:default2
-12default:default2∑
-†/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
+12default:default2ƒ
+≠c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
-Ü
+ì
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized22default:default2
 912default:default2
-12default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+12default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
-ª
+…
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 system_xbar_02default:default2
 922default:default2
-12default:default2å
-v/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
+12default:default2ö
+Éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v2default:default2
 572default:default8@Z8-256
-≤
+¿
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 system_axi_interconnect_0_02default:default2
 932default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 43892default:default8@Z8-256
-≤
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_burstTrigger_0_02default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
+system_burstTrigger_0_02default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
 562default:default2"
 burstTrigger_02default:default2+
-system_burstTrigger_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_burstTrigger_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 102202default:default8@Z8-3491
-†
+≠
 synthesizing module '%s'638*oasys2+
-system_burstTrigger_0_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
+system_burstTrigger_0_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -13409,19 +13383,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ø
+Ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-burstTrigger_v1_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
+burstTrigger_v1_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
 62default:default2
 U02default:default2%
-burstTrigger_v1_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
+burstTrigger_v1_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
 1482default:default8@Z8-3491
-¢
+Ø
 synthesizing module '%s'638*oasys25
-!burstTrigger_v1_0__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
+!burstTrigger_v1_0__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -13439,19 +13413,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Í
+Ñ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-burstTrigger_v1_0_S00_AXI2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+burstTrigger_v1_0_S00_AXI2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 62default:default22
 burstTrigger_v1_0_S00_AXI_inst2default:default2-
-burstTrigger_v1_0_S00_AXI2default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
+burstTrigger_v1_0_S00_AXI2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-≤
+ø
 synthesizing module '%s'638*oasys2=
-)burstTrigger_v1_0_S00_AXI__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+)burstTrigger_v1_0_S00_AXI__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-638
 _
 %s*synth2P
@@ -13461,48 +13435,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 3102default:default8@Z8-226
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 4432default:default8@Z8-226
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )burstTrigger_v1_0_S00_AXI__parameterized02default:default2
 942default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
-ﬁ
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !burstTrigger_v1_0__parameterized02default:default2
 952default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
-‹
+È
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_burstTrigger_0_02default:default2
 962default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
-∑
+“
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_buttonTrigger_0_02default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
+system_buttonTrigger_0_02default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
 562default:default2#
 buttonTrigger_02default:default2,
-system_buttonTrigger_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_buttonTrigger_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 102462default:default8@Z8-3491
-£
+∞
 synthesizing module '%s'638*oasys2,
-system_buttonTrigger_0_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
+system_buttonTrigger_0_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
 832default:default8@Z8-638
 a
 %s*synth2R
@@ -13512,19 +13486,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≈
+ﬂ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-buttonTrigger_v1_02default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
+buttonTrigger_v1_02default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
 62default:default2
 U02default:default2&
-buttonTrigger_v1_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
+buttonTrigger_v1_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
 1462default:default8@Z8-3491
-•
+≤
 synthesizing module '%s'638*oasys26
-"buttonTrigger_v1_0__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
+"buttonTrigger_v1_0__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
 502default:default8@Z8-638
 a
 %s*synth2R
@@ -13542,19 +13516,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ò
+ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
-buttonTrigger_v1_0_S00_AXI2default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
+buttonTrigger_v1_0_S00_AXI2default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
 62default:default23
 buttonTrigger_v1_0_S00_AXI_inst2default:default2.
-buttonTrigger_v1_0_S00_AXI2default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
+buttonTrigger_v1_0_S00_AXI2default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
 872default:default8@Z8-3491
-µ
+¬
 synthesizing module '%s'638*oasys2>
-*buttonTrigger_v1_0_S00_AXI__parameterized02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
+*buttonTrigger_v1_0_S00_AXI__parameterized02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-638
 _
 %s*synth2P
@@ -13564,48 +13538,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
 2262default:default8@Z8-226
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
 3592default:default8@Z8-226
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *buttonTrigger_v1_0_S00_AXI__parameterized02default:default2
 972default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-256
-·
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "buttonTrigger_v1_0__parameterized02default:default2
 982default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/hdl/buttonTrigger_v1_0.vhd2default:default2
 502default:default8@Z8-256
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_buttonTrigger_0_02default:default2
 992default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_buttonTrigger_0_0/synth/system_buttonTrigger_0_0.vhd2default:default2
 832default:default8@Z8-256
-®
+√
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-system_clockLogic_0_02default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
+system_clockLogic_0_02default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
 592default:default2 
 clockLogic_02default:default2)
-system_clockLogic_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_clockLogic_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 102712default:default8@Z8-3491
-ö
+ß
 synthesizing module '%s'638*oasys2)
-system_clockLogic_0_02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
+system_clockLogic_0_02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
 872default:default8@Z8-638
 a
 %s*synth2R
@@ -13615,19 +13589,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-∏
+“
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-clockLogic_v1_02default:default2ö
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
+clockLogic_v1_02default:default2ß
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
 62default:default2
 U02default:default2#
-clockLogic_v1_02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
+clockLogic_v1_02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
 1512default:default8@Z8-3491
-°
+Æ
 synthesizing module '%s'638*oasys23
-clockLogic_v1_0__parameterized02default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
+clockLogic_v1_0__parameterized02default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -13645,19 +13619,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ê
+Ä
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-clockLogic_v1_0_S00_AXI2default:default2¢
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
+clockLogic_v1_0_S00_AXI2default:default2Ø
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 62default:default20
 clockLogic_v1_0_S00_AXI_inst2default:default2+
-clockLogic_v1_0_S00_AXI2default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
+clockLogic_v1_0_S00_AXI2default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-±
+æ
 synthesizing module '%s'638*oasys2;
-'clockLogic_v1_0_S00_AXI__parameterized02default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
+'clockLogic_v1_0_S00_AXI__parameterized02default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-638
 _
 %s*synth2P
@@ -13667,48 +13641,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¯
-default block is never used226*oasys2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
+Ö
+default block is never used226*oasys2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 2252default:default8@Z8-226
-¯
-default block is never used226*oasys2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
+Ö
+default block is never used226*oasys2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 3582default:default8@Z8-226
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'clockLogic_v1_0_S00_AXI__parameterized02default:default2
 1002default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
-ﬁ
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys23
 clockLogic_v1_0__parameterized02default:default2
 1012default:default2
-12default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
+12default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/work/hdl/clockLogic_v1_0.vhd2default:default2
 512default:default8@Z8-256
-◊
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_clockLogic_0_02default:default2
 1022default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd2default:default2
 872default:default8@Z8-256
-≤
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_comboTrigger_0_02default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
+system_comboTrigger_0_02default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
 562default:default2"
 comboTrigger_02default:default2+
-system_comboTrigger_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_comboTrigger_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 102972default:default8@Z8-3491
-†
+≠
 synthesizing module '%s'638*oasys2+
-system_comboTrigger_0_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
+system_comboTrigger_0_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -13718,19 +13692,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ø
+Ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-comboTrigger_v1_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
+comboTrigger_v1_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
 62default:default2
 U02default:default2%
-comboTrigger_v1_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
+comboTrigger_v1_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
 1482default:default8@Z8-3491
-¢
+Ø
 synthesizing module '%s'638*oasys25
-!comboTrigger_v1_0__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
+!comboTrigger_v1_0__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -13748,19 +13722,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Í
+Ñ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-comboTrigger_v1_0_S00_AXI2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
+comboTrigger_v1_0_S00_AXI2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 62default:default22
 comboTrigger_v1_0_S00_AXI_inst2default:default2-
-comboTrigger_v1_0_S00_AXI2default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
+comboTrigger_v1_0_S00_AXI2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-≤
+ø
 synthesizing module '%s'638*oasys2=
-)comboTrigger_v1_0_S00_AXI__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
+)comboTrigger_v1_0_S00_AXI__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-638
 _
 %s*synth2P
@@ -13770,48 +13744,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 2492default:default8@Z8-226
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 3822default:default8@Z8-226
-Ô
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )comboTrigger_v1_0_S00_AXI__parameterized02default:default2
 1032default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !comboTrigger_v1_0__parameterized02default:default2
 1042default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_comboTrigger_0_02default:default2
 1052default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
-≤
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_countDisplay_0_02default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
+system_countDisplay_0_02default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
 562default:default2"
 countDisplay_02default:default2+
-system_countDisplay_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_countDisplay_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 103232default:default8@Z8-3491
-†
+≠
 synthesizing module '%s'638*oasys2+
-system_countDisplay_0_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
+system_countDisplay_0_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
 862default:default8@Z8-638
 a
 %s*synth2R
@@ -13821,19 +13795,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ø
+Ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-countDisplay_v1_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
+countDisplay_v1_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2%
-countDisplay_v1_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
+countDisplay_v1_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
 1522default:default8@Z8-3491
-¢
+Ø
 synthesizing module '%s'638*oasys25
-!countDisplay_v1_0__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
+!countDisplay_v1_0__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
 532default:default8@Z8-638
 a
 %s*synth2R
@@ -13851,19 +13825,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Í
+Ñ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-countDisplay_v1_0_S00_AXI2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
+countDisplay_v1_0_S00_AXI2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 62default:default22
 countDisplay_v1_0_S00_AXI_inst2default:default2-
-countDisplay_v1_0_S00_AXI2default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
+countDisplay_v1_0_S00_AXI2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
 932default:default8@Z8-3491
-≤
+ø
 synthesizing module '%s'638*oasys2=
-)countDisplay_v1_0_S00_AXI__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
+)countDisplay_v1_0_S00_AXI__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-638
 _
 %s*synth2P
@@ -13873,48 +13847,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-226
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 3642default:default8@Z8-226
-Ô
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )countDisplay_v1_0_S00_AXI__parameterized02default:default2
 1062default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-256
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !countDisplay_v1_0__parameterized02default:default2
 1072default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd2default:default2
 532default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_countDisplay_0_02default:default2
 1082default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd2default:default2
 862default:default8@Z8-256
-ô
+¥
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-system_counter_0_02default:default2ó
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
+system_counter_0_02default:default2§
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
 562default:default2
 	counter_02default:default2&
-system_counter_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_counter_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 103512default:default8@Z8-3491
-ë
+û
 synthesizing module '%s'638*oasys2&
-system_counter_0_02default:default2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
+system_counter_0_02default:default2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
 822default:default8@Z8-638
 a
 %s*synth2R
@@ -13924,19 +13898,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-†
+ª
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2 
-counter_v1_02default:default2é
-z/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
+counter_v1_02default:default2ú
+ác:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
 62default:default2
 U02default:default2 
-counter_v1_02default:default2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
+counter_v1_02default:default2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
 1442default:default8@Z8-3491
-í
+†
 synthesizing module '%s'638*oasys20
-counter_v1_0__parameterized02default:default2ê
-z/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
+counter_v1_0__parameterized02default:default2û
+ác:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
 502default:default8@Z8-638
 a
 %s*synth2R
@@ -13954,19 +13928,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-∆
+·
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-counter_v1_0_S00_AXI2default:default2ó
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
+counter_v1_0_S00_AXI2default:default2§
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 62default:default2-
 counter_v1_0_S00_AXI_inst2default:default2(
-counter_v1_0_S00_AXI2default:default2ê
-z/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
+counter_v1_0_S00_AXI2default:default2û
+ác:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
 862default:default8@Z8-3491
-£
+∞
 synthesizing module '%s'638*oasys28
-$counter_v1_0_S00_AXI__parameterized02default:default2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
+$counter_v1_0_S00_AXI__parameterized02default:default2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-638
 _
 %s*synth2P
@@ -13976,48 +13950,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ì
-default block is never used226*oasys2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
+˙
+default block is never used226*oasys2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 2212default:default8@Z8-226
-Ì
-default block is never used226*oasys2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
+˙
+default block is never used226*oasys2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 3542default:default8@Z8-226
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $counter_v1_0_S00_AXI__parameterized02default:default2
 1092default:default2
-12default:default2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
+12default:default2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0_S00_AXI.vhd2default:default2
 872default:default8@Z8-256
-œ
+›
 %done synthesizing module '%s' (%s#%s)256*oasys20
 counter_v1_0__parameterized02default:default2
 1102default:default2
-12default:default2ê
-z/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
+12default:default2û
+ác:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/hdl/counter_v1_0.vhd2default:default2
 502default:default8@Z8-256
-Œ
+€
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 system_counter_0_02default:default2
 1112default:default2
-12default:default2ô
-Ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
+12default:default2¶
+èc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_counter_0_0/synth/system_counter_0_0.vhd2default:default2
 822default:default8@Z8-256
-º
+◊
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-system_fifo_generator_0_02default:default2•
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
+system_fifo_generator_0_02default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
 592default:default2$
 fifo_generator_02default:default2-
-system_fifo_generator_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_fifo_generator_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 103752default:default8@Z8-3491
-¶
+≥
 synthesizing module '%s'638*oasys2-
-system_fifo_generator_0_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
+system_fifo_generator_0_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
 732default:default8@Z8-638
 Z
 %s*synth2K
@@ -14811,19 +14785,19 @@ a
 %s*synth2M
 9	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
 2default:default
-’
+Ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-fifo_generator_v11_02default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+fifo_generator_v11_02default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 1272default:default2
 U02default:default2(
-fifo_generator_v11_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
+fifo_generator_v11_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
 5232default:default8@Z8-3491
-∞
+Ω
 synthesizing module '%s'638*oasys28
-$fifo_generator_v11_0__parameterized12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+$fifo_generator_v11_0__parameterized12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-638
 Z
 %s*synth2K
@@ -15617,10 +15591,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys2>
-*fifo_generator_v11_0_synth__parameterized02default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+*fifo_generator_v11_0_synth__parameterized02default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-638
 Z
 %s*synth2K
@@ -16414,10 +16388,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-¨
+π
 synthesizing module '%s'638*oasys26
-"fifo_generator_top__parameterized32default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+"fifo_generator_top__parameterized32default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-638
 V
 %s*synth2G
@@ -16691,10 +16665,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-º
+…
 synthesizing module '%s'638*oasys2:
-&fifo_generator_ramfifo__parameterized32default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+&fifo_generator_ramfifo__parameterized32default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-638
 V
 %s*synth2G
@@ -16908,10 +16882,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 0 - type: integer 
 2default:default
-≤
+ø
 synthesizing module '%s'638*oasys25
-!reset_blk_ramfifo__parameterized02default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+!reset_blk_ramfifo__parameterized02default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-638
 V
 %s*synth2G
@@ -16953,17 +16927,17 @@ W
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-Ô
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !reset_blk_ramfifo__parameterized02default:default2
 1112default:default2
-12default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+12default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
-°
+Æ
 synthesizing module '%s'638*oasys2-
-input_blk__parameterized32default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+input_blk__parameterized32default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -17037,17 +17011,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-ﬁ
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized32default:default2
 1112default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-ú
+©
 synthesizing module '%s'638*oasys2*
-memory__parameterized32default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory__parameterized32default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -17393,19 +17367,19 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-æ
+ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2$
-blk_mem_gen_v8_12default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
+blk_mem_gen_v8_12default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
 1232default:default2
 bmg2default:default2$
-blk_mem_gen_v8_12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+blk_mem_gen_v8_12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 7792default:default8@Z8-3491
-§
+±
 synthesizing module '%s'638*oasys24
- blk_mem_gen_v8_1__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
+ blk_mem_gen_v8_1__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
 2502default:default8@Z8-638
 V
 %s*synth2G
@@ -17659,10 +17633,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-†
+≠
 synthesizing module '%s'638*oasys2*
-blk_mem_gen_v8_1_synth2default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1_synth.vhd2default:default2
+blk_mem_gen_v8_1_synth2default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1_synth.vhd2default:default2
 3112default:default8@Z8-638
 V
 %s*synth2G
@@ -17916,10 +17890,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-í
+ü
 synthesizing module '%s'638*oasys2#
-blk_mem_gen_top2default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_top.vhd2default:default2
+blk_mem_gen_top2default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-638
 ]
 %s*synth2N
@@ -18153,10 +18127,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-ö
+ß
 synthesizing module '%s'638*oasys2'
-blk_mem_input_block2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_input_block.vhd2default:default2
+blk_mem_input_block2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-638
 Y
 %s*synth2J
@@ -18302,17 +18276,17 @@ Y
 %s*synth2L
 8	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
 2default:default
-◊
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 blk_mem_input_block2default:default2
 1122default:default2
-12default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_input_block.vhd2default:default2
+12default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
-§
+±
 synthesizing module '%s'638*oasys2,
-blk_mem_gen_generic_cstr2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_generic_cstr.vhd2default:default2
+blk_mem_gen_generic_cstr2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-638
 Y
 %s*synth2J
@@ -18581,10 +18555,10 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-å
+ô
 synthesizing module '%s'638*oasys2
-bindec2default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_bindec.vhd2default:default2
+bindec2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_bindec.vhd2default:default2
 1672default:default8@Z8-638
 \
 %s*synth2M
@@ -18594,17 +18568,17 @@ W
 %s*synth2H
 4	Parameter C_SEL_WIDTH bound to: 3 - type: integer 
 2default:default
-…
+÷
 %done synthesizing module '%s' (%s#%s)256*oasys2
 bindec2default:default2
 1132default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_bindec.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_bindec.vhd2default:default2
 1672default:default8@Z8-256
-†
+≠
 synthesizing module '%s'638*oasys2*
-blk_mem_gen_prim_width2default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+blk_mem_gen_prim_width2default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -18802,18 +18776,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-§
+±
 synthesizing module '%s'638*oasys2,
-blk_mem_gen_prim_wrapper2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+blk_mem_gen_prim_wrapper2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -19011,13 +18985,13 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90462default:default8@Z8-3919
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90492default:default8@Z8-3919
 S
 %s*synth2D
@@ -19719,30 +19693,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-·
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_prim_wrapper2default:default2
 1142default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -19940,18 +19914,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -20149,13 +20123,13 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90462default:default8@Z8-3919
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90492default:default8@Z8-3919
 S
 %s*synth2D
@@ -20857,30 +20831,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized02default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized02default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -21078,18 +21052,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -21287,13 +21261,13 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90462default:default8@Z8-3919
-¯
-null assignment ignored3449*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+Ö
+null assignment ignored3449*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 90492default:default8@Z8-3919
 S
 %s*synth2D
@@ -21995,30 +21969,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized12default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized12default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized22default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized22default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -22216,18 +22190,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized22default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized22default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -23125,30 +23099,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized22default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized22default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized32default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized32default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -23346,18 +23320,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized32default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized32default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -24255,30 +24229,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized32default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized32default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized42default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized42default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -24476,18 +24450,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized42default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized42default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -25385,30 +25359,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized42default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized42default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized52default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized52default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -25606,18 +25580,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized52default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized52default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -26515,30 +26489,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized52default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized52default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized62default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized62default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -26736,18 +26710,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized62default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized62default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -27645,30 +27619,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized62default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized62default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized72default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized72default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -27866,18 +27840,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized72default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized72default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -28775,30 +28749,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized72default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized72default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized82default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized82default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -28996,18 +28970,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized82default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized82default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -29905,30 +29879,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized82default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized82default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-∞
+Ω
 synthesizing module '%s'638*oasys2:
-&blk_mem_gen_prim_width__parameterized92default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+&blk_mem_gen_prim_width__parameterized92default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -30126,18 +30100,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-¥
+¡
 synthesizing module '%s'638*oasys2<
-(blk_mem_gen_prim_wrapper__parameterized92default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+(blk_mem_gen_prim_wrapper__parameterized92default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -31035,30 +31009,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized92default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized92default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized102default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized102default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -31256,18 +31230,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized102default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized102default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -32165,30 +32139,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized102default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized102default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized112default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized112default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -32386,18 +32360,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized112default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized112default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -33295,30 +33269,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized112default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized112default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized122default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized122default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -33516,18 +33490,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized122default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized122default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -34425,30 +34399,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized122default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized122default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized132default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized132default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -34646,18 +34620,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized132default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized132default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -35555,30 +35529,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized132default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized132default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized142default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized142default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -35776,18 +35750,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized142default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized142default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -36685,30 +36659,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized142default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized142default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized152default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized152default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -36906,18 +36880,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized152default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized152default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -37815,30 +37789,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized152default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized152default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized162default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized162default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -38036,18 +38010,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized162default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized162default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -38945,30 +38919,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized162default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized162default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized172default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized172default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -39166,18 +39140,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized172default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized172default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -40075,30 +40049,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized172default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized172default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized182default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized182default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -40296,18 +40270,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized182default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized182default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -41205,30 +41179,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized182default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized182default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized192default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized192default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -41426,18 +41400,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized192default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized192default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -42335,30 +42309,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized192default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized192default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized202default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized202default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -42556,18 +42530,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized202default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized202default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -43465,30 +43439,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized202default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized202default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized212default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized212default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -43686,18 +43660,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized212default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized212default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -44595,30 +44569,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized212default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized212default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized222default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized222default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -44816,18 +44790,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized222default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized222default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -45725,30 +45699,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized222default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized222default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized232default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized232default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -45946,18 +45920,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized232default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized232default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -46855,30 +46829,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized232default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized232default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized242default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized242default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -47076,18 +47050,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized242default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized242default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -47985,30 +47959,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized242default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized242default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized252default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized252default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -48206,18 +48180,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized252default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized252default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -49115,30 +49089,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized252default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized252default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized262default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized262default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -49336,18 +49310,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized262default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized262default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -50245,30 +50219,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized262default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized262default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized272default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized272default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -50466,18 +50440,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized272default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized272default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -51375,30 +51349,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized272default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized272default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized282default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized282default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -51596,18 +51570,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized282default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized282default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -52505,30 +52479,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized282default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized282default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized292default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized292default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -52726,18 +52700,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized292default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized292default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -53635,30 +53609,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized292default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized292default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized302default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized302default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -53856,18 +53830,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized302default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized302default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -54765,30 +54739,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized302default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized302default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized312default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized312default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -54986,18 +54960,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized312default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized312default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -55895,30 +55869,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized312default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized312default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized322default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized322default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -56116,18 +56090,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized322default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized322default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -57025,30 +56999,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized322default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized322default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized332default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized332default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -57246,18 +57220,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized332default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized332default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -58155,30 +58129,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized332default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized332default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized342default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized342default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -58376,18 +58350,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized342default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized342default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -59285,30 +59259,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized342default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized342default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized352default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized352default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -59506,18 +59480,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized352default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized352default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -60415,30 +60389,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized352default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized352default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized362default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized362default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -60636,18 +60610,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized362default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized362default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -61545,30 +61519,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized362default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized362default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized372default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized372default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -61766,18 +61740,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized372default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized372default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -62675,30 +62649,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized372default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized372default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized382default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized382default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -62896,18 +62870,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized382default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized382default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -63805,30 +63779,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized382default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized382default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized392default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized392default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -64026,18 +64000,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized392default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized392default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -64935,30 +64909,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized392default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized392default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized402default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized402default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -65156,18 +65130,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized402default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized402default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -66065,30 +66039,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized402default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized402default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-±
+æ
 synthesizing module '%s'638*oasys2;
-'blk_mem_gen_prim_width__parameterized412default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+'blk_mem_gen_prim_width__parameterized412default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 ]
 %s*synth2N
@@ -66286,18 +66260,18 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10352default:default8@Z8-3919
-ˆ
-null assignment ignored3449*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+É
+null assignment ignored3449*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 10362default:default8@Z8-3919
-µ
+¬
 synthesizing module '%s'638*oasys2=
-)blk_mem_gen_prim_wrapper__parameterized412default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+)blk_mem_gen_prim_wrapper__parameterized412default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-638
 ]
 %s*synth2N
@@ -67195,30 +67169,30 @@ Y
 %s*synth2J
 6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-¬
+œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+RAMB36E12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 91382default:default8@Z8-113
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized412default:default2
 1152default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_wrapper.vhd2default:default2
 3872default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized412default:default2
 1152default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-í
+ü
 synthesizing module '%s'638*oasys2#
-blk_mem_gen_mux2default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
+blk_mem_gen_mux2default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-638
 Y
 %s*synth2J
@@ -67304,17 +67278,17 @@ W
 %s*synth2H
 4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
 2default:default
-œ
+‹
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_mux2default:default2
 1162default:default2
-12default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
+12default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-256
-¢
+Ø
 synthesizing module '%s'638*oasys23
-blk_mem_gen_mux__parameterized02default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
+blk_mem_gen_mux__parameterized02default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-638
 Y
 %s*synth2J
@@ -67400,24 +67374,24 @@ W
 %s*synth2H
 4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
 2default:default
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys23
 blk_mem_gen_mux__parameterized02default:default2
 1162default:default2
-12default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
+12default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_mux.vhd2default:default2
 2822default:default8@Z8-256
-·
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
 1172default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_generic_cstr.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-256
-ú
+©
 synthesizing module '%s'638*oasys2(
-blk_mem_output_block2default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_output_block.vhd2default:default2
+blk_mem_output_block2default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-638
 V
 %s*synth2G
@@ -67459,45 +67433,45 @@ U
 %s*synth2F
 2	Parameter C_USE_ECC bound to: 0 - type: integer 
 2default:default
-Ÿ
+Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
 1182default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_output_block.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
-œ
+‹
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
 1192default:default2
-12default:default2ú
-Ö/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_top.vhd2default:default2
+12default:default2©
+íc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_1_synth2default:default2
 1202default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1_synth.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1_synth.vhd2default:default2
 3112default:default8@Z8-256
-·
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_v8_1__parameterized02default:default2
 1212default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/blk_mem_gen_v8_1/blk_mem_gen_v8_1.vhd2default:default2
 2502default:default8@Z8-256
-Ÿ
+Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized32default:default2
 1212default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-¶
+≥
 synthesizing module '%s'638*oasys2/
-clk_x_pntrs__parameterized02default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
+clk_x_pntrs__parameterized02default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-638
 U
 %s*synth2F
@@ -67519,10 +67493,10 @@ W
 %s*synth2Q
 =	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
 2default:default
-≠
+∫
 synthesizing module '%s'638*oasys23
-synchronizer_ff__parameterized02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
+synchronizer_ff__parameterized02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-638
 U
 %s*synth2F
@@ -67532,24 +67506,24 @@ T
 %s*synth2E
 1	Parameter C_WIDTH bound to: 15 - type: integer 
 2default:default
-Í
+˜
 %done synthesizing module '%s' (%s#%s)256*oasys23
 synchronizer_ff__parameterized02default:default2
 1212default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 clk_x_pntrs__parameterized02default:default2
 1212default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
-†
+≠
 synthesizing module '%s'638*oasys2,
-rd_logic__parameterized02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+rd_logic__parameterized02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-638
 Z
 %s*synth2K
@@ -67639,10 +67613,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-¶
+≥
 synthesizing module '%s'638*oasys2/
-rd_bin_cntr__parameterized02default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+rd_bin_cntr__parameterized02default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-638
 U
 %s*synth2F
@@ -67660,17 +67634,17 @@ Y
 %s*synth2J
 6	Parameter C_PNTR_WIDTH bound to: 15 - type: integer 
 2default:default
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 rd_bin_cntr__parameterized02default:default2
 1212default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
-¥
+¡
 synthesizing module '%s'638*oasys26
-"rd_status_flags_as__parameterized02default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
+"rd_status_flags_as__parameterized02default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-638
 U
 %s*synth2F
@@ -67688,88 +67662,88 @@ U
 %s*synth2O
 ;	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
 2default:default
-û
+´
 synthesizing module '%s'638*oasys2+
-compare__parameterized02default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+compare__parameterized02default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-638
 T
 %s*synth2E
 1	Parameter C_WIDTH bound to: 15 - type: integer 
 2default:default
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 m12default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1982default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-∏
+≈
 ,binding component instance '%s' to cell '%s'113*oasys2
 ms2default:default2
-MUXCY2default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+MUXCY2default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 2102default:default8@Z8-113
-€
+Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 compare__parameterized02default:default2
 1212default:default2
-12default:default2†
-â/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+12default:default2≠
+ñc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "rd_status_flags_as__parameterized02default:default2
 1212default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 rd_logic__parameterized02default:default2
 1212default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2392default:default8@Z8-256
-†
+≠
 synthesizing module '%s'638*oasys2,
-wr_logic__parameterized02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+wr_logic__parameterized02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-638
 Z
 %s*synth2K
@@ -67855,10 +67829,10 @@ J	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 32764 - type: integer
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-¶
+≥
 synthesizing module '%s'638*oasys2/
-wr_bin_cntr__parameterized02default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+wr_bin_cntr__parameterized02default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-638
 U
 %s*synth2F
@@ -67888,17 +67862,17 @@ Z
 %s*synth2K
 7	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
 2default:default
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 wr_bin_cntr__parameterized02default:default2
 1212default:default2
-12default:default2§
-ç/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+12default:default2±
+öc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
-¥
+¡
 synthesizing module '%s'638*oasys26
-"wr_status_flags_as__parameterized02default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
+"wr_status_flags_as__parameterized02default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-638
 \
 %s*synth2M
@@ -67920,24 +67894,24 @@ U
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
 2default:default
-Ò
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "wr_status_flags_as__parameterized02default:default2
 1212default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wr_logic__parameterized02default:default2
 1212default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2312default:default8@Z8-256
-£
+∞
 synthesizing module '%s'638*oasys2.
-output_blk__parameterized32default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk__parameterized32default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -68039,61 +68013,61 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized32default:default2
 1212default:default2
-12default:default2¢
-ã/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2Ø
+òc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-˘
+Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized32default:default2
 1212default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3082default:default8@Z8-256
-È
+ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized32default:default2
 1212default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2712default:default8@Z8-256
-˘
+Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized02default:default2
 1212default:default2
-12default:default2´
-î/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+12default:default2∏
+°c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6782default:default8@Z8-256
-Ì
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized12default:default2
 1212default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6612default:default8@Z8-256
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 system_fifo_generator_0_02default:default2
 1222default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd2default:default2
 732default:default8@Z8-256
-≤
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_fifo_readout_0_02default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
+system_fifo_readout_0_02default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
 562default:default2"
 fifo_readout_02default:default2+
-system_fifo_readout_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_fifo_readout_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 103872default:default8@Z8-3491
-†
+≠
 synthesizing module '%s'638*oasys2+
-system_fifo_readout_0_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
+system_fifo_readout_0_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
 892default:default8@Z8-638
 a
 %s*synth2R
@@ -68103,19 +68077,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ø
+Ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-fifo_readout_v1_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
+fifo_readout_v1_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
 62default:default2
 U02default:default2%
-fifo_readout_v1_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
+fifo_readout_v1_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
 1582default:default8@Z8-3491
-¢
+Ø
 synthesizing module '%s'638*oasys25
-!fifo_readout_v1_0__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
+!fifo_readout_v1_0__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
 562default:default8@Z8-638
 a
 %s*synth2R
@@ -68133,19 +68107,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Í
+Ñ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-fifo_readout_v1_0_S00_AXI2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
+fifo_readout_v1_0_S00_AXI2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 62default:default22
 fifo_readout_v1_0_S00_AXI_inst2default:default2-
-fifo_readout_v1_0_S00_AXI2default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
+fifo_readout_v1_0_S00_AXI2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
 992default:default8@Z8-3491
-≤
+ø
 synthesizing module '%s'638*oasys2=
-)fifo_readout_v1_0_S00_AXI__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
+)fifo_readout_v1_0_S00_AXI__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 942default:default8@Z8-638
 _
 %s*synth2P
@@ -68155,48 +68129,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 2392default:default8@Z8-226
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 3722default:default8@Z8-226
-Ô
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )fifo_readout_v1_0_S00_AXI__parameterized02default:default2
 1232default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd2default:default2
 942default:default8@Z8-256
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !fifo_readout_v1_0__parameterized02default:default2
 1242default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd2default:default2
 562default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_fifo_readout_0_02default:default2
 1252default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd2default:default2
 892default:default8@Z8-256
-§
+ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-system_testDelay_0_02default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
+system_testDelay_0_02default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
 562default:default2 
 genericDelay2default:default2(
-system_testDelay_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testDelay_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 104182default:default8@Z8-3491
-ó
+§
 synthesizing module '%s'638*oasys2(
-system_testDelay_0_02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
+system_testDelay_0_02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -68206,19 +68180,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¨
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-testDelay_v1_02default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_02default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2"
-testDelay_v1_02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
+testDelay_v1_02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
 1482default:default8@Z8-3491
-ò
+¶
 synthesizing module '%s'638*oasys22
-testDelay_v1_0__parameterized02default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_0__parameterized02default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -68236,19 +68210,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-‘
+Ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2*
-testDelay_v1_0_S00_AXI2default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
+testDelay_v1_0_S00_AXI2default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 62default:default2/
 testDelay_v1_0_S00_AXI_inst2default:default2*
-testDelay_v1_0_S00_AXI2default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_0_S00_AXI2default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-©
+∂
 synthesizing module '%s'638*oasys2:
-&testDelay_v1_0_S00_AXI__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
+&testDelay_v1_0_S00_AXI__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-638
 _
 %s*synth2P
@@ -68258,48 +68232,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ò
-default block is never used226*oasys2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
+˛
+default block is never used226*oasys2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 2522default:default8@Z8-226
-Ò
-default block is never used226*oasys2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
+˛
+default block is never used226*oasys2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 3852default:default8@Z8-226
-Ê
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &testDelay_v1_0_S00_AXI__parameterized02default:default2
 1262default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-256
-’
+„
 %done synthesizing module '%s' (%s#%s)256*oasys22
 testDelay_v1_0__parameterized02default:default2
 1272default:default2
-12default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 512default:default8@Z8-256
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_0_02default:default2
 1282default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd2default:default2
 842default:default8@Z8-256
-©
+ƒ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-system_testPulser_0_92default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
+system_testPulser_0_92default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
 562default:default2!
 genericPulser2default:default2)
-system_testPulser_0_92default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testPulser_0_92default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 104442default:default8@Z8-3491
-ö
+ß
 synthesizing module '%s'638*oasys2)
-system_testPulser_0_92default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
+system_testPulser_0_92default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
 832default:default8@Z8-638
 a
 %s*synth2R
@@ -68309,35 +68283,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≥
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-testPulser_v1_02default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_02default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 62default:default2
 U02default:default2#
-testPulser_v1_02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
+testPulser_v1_02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
 1462default:default8@Z8-3491
-◊
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 system_testPulser_0_92default:default2
 1292default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd2default:default2
 832default:default8@Z8-256
-ü
+∫
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-system_testDelay_0_72default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
+system_testDelay_0_72default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
 562default:default2
 gtDelay2default:default2(
-system_testDelay_0_72default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testDelay_0_72default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 104692default:default8@Z8-3491
-ó
+§
 synthesizing module '%s'638*oasys2(
-system_testDelay_0_72default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
+system_testDelay_0_72default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -68347,35 +68321,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¨
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-testDelay_v1_02default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_02default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2"
-testDelay_v1_02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
+testDelay_v1_02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
 1482default:default8@Z8-3491
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_0_72default:default2
 1302default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd2default:default2
 842default:default8@Z8-256
-º
+◊
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-system_implement_gtid_0_02default:default2•
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+system_implement_gtid_0_02default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
 562default:default2$
 implement_gtid_02default:default2-
-system_implement_gtid_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_implement_gtid_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 104952default:default8@Z8-3491
-¶
+≥
 synthesizing module '%s'638*oasys2-
-system_implement_gtid_0_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+system_implement_gtid_0_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
 882default:default8@Z8-638
 a
 %s*synth2R
@@ -68385,19 +68359,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-À
+Â
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
-implement_gtid_v1_02default:default2ù
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+implement_gtid_v1_02default:default2™
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
 62default:default2
 U02default:default2'
-implement_gtid_v1_02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+implement_gtid_v1_02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
 1562default:default8@Z8-3491
-®
+µ
 synthesizing module '%s'638*oasys27
-#implement_gtid_v1_0__parameterized02default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+#implement_gtid_v1_0__parameterized02default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
 552default:default8@Z8-638
 a
 %s*synth2R
@@ -68415,19 +68389,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¯
+í
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2/
-implement_gtid_v1_0_S00_AXI2default:default2•
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+implement_gtid_v1_0_S00_AXI2default:default2≤
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
 62default:default24
  implement_gtid_v1_0_S00_AXI_inst2default:default2/
-implement_gtid_v1_0_S00_AXI2default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+implement_gtid_v1_0_S00_AXI2default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
 972default:default8@Z8-3491
-∏
+≈
 synthesizing module '%s'638*oasys2?
-+implement_gtid_v1_0_S00_AXI__parameterized02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
++implement_gtid_v1_0_S00_AXI__parameterized02default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
 922default:default8@Z8-638
 _
 %s*synth2P
@@ -68437,54 +68411,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˚
-default block is never used226*oasys2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-2392default:default8@Z8-226
-˚
-default block is never used226*oasys2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-3722default:default8@Z8-226
-Ó
-0Net %s in module/entity %s does not have driver.3422*oasys2
-RST_OK2default:default2?
-+implement_gtid_v1_0_S00_AXI__parameterized02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-252default:default8@Z8-3848
-ı
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+2402default:default8@Z8-226
+à
+default block is never used226*oasys2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+3732default:default8@Z8-226
+Ç
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +implement_gtid_v1_0_S00_AXI__parameterized02default:default2
 1312default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
 922default:default8@Z8-256
-Â
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #implement_gtid_v1_0__parameterized02default:default2
 1322default:default2
-12default:default2ü
-à/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
+12default:default2¨
+ïc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd2default:default2
 552default:default8@Z8-256
-„
+
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 system_implement_gtid_0_02default:default2
 1332default:default2
-12default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
+12default:default2¥
+ùc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd2default:default2
 882default:default8@Z8-256
-∑
+“
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_oneshot_pulse_0_22default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
+system_oneshot_pulse_0_22default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
 562default:default2#
 oneshot_pulse_02default:default2,
-system_oneshot_pulse_0_22default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_oneshot_pulse_0_22default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 105252default:default8@Z8-3491
-£
+∞
 synthesizing module '%s'638*oasys2,
-system_oneshot_pulse_0_22default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
+system_oneshot_pulse_0_22default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -68494,19 +68462,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≈
+ﬂ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-oneshot_pulse_v1_02default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
+oneshot_pulse_v1_02default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 62default:default2
 U02default:default2&
-oneshot_pulse_v1_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
+oneshot_pulse_v1_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
 1482default:default8@Z8-3491
-•
+≤
 synthesizing module '%s'638*oasys26
-"oneshot_pulse_v1_0__parameterized02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
+"oneshot_pulse_v1_0__parameterized02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -68524,19 +68492,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ò
+ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
-oneshot_pulse_v1_0_S00_AXI2default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+oneshot_pulse_v1_0_S00_AXI2default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 62default:default23
 oneshot_pulse_v1_0_S00_AXI_inst2default:default2.
-oneshot_pulse_v1_0_S00_AXI2default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
+oneshot_pulse_v1_0_S00_AXI2default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-µ
+¬
 synthesizing module '%s'638*oasys2>
-*oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+*oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-638
 _
 %s*synth2P
@@ -68546,48 +68514,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 2422default:default8@Z8-226
-˘
-default block is never used226*oasys2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+Ü
+default block is never used226*oasys2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 3752default:default8@Z8-226
-Ú
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *oneshot_pulse_v1_0_S00_AXI__parameterized02default:default2
 1342default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd2default:default2
 882default:default8@Z8-256
-‚
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "oneshot_pulse_v1_0__parameterized02default:default2
 1352default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 512default:default8@Z8-256
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_oneshot_pulse_0_22default:default2
 1362default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd2default:default2
 842default:default8@Z8-256
-∑
+“
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
-system_oneshot_pulse_1_12default:default2£
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
+system_oneshot_pulse_1_12default:default2∞
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 562default:default2#
 oneshot_pulse_12default:default2,
-system_oneshot_pulse_1_12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_oneshot_pulse_1_12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 105512default:default8@Z8-3491
-£
+∞
 synthesizing module '%s'638*oasys2,
-system_oneshot_pulse_1_12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
+system_oneshot_pulse_1_12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -68597,35 +68565,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-≈
+ﬂ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
-oneshot_pulse_v1_02default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
+oneshot_pulse_v1_02default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd2default:default2
 62default:default2
 U02default:default2&
-oneshot_pulse_v1_02default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
+oneshot_pulse_v1_02default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 1482default:default8@Z8-3491
-‡
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 system_oneshot_pulse_1_12default:default2
 1372default:default2
-12default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
+12default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd2default:default2
 842default:default8@Z8-256
-¡
+‹
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2.
-system_prescaleTrigger_0_02default:default2ß
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
+system_prescaleTrigger_0_02default:default2¥
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 562default:default2%
 prescaleTrigger_02default:default2.
-system_prescaleTrigger_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_prescaleTrigger_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 105772default:default8@Z8-3491
-©
+∂
 synthesizing module '%s'638*oasys2.
-system_prescaleTrigger_0_02default:default2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
+system_prescaleTrigger_0_02default:default2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -68635,19 +68603,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-—
+Î
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-prescaleTrigger_v1_02default:default2ü
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
+prescaleTrigger_v1_02default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
 62default:default2
 U02default:default2(
-prescaleTrigger_v1_02default:default2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
+prescaleTrigger_v1_02default:default2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 1482default:default8@Z8-3491
-´
+∏
 synthesizing module '%s'638*oasys28
-$prescaleTrigger_v1_0__parameterized02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
+$prescaleTrigger_v1_0__parameterized02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-638
 a
 %s*synth2R
@@ -68665,19 +68633,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ˇ
+ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys20
-prescaleTrigger_v1_0_S00_AXI2default:default2ß
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
+prescaleTrigger_v1_0_S00_AXI2default:default2¥
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 62default:default25
 !prescaleTrigger_v1_0_S00_AXI_inst2default:default20
-prescaleTrigger_v1_0_S00_AXI2default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
+prescaleTrigger_v1_0_S00_AXI2default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
 892default:default8@Z8-3491
-ª
+»
 synthesizing module '%s'638*oasys2@
-,prescaleTrigger_v1_0_S00_AXI__parameterized02default:default2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
+,prescaleTrigger_v1_0_S00_AXI__parameterized02default:default2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 892default:default8@Z8-638
 _
 %s*synth2P
@@ -68687,48 +68655,48 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˝
-default block is never used226*oasys2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
+ä
+default block is never used226*oasys2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 2492default:default8@Z8-226
-˝
-default block is never used226*oasys2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
+ä
+default block is never used226*oasys2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 3822default:default8@Z8-226
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,prescaleTrigger_v1_0_S00_AXI__parameterized02default:default2
 1382default:default2
-12default:default2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
+12default:default2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd2default:default2
 892default:default8@Z8-256
-Ë
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $prescaleTrigger_v1_0__parameterized02default:default2
 1392default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd2default:default2
 512default:default8@Z8-256
-Ê
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 system_prescaleTrigger_0_02default:default2
 1402default:default2
-12default:default2©
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
+12default:default2∂
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd2default:default2
 842default:default8@Z8-256
-–
+Î
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys21
-system_processing_system7_0_02default:default2≠
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
+system_processing_system7_0_02default:default2∫
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 562default:default2(
 processing_system7_02default:default21
-system_processing_system7_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_processing_system7_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 106032default:default8@Z8-3491
-≥
+¿
 synthesizing module '%s'638*oasys21
-system_processing_system7_0_02default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
+system_processing_system7_0_02default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 1262default:default8@Z8-638
 [
 %s*synth2L
@@ -68890,19 +68858,19 @@ V
 %s*synth2O
 ;	Parameter C_PACKAGE_NAME bound to: clg400 - type: string 
 2default:default
-§
+æ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2>
-*processing_system7_v5_3_processing_system72default:default2æ
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2À
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default2
 U02default:default2>
-*processing_system7_v5_3_processing_system72default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
+*processing_system7_v5_3_processing_system72default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 9092default:default8@Z8-3491
-·
+Ó
 synthesizing module '%s'638*oasys2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-638
 f
 %s*synth2W
@@ -69064,588 +69032,588 @@ V
 %s*synth2O
 ;	Parameter C_PACKAGE_NAME bound to: clg400 - type: string 
 2default:default
-√
+µ
 synthesizing module '%s'638*oasys2
-BUFG2default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+BUFG2default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 6122default:default8@Z8-638
-Ä
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
 1412default:default2
-12default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+12default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 6122default:default8@Z8-256
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21712default:default8@Z8-4446
-ƒ
+∂
 synthesizing module '%s'638*oasys2
-BIBUF2default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+BIBUF2default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 2682default:default8@Z8-638
-Å
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
 1422default:default2
-12default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+12default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 2682default:default8@Z8-256
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21722default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21732default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21742default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21752default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21762default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21772default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21782default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21792default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21802default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21812default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21822default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21832default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21842default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¬
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+œ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
 Synth 8-44462default:default2
 1002default:defaultZ17-14
-ƒ
+∂
 synthesizing module '%s'638*oasys2
-PS72default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+PS72default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 267372default:default8@Z8-638
-Å
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
 1432default:default2
-12default:default2Y
-C/home/snoperator/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
+12default:default2K
+5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 267372default:default8@Z8-256
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2102default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_ER2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2112default:default8@Z8-3848
-ü
+¨
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET0_GMII_TXD2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2272default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_EN2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2412default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_ER2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2422default:default8@Z8-3848
-ü
+¨
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET1_GMII_TXD2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2562default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_COL_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10332default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_CRS_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10342default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_RXD_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10372default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_DV_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10352default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_ER_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10362default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_COL_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10422default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_CRS_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10432default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_RXD_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10462default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_DV_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10442default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_ER_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10452default:default8@Z8-3848
-•
+≤
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_ATID_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10552default:default8@Z8-3848
-•
+≤
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_DATA_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10532default:default8@Z8-3848
-¶
+≥
 0Net %s in module/entity %s does not have driver.3422*oasys2(
 FTMD_TRACEIN_VALID_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10542default:default8@Z8-3848
-û
+´
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :processing_system7_v5_3_processing_system7__parameterized02default:default2
 1442default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
-
+˝
 %done synthesizing module '%s' (%s#%s)256*oasys21
 system_processing_system7_0_02default:default2
 1452default:default2
-12default:default2Ø
-ò/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
+12default:default2º
+•c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd2default:default2
 1262default:default8@Z8-256
-§
+ø
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-system_testDelay_3_62default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
+system_testDelay_3_62default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 562default:default2 
 smellieDelay2default:default2(
-system_testDelay_3_62default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testDelay_3_62default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 106712default:default8@Z8-3491
-ó
+§
 synthesizing module '%s'638*oasys2(
-system_testDelay_3_62default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
+system_testDelay_3_62default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -69655,35 +69623,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¨
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-testDelay_v1_02default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_02default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2"
-testDelay_v1_02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
+testDelay_v1_02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 1482default:default8@Z8-3491
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_3_62default:default2
 1462default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd2default:default2
 842default:default8@Z8-256
-≠
+»
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2*
-system_testPulser_1_112default:default2ü
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
+system_testPulser_1_112default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 562default:default2!
 smelliePulser2default:default2*
-system_testPulser_1_112default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testPulser_1_112default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 106972default:default8@Z8-3491
-ù
+™
 synthesizing module '%s'638*oasys2*
-system_testPulser_1_112default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
+system_testPulser_1_112default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 832default:default8@Z8-638
 a
 %s*synth2R
@@ -69693,35 +69661,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-µ
+œ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-testPulser_v1_02default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_02default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 62default:default2
 U02default:default2#
-testPulser_v1_02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
+testPulser_v1_02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 1462default:default8@Z8-3491
-⁄
+Á
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 system_testPulser_1_112default:default2
 1472default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd2default:default2
 832default:default8@Z8-256
-£
+æ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
-system_testDelay_2_52default:default2õ
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
+system_testDelay_2_52default:default2®
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 562default:default2
 tellieDelay2default:default2(
-system_testDelay_2_52default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testDelay_2_52default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 107222default:default8@Z8-3491
-ó
+§
 synthesizing module '%s'638*oasys2(
-system_testDelay_2_52default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
+system_testDelay_2_52default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 842default:default8@Z8-638
 a
 %s*synth2R
@@ -69731,35 +69699,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-¨
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-testDelay_v1_02default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
+testDelay_v1_02default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd2default:default2
 62default:default2
 U02default:default2"
-testDelay_v1_02default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
+testDelay_v1_02default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 1482default:default8@Z8-3491
-‘
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 system_testDelay_2_52default:default2
 1482default:default2
-12default:default2ù
-Ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
+12default:default2™
+ìc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd2default:default2
 842default:default8@Z8-256
-¨
+«
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2*
-system_testPulser_0_102default:default2ü
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
+system_testPulser_0_102default:default2¨
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 562default:default2 
 telliePulser2default:default2*
-system_testPulser_0_102default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_testPulser_0_102default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 107482default:default8@Z8-3491
-ù
+™
 synthesizing module '%s'638*oasys2*
-system_testPulser_0_102default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
+system_testPulser_0_102default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 832default:default8@Z8-638
 a
 %s*synth2R
@@ -69769,35 +69737,35 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-µ
+œ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2#
-testPulser_v1_02default:default2ï
-Ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
+testPulser_v1_02default:default2¢
+çc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd2default:default2
 62default:default2
 U02default:default2#
-testPulser_v1_02default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
+testPulser_v1_02default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 1462default:default8@Z8-3491
-⁄
+Á
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 system_testPulser_0_102default:default2
 1492default:default2
-12default:default2°
-ä/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
+12default:default2Æ
+óc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd2default:default2
 832default:default8@Z8-256
-≤
+Õ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2+
-system_triggerSplit_0_02default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
+system_triggerSplit_0_02default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 562default:default2"
 triggerSplit_02default:default2+
-system_triggerSplit_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_triggerSplit_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 107732default:default8@Z8-3491
-†
+≠
 synthesizing module '%s'638*oasys2+
-system_triggerSplit_0_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
+system_triggerSplit_0_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 872default:default8@Z8-638
 a
 %s*synth2R
@@ -69807,19 +69775,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-ø
+Ÿ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-triggerSplit_v1_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
+triggerSplit_v1_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 62default:default2
 U02default:default2%
-triggerSplit_v1_02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
+triggerSplit_v1_02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 1542default:default8@Z8-3491
-¢
+Ø
 synthesizing module '%s'638*oasys25
-!triggerSplit_v1_0__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
+!triggerSplit_v1_0__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 542default:default8@Z8-638
 a
 %s*synth2R
@@ -69837,19 +69805,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Í
+Ñ
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-triggerSplit_v1_0_S00_AXI2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
+triggerSplit_v1_0_S00_AXI2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 62default:default22
 triggerSplit_v1_0_S00_AXI_inst2default:default2-
-triggerSplit_v1_0_S00_AXI2default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
+triggerSplit_v1_0_S00_AXI2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 952default:default8@Z8-3491
-≤
+ø
 synthesizing module '%s'638*oasys2=
-)triggerSplit_v1_0_S00_AXI__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
+)triggerSplit_v1_0_S00_AXI__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-638
 _
 %s*synth2P
@@ -69859,49 +69827,49 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 2292default:default8@Z8-226
-˜
-default block is never used226*oasys2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
+Ñ
+default block is never used226*oasys2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 3622default:default8@Z8-226
-Ô
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )triggerSplit_v1_0_S00_AXI__parameterized02default:default2
 1502default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
-ﬂ
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !triggerSplit_v1_0__parameterized02default:default2
 1512default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/hdl/triggerSplit_v1_0.vhd2default:default2
 542default:default8@Z8-256
-›
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 system_triggerSplit_0_02default:default2
 1522default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggerSplit_0_0/synth/system_triggerSplit_0_0.vhd2default:default2
 872default:default8@Z8-256
-û
+π
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
-system_triggers_0_02default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+system_triggers_0_02default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
 562default:default2
 
 triggers_02default:default2'
-system_triggers_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_triggers_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 108022default:default8@Z8-3491
-ï
+¢
 synthesizing module '%s'638*oasys2'
-system_triggers_0_02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+system_triggers_0_02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
 1032default:default8@Z8-638
 a
 %s*synth2R
@@ -69911,19 +69879,19 @@ a
 %s*synth2Q
 =	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 2default:default
-¶
+¡
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
-triggers_v1_02default:default2ê
-|/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+triggers_v1_02default:default2û
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
 62default:default2
 U02default:default2!
-triggers_v1_02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+triggers_v1_02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
 1862default:default8@Z8-3491
-ï
+£
 synthesizing module '%s'638*oasys21
-triggers_v1_0__parameterized02default:default2í
-|/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+triggers_v1_0__parameterized02default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
 702default:default8@Z8-638
 a
 %s*synth2R
@@ -69941,19 +69909,19 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 2default:default
-Œ
+È
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2)
-triggers_v1_0_S00_AXI2default:default2ô
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+triggers_v1_0_S00_AXI2default:default2¶
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
 62default:default2.
 triggers_v1_0_S00_AXI_inst2default:default2)
-triggers_v1_0_S00_AXI2default:default2í
-|/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+triggers_v1_0_S00_AXI2default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
 1272default:default8@Z8-3491
-ß
+¥
 synthesizing module '%s'638*oasys29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+%triggers_v1_0_S00_AXI__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
 1072default:default8@Z8-638
 _
 %s*synth2P
@@ -69963,79 +69931,55 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 2default:default
-Ô
-default block is never used226*oasys2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+¸
+default block is never used226*oasys2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
 3642default:default8@Z8-226
-Ô
-default block is never used226*oasys2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+¸
+default block is never used226*oasys2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
 5332default:default8@Z8-226
-€
-0Net %s in module/entity %s does not have driver.3422*oasys2
-SYNCo2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-302default:default8@Z8-3848
-›
-0Net %s in module/entity %s does not have driver.3422*oasys2
-SYNC24o2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-312default:default8@Z8-3848
-ﬂ
-0Net %s in module/entity %s does not have driver.3422*oasys2
-	RESETGTID2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-322default:default8@Z8-3848
-‹
-0Net %s in module/entity %s does not have driver.3422*oasys2
-tsync2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-1502default:default8@Z8-3848
-ﬁ
-0Net %s in module/entity %s does not have driver.3422*oasys2
-tsync242default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-1512default:default8@Z8-3848
-‰
+Î
+0Net %s in module/entity %s does not have driver.3422*oasys2
+GTID_out2default:default29
+%triggers_v1_0_S00_AXI__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+292default:default8@Z8-3848
+Ò
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %triggers_v1_0_S00_AXI__parameterized02default:default2
 1532default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
 1072default:default8@Z8-256
-“
+‡
 %done synthesizing module '%s' (%s#%s)256*oasys21
 triggers_v1_0__parameterized02default:default2
 1542default:default2
-12default:default2í
-|/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
+12default:default2†
+âc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0.vhd2default:default2
 702default:default8@Z8-256
-“
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 system_triggers_0_02default:default2
 1552default:default2
-12default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
+12default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd2default:default2
 1032default:default8@Z8-256
-ó
+≥
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
-system_xadc_wiz_0_02default:default2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
+system_xadc_wiz_0_02default:default2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
 552default:default2
 
 xadc_wiz_02default:default2'
-system_xadc_wiz_0_02default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+system_xadc_wiz_0_02default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 108472default:default8@Z8-3491
-ç
+õ
 synthesizing module '%s'638*oasys2'
-system_xadc_wiz_0_02default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
+system_xadc_wiz_0_02default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
 962default:default8@Z8-638
 p
 %s*synth2a
@@ -70057,23 +70001,23 @@ Z
 %s*synth2K
 7	Parameter C_INCLUDE_INTR bound to: 1 - type: integer 
 2default:default
-˘
-%s*synth2È
-‘	Parameter C_SIM_MONITOR_FILE bound to: /home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
+Ü
+%s*synth2ˆ
+·	Parameter C_SIM_MONITOR_FILE bound to: c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
 2default:default
-À
+Ê
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys20
-system_xadc_wiz_0_0_axi_xadc2default:default2ú
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+system_xadc_wiz_0_0_axi_xadc2default:default2©
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 1432default:default2
 U02default:default20
-system_xadc_wiz_0_0_axi_xadc2default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
+system_xadc_wiz_0_0_axi_xadc2default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
 1682default:default8@Z8-3491
-±
+æ
 synthesizing module '%s'638*oasys2@
-,system_xadc_wiz_0_0_axi_xadc__parameterized02default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+,system_xadc_wiz_0_0_axi_xadc__parameterized02default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 2372default:default8@Z8-638
 p
 %s*synth2a
@@ -70095,28 +70039,28 @@ Z
 %s*synth2K
 7	Parameter C_INCLUDE_INTR bound to: 1 - type: integer 
 2default:default
-˘
-%s*synth2È
-‘	Parameter C_SIM_MONITOR_FILE bound to: /home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
+Ü
+%s*synth2ˆ
+·	Parameter C_SIM_MONITOR_FILE bound to: c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
 2default:default
-∫
+«
 &Detected and applied attribute %s = %s3620*oasys2
 
 max_fanout2default:default2
-100002default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+100002default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 1632default:default8@Z8-4472
-∫
+«
 &Detected and applied attribute %s = %s3620*oasys2
 
 max_fanout2default:default2
-100002default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+100002default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 1642default:default8@Z8-4472
-Œ
+€
 synthesizing module '%s'638*oasys25
-!system_xadc_wiz_0_0_axi_lite_ipif2default:default2∆
-Ø/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_axi_lite_ipif.vhd2default:default2
+!system_xadc_wiz_0_0_axi_lite_ipif2default:default2”
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_axi_lite_ipif.vhd2default:default2
 2412default:default8@Z8-638
 _
 %s*synth2P
@@ -70150,10 +70094,10 @@ Y
 %s*synth2J
 6	Parameter C_FAMILY bound to: virtex7 - type: string 
 2default:default
-‘
+·
 synthesizing module '%s'638*oasys28
-$system_xadc_wiz_0_0_slave_attachment2default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
+$system_xadc_wiz_0_0_slave_attachment2default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
 2272default:default8@Z8-638
 ÿ
 %s*synth2»
@@ -70187,10 +70131,10 @@ Y
 %s*synth2J
 6	Parameter C_FAMILY bound to: virtex7 - type: string 
 2default:default
-“
+ﬂ
 synthesizing module '%s'638*oasys27
-#system_xadc_wiz_0_0_address_decoder2default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_address_decoder.vhd2default:default2
+#system_xadc_wiz_0_0_address_decoder2default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_address_decoder.vhd2default:default2
 1762default:default8@Z8-638
 Y
 %s*synth2J
@@ -70212,10 +70156,10 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ƒ
+—
 synthesizing module '%s'638*oasys21
-system_xadc_wiz_0_0_pselect_f2default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+system_xadc_wiz_0_0_pselect_f2default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70233,17 +70177,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-Å
+é
 %done synthesizing module '%s' (%s#%s)256*oasys21
 system_xadc_wiz_0_0_pselect_f2default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70261,17 +70205,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized02default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70289,17 +70233,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized12default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized22default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized22default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70317,17 +70261,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized22default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized32default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized32default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70345,17 +70289,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized32default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized42default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized42default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70373,17 +70317,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized42default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized52default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized52default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70401,17 +70345,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized52default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized62default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized62default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70429,17 +70373,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized62default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized72default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized72default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70457,17 +70401,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized72default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized82default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized82default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70485,17 +70429,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized82default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-‘
+·
 synthesizing module '%s'638*oasys2A
--system_xadc_wiz_0_0_pselect_f__parameterized92default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+-system_xadc_wiz_0_0_pselect_f__parameterized92default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70513,17 +70457,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -system_xadc_wiz_0_0_pselect_f__parameterized92default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized102default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized102default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70541,17 +70485,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized102default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized112default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized112default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70569,17 +70513,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized112default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized122default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized122default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70597,17 +70541,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized122default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized132default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized132default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70625,17 +70569,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized132default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized142default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized142default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70653,17 +70597,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized142default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized152default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized152default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70681,17 +70625,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized152default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized162default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized162default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70709,17 +70653,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized162default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized172default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized172default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70737,17 +70681,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized172default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized182default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized182default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70765,17 +70709,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized182default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized192default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized192default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70793,17 +70737,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized192default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized202default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized202default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70821,17 +70765,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized202default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized212default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized212default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70849,17 +70793,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized212default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized222default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized222default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70877,17 +70821,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized222default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized232default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized232default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70905,17 +70849,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized232default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized242default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized242default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70933,17 +70877,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized242default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-’
+‚
 synthesizing module '%s'638*oasys2B
-.system_xadc_wiz_0_0_pselect_f__parameterized252default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+.system_xadc_wiz_0_0_pselect_f__parameterized252default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -70961,37 +70905,37 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-í
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .system_xadc_wiz_0_0_pselect_f__parameterized252default:default2
 1562default:default2
-12default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
+12default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-è
+ú
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #system_xadc_wiz_0_0_address_decoder2default:default2
 1572default:default2
-12default:default2»
-±/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_address_decoder.vhd2default:default2
+12default:default2’
+æc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_address_decoder.vhd2default:default2
 1762default:default8@Z8-256
-ù
-default block is never used226*oasys2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
+™
+default block is never used226*oasys2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
 3812default:default8@Z8-226
-ë
+û
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $system_xadc_wiz_0_0_slave_attachment2default:default2
 1582default:default2
-12default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
+12default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_slave_attachment.vhd2default:default2
 2272default:default8@Z8-256
-ã
+ò
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !system_xadc_wiz_0_0_axi_lite_ipif2default:default2
 1592default:default2
-12default:default2∆
-Ø/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_axi_lite_ipif.vhd2default:default2
+12default:default2”
+ºc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_axi_lite_ipif.vhd2default:default2
 2412default:default8@Z8-256
 _
 %s*synth2P
@@ -71013,27 +70957,27 @@ X
 %s*synth2I
 5	Parameter IP_INTR_NUM bound to: 17 - type: integer 
 2default:default
-˘
-%s*synth2È
-‘	Parameter C_SIM_MONITOR_FILE bound to: /home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
+Ü
+%s*synth2ˆ
+·	Parameter C_SIM_MONITOR_FILE bound to: c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
 2default:default
 W
 %s*synth2H
 4	Parameter MUX_ADDR_NO bound to: 5 - type: integer 
 2default:default
-Ò
+ã
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys25
-!system_xadc_wiz_0_0_xadc_core_drp2default:default2°
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
+!system_xadc_wiz_0_0_xadc_core_drp2default:default2Æ
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
 1412default:default2#
 AXI_XADC_CORE_I2default:default25
-!system_xadc_wiz_0_0_xadc_core_drp2default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+!system_xadc_wiz_0_0_xadc_core_drp2default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 6902default:default8@Z8-3491
-ª
+»
 synthesizing module '%s'638*oasys2E
-1system_xadc_wiz_0_0_xadc_core_drp__parameterized02default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
+1system_xadc_wiz_0_0_xadc_core_drp__parameterized02default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
 1852default:default8@Z8-638
 _
 %s*synth2P
@@ -71055,9 +70999,9 @@ X
 %s*synth2I
 5	Parameter IP_INTR_NUM bound to: 17 - type: integer 
 2default:default
-˘
-%s*synth2È
-‘	Parameter C_SIM_MONITOR_FILE bound to: /home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
+Ü
+%s*synth2ˆ
+·	Parameter C_SIM_MONITOR_FILE bound to: c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
 2default:default
 W
 %s*synth2H
@@ -71203,27 +71147,27 @@ O
 %s*synth2L
 8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 2default:default
-˜
-%s*synth2Á
-“	Parameter SIM_MONITOR_FILE bound to: /home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
+Ñ
+%s*synth2Ù
+ﬂ	Parameter SIM_MONITOR_FILE bound to: c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt - type: string 
 2default:default
-¡
+Œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 	XADC_INST2default:default2
-XADC2default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
+XADC2default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
 9552default:default8@Z8-113
-¯
+Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2E
 1system_xadc_wiz_0_0_xadc_core_drp__parameterized02default:default2
 1602default:default2
-12default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
+12default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_xadc_core_drp.vhd2default:default2
 1852default:default8@Z8-256
-∆
+”
 synthesizing module '%s'638*oasys22
-system_xadc_wiz_0_0_soft_reset2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+system_xadc_wiz_0_0_soft_reset2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 1442default:default8@Z8-638
 [
 %s*synth2L
@@ -71257,11 +71201,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71287,11 +71231,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71317,11 +71261,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71347,11 +71291,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71377,11 +71321,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71407,11 +71351,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71437,11 +71381,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71467,11 +71411,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71497,11 +71441,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71527,11 +71471,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71557,11 +71501,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71587,11 +71531,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71617,11 +71561,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71647,11 +71591,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71677,11 +71621,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71707,11 +71651,11 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-‡
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 	RST_FLOPS2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2752default:default8@Z8-113
 C
 %s*synth24
@@ -71737,23 +71681,23 @@ L
 %s*synth2=
 )	Parameter IS_S_INVERTED bound to: 1'b0 
 2default:default
-ﬂ
+Ï
 ,binding component instance '%s' to cell '%s'113*oasys2
 FF_WRACK2default:default2
-FDRSE2default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+FDRSE2default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 2982default:default8@Z8-113
-É
+ê
 %done synthesizing module '%s' (%s#%s)256*oasys22
 system_xadc_wiz_0_0_soft_reset2default:default2
 1612default:default2
-12default:default2¡
-™/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
+12default:default2Œ
+∑c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/system_xadc_wiz_0_0_soft_reset.vhd2default:default2
 1442default:default8@Z8-256
-⁄
+Á
 synthesizing module '%s'638*oasys29
-%system_xadc_wiz_0_0_interrupt_control2default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
+%system_xadc_wiz_0_0_interrupt_control2default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
 2422default:default8@Z8-638
 U
 %s*synth2F
@@ -71779,44 +71723,44 @@ Z
 %s*synth2K
 7	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
 2default:default
-ó
+§
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %system_xadc_wiz_0_0_interrupt_control2default:default2
 1622default:default2
-12default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
+12default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
 2422default:default8@Z8-256
-Ó
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,system_xadc_wiz_0_0_axi_xadc__parameterized02default:default2
 1632default:default2
-12default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+12default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 2372default:default8@Z8-256
- 
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 system_xadc_wiz_0_02default:default2
 1642default:default2
-12default:default2î
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
+12default:default2¢
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.vhd2default:default2
 962default:default8@Z8-256
-û
+¨
 %done synthesizing module '%s' (%s#%s)256*oasys2
 system2default:default2
 1652default:default2
-12default:default2t
-^/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
+12default:default2Å
+kC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 81952default:default8@Z8-256
-¨
+∫
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 system_wrapper2default:default2
 1662default:default2
-12default:default2|
-f/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
+12default:default2â
+sC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd2default:default2
 652default:default8@Z8-256
-ù
-%s*synth2ç
-yFinished RTL Elaboration : Time (s): cpu = 00:02:13 ; elapsed = 00:02:15 . Memory (MB): peak = 1169.895 ; gain = 479.055
+ú
+%s*synth2å
+xFinished RTL Elaboration : Time (s): cpu = 00:09:03 ; elapsed = 00:12:15 . Memory (MB): peak = 575.793 ; gain = 426.688
 2default:default
 ;
 %s*synth2,
@@ -71851,340 +71795,365 @@ a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
 02default:defaultZ29-28
-§
+ñ
 Loading clock regions from %s
-13*device2m
-Y/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml2default:defaultZ21-13
-•
+13*device2_
+KC:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml2default:defaultZ21-13
+ó
 Loading clock buffers from %s
-11*device2n
-Z/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml2default:defaultZ21-11
-•
+11*device2`
+LC:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml2default:defaultZ21-11
+ó
 &Loading clock placement rules from %s
-318*place2e
-Q/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/ClockPlacerRules.xml2default:defaultZ30-318
-£
+318*place2W
+CC:/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/ClockPlacerRules.xml2default:defaultZ30-318
+ï
 )Loading package pin functions from %s...
-17*device2a
-M/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/PinFunctions.xml2default:defaultZ21-17
-°
+17*device2S
+?C:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/PinFunctions.xml2default:defaultZ21-17
+ì
 Loading package from %s
-16*device2p
-\/home/snoperator/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/clg400/Package.xml2default:defaultZ21-16
-ò
+16*device2b
+NC:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/clg400/Package.xml2default:defaultZ21-16
+ä
 Loading io standards from %s
-15*device2b
-N/home/snoperator/Xilinx/Vivado/2013.4/data/./parts/xilinx/zynq/IOStandards.xml2default:defaultZ21-15
+15*device2T
+@C:/Xilinx/Vivado/2013.4/data\./parts/xilinx/zynq/IOStandards.xml2default:defaultZ21-15
 5
 
 Processing XDC Constraints
 244*projectZ1-262
-¢
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ß
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default24
+848*designutils2¥
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default24
  system_i/processing_system7_0/U02default:defaultZ20-848
-´
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ß
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default24
+847*designutils2¥
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default24
  system_i/processing_system7_0/U02default:defaultZ20-847
-ó
+≤
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ß
-í/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-∞
+233*project2¥
+üc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+Ω
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2π
-§/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc2default:default20
+848*designutils2∆
+±c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc2default:default20
 system_i/fifo_generator_0/U02default:defaultZ20-848
-π
+∆
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2π
-§/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc2default:default20
+847*designutils2∆
+±c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc2default:default20
 system_i/fifo_generator_0/U02default:defaultZ20-847
-É
+ë
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc2default:default2*
+848*designutils2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc2default:default2*
 system_i/xadc_wiz_0/U02default:defaultZ20-848
-å
+ö
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2í
-~/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc2default:default2*
+847*designutils2†
+ãc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc2default:default2*
 system_i/xadc_wiz_0/U02default:defaultZ20-847
-£
+∞
 Parsing XDC File [%s]
-179*designutils2m
-Y/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:defaultZ20-179
-¨
+179*designutils2z
+fC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:defaultZ20-179
+π
 Finished Parsing XDC File [%s]
-178*designutils2m
-Y/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:defaultZ20-178
-‹
+178*designutils2z
+fC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:defaultZ20-178
+˜
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2m
-Y/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-ú
+233*project2z
+fC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+©
 Parsing XDC File [%s]
-179*designutils2f
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
-®
+179*designutils2s
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
+µ
 No cells matched '%s'.
 180*	planAhead2k
-Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 822default:default8@Z12-180
-„
+
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 822default:default8@Z17-55
-™
+∑
 No cells matched '%s'.
 180*	planAhead2m
-Yget_cells -hier -filter {REF_NAME==system_auto_pc_44 || ORIG_REF_NAME==system_auto_pc_44}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+Yget_cells -hier -filter {REF_NAME==system_auto_pc_44 || ORIG_REF_NAME==system_auto_pc_44}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z12-180
-„
+
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 972default:default8@Z17-55
-≠
+∫
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_289 || ORIG_REF_NAME==system_auto_cc_289}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+[get_cells -hier -filter {REF_NAME==system_auto_cc_299 || ORIG_REF_NAME==system_auto_cc_299}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z12-180
-‰
+Ò
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1002default:default8@Z17-55
-≠
+∫
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_292 || ORIG_REF_NAME==system_auto_cc_292}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+[get_cells -hier -filter {REF_NAME==system_auto_cc_307 || ORIG_REF_NAME==system_auto_cc_307}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1032default:default8@Z12-180
-‰
+Ò
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1032default:default8@Z17-55
-≠
+∫
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==system_auto_cc_294 || ORIG_REF_NAME==system_auto_cc_294}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+[get_cells -hier -filter {REF_NAME==system_auto_cc_309 || ORIG_REF_NAME==system_auto_cc_309}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1062default:default8@Z12-180
-‰
+Ò
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1062default:default8@Z17-55
-´
+∏
 No cells matched '%s'.
 180*	planAhead2m
-Yget_cells -hier -filter {REF_NAME==system_auto_pc_57 || ORIG_REF_NAME==system_auto_pc_57}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+Yget_cells -hier -filter {REF_NAME==system_auto_pc_60 || ORIG_REF_NAME==system_auto_pc_60}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1092default:default8@Z12-180
-‰
+Ò
 "'%s' expects at least one object.
 55*common2 
-set_property2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+set_property2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1092default:default8@Z17-55
-©
+∂
 No cells matched '%s'.
 180*	planAhead2k
-Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+Wget_cells -hier -filter {REF_NAME==system_auto_cc_5 || ORIG_REF_NAME==system_auto_cc_5}2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1542default:default8@Z12-180
-◊
+‰
 No cells matched '%s'.
 180*	planAhead2
-/inst2default:default2h
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
+/inst2default:default2u
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2
 1542default:default8@Z12-180
-•
+≤
 Finished Parsing XDC File [%s]
-178*designutils2f
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
-’
+178*designutils2s
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
+
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2f
-R/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-∑
+233*project2s
+_C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/dont_touch.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+ƒ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2¿
-´/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default20
+848*designutils2Õ
+∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default20
 system_i/fifo_generator_0/U02default:defaultZ20-848
-˛
+ã
 "No clocks found for command '%s'.
 1008*	planAhead2Y
-Eget_clocks -of_objects [get_pins system_i/fifo_generator_0/U0/rd_clk]2default:default2¬
-´/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
+Eget_clocks -of_objects [get_pins system_i/fifo_generator_0/U0/rd_clk]2default:default2œ
+∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
 542default:default8@Z12-1008
-‡
+Ì
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2¬
-´/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
+626*	planAhead2œ
+∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2
 542default:default8@Z12-626
-¿
+Õ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2¿
-´/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default20
+847*designutils2Õ
+∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default20
 system_i/fifo_generator_0/U02default:defaultZ20-847
-∞
+À
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2¿
-´/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-π
+233*project2Õ
+∏c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+∆
 ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
 1082*designutils2$
-system_auto_cc_52default:default2ñ
-Å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/system_auto_cc_5_clocks.xdc2default:defaultZ20-1280
-®
+system_auto_cc_52default:default2£
+éc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/system_auto_cc_5_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3112default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3122default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3132default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_313/system_auto_cc_313_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3142default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_314/system_auto_cc_314_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3152default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_315/system_auto_cc_315_clocks.xdc2default:defaultZ20-1280
+µ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/system_auto_cc_306_clocks.xdc2default:default2I
+848*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/system_auto_cc_316_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-848
-∫
+«
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/system_auto_cc_306_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/system_auto_cc_316_clocks.xdc2default:default2
 172default:default8@Z12-1008
-∏
+≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/system_auto_cc_306_clocks.xdc2default:default2
+626*	planAhead2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/system_auto_cc_316_clocks.xdc2default:default2
 172default:default8@Z12-626
-±
+æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/system_auto_cc_306_clocks.xdc2default:default2I
+847*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/system_auto_cc_316_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-847
-à
+£
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_306/system_auto_cc_306_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-®
+233*project2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_316/system_auto_cc_316_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+µ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/system_auto_cc_307_clocks.xdc2default:default2I
+848*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/system_auto_cc_317_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-848
-∫
+«
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/system_auto_cc_307_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/system_auto_cc_317_clocks.xdc2default:default2
 172default:default8@Z12-1008
-∏
+≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/system_auto_cc_307_clocks.xdc2default:default2
+626*	planAhead2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/system_auto_cc_317_clocks.xdc2default:default2
 172default:default8@Z12-626
-±
+æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/system_auto_cc_307_clocks.xdc2default:default2I
+847*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/system_auto_cc_317_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-847
-à
+£
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_307/system_auto_cc_307_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-®
+233*project2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_317/system_auto_cc_317_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+µ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/system_auto_cc_308_clocks.xdc2default:default2I
+848*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/system_auto_cc_318_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-848
-∫
+«
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/system_auto_cc_308_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/system_auto_cc_318_clocks.xdc2default:default2
 172default:default8@Z12-1008
-∏
+≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/system_auto_cc_308_clocks.xdc2default:default2
+626*	planAhead2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/system_auto_cc_318_clocks.xdc2default:default2
 172default:default8@Z12-626
-±
+æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/system_auto_cc_308_clocks.xdc2default:default2I
+847*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/system_auto_cc_318_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-847
-à
+£
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_308/system_auto_cc_308_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-®
+233*project2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_318/system_auto_cc_318_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+µ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2I
+848*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/system_auto_cc_319_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-848
-∫
+«
 "No clocks found for command '%s'.
 1008*	planAhead2=
-)get_clocks -of_objects [get_ports Clk_in]2default:default2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2
+)get_clocks -of_objects [get_ports Clk_in]2default:default2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/system_auto_cc_319_clocks.xdc2default:default2
 172default:default8@Z12-1008
-∏
+≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2
+626*	planAhead2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/system_auto_cc_319_clocks.xdc2default:default2
 172default:default8@Z12-626
-±
+æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2I
+847*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/system_auto_cc_319_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-847
-à
+£
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_309/system_auto_cc_309_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
-®
+233*project2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_319/system_auto_cc_319_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+µ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2I
+848*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/system_auto_cc_320_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-848
-Û
+Ä
 "No clocks found for command '%s'.
 1008*	planAhead2v
-bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]2default:default2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2
+bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]2default:default2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/system_auto_cc_320_clocks.xdc2default:default2
 172default:default8@Z12-1008
-∏
+≈
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
-626*	planAhead2ö
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2
+626*	planAhead2ß
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/system_auto_cc_320_clocks.xdc2default:default2
 172default:default8@Z12-626
-±
+æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2I
+847*designutils2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/system_auto_cc_320_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-847
-à
+£
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ò
-É/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_310/system_auto_cc_310_clocks.xdc2default:default2x
-d/home/snoperator/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
+233*project2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_320/system_auto_cc_320_clocks.xdc2default:default2Ö
+qC:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
 
@@ -72198,607 +72167,589 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 ]  A total of 17 instances were transformed.
   FDRSE => FDRSE (LUT4, FDRE, VCC): 17 instances
 2default:defaultZ1-111
-∂
-%s*synth2¶
-ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:30 ; elapsed = 00:02:32 . Memory (MB): peak = 1492.652 ; gain = 801.812
+µ
+%s*synth2•
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:09:38 ; elapsed = 00:13:04 . Memory (MB): peak = 884.723 ; gain = 735.617
 2default:default
-û
-%s*synth2é
-zFinished RTL Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:02:32 . Memory (MB): peak = 1492.652 ; gain = 801.812
+ù
+%s*synth2ç
+yFinished RTL Optimization : Time (s): cpu = 00:09:38 ; elapsed = 00:13:04 . Memory (MB): peak = 884.723 ; gain = 735.617
 2default:default
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-÷
+„
 L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
 +2default:default2
-+2default:default2•
-é/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
++2default:default2≤
+õc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_TrigWordDelay_0_0/hdl/TrigWordDelay_v1_0_S00_AXI.vhd2default:default2
 2312default:default8@Z8-41
-˘
+Ü
 merging register '%s' into '%s'3619*oasys22
 gen_axilite.s_axi_wready_i_reg2default:default23
-gen_axilite.s_axi_awready_i_reg2default:default2∂
-ü/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+gen_axilite.s_axi_awready_i_reg2default:default2√
+¨c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 1362default:default8@Z8-4471
-ˆ
+É
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
-adder2default:default2£
-å/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
+adder2default:default2∞
+ôc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd2default:default2
 2622default:default8@Z8-3537
-Ó
-0Net %s in module/entity %s does not have driver.3422*oasys2
-RST_OK2default:default2?
-+implement_gtid_v1_0_S00_AXI__parameterized02default:default2ß
-ê/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
-252default:default8@Z8-3848
-°
+¿
+merging register '%s' into '%s'3619*oasys2
+	SYNCo_reg2default:default2
+	tsync_reg2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+2842default:default8@Z8-4471
+ƒ
+merging register '%s' into '%s'3619*oasys2
+SYNC24o_reg2default:default2
+tsync24_reg2default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+2892default:default8@Z8-4471
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2102default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_ER2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2112default:default8@Z8-3848
-ü
+¨
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET0_GMII_TXD2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2272default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_EN2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2412default:default8@Z8-3848
-°
+Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_ER2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2422default:default8@Z8-3848
-ü
+¨
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET1_GMII_TXD2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2562default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_COL_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10332default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_CRS_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10342default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_RXD_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10372default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_DV_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10352default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_ER_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10362default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_COL_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10422default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_CRS_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10432default:default8@Z8-3848
-¢
+Ø
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_RXD_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10462default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_DV_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10442default:default8@Z8-3848
-§
+±
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_ER_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10452default:default8@Z8-3848
-•
+≤
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_ATID_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10552default:default8@Z8-3848
-•
+≤
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_DATA_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10532default:default8@Z8-3848
-¶
+≥
 0Net %s in module/entity %s does not have driver.3422*oasys2(
 FTMD_TRACEIN_VALID_i2default:default2N
-:processing_system7_v5_3_processing_system7__parameterized02default:default2¿
-©/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+:processing_system7_v5_3_processing_system7__parameterized02default:default2Õ
+∂c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10542default:default8@Z8-3848
-‹
-0Net %s in module/entity %s does not have driver.3422*oasys2
-tsync2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-1502default:default8@Z8-3848
-ﬁ
-0Net %s in module/entity %s does not have driver.3422*oasys2
-tsync242default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-1512default:default8@Z8-3848
-€
-0Net %s in module/entity %s does not have driver.3422*oasys2
-SYNCo2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-302default:default8@Z8-3848
-›
-0Net %s in module/entity %s does not have driver.3422*oasys2
-SYNC24o2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-312default:default8@Z8-3848
-ﬂ
-0Net %s in module/entity %s does not have driver.3422*oasys2
-	RESETGTID2default:default29
-%triggers_v1_0_S00_AXI__parameterized02default:default2õ
-Ñ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
-322default:default8@Z8-3848
+Î
+0Net %s in module/entity %s does not have driver.3422*oasys2
+GTID_out2default:default29
+%triggers_v1_0_S00_AXI__parameterized02default:default2®
+ëc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v1_0_S00_AXI.vhd2default:default2
+292default:default8@Z8-3848
 <
 %s*synth2-
 
@@ -72818,7 +72769,7 @@ _
 2default:default
 _
 %s*synth2P
-<|1     |system__GB0               |           1|     39798|
+<|1     |system__GB0               |           1|     40043|
 2default:default
 _
 %s*synth2P
@@ -72842,9 +72793,9 @@ WPart Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
-≤
-%s*synth2¢
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:02:39 ; elapsed = 00:02:41 . Memory (MB): peak = 1492.652 ; gain = 801.812
+±
+%s*synth2°
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:09:59 ; elapsed = 00:13:27 . Memory (MB): peak = 884.723 ; gain = 735.617
 2default:default
 B
 %s*synth23
@@ -72864,7 +72815,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 51    
+.	   2 Input     32 Bit       Adders := 52    
 2default:default
 Q
 %s*synth2B
@@ -73004,11 +72955,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 133   
+.	               32 Bit    Registers := 132   
 2default:default
 Q
 %s*synth2B
-.	               24 Bit    Registers := 5     
+.	               24 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
@@ -73068,7 +73019,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 854   
+.	                1 Bit    Registers := 858   
 2default:default
 0
 %s*synth2!
@@ -73088,15 +73039,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 241   
+.	   3 Input     32 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	  16 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input     32 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 240   
 2default:default
 Q
 %s*synth2B
@@ -73104,7 +73051,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 12    
+.	   4 Input     32 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  16 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -73128,7 +73079,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 215   
+.	   2 Input      8 Bit        Muxes := 219   
 2default:default
 Q
 %s*synth2B
@@ -73144,11 +73095,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      2 Bit        Muxes := 136   
+2default:default
+Q
+%s*synth2B
 .	   4 Input      2 Bit        Muxes := 30    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 136   
+.	   2 Input      1 Bit        Muxes := 778   
 2default:default
 Q
 %s*synth2B
@@ -73157,10 +73112,6 @@ Q
 Q
 %s*synth2B
 .	   3 Input      1 Bit        Muxes := 26    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 780   
 2default:default
 F
 %s*synth27
@@ -74536,7 +74487,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               24 Bit    Registers := 2     
+.	               24 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -74548,7 +74499,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 9     
+.	                1 Bit    Registers := 12    
 2default:default
 0
 %s*synth2!
@@ -74568,7 +74519,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 16    
+.	   2 Input      1 Bit        Muxes := 14    
 2default:default
 I
 %s*synth2:
@@ -76848,7 +76799,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_306 
+Module system_auto_cc_316 
 2default:default
 B
 %s*synth23
@@ -78996,7 +78947,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_307 
+Module system_auto_cc_317 
 2default:default
 B
 %s*synth23
@@ -81136,7 +81087,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_308 
+Module system_auto_cc_318 
 2default:default
 B
 %s*synth23
@@ -83284,7 +83235,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_309 
+Module system_auto_cc_319 
 2default:default
 B
 %s*synth23
@@ -85432,7 +85383,7 @@ B
 2default:default
 >
 %s*synth2/
-Module system_auto_cc_310 
+Module system_auto_cc_320 
 2default:default
 B
 %s*synth23
@@ -86280,7 +86231,7 @@ B
 2default:default
 =
 %s*synth2.
-Module system_auto_pc_60 
+Module system_auto_pc_62 
 2default:default
 B
 %s*synth23
@@ -86988,7 +86939,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_0_1253 
+!Module system_tier2_xbar_0_1259 
 2default:default
 B
 %s*synth23
@@ -87688,7 +87639,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_1_1254 
+!Module system_tier2_xbar_1_1260 
 2default:default
 B
 %s*synth23
@@ -88388,7 +88339,7 @@ B
 2default:default
 D
 %s*synth25
-!Module system_tier2_xbar_2_1255 
+!Module system_tier2_xbar_2_1261 
 2default:default
 B
 %s*synth23
@@ -91130,13 +91081,21 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
 4
 %s*synth2%
 +---Registers : 
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 5     
+.	               32 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
@@ -91152,7 +91111,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 6     
 2default:default
 0
 %s*synth2!
@@ -91160,7 +91119,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -92078,77 +92041,77 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:defaultZ8-3332
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Ê
+Û
 merging register '%s' into '%s'3619*oasys2Æ
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
@@ -92230,77 +92193,77 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
 /axi_clock_converter_v2_1_axi_clock_converter__82default:defaultZ8-3332
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Ê
+Û
 merging register '%s' into '%s'3619*oasys2Æ
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
@@ -92382,77 +92345,77 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2∫
 •\gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/gpregsm1.user_valid_reg 2default:default2C
 /axi_clock_converter_v2_1_axi_clock_converter__72default:defaultZ8-3332
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Ê
+Û
 merging register '%s' into '%s'3619*oasys2Æ
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
 Ÿ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2≥
@@ -92511,213 +92474,213 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Ê
+Û
 merging register '%s' into '%s'3619*oasys2Æ
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-⁄
+Á
 merging register '%s' into '%s'3619*oasys2®
 ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Ê
+Û
 merging register '%s' into '%s'3619*oasys2Æ
 ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d1_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6152default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6162default:default8@Z8-4471
-Ÿ
+Ê
 merging register '%s' into '%s'3619*oasys2ß
 ígen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2®
-ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ìgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6172default:default8@Z8-4471
-Â
+Ú
 merging register '%s' into '%s'3619*oasys2≠
 ògen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2Æ
-ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2™
-ì/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+ôgen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/grstd1.grst_full.grst_f.RST_FULL_GEN_reg2default:default2∑
+†c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 6182default:default8@Z8-4471
-‰
+Ò
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-‰
+Ò
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-’
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2M
 9inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg2default:default2
 362default:default2
-352default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+352default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-’
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2M
 9inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg2default:default2
 362default:default2
-352default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+352default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-’
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2M
 9inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg2default:default2
 362default:default2
-352default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+352default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-’
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2M
 9inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg2default:default2
 362default:default2
-352default:default2…
-≤/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+352default:default2÷
+øc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xbar_0/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-Ñ
+ë
 merging register '%s' into '%s'3619*oasys2l
 XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[15].GEN_POS_EDGE_DETECT.irpt_dly1_reg2default:default2l
-XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[14].GEN_POS_EDGE_DETECT.irpt_dly1_reg2default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
+XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[14].GEN_POS_EDGE_DETECT.irpt_dly1_reg2default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
 6402default:default8@Z8-4471
-Ñ
+ë
 merging register '%s' into '%s'3619*oasys2l
 XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[15].GEN_POS_EDGE_DETECT.irpt_dly2_reg2default:default2l
-XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[14].GEN_POS_EDGE_DETECT.irpt_dly2_reg2default:default2Œ
-∑/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
+XINTR_CTRLR_GEN_I.INTERRUPT_CONTROL_I/DO_IRPT_INPUT[14].GEN_POS_EDGE_DETECT.irpt_dly2_reg2default:default2€
+ƒc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/interrupt_control_v2_01_a/hdl/src/vhdl/system_xadc_wiz_0_0_interrupt_control.vhd2default:default2
 6412default:default8@Z8-4471
-Í
+˜
 merging register '%s' into '%s'3619*oasys20
 bus2ip_reset_active_high_reg2default:default2>
-*AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg2default:default2û
-á/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
+*AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg2default:default2´
+îc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0_axi_xadc.vhd2default:default2
 6382default:default8@Z8-4471
-™
-%s*synth2ö
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:02:45 . Memory (MB): peak = 1492.652 ; gain = 801.812
+©
+%s*synth2ô
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:10:06 ; elapsed = 00:13:35 . Memory (MB): peak = 884.723 ; gain = 735.617
 2default:default
 ¢
 %s*synth2í
@@ -92747,103 +92710,103 @@ Distributed RAM:
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_306/axi_clock_converter_v2_1_axi_clock_converter/ram__50 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_316/axi_clock_converter_v2_1_axi_clock_converter/ram__50 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_306/axi_clock_converter_v2_1_axi_clock_converter/ram__52 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_316/axi_clock_converter_v2_1_axi_clock_converter/ram__52 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_306/axi_clock_converter_v2_1_axi_clock_converter/ram__54 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_316/axi_clock_converter_v2_1_axi_clock_converter/ram__54 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_306/axi_clock_converter_v2_1_axi_clock_converter/ram__56 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_316/axi_clock_converter_v2_1_axi_clock_converter/ram__56 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_306/axi_clock_converter_v2_1_axi_clock_converter/ram__58 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_316/axi_clock_converter_v2_1_axi_clock_converter/ram__58 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_307/axi_clock_converter_v2_1_axi_clock_converter/ram__60 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_317/axi_clock_converter_v2_1_axi_clock_converter/ram__60 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_307/axi_clock_converter_v2_1_axi_clock_converter/ram__62 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_317/axi_clock_converter_v2_1_axi_clock_converter/ram__62 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_307/axi_clock_converter_v2_1_axi_clock_converter/ram__64 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_317/axi_clock_converter_v2_1_axi_clock_converter/ram__64 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_307/axi_clock_converter_v2_1_axi_clock_converter/ram__66 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_317/axi_clock_converter_v2_1_axi_clock_converter/ram__66 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_307/axi_clock_converter_v2_1_axi_clock_converter/ram__68 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_317/axi_clock_converter_v2_1_axi_clock_converter/ram__68 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_308/axi_clock_converter_v2_1_axi_clock_converter/ram__70 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_318/axi_clock_converter_v2_1_axi_clock_converter/ram__70 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_308/axi_clock_converter_v2_1_axi_clock_converter/ram__72 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_318/axi_clock_converter_v2_1_axi_clock_converter/ram__72 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_308/axi_clock_converter_v2_1_axi_clock_converter/ram__74 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_318/axi_clock_converter_v2_1_axi_clock_converter/ram__74 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_308/axi_clock_converter_v2_1_axi_clock_converter/ram__76 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_318/axi_clock_converter_v2_1_axi_clock_converter/ram__76 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_308/axi_clock_converter_v2_1_axi_clock_converter/ram__78 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_318/axi_clock_converter_v2_1_axi_clock_converter/ram__78 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_309/axi_clock_converter_v2_1_axi_clock_converter/ram__80 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_319/axi_clock_converter_v2_1_axi_clock_converter/ram__80 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_309/axi_clock_converter_v2_1_axi_clock_converter/ram__82 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_319/axi_clock_converter_v2_1_axi_clock_converter/ram__82 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_309/axi_clock_converter_v2_1_axi_clock_converter/ram__84 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_319/axi_clock_converter_v2_1_axi_clock_converter/ram__84 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_309/axi_clock_converter_v2_1_axi_clock_converter/ram__86 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_319/axi_clock_converter_v2_1_axi_clock_converter/ram__86 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_309/axi_clock_converter_v2_1_axi_clock_converter/ram__88 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_319/axi_clock_converter_v2_1_axi_clock_converter/ram__88 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_310/axi_clock_converter_v2_1_axi_clock_converter/ram__90 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_320/axi_clock_converter_v2_1_axi_clock_converter/ram__90 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_310/axi_clock_converter_v2_1_axi_clock_converter/ram__92 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 36              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_320/axi_clock_converter_v2_1_axi_clock_converter/ram__92 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_310/axi_clock_converter_v2_1_axi_clock_converter/ram__94 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 16 X 2               | RAM16X1D x 2   | system_axi_interconnect_0_0/system_auto_cc_320/axi_clock_converter_v2_1_axi_clock_converter/ram__94 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_310/axi_clock_converter_v2_1_axi_clock_converter/ram__96 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 35              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_320/axi_clock_converter_v2_1_axi_clock_converter/ram__96 | 
 2default:default
 ä
 %s*synth2˙
-Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_310/axi_clock_converter_v2_1_axi_clock_converter/ram__98 | 
+Â|axi_clock_converter_v2_1_axi_clock_converter | gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg  | User Attribute     | 16 X 34              | RAM32M x 6     | system_axi_interconnect_0_0/system_auto_cc_320/axi_clock_converter_v2_1_axi_clock_converter/ram__98 | 
 2default:default
 ä
 %s*synth2˙
@@ -92863,37 +92826,37 @@ u
 %s*synth2f
 R---------------------------------------------------------------------------------
 2default:default
-ü
-%s*synth2è
-{Finished Area Optimization : Time (s): cpu = 00:02:54 ; elapsed = 00:02:56 . Memory (MB): peak = 1576.648 ; gain = 885.809
+û
+%s*synth2é
+zFinished Area Optimization : Time (s): cpu = 00:10:32 ; elapsed = 00:14:03 . Memory (MB): peak = 936.652 ; gain = 787.547
 2default:default
 {
 %s*synth2l
 XINFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 2default:default
-Ø
-%s*synth2ü
-äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:56 ; elapsed = 00:02:59 . Memory (MB): peak = 1724.648 ; gain = 1033.809
-2default:default
-¢
-%s*synth2í
-~Finished Timing Optimization : Time (s): cpu = 00:03:05 ; elapsed = 00:03:07 . Memory (MB): peak = 1759.656 ; gain = 1068.816
+Æ
+%s*synth2û
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:10:38 ; elapsed = 00:14:10 . Memory (MB): peak = 1084.043 ; gain = 934.938
 2default:default
 °
 %s*synth2ë
-}Finished Technology Mapping : Time (s): cpu = 00:03:24 ; elapsed = 00:03:28 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+}Finished Timing Optimization : Time (s): cpu = 00:10:58 ; elapsed = 00:14:31 . Memory (MB): peak = 1132.496 ; gain = 983.391
+2default:default
+†
+%s*synth2ê
+|Finished Technology Mapping : Time (s): cpu = 00:11:45 ; elapsed = 00:15:19 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
 l
 %s*synth2]
-Idesign system_auto_pc_60 has 4 max_fanout violations cannot be satisfied
+Idesign system_auto_pc_62 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
 !Gated Clock Conversion mode: off
 2default:default
-õ
-%s*synth2ã
-wFinished IO Insertion : Time (s): cpu = 00:03:27 ; elapsed = 00:03:30 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+ö
+%s*synth2ä
+vFinished IO Insertion : Time (s): cpu = 00:11:50 ; elapsed = 00:15:25 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
 ;
 %s*synth2,
@@ -92920,13 +92883,13 @@ l
 %s*synth2]
 I+------+------------------+-------+---------+-------+------------------+
 2default:default
-¨
-%s*synth2ú
-áFinished Renaming Generated Instances : Time (s): cpu = 00:03:27 ; elapsed = 00:03:31 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+´
+%s*synth2õ
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:11:51 ; elapsed = 00:15:25 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
-©
-%s*synth2ô
-ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:03:29 ; elapsed = 00:03:33 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+®
+%s*synth2ò
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:11:55 ; elapsed = 00:15:30 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
 ¢
 %s*synth2í
@@ -93032,31 +92995,31 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|3     |CARRY4     |  1276|
+|3     |CARRY4     |  1292|
 2default:default
 ?
 %s*synth20
-|4     |LUT1       |  2590|
+|4     |LUT1       |  2622|
 2default:default
 ?
 %s*synth20
-|5     |LUT2       |  2570|
+|5     |LUT2       |  2569|
 2default:default
 ?
 %s*synth20
-|6     |LUT3       |  2618|
+|6     |LUT3       |  2577|
 2default:default
 ?
 %s*synth20
-|7     |LUT4       |  3291|
+|7     |LUT4       |  3087|
 2default:default
 ?
 %s*synth20
-|8     |LUT5       |  3065|
+|8     |LUT5       |  2887|
 2default:default
 ?
 %s*synth20
-|9     |LUT6       |  3845|
+|9     |LUT6       |  4099|
 2default:default
 ?
 %s*synth20
@@ -93108,7 +93071,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|22    |FDRE       |  9079|
+|22    |FDRE       |  9059|
 2default:default
 ?
 %s*synth20
@@ -93145,11 +93108,11 @@ j+------+-----------------------------+-----------------------------------------
 2default:default
 ç
 %s*synth2~
-j|1     |top                          |                                                           | 31149|
+j|1     |top                          |                                                           | 31007|
 2default:default
 ç
 %s*synth2~
-j|2     |  system_i                   |system                                                     | 31094|
+j|2     |  system_i                   |system                                                     | 30952|
 2default:default
 ç
 %s*synth2~
@@ -93181,7 +93144,7 @@ j|9     |    axi_interconnect_0       |system_axi_interconnect_0_0              
 2default:default
 ç
 %s*synth2~
-j|10    |      \m14_couplers/auto_cc  |system_auto_cc_306                                         |   926|
+j|10    |      \m14_couplers/auto_cc  |system_auto_cc_316                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -93189,7 +93152,7 @@ j|11    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|12    |      \m16_couplers/auto_cc  |system_auto_cc_307                                         |   926|
+j|12    |      \m16_couplers/auto_cc  |system_auto_cc_317                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -93197,7 +93160,7 @@ j|13    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|14    |      \m17_couplers/auto_cc  |system_auto_cc_308                                         |   926|
+j|14    |      \m17_couplers/auto_cc  |system_auto_cc_318                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -93205,7 +93168,7 @@ j|15    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|16    |      \m19_couplers/auto_cc  |system_auto_cc_309                                         |   926|
+j|16    |      \m19_couplers/auto_cc  |system_auto_cc_319                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -93213,7 +93176,7 @@ j|17    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|18    |      \m21_couplers/auto_cc  |system_auto_cc_310                                         |   926|
+j|18    |      \m21_couplers/auto_cc  |system_auto_cc_320                                         |   926|
 2default:default
 ç
 %s*synth2~
@@ -93221,19 +93184,19 @@ j|19    |        inst                 |axi_clock_converter_v2_1_axi_clock_conver
 2default:default
 ç
 %s*synth2~
-j|20    |      \s00_couplers/auto_pc  |system_auto_pc_60                                          |  1276|
+j|20    |      \s00_couplers/auto_pc  |system_auto_pc_62                                          |  1276|
 2default:default
 ç
 %s*synth2~
-j|21    |      tier2_xbar_0           |system_tier2_xbar_0_1253                                   |   519|
+j|21    |      tier2_xbar_0           |system_tier2_xbar_0_1259                                   |   519|
 2default:default
 ç
 %s*synth2~
-j|22    |      tier2_xbar_1           |system_tier2_xbar_1_1254                                   |   502|
+j|22    |      tier2_xbar_1           |system_tier2_xbar_1_1260                                   |   502|
 2default:default
 ç
 %s*synth2~
-j|23    |      tier2_xbar_2           |system_tier2_xbar_2_1255                                   |   513|
+j|23    |      tier2_xbar_2           |system_tier2_xbar_2_1261                                   |   513|
 2default:default
 ç
 %s*synth2~
@@ -93253,7 +93216,7 @@ j|27    |    counter_0                |system_counter_0_0                       
 2default:default
 ç
 %s*synth2~
-j|28    |    triggers_0               |system_triggers_0_0                                        |  1010|
+j|28    |    triggers_0               |system_triggers_0_0                                        |   850|
 2default:default
 ç
 %s*synth2~
@@ -93277,7 +93240,7 @@ j|33    |    comboTrigger_0           |system_comboTrigger_0_0                  
 2default:default
 ç
 %s*synth2~
-j|34    |    implement_gtid_0         |system_implement_gtid_0_0                                  |   525|
+j|34    |    implement_gtid_0         |system_implement_gtid_0_0                                  |   543|
 2default:default
 ç
 %s*synth2~
@@ -93335,17 +93298,17 @@ j|47    |    mz_happy_RnM             |system_testPulser_0_7                    
 %s*synth2~
 j+------+-----------------------------+-----------------------------------------------------------+------+
 2default:default
-®
-%s*synth2ò
-ÉFinished Writing Synthesis Report : Time (s): cpu = 00:03:30 ; elapsed = 00:03:34 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+ß
+%s*synth2ó
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:11:58 ; elapsed = 00:15:33 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 89 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 84 warnings.
 2default:default
-¶
-%s*synth2ñ
-ÅSynthesis Optimization Complete : Time (s): cpu = 00:03:31 ; elapsed = 00:03:34 . Memory (MB): peak = 1769.898 ; gain = 1079.059
+•
+%s*synth2ï
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:11:58 ; elapsed = 00:15:33 . Memory (MB): peak = 1138.324 ; gain = 989.219
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
@@ -93361,6 +93324,31 @@ a
 ^
 1Inserted %s OBUFs to IO ports without IO buffers.101*opt2
 02default:defaultZ31-141
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3112default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_311/system_auto_cc_311_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3122default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_312/system_auto_cc_312_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3132default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_313/system_auto_cc_313_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3142default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_314/system_auto_cc_314_clocks.xdc2default:defaultZ20-1280
+ 
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_3152default:default2•
+êc:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_315/system_auto_cc_315_clocks.xdc2default:defaultZ20-1280
 C
 Pushed %s inverter(s).
 98*opt2
@@ -93380,12 +93368,12 @@ L
 Releasing license: %s
 83*common2
 	Synthesis2default:defaultZ17-83
-¡
+¬
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-12702default:default2
-1902default:default2
-72default:default2
+12722default:default2
+1802default:default2
+172default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -93395,18 +93383,26 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:03:372default:default2
-00:03:402default:default2
-2108.3832default:default2
-1228.5082default:defaultZ17-268
+00:12:132default:default2
+00:15:102default:default2
+1489.1132default:default2
+1211.8482default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
-Ç
-vreport_utilization: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2110.398 ; gain = 2.012
+Ä
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2&
+write_checkpoint: 2default:default2
+00:00:052default:default2
+00:00:092default:default2
+1499.8712default:default2
+10.7582default:defaultZ17-268
+|
+preport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1499.871 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Fri Apr 29 14:32:14 20162default:defaultZ17-206
+Fri Apr 29 23:38:17 20162default:defaultZ17-206

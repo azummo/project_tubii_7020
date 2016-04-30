@@ -24,6 +24,7 @@ entity triggers_v1_0 is
         smellie_trig_in : in std_logic;
         gtrig          : in std_logic;
         gtid_in        : in std_logic_vector(23 downto 0);
+        gtid_out       : out std_logic_vector(23 downto 0);
         synco          : out std_logic;
         sync24o        : out std_logic;
         gtrigout       : out std_logic;
@@ -36,6 +37,7 @@ entity triggers_v1_0 is
         trig_out       : out std_logic;
         speaker       : out std_logic;
         counter       : out std_logic;
+        rst_ok         : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -102,6 +104,7 @@ architecture arch_imp of triggers_v1_0 is
         SMELLIE_TRIG_IN : in std_logic;
         GTRIG           : in std_logic;
         GTID_in         : in std_logic_vector(23 downto 0);
+        GTID_out        : out std_logic_vector(23 downto 0);
         SYNCo           : out std_logic;
         SYNC24o         : out std_logic;
         GTRIGout        : out std_logic;
@@ -113,7 +116,8 @@ architecture arch_imp of triggers_v1_0 is
         TUBII_WORD      : out std_logic_vector(47 downto 0);
         TRIG_OUT        : out std_logic;
         SPEAKER         : out std_logic;
-        COUNTER         : out std_logic
+        COUNTER         : out std_logic;
+        RST_OK          : in std_logic
         );
 	end component triggers_v1_0_S00_AXI;
 
@@ -154,6 +158,7 @@ triggers_v1_0_S00_AXI_inst : triggers_v1_0_S00_AXI
         SMELLIE_TRIG_IN => smellie_trig_in,
         GTRIG           => gtrig,
         GTID_in         => gtid_in,
+        GTID_out        => gtid_out,
         SYNCo           => synco,
         SYNC24o         => sync24o,
         GTRIGout        => gtrigout,
@@ -165,7 +170,8 @@ triggers_v1_0_S00_AXI_inst : triggers_v1_0_S00_AXI
         TUBII_WORD      => tubii_word,
         TRIG_OUT        => trig_out,
         SPEAKER         => speaker,
-        COUNTER         => counter
+        COUNTER         => counter,
+        RST_OK          => rst_ok
 	);
 
 	-- Add user logic here
