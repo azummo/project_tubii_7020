@@ -40,7 +40,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 234.590 ; gain = 85.785
+rStarting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 234.359 ; gain = 85.480
 2default:default
 Ì
 synthesizing module '%s'638*oasys2'
@@ -93,6 +93,12 @@ gc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.0/hdl/impleme
 default block is never used226*oasys2}
 gc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
 3732default:default8@Z8-226
+√
+0Net %s in module/entity %s does not have driver.3422*oasys2
+RST_OK2default:default2?
++implement_gtid_v1_0_S00_AXI__parameterized02default:default2}
+gc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+252default:default8@Z8-3848
 »
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +implement_gtid_v1_0_S00_AXI__parameterized02default:default2
@@ -109,12 +115,18 @@ _c:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.0/hdl/impleme
 552default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 267.930 ; gain = 119.125
+sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 267.672 ; gain = 118.793
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 267.930 ; gain = 119.125
+yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 267.672 ; gain = 118.793
 2default:default
+√
+0Net %s in module/entity %s does not have driver.3422*oasys2
+RST_OK2default:default2?
++implement_gtid_v1_0_S00_AXI__parameterized02default:default2}
+gc:/Users/Ian/Documents/GitHub/project_tubii_7020/implement_gtid_1.0/hdl/implement_gtid_v1_0_S00_AXI.vhd2default:default2
+252default:default8@Z8-3848
 <
 %s*synth2-
 
@@ -168,7 +180,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 549.656 ; gain = 400.852
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 549.445 ; gain = 400.566
 2default:default
 B
 %s*synth23
@@ -180,7 +192,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
+.	   2 Input     24 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -188,7 +200,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 4     
+.	               32 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -204,7 +216,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 6     
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -212,11 +224,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
+.	   4 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -248,7 +264,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
+.	   2 Input     24 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -256,7 +272,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 4     
+.	               32 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -272,7 +288,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 6     
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -280,11 +296,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
+.	   4 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -322,112 +342,22 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2H
 4\implement_gtid_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2'
 implement_gtid_v1_02default:defaultZ8-3332
-Ñ
+
 !design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[23]2default:defaultZ8-3331
-Ñ
+implement_gtid_v1_02default:default2
+rst_ok2default:defaultZ8-3331
+}
 !design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[22]2default:defaultZ8-3331
-Ñ
+implement_gtid_v1_02default:default2
+sync2default:defaultZ8-3331
+
 !design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[21]2default:defaultZ8-3331
-Ñ
+implement_gtid_v1_02default:default2
+sync242default:defaultZ8-3331
+~
 !design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[20]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[19]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[18]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[17]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[16]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[15]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[14]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[13]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[12]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[11]2default:defaultZ8-3331
-Ñ
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-gtid_in[10]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[9]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[8]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[7]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[6]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[5]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[4]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[3]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[2]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[1]2default:defaultZ8-3331
-É
-!design %s has unconnected port %s3331*oasys2'
-implement_gtid_v1_02default:default2
-
-gtid_in[0]2default:defaultZ8-3331
+implement_gtid_v1_02default:default2
+reset2default:defaultZ8-3331
 ä
 !design %s has unconnected port %s3331*oasys2'
 implement_gtid_v1_02default:default2%
@@ -470,7 +400,7 @@ gtid_in[0]2default:defaultZ8-3331
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 559.363 ; gain = 410.559
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 559.160 ; gain = 410.281
 2default:default
 ¢
 %s*synth2í
@@ -508,15 +438,15 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 implement_gtid_v1_02default:defaultZ8-3332
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 584.719 ; gain = 435.914
+zFinished Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 584.719 ; gain = 435.914
+|Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 584.719 ; gain = 435.914
+{Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 D
 %s*synth25
@@ -524,7 +454,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 584.719 ; gain = 435.914
+uFinished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 ;
 %s*synth2,
@@ -553,11 +483,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 584.719 ; gain = 435.914
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 584.719 ; gain = 435.914
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 ¢
 %s*synth2í
@@ -621,11 +551,11 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|2     |CARRY4 |    16|
+|2     |CARRY4 |     6|
 2default:default
 ;
 %s*synth2,
-|3     |LUT1   |    32|
+|3     |LUT1   |    24|
 2default:default
 ;
 %s*synth2,
@@ -637,19 +567,19 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |     5|
+|6     |LUT4   |     4|
 2default:default
 ;
 %s*synth2,
-|7     |LUT5   |    99|
+|7     |LUT5   |     5|
 2default:default
 ;
 %s*synth2,
-|8     |LUT6   |   100|
+|8     |LUT6   |   192|
 2default:default
 ;
 %s*synth2,
-|9     |FDRE   |   192|
+|9     |FDRE   |   191|
 2default:default
 ;
 %s*synth2,
@@ -657,11 +587,15 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|11    |IBUF   |    50|
+|11    |IBUF   |    71|
 2default:default
 ;
 %s*synth2,
-|12    |OBUF   |    66|
+|12    |OBUF   |    65|
+2default:default
+;
+%s*synth2,
+|13    |OBUFT  |     1|
 2default:default
 ;
 %s*synth2,
@@ -686,11 +620,11 @@ a+------+-----------------------------------+-----------------------------------
 2default:default
 Ñ
 %s*synth2u
-a|1     |top                                |                                            |   567|
+a|1     |top                                |                                            |   566|
 2default:default
 Ñ
 %s*synth2u
-a|2     |  implement_gtid_v1_0_S00_AXI_inst |implement_gtid_v1_0_S00_AXI__parameterized0 |   450|
+a|2     |  implement_gtid_v1_0_S00_AXI_inst |implement_gtid_v1_0_S00_AXI__parameterized0 |   399|
 2default:default
 Ñ
 %s*synth2u
@@ -698,20 +632,20 @@ a+------+-----------------------------------+-----------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 584.719 ; gain = 435.914
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 46 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 28 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 584.719 ; gain = 435.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 583.742 ; gain = 434.863
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-502default:defaultZ29-17
+712default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -742,7 +676,7 @@ L
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 162default:default2
-462default:default2
+282default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -753,18 +687,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:00:412default:default2
-00:00:592default:default2
-971.9692default:default2
-784.5942default:defaultZ17-268
+00:00:382default:default2
+00:00:472default:default2
+971.6842default:default2
+783.4842default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.328 . Memory (MB): peak = 971.969 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.327 . Memory (MB): peak = 971.684 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Fri Apr 29 16:47:44 20162default:defaultZ17-206
+Mon May 02 10:43:49 20162default:defaultZ17-206

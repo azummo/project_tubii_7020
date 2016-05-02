@@ -817,8 +817,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>implement_gtid_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>23</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-04-29T20:48:35Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>24</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-05-02T14:44:01Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

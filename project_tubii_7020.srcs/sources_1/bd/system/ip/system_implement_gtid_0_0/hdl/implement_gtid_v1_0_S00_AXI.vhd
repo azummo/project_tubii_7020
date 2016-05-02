@@ -214,19 +214,19 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then
-        if(RESET='1') then
-          slv_reg0 <= "00000000000000000000000000000001";        
-	    elsif(SYNC24='1') then
-          slv_reg0 <= "00000000000000000000000000000001";
-          RST_OK <= '1';
-        elsif(SYNC='1') then
-          slv_reg0(15 downto 0) <= "0000000000000001";
-          RST_OK <= '1';
-	    else
-          RST_OK <= '0';
-        end if;
+        --if(RESET='1') then
+        --  slv_reg0 <= "00000000000000000000000000000001";        
+	    --elsif(SYNC24='1') then
+        --  slv_reg0 <= "00000000000000000000000000000001";
+        --  RST_OK <= '1';
+        --elsif(SYNC='1') then
+        --  slv_reg0(15 downto 0) <= "0000000000000001";
+        --  RST_OK <= '1';
+	    --else
+        --  RST_OK <= '0';
+        --end if;
 
-        slv_reg0 <= slv_reg0+1;
+        slv_reg0(23 downto 0) <= GTID_in+1;
         GTID_out <= slv_reg0(23 downto 0);
 
 	    if S_AXI_ARESETN = '0' then

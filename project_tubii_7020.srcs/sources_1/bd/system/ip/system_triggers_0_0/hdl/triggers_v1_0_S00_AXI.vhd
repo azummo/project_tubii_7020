@@ -259,7 +259,7 @@ begin
         TRIG_WORD(22) <= TELLIE_TRIG_IN;
         TRIG_WORD(23) <= SMELLIE_TRIG_IN;
         TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
-        TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
+        TUBII_WORD(47 downto 24) <= slv_reg7(23 downto 0);
 
         slv_reg4(23 downto 0) <= GTID_in;
         slv_reg5(0) <= tsync;
@@ -273,38 +273,39 @@ begin
         end if;
 
         -- Reset GTID
-        if slv_reg7(0) ='1' then
-          RESETGTID<='1';
-        else
-          RESETGTID<='0';
-        end if;
-
-        if(SYNCi ='1' and tsync='0') then
-          tsync<='1';
-          SYNCo<='1';
-        end if;
-
-        if(SYNC24i ='1' and tsync24='0') then
-          tsync24<='1';
-          SYNC24o<='1';
-        end if;
-
-        if(RST_OK='1') then
-          tsync <= '0';
-          tsync24 <= '0';
-          SYNCo<='0';
-          SYNC24o<='0';
-        end if;
-
-        --if slv_reg7(0)='1' then
-        --  GTID_out <= (others=>'0');
-        --elsif SYNC24i='1' then
-        --  GTID_out <= (others=>'0');
-        --elsif SYNCi='1' then
-        --  GTID_out <= (others=>'0');
+        --if slv_reg7(0) ='1' then
+        --  RESETGTID<='1';
         --else
-        --  GTID_out <= GTID_in;
+        --  RESETGTID<='0';
         --end if;
+
+        --if(SYNCi ='1' and tsync='0') then
+        --  tsync<='1';
+        --  SYNCo<='1';
+        --end if;
+
+        --if(SYNC24i ='1' and tsync24='0') then
+        --  tsync24<='1';
+        --  SYNC24o<='1';
+        --end if;
+
+        --if(RST_OK='1') then
+        --  tsync <= '0';
+        --  tsync24 <= '0';
+        --  SYNCo<='0';
+        --  SYNC24o<='0';
+        --end if;
+
+        --- New changes for testing
+        if SYNC24i='1' then
+          slv_reg7 <= (others=>'0');
+        elsif SYNCi='1' then
+          slv_reg7(15 downto 0) <= (others=>'0');
+        else
+          slv_reg7(23 downto 0) <= GTID_in;
+        end if;
+
+        GTID_out <= slv_reg7(23 downto 0);
 
         ---- TUBII TRIGGER
         if((EXT_TRIG_IN(0)='1' and slv_reg3(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg3(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg3(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg3(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg3(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg3(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg3(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg3(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg3(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg3(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg3(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg3(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg3(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg3(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg3(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg3(15)='1')) then
