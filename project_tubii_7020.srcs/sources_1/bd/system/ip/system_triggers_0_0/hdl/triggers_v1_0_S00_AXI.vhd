@@ -27,9 +27,6 @@ entity triggers_v1_0_S00_AXI is
         SYNC24i        : in std_logic;
         GTID_in        : in std_logic_vector(23 downto 0);
         GTID_out       : out std_logic_vector(23 downto 0);
-        SYNCo          : out std_logic;
-        SYNC24o        : out std_logic;
-        RESETGTID      : out std_logic;
         GTRIGout       : out std_logic;   
         TRIG_WORD      : out std_logic_vector(23 downto 0);
         DTRIG_WORD     : in std_logic_vector(23 downto 0);
@@ -37,7 +34,6 @@ entity triggers_v1_0_S00_AXI is
         TRIG_OUT       : out std_logic;
         SPEAKER        : out std_logic;
         COUNTER        : out std_logic;
-        RST_OK         : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -272,40 +268,23 @@ begin
           GTRIGout <= GTRIG;
         end if;
 
-        -- Reset GTID
-        --if slv_reg7(0) ='1' then
-        --  RESETGTID<='1';
-        --else
-        --  RESETGTID<='0';
-        --end if;
-
-        --if(SYNCi ='1' and tsync='0') then
-        --  tsync<='1';
-        --  SYNCo<='1';
-        --end if;
-
-        --if(SYNC24i ='1' and tsync24='0') then
-        --  tsync24<='1';
-        --  SYNC24o<='1';
-        --end if;
-
-        --if(RST_OK='1') then
-        --  tsync <= '0';
-        --  tsync24 <= '0';
-        --  SYNCo<='0';
-        --  SYNC24o<='0';
-        --end if;
-
         --- New changes for testing
         if SYNC24i='1' then
           slv_reg7 <= (others=>'0');
+          tsync24 <= '1';
         elsif SYNCi='1' then
           slv_reg7(15 downto 0) <= (others=>'0');
-        else
+          tsync <= '1';
+        elsif tsync='0' and tsync24='0' then
           slv_reg7(23 downto 0) <= GTID_in;
         end if;
 
         GTID_out <= slv_reg7(23 downto 0);
+
+        if(GTRIG='1') then
+          tsync <= '0';
+          tsync24 <='0';
+        end if;
 
         ---- TUBII TRIGGER
         if((EXT_TRIG_IN(0)='1' and slv_reg3(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg3(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg3(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg3(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg3(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg3(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg3(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg3(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg3(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg3(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg3(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg3(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg3(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg3(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg3(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg3(15)='1')) then

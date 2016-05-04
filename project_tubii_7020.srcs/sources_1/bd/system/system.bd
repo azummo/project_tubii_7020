@@ -603,11 +603,6 @@
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="TrigWordDelay_0"/>
       </spirit:interconnection>
       <spirit:interconnection>
-        <spirit:name>axi_interconnect_0_M21_AXI</spirit:name>
-        <spirit:activeInterface spirit:busRef="M21_AXI" spirit:componentRef="axi_interconnect_0"/>
-        <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="implement_gtid_0"/>
-      </spirit:interconnection>
-      <spirit:interconnection>
         <spirit:name>axi_interconnect_0_M22_AXI</spirit:name>
         <spirit:activeInterface spirit:busRef="M22_AXI" spirit:componentRef="axi_interconnect_0"/>
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="buttonTrigger_0"/>
@@ -626,6 +621,11 @@
         <spirit:name>axi_interconnect_0_M23_AXI</spirit:name>
         <spirit:activeInterface spirit:busRef="M23_AXI" spirit:componentRef="axi_interconnect_0"/>
         <spirit:activeInterface spirit:busRef="s_axi_lite" spirit:componentRef="xadc_wiz_0"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>axi_interconnect_0_M21_AXI</spirit:name>
+        <spirit:activeInterface spirit:busRef="M21_AXI" spirit:componentRef="axi_interconnect_0"/>
+        <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="implement_gtid_0"/>
       </spirit:interconnection>
     </spirit:interconnections>
     <spirit:adHocConnections>
@@ -992,29 +992,9 @@
         <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="dtrig_word"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>implement_gtid_0_gtid</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="gtid_out"/>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="gtid_in"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>buttonTrigger_0_button_trigger_out</spirit:name>
         <spirit:internalPortReference spirit:componentRef="buttonTrigger_0" spirit:portRef="button_trigger_out"/>
         <spirit:internalPortReference spirit:componentRef="triggerSplit_0" spirit:portRef="trigin3"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>triggerOut_0_synco</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="synco"/>
-        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="sync"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>triggerOut_0_sync24o</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="sync24o"/>
-        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="sync24"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>triggerOut_0_resetgtid</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="resetgtid"/>
-        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="reset"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>fifo_readout_0_wenable</spirit:name>
@@ -1031,14 +1011,14 @@
         <spirit:externalPortReference spirit:portRef="speaker"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>implement_gtid_0_rst_ok</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="rst_ok"/>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="rst_ok"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>triggers_0_gtid_out</spirit:name>
         <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="gtid_out"/>
         <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="gtid_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>implement_gtid_0_gtid</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="gtid_out"/>
+        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="gtid_in"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>
@@ -2737,21 +2717,21 @@
         <spirit:instanceName>tier2_xbar_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_0_1277</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_0_1295</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>tier2_xbar_1</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_1_1278</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_1_1296</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>tier2_xbar_2</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_2_1279</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_2_1297</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -3915,7 +3895,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_350</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_380</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4272,7 +4252,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_349</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_379</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4629,7 +4609,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_348</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_378</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4824,7 +4804,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_347</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_377</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5181,7 +5161,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_346</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_376</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -7644,7 +7624,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_pc_68</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_pc_74</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>

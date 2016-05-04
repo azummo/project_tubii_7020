@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggers:1.0
--- IP Revision: 16
+-- IP Revision: 20
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -63,19 +63,15 @@ ENTITY system_triggers_0_0 IS
     gtrig : IN STD_LOGIC;
     gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
-    synco : OUT STD_LOGIC;
-    sync24o : OUT STD_LOGIC;
     gtrigout : OUT STD_LOGIC;
     synci : IN STD_LOGIC;
     sync24i : IN STD_LOGIC;
-    resetgtid : OUT STD_LOGIC;
     trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
     dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
     trig_out : OUT STD_LOGIC;
     speaker : OUT STD_LOGIC;
     counter : OUT STD_LOGIC;
-    rst_ok : IN STD_LOGIC;
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
@@ -118,19 +114,15 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       gtrig : IN STD_LOGIC;
       gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
-      synco : OUT STD_LOGIC;
-      sync24o : OUT STD_LOGIC;
       gtrigout : OUT STD_LOGIC;
       synci : IN STD_LOGIC;
       sync24i : IN STD_LOGIC;
-      resetgtid : OUT STD_LOGIC;
       trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
       dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
       trig_out : OUT STD_LOGIC;
       speaker : OUT STD_LOGIC;
       counter : OUT STD_LOGIC;
-      rst_ok : IN STD_LOGIC;
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
@@ -159,7 +151,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggers_0_0_arch : ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=16,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=20,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -197,19 +189,15 @@ BEGIN
       gtrig => gtrig,
       gtid_in => gtid_in,
       gtid_out => gtid_out,
-      synco => synco,
-      sync24o => sync24o,
       gtrigout => gtrigout,
       synci => synci,
       sync24i => sync24i,
-      resetgtid => resetgtid,
       trig_word => trig_word,
       dtrig_word => dtrig_word,
       tubii_word => tubii_word,
       trig_out => trig_out,
       speaker => speaker,
       counter => counter,
-      rst_ok => rst_ok,
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,

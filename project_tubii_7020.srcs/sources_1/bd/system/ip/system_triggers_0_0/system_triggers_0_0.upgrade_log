@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
-| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Mon May 02 11:04:06 2016
-| Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
+| Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
+| Date         : Tue May  3 23:59:19 2016
+| Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.7 (Final)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
 -----------------------------------------------------------------------------------
@@ -12,5 +12,5 @@ Upgrade Log for IP 'system_triggers_0_0'
 1. Summary
 ----------
 
-SUCCESS in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:1.0) from (Rev. 15) to (Rev. 16)
+SUCCESS in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:1.0) from (Rev. 19) to (Rev. 20)
 

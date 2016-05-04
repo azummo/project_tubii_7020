@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:implement_gtid:1.0
--- IP Revision: 24
+-- IP Revision: 27
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -57,10 +57,6 @@ ENTITY system_implement_gtid_0_0 IS
   PORT (
     gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
-    sync : IN STD_LOGIC;
-    sync24 : IN STD_LOGIC;
-    reset : IN STD_LOGIC;
-    rst_ok : OUT STD_LOGIC;
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -97,10 +93,6 @@ ARCHITECTURE system_implement_gtid_0_0_arch OF system_implement_gtid_0_0 IS
     PORT (
       gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
-      sync : IN STD_LOGIC;
-      sync24 : IN STD_LOGIC;
-      reset : IN STD_LOGIC;
-      rst_ok : OUT STD_LOGIC;
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -129,7 +121,7 @@ ARCHITECTURE system_implement_gtid_0_0_arch OF system_implement_gtid_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_implement_gtid_0_0_arch : ARCHITECTURE IS "system_implement_gtid_0_0,implement_gtid_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_implement_gtid_0_0_arch: ARCHITECTURE IS "system_implement_gtid_0_0,implement_gtid_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=implement_gtid,x_ipVersion=1.0,x_ipCoreRevision=24,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_implement_gtid_0_0_arch: ARCHITECTURE IS "system_implement_gtid_0_0,implement_gtid_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=implement_gtid,x_ipVersion=1.0,x_ipCoreRevision=27,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -161,10 +153,6 @@ BEGIN
     PORT MAP (
       gtid_in => gtid_in,
       gtid_out => gtid_out,
-      sync => sync,
-      sync24 => sync24,
-      reset => reset,
-      rst_ok => rst_ok,
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,

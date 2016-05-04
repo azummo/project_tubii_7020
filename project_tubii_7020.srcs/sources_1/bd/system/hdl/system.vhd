@@ -1901,7 +1901,7 @@ entity m14_couplers_imp_15B0VF1 is
 end m14_couplers_imp_15B0VF1;
 
 architecture STRUCTURE of m14_couplers_imp_15B0VF1 is
-  component system_auto_cc_346 is
+  component system_auto_cc_376 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -1946,7 +1946,7 @@ architecture STRUCTURE of m14_couplers_imp_15B0VF1 is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_cc_346;
+  end component system_auto_cc_376;
   signal M_ACLK_1 : STD_LOGIC;
   signal M_ARESETN_1 : STD_LOGIC;
   signal S_ACLK_1 : STD_LOGIC;
@@ -2032,7 +2032,7 @@ begin
   m14_couplers_to_auto_cc_WDATA(31 downto 0) <= S_AXI_wdata(31 downto 0);
   m14_couplers_to_auto_cc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   m14_couplers_to_auto_cc_WVALID <= S_AXI_wvalid;
-auto_cc: component system_auto_cc_346
+auto_cc: component system_auto_cc_376
     port map (
       m_axi_aclk => M_ACLK_1,
       m_axi_araddr(31 downto 0) => auto_cc_to_m14_couplers_ARADDR(31 downto 0),
@@ -2237,7 +2237,7 @@ entity m16_couplers_imp_14023HS is
 end m16_couplers_imp_14023HS;
 
 architecture STRUCTURE of m16_couplers_imp_14023HS is
-  component system_auto_cc_347 is
+  component system_auto_cc_377 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -2282,7 +2282,7 @@ architecture STRUCTURE of m16_couplers_imp_14023HS is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_cc_347;
+  end component system_auto_cc_377;
   signal M_ACLK_1 : STD_LOGIC;
   signal M_ARESETN_1 : STD_LOGIC;
   signal S_ACLK_1 : STD_LOGIC;
@@ -2368,7 +2368,7 @@ begin
   m16_couplers_to_auto_cc_WDATA(31 downto 0) <= S_AXI_wdata(31 downto 0);
   m16_couplers_to_auto_cc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   m16_couplers_to_auto_cc_WVALID <= S_AXI_wvalid;
-auto_cc: component system_auto_cc_347
+auto_cc: component system_auto_cc_377
     port map (
       m_axi_aclk => M_ACLK_1,
       m_axi_araddr(31 downto 0) => auto_cc_to_m16_couplers_ARADDR(31 downto 0),
@@ -2464,7 +2464,7 @@ entity m17_couplers_imp_ZHOD1Q is
 end m17_couplers_imp_ZHOD1Q;
 
 architecture STRUCTURE of m17_couplers_imp_ZHOD1Q is
-  component system_auto_cc_348 is
+  component system_auto_cc_378 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -2509,7 +2509,7 @@ architecture STRUCTURE of m17_couplers_imp_ZHOD1Q is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_cc_348;
+  end component system_auto_cc_378;
   signal M_ACLK_1 : STD_LOGIC;
   signal M_ARESETN_1 : STD_LOGIC;
   signal S_ACLK_1 : STD_LOGIC;
@@ -2595,7 +2595,7 @@ begin
   m17_couplers_to_auto_cc_WDATA(31 downto 0) <= S_AXI_wdata(31 downto 0);
   m17_couplers_to_auto_cc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   m17_couplers_to_auto_cc_WVALID <= S_AXI_wvalid;
-auto_cc: component system_auto_cc_348
+auto_cc: component system_auto_cc_378
     port map (
       m_axi_aclk => M_ACLK_1,
       m_axi_araddr(31 downto 0) => auto_cc_to_m17_couplers_ARADDR(31 downto 0),
@@ -2800,7 +2800,7 @@ entity m19_couplers_imp_QY5Y2L is
 end m19_couplers_imp_QY5Y2L;
 
 architecture STRUCTURE of m19_couplers_imp_QY5Y2L is
-  component system_auto_cc_349 is
+  component system_auto_cc_379 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -2845,7 +2845,7 @@ architecture STRUCTURE of m19_couplers_imp_QY5Y2L is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_cc_349;
+  end component system_auto_cc_379;
   signal M_ACLK_1 : STD_LOGIC;
   signal M_ARESETN_1 : STD_LOGIC;
   signal S_ACLK_1 : STD_LOGIC;
@@ -2931,7 +2931,7 @@ begin
   m19_couplers_to_auto_cc_WDATA(31 downto 0) <= S_AXI_wdata(31 downto 0);
   m19_couplers_to_auto_cc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   m19_couplers_to_auto_cc_WVALID <= S_AXI_wvalid;
-auto_cc: component system_auto_cc_349
+auto_cc: component system_auto_cc_379
     port map (
       m_axi_aclk => M_ACLK_1,
       m_axi_araddr(31 downto 0) => auto_cc_to_m19_couplers_ARADDR(31 downto 0),
@@ -3136,7 +3136,7 @@ entity m21_couplers_imp_1T86MH4 is
 end m21_couplers_imp_1T86MH4;
 
 architecture STRUCTURE of m21_couplers_imp_1T86MH4 is
-  component system_auto_cc_350 is
+  component system_auto_cc_380 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -3181,7 +3181,7 @@ architecture STRUCTURE of m21_couplers_imp_1T86MH4 is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_cc_350;
+  end component system_auto_cc_380;
   signal M_ACLK_1 : STD_LOGIC;
   signal M_ARESETN_1 : STD_LOGIC;
   signal S_ACLK_1 : STD_LOGIC;
@@ -3267,7 +3267,7 @@ begin
   m21_couplers_to_auto_cc_WDATA(31 downto 0) <= S_AXI_wdata(31 downto 0);
   m21_couplers_to_auto_cc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   m21_couplers_to_auto_cc_WVALID <= S_AXI_wvalid;
-auto_cc: component system_auto_cc_350
+auto_cc: component system_auto_cc_380
     port map (
       m_axi_aclk => M_ACLK_1,
       m_axi_araddr(31 downto 0) => auto_cc_to_m21_couplers_ARADDR(31 downto 0),
@@ -3590,7 +3590,7 @@ entity s00_couplers_imp_1FHMR11 is
 end s00_couplers_imp_1FHMR11;
 
 architecture STRUCTURE of s00_couplers_imp_1FHMR11 is
-  component system_auto_pc_68 is
+  component system_auto_pc_74 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -3652,7 +3652,7 @@ architecture STRUCTURE of s00_couplers_imp_1FHMR11 is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_pc_68;
+  end component system_auto_pc_74;
   signal S_ACLK_1 : STD_LOGIC;
   signal S_ARESETN_1 : STD_LOGIC;
   signal auto_pc_to_s00_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -3772,7 +3772,7 @@ begin
   s00_couplers_to_auto_pc_WLAST <= S_AXI_wlast;
   s00_couplers_to_auto_pc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   s00_couplers_to_auto_pc_WVALID <= S_AXI_wvalid;
-auto_pc: component system_auto_pc_68
+auto_pc: component system_auto_pc_74
     port map (
       aclk => S_ACLK_1,
       aresetn => S_ARESETN_1,
@@ -4431,7 +4431,7 @@ architecture STRUCTURE of system_axi_interconnect_0_0 is
     m_axi_rready : out STD_LOGIC_VECTOR ( 2 downto 0 )
   );
   end component system_xbar_0;
-  component system_tier2_xbar_0_1277 is
+  component system_tier2_xbar_0_1295 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -4474,8 +4474,8 @@ architecture STRUCTURE of system_axi_interconnect_0_0 is
     m_axi_rvalid : in STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_rready : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  end component system_tier2_xbar_0_1277;
-  component system_tier2_xbar_1_1278 is
+  end component system_tier2_xbar_0_1295;
+  component system_tier2_xbar_1_1296 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -4518,8 +4518,8 @@ architecture STRUCTURE of system_axi_interconnect_0_0 is
     m_axi_rvalid : in STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_rready : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  end component system_tier2_xbar_1_1278;
-  component system_tier2_xbar_2_1279 is
+  end component system_tier2_xbar_1_1296;
+  component system_tier2_xbar_2_1297 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -4562,7 +4562,7 @@ architecture STRUCTURE of system_axi_interconnect_0_0 is
     m_axi_rvalid : in STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_rready : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  end component system_tier2_xbar_2_1279;
+  end component system_tier2_xbar_2_1297;
   signal M00_ACLK_1 : STD_LOGIC;
   signal M00_ARESETN_1 : STD_LOGIC;
   signal M01_ACLK_1 : STD_LOGIC;
@@ -7516,7 +7516,7 @@ s00_couplers: entity work.s00_couplers_imp_1FHMR11
       S_AXI_wstrb(3 downto 0) => axi_interconnect_0_to_s00_couplers_WSTRB(3 downto 0),
       S_AXI_wvalid => axi_interconnect_0_to_s00_couplers_WVALID
     );
-tier2_xbar_0: component system_tier2_xbar_0_1277
+tier2_xbar_0: component system_tier2_xbar_0_1295
     port map (
       aclk => axi_interconnect_0_ACLK_net,
       aresetn => axi_interconnect_0_ARESETN_net,
@@ -7692,7 +7692,7 @@ tier2_xbar_0: component system_tier2_xbar_0_1277
       s_axi_wstrb(3 downto 0) => i00_couplers_to_tier2_xbar_0_WSTRB(3 downto 0),
       s_axi_wvalid(0) => i00_couplers_to_tier2_xbar_0_WVALID(0)
     );
-tier2_xbar_1: component system_tier2_xbar_1_1278
+tier2_xbar_1: component system_tier2_xbar_1_1296
     port map (
       aclk => axi_interconnect_0_ACLK_net,
       aresetn => axi_interconnect_0_ARESETN_net,
@@ -7868,7 +7868,7 @@ tier2_xbar_1: component system_tier2_xbar_1_1278
       s_axi_wstrb(3 downto 0) => i01_couplers_to_tier2_xbar_1_WSTRB(3 downto 0),
       s_axi_wvalid(0) => i01_couplers_to_tier2_xbar_1_WVALID(0)
     );
-tier2_xbar_2: component system_tier2_xbar_2_1279
+tier2_xbar_2: component system_tier2_xbar_2_1297
     port map (
       aclk => axi_interconnect_0_ACLK_net,
       aresetn => axi_interconnect_0_ARESETN_net,
@@ -8888,10 +8888,6 @@ architecture STRUCTURE of system is
   port (
     gtid_in : in STD_LOGIC_VECTOR ( 23 downto 0 );
     gtid_out : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    sync : in STD_LOGIC;
-    sync24 : in STD_LOGIC;
-    reset : in STD_LOGIC;
-    rst_ok : out STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
     s00_axi_aresetn : in STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -8925,19 +8921,15 @@ architecture STRUCTURE of system is
     gtrig : in STD_LOGIC;
     gtid_in : in STD_LOGIC_VECTOR ( 23 downto 0 );
     gtid_out : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    synco : out STD_LOGIC;
-    sync24o : out STD_LOGIC;
     gtrigout : out STD_LOGIC;
     synci : in STD_LOGIC;
     sync24i : in STD_LOGIC;
-    resetgtid : out STD_LOGIC;
     trig_word : out STD_LOGIC_VECTOR ( 23 downto 0 );
     dtrig_word : in STD_LOGIC_VECTOR ( 23 downto 0 );
     tubii_word : out STD_LOGIC_VECTOR ( 47 downto 0 );
     trig_out : out STD_LOGIC;
     speaker : out STD_LOGIC;
     counter : out STD_LOGIC;
-    rst_ok : in STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
     s00_axi_aresetn : in STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 4 downto 0 );
@@ -9447,7 +9439,6 @@ architecture STRUCTURE of system is
   signal fifo_readout_0_wenable : STD_LOGIC;
   signal gt_in_1 : STD_LOGIC;
   signal implement_gtid_0_gtid : STD_LOGIC_VECTOR ( 23 downto 0 );
-  signal implement_gtid_0_rst_ok : STD_LOGIC;
   signal mtca_mimic_in_1 : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal oneshot_pulse_0_pulse_o : STD_LOGIC;
   signal oneshot_pulse_1_pulse_o : STD_LOGIC;
@@ -9527,9 +9518,6 @@ architecture STRUCTURE of system is
   signal testPulser_1_pulser_out : STD_LOGIC;
   signal triggerOut_0_counter : STD_LOGIC;
   signal triggerOut_0_gtrigout : STD_LOGIC;
-  signal triggerOut_0_resetgtid : STD_LOGIC;
-  signal triggerOut_0_sync24o : STD_LOGIC;
-  signal triggerOut_0_synco : STD_LOGIC;
   signal triggerOut_0_trig_out : STD_LOGIC;
   signal triggerOut_0_trig_word : STD_LOGIC_VECTOR ( 23 downto 0 );
   signal triggerOut_0_tubii_word : STD_LOGIC_VECTOR ( 47 downto 0 );
@@ -10496,8 +10484,6 @@ implement_gtid_0: component system_implement_gtid_0_0
     port map (
       gtid_in(23 downto 0) => triggers_0_gtid_out(23 downto 0),
       gtid_out(23 downto 0) => implement_gtid_0_gtid(23 downto 0),
-      reset => triggerOut_0_resetgtid,
-      rst_ok => implement_gtid_0_rst_ok,
       s00_axi_aclk => triggerOut_0_gtrigout,
       s00_axi_araddr(3 downto 0) => axi_interconnect_0_M21_AXI_ARADDR(3 downto 0),
       s00_axi_aresetn => M00_ARESETN_1,
@@ -10518,9 +10504,7 @@ implement_gtid_0: component system_implement_gtid_0_0
       s00_axi_wdata(31 downto 0) => axi_interconnect_0_M21_AXI_WDATA(31 downto 0),
       s00_axi_wready => axi_interconnect_0_M21_AXI_WREADY,
       s00_axi_wstrb(3 downto 0) => axi_interconnect_0_M21_AXI_WSTRB(3 downto 0),
-      s00_axi_wvalid => axi_interconnect_0_M21_AXI_WVALID,
-      sync => triggerOut_0_synco,
-      sync24 => triggerOut_0_sync24o
+      s00_axi_wvalid => axi_interconnect_0_M21_AXI_WVALID
     );
 oneshot_pulse_0: component system_oneshot_pulse_0_2
     port map (
@@ -10810,8 +10794,6 @@ triggers_0: component system_triggers_0_0
       gtrigout => triggerOut_0_gtrigout,
       int_trig_in(3 downto 0) => triggerSplit_0_trigout(3 downto 0),
       mtca_mimic_in(1 downto 0) => mtca_mimic_in_1(1 downto 0),
-      resetgtid => triggerOut_0_resetgtid,
-      rst_ok => implement_gtid_0_rst_ok,
       s00_axi_aclk => processing_system7_0_FCLK_CLK0,
       s00_axi_araddr(4 downto 0) => axi_interconnect_0_M04_AXI_ARADDR(4 downto 0),
       s00_axi_aresetn => M00_ARESETN_1,
@@ -10836,9 +10818,7 @@ triggers_0: component system_triggers_0_0
       smellie_trig_in => testDelay_3_s00_axi_userout,
       speaker => triggers_0_speaker,
       sync24i => sync24_1,
-      sync24o => triggerOut_0_sync24o,
       synci => sync_1,
-      synco => triggerOut_0_synco,
       tellie_trig_in => testDelay_2_s00_axi_userout,
       trig_out => triggerOut_0_trig_out,
       trig_word(23 downto 0) => triggerOut_0_trig_word(23 downto 0),
