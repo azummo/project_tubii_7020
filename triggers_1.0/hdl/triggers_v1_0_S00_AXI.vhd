@@ -283,7 +283,7 @@ begin
 
         if(GTRIG='1') then
           tsync <= '0';
-          tsync24 <='0';
+          --tsync24 <='0';
         end if;
 
         ---- TUBII TRIGGER
