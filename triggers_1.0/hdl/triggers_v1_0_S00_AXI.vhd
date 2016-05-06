@@ -137,11 +137,6 @@ architecture arch_imp of triggers_v1_0_S00_AXI is
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
-	signal slv_regGT	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-	--signal counter	:std_logic_vector(4 downto 0);
-    signal gt_flag  : std_logic;
-	signal unread	: std_logic;
-    signal synced   : std_logic;
     signal treset    : std_logic;
     signal tsync    : std_logic;
     signal tsync24  : std_logic;
@@ -257,7 +252,6 @@ begin
         TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
         TUBII_WORD(47 downto 24) <= slv_reg7(23 downto 0);
 
-        slv_reg4(23 downto 0) <= GTID_in;
         slv_reg5(0) <= tsync;
         slv_reg5(1) <= tsync24;
 
@@ -269,21 +263,25 @@ begin
         end if;
 
         --- New changes for testing
-        if SYNC24i='1' then
-          slv_reg7 <= (others=>'0');
+        if slv_reg7(0)='1' then
+          slv_reg4 <= (others=>'0');
+          treset <= '1';
+        elsif SYNC24i='1' then
+          slv_reg4 <= (others=>'0');
           tsync24 <= '1';
         elsif SYNCi='1' then
-          slv_reg7(15 downto 0) <= (others=>'0');
+          slv_reg4(15 downto 0) <= (others=>'0');
           tsync <= '1';
         elsif tsync='0' and tsync24='0' then
-          slv_reg7(23 downto 0) <= GTID_in;
+          slv_reg4(23 downto 0) <= GTID_in;
         end if;
 
-        GTID_out <= slv_reg7(23 downto 0);
+        GTID_out <= slv_reg4(23 downto 0);
 
         if(GTRIG='1') then
           tsync <= '0';
-          --tsync24 <='0';
+          tsync24 <='0';
+          treset <= '0';
         end if;
 
         ---- TUBII TRIGGER

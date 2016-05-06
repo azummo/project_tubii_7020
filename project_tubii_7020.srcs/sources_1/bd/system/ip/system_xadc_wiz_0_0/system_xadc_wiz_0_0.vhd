@@ -114,7 +114,7 @@ architecture xilinx of system_xadc_wiz_0_0 is
     -----------------------------------------
     -- SYSMON Generics
     C_INCLUDE_INTR          : integer range 0 to 1   := 1;
-    C_SIM_MONITOR_FILE      : string                 := "/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
+    C_SIM_MONITOR_FILE      : string                 := "c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
    );
    port
    (
@@ -173,7 +173,7 @@ begin
     C_S_AXI_ADDR_WIDTH      => 11,
     C_S_AXI_DATA_WIDTH      => 32,
     C_INCLUDE_INTR          => 1,
-    C_SIM_MONITOR_FILE      => "/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
+    C_SIM_MONITOR_FILE      => "c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0/simulation/functional/design.txt"
    )
    port map
    (
