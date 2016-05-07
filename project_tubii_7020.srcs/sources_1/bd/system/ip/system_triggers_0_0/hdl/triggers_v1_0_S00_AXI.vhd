@@ -250,7 +250,7 @@ begin
         TRIG_WORD(22) <= TELLIE_TRIG_IN;
         TRIG_WORD(23) <= SMELLIE_TRIG_IN;
         TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
-        TUBII_WORD(47 downto 24) <= slv_reg7(23 downto 0);
+        TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
 
         slv_reg5(0) <= tsync;
         slv_reg5(1) <= tsync24;
@@ -272,7 +272,7 @@ begin
         elsif SYNCi='1' then
           slv_reg4(15 downto 0) <= (others=>'0');
           tsync <= '1';
-        elsif tsync='0' and tsync24='0' then
+        elsif tsync='0' and tsync24='0' and treset='0' then
           slv_reg4(23 downto 0) <= GTID_in;
         end if;
 
