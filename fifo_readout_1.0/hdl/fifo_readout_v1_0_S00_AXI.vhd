@@ -20,7 +20,6 @@ entity fifo_readout_v1_0_S00_AXI is
 		READ    : out std_logic;
         RESET   : out std_logic;
         RENABLE : out std_logic;
-        WENABLE : out std_logic;
         DATA    : in std_logic_vector(47 downto 0);
         FULL    : in std_logic;
         EMPTY   : in std_logic;
@@ -220,7 +219,6 @@ begin
         READ <= slv_reg0(0);
         RESET <= slv_reg0(1);
         RENABLE <= '1';
-        WENABLE <= slv_reg0(3);
 
         -- Outputs from the FIFO
         slv_reg1(23 downto 0) <= DATA(23 downto 0);
