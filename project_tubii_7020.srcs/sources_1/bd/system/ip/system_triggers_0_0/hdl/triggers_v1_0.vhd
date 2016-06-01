@@ -17,11 +17,10 @@ entity triggers_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-		ext_trig_in    : in std_logic_vector(15 downto 0);
-        mtca_mimic_in  : in std_logic_vector(1 downto 0);
-        int_trig_in    : in std_logic_vector(3 downto 0);
-        tellie_trig_in : in std_logic;
-        smellie_trig_in : in std_logic;
+        trigs_in       : in std_logic_vector(23 downto 0);
+        trigger_mask   : out std_logic_vector(23 downto 0);
+        speaker_mask   : out std_logic_vector(24 downto 0);
+        counter_mask   : out std_logic_vector(24 downto 0);
         gtrig          : in std_logic;
         gtid_in        : in std_logic_vector(23 downto 0);
         gtid_out       : out std_logic_vector(23 downto 0);
@@ -31,9 +30,6 @@ entity triggers_v1_0 is
         trig_word      : out std_logic_vector(23 downto 0);
         dtrig_word     : in std_logic_vector(23 downto 0);
         tubii_word     : out std_logic_vector(47 downto 0);
-        trig_out       : out std_logic;
-        speaker       : out std_logic;
-        counter       : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -93,11 +89,10 @@ architecture arch_imp of triggers_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-        EXT_TRIG_IN     : in std_logic_vector(15 downto 0);
-        MTCA_MIMIC_IN   : in std_logic_vector(1 downto 0);
-        INT_TRIG_IN     : in std_logic_vector(3 downto 0);
-        TELLIE_TRIG_IN  : in std_logic;
-        SMELLIE_TRIG_IN : in std_logic;
+        TRIGS_IN        : in std_logic_vector(23 downto 0);
+        TRIGGER_MASK    : out std_logic_vector(23 downto 0);
+        SPEAKER_MASK    : out std_logic_vector(24 downto 0);
+        COUNTER_MASK    : out std_logic_vector(24 downto 0);
         GTRIG           : in std_logic;
         GTID_in         : in std_logic_vector(23 downto 0);
         GTID_out        : out std_logic_vector(23 downto 0);
@@ -106,10 +101,7 @@ architecture arch_imp of triggers_v1_0 is
         SYNC24i         : in std_logic;
         TRIG_WORD       : out std_logic_vector(23 downto 0);
         DTRIG_WORD      : in std_logic_vector(23 downto 0);
-        TUBII_WORD      : out std_logic_vector(47 downto 0);
-        TRIG_OUT        : out std_logic;
-        SPEAKER         : out std_logic;
-        COUNTER         : out std_logic
+        TUBII_WORD      : out std_logic_vector(47 downto 0)
         );
 	end component triggers_v1_0_S00_AXI;
 
@@ -143,11 +135,10 @@ triggers_v1_0_S00_AXI_inst : triggers_v1_0_S00_AXI
 		S_AXI_RRESP	=> s00_axi_rresp,
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
-        EXT_TRIG_IN     => ext_trig_in,
-        MTCA_MIMIC_IN   => mtca_mimic_in,
-        INT_TRIG_IN     => int_trig_in,
-        TELLIE_TRIG_IN  => tellie_trig_in,
-        SMELLIE_TRIG_IN => smellie_trig_in,
+        TRIGS_IN        => trigs_in,
+        TRIGGER_MASK    => trigger_mask,
+        COUNTER_MASK    => counter_mask,
+        SPEAKER_MASK    => speaker_mask,
         GTRIG           => gtrig,
         GTID_in         => gtid_in,
         GTID_out        => gtid_out,
@@ -156,10 +147,7 @@ triggers_v1_0_S00_AXI_inst : triggers_v1_0_S00_AXI
         SYNC24i         => sync24i,
         TRIG_WORD       => trig_word,
         DTRIG_WORD      => dtrig_word,
-        TUBII_WORD      => tubii_word,
-        TRIG_OUT        => trig_out,
-        SPEAKER         => speaker,
-        COUNTER         => counter
+        TUBII_WORD      => tubii_word
 	);
 
 	-- Add user logic here

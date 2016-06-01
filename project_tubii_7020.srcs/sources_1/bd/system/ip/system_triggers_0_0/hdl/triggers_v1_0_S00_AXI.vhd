@@ -17,11 +17,10 @@ entity triggers_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-		EXT_TRIG_IN    : in std_logic_vector(15 downto 0);
-        MTCA_MIMIC_IN  : in std_logic_vector(1 downto 0);
-        INT_TRIG_IN    : in std_logic_vector(3 downto 0);
-        TELLIE_TRIG_IN : in std_logic;
-        SMELLIE_TRIG_IN : in std_logic;
+		TRIGS_IN       : in std_logic_vector(23 downto 0);
+        TRIGGER_MASK   : out std_logic_vector(23 downto 0);
+        SPEAKER_MASK   : out std_logic_vector(24 downto 0);
+        COUNTER_MASK   : out std_logic_vector(24 downto 0);
         GTRIG          : in std_logic;
         SYNCi          : in std_logic;
         SYNC24i        : in std_logic;
@@ -31,9 +30,6 @@ entity triggers_v1_0_S00_AXI is
         TRIG_WORD      : out std_logic_vector(23 downto 0);
         DTRIG_WORD     : in std_logic_vector(23 downto 0);
         TUBII_WORD     : out std_logic_vector(47 downto 0);
-        TRIG_OUT       : out std_logic;
-        SPEAKER        : out std_logic;
-        COUNTER        : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -232,23 +228,18 @@ begin
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
   	    -- slv_reg0 is trigger in (for debugging)
+  	    slv_reg0(23 downto 0)  <= TRIGS_IN;
         -- slv_reg1 is counter mask
+        COUNTER_MASK <= slv_reg1(24 downto 0);
         -- slv_reg2 is speaker mask
+        SPEAKER_MASK <= slv_reg2(24 downto 0);
         -- slv_reg3 is trigger mask
+        TRIGGER_MASK <= slv_reg3(23 downto 0);
         -- slv_reg4 is gtid
         -- slv_reg5 is syncs
         -- slv_reg6 is softgt
         -- slv_reg7 is soft reset
-        slv_reg0(15 downto 0)  <= EXT_TRIG_IN(15 downto 0);
-        slv_reg0(17 downto 16) <= MTCA_MIMIC_IN(1 downto 0);
-        slv_reg0(21 downto 18) <= INT_TRIG_IN(3 downto 0);
-        slv_reg0(22) <= TELLIE_TRIG_IN;
-        slv_reg0(23) <= SMELLIE_TRIG_IN;
-        TRIG_WORD(15 downto 0)  <= EXT_TRIG_IN(15 downto 0);
-        TRIG_WORD(17 downto 16) <= MTCA_MIMIC_IN(1 downto 0);
-        TRIG_WORD(21 downto 18) <= INT_TRIG_IN(3 downto 0);
-        TRIG_WORD(22) <= TELLIE_TRIG_IN;
-        TRIG_WORD(23) <= SMELLIE_TRIG_IN;
+        TRIG_WORD(23 downto 0)  <= TRIGS_IN(23 downto 0);
         TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
         TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
 
@@ -282,49 +273,6 @@ begin
           tsync <= '0';
           tsync24 <='0';
           treset <= '0';
-        end if;
-
-        ---- TUBII TRIGGER
-        if((EXT_TRIG_IN(0)='1' and slv_reg3(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg3(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg3(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg3(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg3(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg3(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg3(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg3(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg3(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg3(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg3(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg3(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg3(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg3(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg3(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg3(15)='1')) then
-          TRIG_OUT <= '1';
-        elsif((MTCA_MIMIC_IN(0)='1' and slv_reg3(16)='1') or (MTCA_MIMIC_IN(1)='1' and slv_reg3(17)='1')) then
-          TRIG_OUT <= '1';
-        elsif((INT_TRIG_IN(0)='1' and slv_reg3(18)='1') or (INT_TRIG_IN(1)='1' and slv_reg3(19)='1') or (INT_TRIG_IN(2)='1' and slv_reg3(20)='1') or (INT_TRIG_IN(3)='1' and slv_reg3(21)='1')) then
-          TRIG_OUT <= '1';
-        elsif((TELLIE_TRIG_IN='1' and slv_reg3(22)='1') or (SMELLIE_TRIG_IN='1' and slv_reg3(23)='1')) then
-          TRIG_OUT <= '1';
-        else
-          TRIG_OUT <= '0';
-        end if;
-
-        ---- SPEAKER
-        if((EXT_TRIG_IN(0)='1' and slv_reg2(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg2(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg2(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg2(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg2(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg2(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg2(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg2(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg2(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg2(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg2(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg2(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg2(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg2(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg2(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg2(15)='1')) then
-          SPEAKER <= '1';
-        elsif((MTCA_MIMIC_IN(0)='1' and slv_reg2(16)='1') or (MTCA_MIMIC_IN(1)='1' and slv_reg2(17)='1')) then
-          SPEAKER <= '1';
-        elsif((INT_TRIG_IN(0)='1' and slv_reg2(18)='1') or (INT_TRIG_IN(1)='1' and slv_reg2(19)='1') or (INT_TRIG_IN(2)='1' and slv_reg2(20)='1') or (INT_TRIG_IN(3)='1' and slv_reg2(21)='1')) then
-          SPEAKER <= '1';
-        elsif((TELLIE_TRIG_IN='1' and slv_reg2(22)='1') or (SMELLIE_TRIG_IN='1' and slv_reg2(23)='1')) then
-          SPEAKER <= '1';
-        elsif( GTRIG='1' and slv_reg2(24)='1') then
-          SPEAKER <= '1';
-        else
-          SPEAKER <= '0';
-        end if;
-
-        ---- COUNTER
-        if((EXT_TRIG_IN(0)='1' and slv_reg1(0)='1') or (EXT_TRIG_IN(1)='1' and slv_reg1(1)='1') or (EXT_TRIG_IN(2)='1' and slv_reg1(2)='1') or (EXT_TRIG_IN(3)='1' and slv_reg1(3)='1') or (EXT_TRIG_IN(4)='1' and slv_reg1(4)='1') or (EXT_TRIG_IN(5)='1' and slv_reg1(5)='1') or (EXT_TRIG_IN(6)='1' and slv_reg1(6)='1') or (EXT_TRIG_IN(7)='1' and slv_reg1(7)='1') or (EXT_TRIG_IN(8)='1' and slv_reg1(8)='1') or (EXT_TRIG_IN(9)='1' and slv_reg1(9)='1') or (EXT_TRIG_IN(10)='1' and slv_reg1(10)='1') or (EXT_TRIG_IN(11)='1' and slv_reg1(11)='1') or (EXT_TRIG_IN(12)='1' and slv_reg1(12)='1') or (EXT_TRIG_IN(13)='1' and slv_reg1(13)='1') or (EXT_TRIG_IN(14)='1' and slv_reg1(14)='1') or (EXT_TRIG_IN(15)='1' and slv_reg1(15)='1')) then
-          COUNTER <= '1';
-        elsif((MTCA_MIMIC_IN(0)='1' and slv_reg1(16)='1') or (MTCA_MIMIC_IN(1)='1' and slv_reg1(17)='1')) then
-          COUNTER <= '1';
-        elsif((INT_TRIG_IN(0)='1' and slv_reg1(18)='1') or (INT_TRIG_IN(1)='1' and slv_reg1(19)='1') or (INT_TRIG_IN(2)='1' and slv_reg1(20)='1') or (INT_TRIG_IN(3)='1' and slv_reg1(21)='1')) then
-          COUNTER <= '1';
-        elsif((TELLIE_TRIG_IN='1' and slv_reg1(22)='1') or (SMELLIE_TRIG_IN='1' and slv_reg1(23)='1')) then
-          COUNTER <= '1';
-        elsif( GTRIG='1' and slv_reg1(24)='1') then
-          COUNTER <= '1';
-        else
-          COUNTER <= '0';
         end if;
 
 	    if S_AXI_ARESETN = '0' then

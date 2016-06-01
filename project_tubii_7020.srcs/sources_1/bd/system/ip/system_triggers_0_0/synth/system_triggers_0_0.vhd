@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggers:1.0
--- IP Revision: 28
+-- IP Revision: 36
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -55,11 +55,10 @@ USE ieee.numeric_std.ALL;
 
 ENTITY system_triggers_0_0 IS
   PORT (
-    ext_trig_in : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-    mtca_mimic_in : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-    int_trig_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    tellie_trig_in : IN STD_LOGIC;
-    smellie_trig_in : IN STD_LOGIC;
+    trigs_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+    trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+    speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+    counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
     gtrig : IN STD_LOGIC;
     gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -69,9 +68,6 @@ ENTITY system_triggers_0_0 IS
     trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
     dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
-    trig_out : OUT STD_LOGIC;
-    speaker : OUT STD_LOGIC;
-    counter : OUT STD_LOGIC;
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
@@ -106,11 +102,10 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       C_S00_AXI_ADDR_WIDTH : INTEGER
     );
     PORT (
-      ext_trig_in : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-      mtca_mimic_in : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-      int_trig_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      tellie_trig_in : IN STD_LOGIC;
-      smellie_trig_in : IN STD_LOGIC;
+      trigs_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+      trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+      speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+      counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
       gtrig : IN STD_LOGIC;
       gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -120,9 +115,6 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       trig_word : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
       dtrig_word : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
-      trig_out : OUT STD_LOGIC;
-      speaker : OUT STD_LOGIC;
-      counter : OUT STD_LOGIC;
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
@@ -151,7 +143,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggers_0_0_arch : ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=28,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=36,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -181,11 +173,10 @@ BEGIN
       C_S00_AXI_ADDR_WIDTH => 5
     )
     PORT MAP (
-      ext_trig_in => ext_trig_in,
-      mtca_mimic_in => mtca_mimic_in,
-      int_trig_in => int_trig_in,
-      tellie_trig_in => tellie_trig_in,
-      smellie_trig_in => smellie_trig_in,
+      trigs_in => trigs_in,
+      trigger_mask => trigger_mask,
+      speaker_mask => speaker_mask,
+      counter_mask => counter_mask,
       gtrig => gtrig,
       gtid_in => gtid_in,
       gtid_out => gtid_out,
@@ -195,9 +186,6 @@ BEGIN
       trig_word => trig_word,
       dtrig_word => dtrig_word,
       tubii_word => tubii_word,
-      trig_out => trig_out,
-      speaker => speaker,
-      counter => counter,
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,
