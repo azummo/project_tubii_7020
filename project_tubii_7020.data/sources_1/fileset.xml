@@ -179,6 +179,7 @@
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="system_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/prescaleSignal_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/sync_gtid_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/SyncGTID_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/triggers_1.0"/>
