@@ -219,8 +219,10 @@ begin
           slv_reg1(0)<='0';
         end if;
       
-        if((slv_reg0=(slv_reg2-1))) then
-          OUTPUT <= '1';
+        if(slv_reg2<"00000000000000000000000000000010") then
+          OUTPUT <= INPUT;
+        elsif((slv_reg0=(slv_reg2-1))) then
+          OUTPUT <= INPUT;
         elsif((slv_reg0>(slv_reg2-1))) then
           OUTPUT <= '0';
           slv_reg0 <= (others=>'0');

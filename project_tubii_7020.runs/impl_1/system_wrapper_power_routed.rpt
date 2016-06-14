@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Wed Jun 08 14:45:03 2016
+| Date             : Tue Jun 14 11:14:02 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -50,9 +50,9 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.054 |        2 |       --- |             --- |
-| Slice Logic              |     0.017 |    29720 |       --- |             --- |
-|   LUT as Logic           |     0.014 |    12869 |     53200 |           24.18 |
+| Clocks                   |     0.053 |        2 |       --- |             --- |
+| Slice Logic              |     0.017 |    29765 |       --- |             --- |
+|   LUT as Logic           |     0.014 |    12930 |     53200 |           24.30 |
 |   CARRY4                 |     0.002 |     1302 |     13300 |            9.78 |
 |   Register               |    <0.001 |    11230 |    106400 |           10.55 |
 |   LUT as Distributed RAM |    <0.001 |      490 |     17400 |            2.81 |
@@ -60,7 +60,7 @@ Table of Contents
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      223 |       --- |             --- |
-| Signals                  |     0.025 |    21598 |       --- |             --- |
+| Signals                  |     0.025 |    21642 |       --- |             --- |
 | Block RAM                |     0.001 |       86 |       140 |           61.42 |
 | I/O                      |     0.008 |       54 |       125 |           43.20 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.113 |       0.098 |      0.015 |
+| Vccint    |       1.000 |     0.112 |       0.097 |      0.015 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -157,7 +157,7 @@ Table of Contents
 |   system_i                                                                                                                                                          |     1.408 |
 |     ShiftRegisters_0                                                                                                                                                |     0.005 |
 |     TrigWordDelay_0                                                                                                                                                 |     0.020 |
-|     axi_interconnect_0                                                                                                                                              |     0.028 |
+|     axi_interconnect_0                                                                                                                                              |     0.029 |
 |       m14_couplers/auto_cc                                                                                                                                          |     0.003 |
 |         inst                                                                                                                                                        |     0.003 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
@@ -304,10 +304,10 @@ Table of Contents
 |       tier2_xbar_2                                                                                                                                                  |     0.001 |
 |       xbar                                                                                                                                                          |     0.001 |
 |     burstTrigger_0                                                                                                                                                  |     0.002 |
-|     buttonTrigger_0                                                                                                                                                 |     0.002 |
+|     buttonTrigger_0                                                                                                                                                 |     0.001 |
 |     clockLogic_0                                                                                                                                                    |     0.001 |
 |     comboTrigger_0                                                                                                                                                  |     0.001 |
-|     countDisplay_0                                                                                                                                                  |     0.002 |
+|     countDisplay_0                                                                                                                                                  |     0.001 |
 |     fifo_generator_0                                                                                                                                                |     0.007 |
 |       U0                                                                                                                                                            |     0.007 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
