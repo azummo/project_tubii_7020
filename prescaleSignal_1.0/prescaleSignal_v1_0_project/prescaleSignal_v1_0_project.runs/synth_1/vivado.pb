@@ -40,7 +40,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 234.430 ; gain = 85.574
+rStarting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 233.906 ; gain = 85.031
 2default:default
 Ì
 synthesizing module '%s'638*oasys2'
@@ -88,11 +88,11 @@ _
 –
 default block is never used226*oasys2}
 gc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescaleSignal_v1_0_S00_AXI.vhd2default:default2
-2412default:default8@Z8-226
+2302default:default8@Z8-226
 –
 default block is never used226*oasys2}
 gc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescaleSignal_v1_0_S00_AXI.vhd2default:default2
-3742default:default8@Z8-226
+3632default:default8@Z8-226
 »
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +prescaleSignal_v1_0_S00_AXI__parameterized02default:default2
@@ -109,12 +109,30 @@ _c:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescal
 512default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 267.816 ; gain = 118.961
+sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 268.148 ; gain = 119.273
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 267.816 ; gain = 118.961
+yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 268.148 ; gain = 119.273
 2default:default
+Æ
+L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
+_-2default:default2
++2default:default2}
+gc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescaleSignal_v1_0_S00_AXI.vhd2default:default2
+2152default:default8@Z8-41
+Æ
+L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
+_-2default:default2
++2default:default2}
+gc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescaleSignal_v1_0_S00_AXI.vhd2default:default2
+2152default:default8@Z8-41
+Æ
+L'%s' operator could not be merged with '%s' operator due to loss of accuracy41*oasys2
+_-2default:default2
++2default:default2}
+gc:/Users/Ian/Documents/GitHub/project_tubii_7020/prescaleSignal_1.0/hdl/prescaleSignal_v1_0_S00_AXI.vhd2default:default2
+2152default:default8@Z8-41
 <
 %s*synth2-
 
@@ -168,7 +186,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 549.520 ; gain = 400.664
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 548.887 ; gain = 400.012
 2default:default
 B
 %s*synth23
@@ -180,11 +198,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   3 Input     33 Bit       Adders := 1     
+.	   2 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 2     
+.	   3 Input      9 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -212,23 +234,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 9     
+.	   2 Input      8 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
+.	   2 Input      1 Bit        Muxes := 6     
 2default:default
 F
 %s*synth27
@@ -256,11 +270,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   3 Input     33 Bit       Adders := 1     
+.	   2 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 2     
+.	   3 Input      9 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -288,23 +306,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 9     
+.	   2 Input      8 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
+.	   2 Input      1 Bit        Muxes := 6     
 2default:default
 —
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2H
@@ -380,7 +390,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 560.242 ; gain = 411.387
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 559.602 ; gain = 410.727
 2default:default
 ¢
 %s*synth2í
@@ -418,15 +428,15 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 prescaleSignal_v1_02default:defaultZ8-3332
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 586.617 ; gain = 437.762
+zFinished Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 586.617 ; gain = 437.762
+|Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 586.617 ; gain = 437.762
+{Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 D
 %s*synth25
@@ -434,7 +444,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 586.617 ; gain = 437.762
+uFinished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 ;
 %s*synth2,
@@ -463,11 +473,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 586.617 ; gain = 437.762
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 586.617 ; gain = 437.762
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 ¢
 %s*synth2í
@@ -531,23 +541,23 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|2     |CARRY4 |    28|
+|2     |CARRY4 |    11|
 2default:default
 ;
 %s*synth2,
-|3     |LUT1   |    64|
+|3     |LUT1   |    32|
 2default:default
 ;
 %s*synth2,
-|4     |LUT2   |    36|
+|4     |LUT2   |     4|
 2default:default
 ;
 %s*synth2,
-|5     |LUT3   |     1|
+|5     |LUT3   |     3|
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |   113|
+|6     |LUT4   |     6|
 2default:default
 ;
 %s*synth2,
@@ -555,7 +565,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|8     |LUT6   |   147|
+|8     |LUT6   |   194|
 2default:default
 ;
 %s*synth2,
@@ -567,7 +577,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|11    |IBUF   |    48|
+|11    |IBUF   |    55|
 2default:default
 ;
 %s*synth2,
@@ -596,11 +606,11 @@ a+------+-----------------------------------+-----------------------------------
 2default:default
 Ñ
 %s*synth2u
-a|1     |top                                |                                            |   657|
+a|1     |top                                |                                            |   525|
 2default:default
 Ñ
 %s*synth2u
-a|2     |  prescaleSignal_v1_0_S00_AXI_inst |prescaleSignal_v1_0_S00_AXI__parameterized0 |   566|
+a|2     |  prescaleSignal_v1_0_S00_AXI_inst |prescaleSignal_v1_0_S00_AXI__parameterized0 |   427|
 2default:default
 Ñ
 %s*synth2u
@@ -608,7 +618,7 @@ a+------+-----------------------------------+-----------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 586.617 ; gain = 437.762
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 j
 %s*synth2[
@@ -616,12 +626,12 @@ GSynthesis finished with 0 errors, 0 critical warnings and 22 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 586.617 ; gain = 437.762
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 584.949 ; gain = 436.074
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-482default:defaultZ29-17
+552default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -651,7 +661,7 @@ L
 æ
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-162default:default2
+192default:default2
 222default:default2
 02default:default2
 02default:defaultZ4-41
@@ -664,17 +674,17 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
 00:00:422default:default2
-00:01:072default:default2
-972.7382default:default2
-785.3752default:defaultZ17-268
+00:00:572default:default2
+972.0202default:default2
+784.5232default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.427 . Memory (MB): peak = 972.738 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.344 . Memory (MB): peak = 972.020 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Tue Jun 14 18:16:02 20162default:defaultZ17-206
+Mon Sep 26 12:44:38 20162default:defaultZ17-206

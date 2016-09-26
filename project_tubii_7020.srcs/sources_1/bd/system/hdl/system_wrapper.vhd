@@ -52,7 +52,7 @@ entity system_wrapper is
     smellie_delay_in : in STD_LOGIC;
     smellie_delay_out : out STD_LOGIC;
     smellie_pulser_out : out STD_LOGIC_VECTOR ( 0 to 0 );
-    speaker : out STD_LOGIC;
+    speaker : out STD_LOGIC_VECTOR ( 0 to 0 );
     sync : in STD_LOGIC;
     sync24 : in STD_LOGIC;
     tellie_delay_in : in STD_LOGIC;
@@ -121,7 +121,7 @@ architecture STRUCTURE of system_wrapper is
     Clk_in : in STD_LOGIC;
     Outtt : out STD_LOGIC;
     generic_delay_out : out STD_LOGIC;
-    speaker : out STD_LOGIC
+    speaker : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component system;
 begin
@@ -177,7 +177,7 @@ system_i: component system
       smellie_delay_in => smellie_delay_in,
       smellie_delay_out => smellie_delay_out,
       smellie_pulser_out(0) => smellie_pulser_out(0),
-      speaker => speaker,
+      speaker(0) => speaker(0),
       sync => sync,
       sync24 => sync24,
       tellie_delay_in => tellie_delay_in,

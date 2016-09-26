@@ -17,7 +17,7 @@ entity prescaleSignal_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-		INPUT : in std_logic;
+		RATE : in std_logic_vector(7 downto 0);
         OUTPUT : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -210,22 +210,11 @@ begin
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
 	    -- reg 0 counter
-        -- reg 2 prescale rate
-
-        if(INPUT='1' and slv_reg1(0)='0') then
-          slv_reg0 <= slv_reg0+1;
-          slv_reg1(0)<='1';
-        elsif(INPUT='0') then
-          slv_reg1(0)<='0';
-        end if;
-      
-        if(slv_reg2<"00000000000000000000000000000010") then
-          OUTPUT <= INPUT;
-        elsif((slv_reg0=(slv_reg2-1))) then
-          OUTPUT <= INPUT;
-        elsif((slv_reg0>(slv_reg2-1))) then
-          OUTPUT <= '0';
-          slv_reg0 <= (others=>'0');
+	    slv_reg0 <= slv_reg0+1;
+	    
+        if(slv_reg0(7 downto 0)+2 > RATE) then
+          OUTPUT <= '1';
+          slv_reg0 <= (others => '0');
         else
           OUTPUT <= '0';
         end if;

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Fri Jun 17 15:35:24 2016
+| Date             : Mon Sep 26 13:08:10 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.572 |
-| Dynamic (W)              | 1.419 |
+| Total On-Chip Power (W)  | 1.569 |
+| Dynamic (W)              | 1.416 |
 | Device Static (W)        | 0.153 |
 | Total Off-Chip Power (W) | 0.121 |
 | Effective TJA (C/W)      | 11.5  |
@@ -50,23 +50,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.055 |        2 |       --- |             --- |
-| Slice Logic              |     0.017 |    29764 |       --- |             --- |
-|   LUT as Logic           |     0.014 |    12920 |     53200 |           24.28 |
-|   CARRY4                 |     0.002 |     1302 |     13300 |            9.78 |
-|   Register               |    <0.001 |    11230 |    106400 |           10.55 |
-|   LUT as Distributed RAM |    <0.001 |      490 |     17400 |            2.81 |
+| Clocks                   |     0.053 |        2 |       --- |             --- |
+| Slice Logic              |     0.017 |    30734 |       --- |             --- |
+|   LUT as Logic           |     0.014 |    12955 |     53200 |           24.35 |
+|   CARRY4                 |     0.002 |     1285 |     13300 |            9.66 |
+|   LUT as Distributed RAM |    <0.001 |      588 |     17400 |            3.37 |
+|   Register               |    <0.001 |    11927 |    106400 |           11.20 |
 |   F7/F8 Muxes            |    <0.001 |      199 |     53200 |            0.37 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
-|   Others                 |     0.000 |      223 |       --- |             --- |
-| Signals                  |     0.026 |    21641 |       --- |             --- |
-| Block RAM                |     0.001 |       86 |       140 |           61.42 |
+|   Others                 |     0.000 |      227 |       --- |             --- |
+| Signals                  |     0.026 |    22405 |       --- |             --- |
+| Block RAM                |    <0.001 |       86 |       140 |           61.42 |
 | I/O                      |     0.008 |       54 |       125 |           43.20 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.153 |          |           |                 |
-| Total                    |     1.572 |          |           |                 |
+| Total                    |     1.569 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.115 |       0.100 |      0.015 |
+| Vccint    |       1.000 |     0.112 |       0.097 |      0.015 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -153,11 +153,39 @@ Table of Contents
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                                                                | Power (W) |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| system_wrapper                                                                                                                                                      |     1.419 |
-|   system_i                                                                                                                                                          |     1.410 |
+| system_wrapper                                                                                                                                                      |     1.416 |
+|   system_i                                                                                                                                                          |     1.408 |
 |     ShiftRegisters_0                                                                                                                                                |     0.005 |
 |     TrigWordDelay_0                                                                                                                                                 |     0.020 |
-|     axi_interconnect_0                                                                                                                                              |     0.029 |
+|     axi_interconnect_0                                                                                                                                              |     0.031 |
+|       m03_couplers/auto_cc                                                                                                                                          |     0.003 |
+|         inst                                                                                                                                                        |     0.003 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_33  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_34 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5   |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_12_17 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_18_23 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_30_35 |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_6_11  |    <0.001 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0   |     0.000 |
+|           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1   |     0.000 |
 |       m14_couplers/auto_cc                                                                                                                                          |     0.003 |
 |         inst                                                                                                                                                        |     0.003 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
@@ -303,13 +331,13 @@ Table of Contents
 |       tier2_xbar_1                                                                                                                                                  |     0.001 |
 |       tier2_xbar_2                                                                                                                                                  |     0.001 |
 |       xbar                                                                                                                                                          |     0.001 |
-|     burstTrigger_0                                                                                                                                                  |     0.003 |
-|     buttonTrigger_0                                                                                                                                                 |     0.002 |
+|     burstTrigger_0                                                                                                                                                  |     0.002 |
+|     buttonTrigger_0                                                                                                                                                 |     0.001 |
 |     clockLogic_0                                                                                                                                                    |     0.001 |
 |     comboTrigger_0                                                                                                                                                  |     0.001 |
-|     countDisplay_0                                                                                                                                                  |     0.002 |
-|     fifo_generator_0                                                                                                                                                |     0.007 |
-|       U0                                                                                                                                                            |     0.007 |
+|     countDisplay_0                                                                                                                                                  |     0.001 |
+|     fifo_generator_0                                                                                                                                                |     0.006 |
+|       U0                                                                                                                                                            |     0.006 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
 |     genericDelay                                                                                                                                                    |     0.002 |
 |     genericPulser                                                                                                                                                   |     0.001 |
@@ -317,8 +345,8 @@ Table of Contents
 |     implement_gtid_0                                                                                                                                                |    <0.001 |
 |     mz_happy_RnM                                                                                                                                                    |     0.001 |
 |     oneshot_pulse_0                                                                                                                                                 |     0.002 |
-|     oneshot_pulse_1                                                                                                                                                 |     0.002 |
-|     prescaleSignal_0                                                                                                                                                |     0.002 |
+|     oneshot_pulse_1                                                                                                                                                 |     0.001 |
+|     prescaleSignal_0                                                                                                                                                |    <0.001 |
 |     prescaleTrigger_0                                                                                                                                               |     0.001 |
 |     processing_system7_0                                                                                                                                            |     1.317 |
 |       U0                                                                                                                                                            |     1.317 |
@@ -333,6 +361,7 @@ Table of Contents
 |     util_vector_logic_0                                                                                                                                             |    <0.001 |
 |     util_vector_logic_1                                                                                                                                             |    <0.001 |
 |     util_vector_logic_2                                                                                                                                             |    <0.001 |
+|     util_vector_logic_3                                                                                                                                             |    <0.001 |
 |     xadc_wiz_0                                                                                                                                                      |     0.004 |
 |       U0                                                                                                                                                            |     0.004 |
 |     xlconcat_0                                                                                                                                                      |     0.000 |

@@ -17,7 +17,7 @@ entity prescaleSignal_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        input : in std_logic;
+        rate : in std_logic_vector(7 downto 0);
         output : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -78,7 +78,7 @@ architecture arch_imp of prescaleSignal_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-		INPUT : in std_logic;
+		RATE : in std_logic_vector(7 downto 0);
         OUTPUT : out std_logic
 		);
 	end component prescaleSignal_v1_0_S00_AXI;
@@ -113,7 +113,7 @@ prescaleSignal_v1_0_S00_AXI_inst : prescaleSignal_v1_0_S00_AXI
 		S_AXI_RRESP	=> s00_axi_rresp,
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
-		INPUT => input,
+		RATE => rate,
         OUTPUT => output
 	);
 

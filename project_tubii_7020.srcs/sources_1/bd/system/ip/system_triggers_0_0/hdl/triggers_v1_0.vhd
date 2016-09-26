@@ -21,6 +21,7 @@ entity triggers_v1_0 is
         trigger_mask   : out std_logic_vector(23 downto 0);
         speaker_mask   : out std_logic_vector(24 downto 0);
         counter_mask   : out std_logic_vector(24 downto 0);
+        speaker_scale  : out std_logic_vector(7 downto 0);
         gtrig          : in std_logic;
         gtid_in        : in std_logic_vector(23 downto 0);
         gtid_out       : out std_logic_vector(23 downto 0);
@@ -93,6 +94,7 @@ architecture arch_imp of triggers_v1_0 is
         TRIGGER_MASK    : out std_logic_vector(23 downto 0);
         SPEAKER_MASK    : out std_logic_vector(24 downto 0);
         COUNTER_MASK    : out std_logic_vector(24 downto 0);
+        SPEAKER_SCALE   : out std_logic_vector(7 downto 0);
         GTRIG           : in std_logic;
         GTID_in         : in std_logic_vector(23 downto 0);
         GTID_out        : out std_logic_vector(23 downto 0);
@@ -139,6 +141,7 @@ triggers_v1_0_S00_AXI_inst : triggers_v1_0_S00_AXI
         TRIGGER_MASK    => trigger_mask,
         COUNTER_MASK    => counter_mask,
         SPEAKER_MASK    => speaker_mask,
+        SPEAKER_SCALE   => speaker_scale,
         GTRIG           => gtrig,
         GTID_in         => gtid_in,
         GTID_out        => gtid_out,

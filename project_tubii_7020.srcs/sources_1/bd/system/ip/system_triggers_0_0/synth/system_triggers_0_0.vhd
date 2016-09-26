@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggers:1.0
--- IP Revision: 36
+-- IP Revision: 40
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -59,6 +59,7 @@ ENTITY system_triggers_0_0 IS
     trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
     speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
     counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+    speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
     gtrig : IN STD_LOGIC;
     gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -106,6 +107,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
       speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
       counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+      speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
       gtrig : IN STD_LOGIC;
       gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       gtid_out : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -143,7 +145,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggers_0_0_arch : ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=36,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=40,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -177,6 +179,7 @@ BEGIN
       trigger_mask => trigger_mask,
       speaker_mask => speaker_mask,
       counter_mask => counter_mask,
+      speaker_scale => speaker_scale,
       gtrig => gtrig,
       gtid_in => gtid_in,
       gtid_out => gtid_out,

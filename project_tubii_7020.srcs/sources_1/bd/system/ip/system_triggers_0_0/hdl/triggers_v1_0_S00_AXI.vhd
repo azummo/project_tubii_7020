@@ -21,6 +21,7 @@ entity triggers_v1_0_S00_AXI is
         TRIGGER_MASK   : out std_logic_vector(23 downto 0);
         SPEAKER_MASK   : out std_logic_vector(24 downto 0);
         COUNTER_MASK   : out std_logic_vector(24 downto 0);
+        SPEAKER_SCALE  : out std_logic_vector(7 downto 0);
         GTRIG          : in std_logic;
         SYNCi          : in std_logic;
         SYNC24i        : in std_logic;
@@ -243,8 +244,9 @@ begin
         TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
         TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
 
-        slv_reg5(0) <= tsync;
-        slv_reg5(1) <= tsync24;
+        --slv_reg5(0) <= tsync;
+        --slv_reg5(1) <= tsync24;
+        SPEAKER_SCALE <= slv_reg5(7 downto 0);
 
         -- Soft GT for initialisation
         if(slv_reg6(0)='1') then
