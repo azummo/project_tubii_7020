@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Mon Sep 26 13:05:28 2016
+| Date         : Thu Sep 29 14:52:05 2016
 | Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command      : report_io -file system_wrapper_io_placed.rpt
 | Design       : system_wrapper
@@ -22,7 +22,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           184 |
+|           185 |
 +---------------+
 
 
@@ -406,7 +406,7 @@ Table of Contents
 | W12        |                       |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | W13        | trig_out              | IOB33S    | IO_L4N_T0_34            | OUTPUT    | LVTTL             |             34 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | W14        | display_latch         | IOB33M    | IO_L8P_T1_34            | OUTPUT    | LVTTL             |             34 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
-| W15        |                       | IOB33S    | IO_L10N_T1_34           | UNUSED    |                   |             34 |            |           |             |           |         |            |                        |                  |
+| W15        | control_rdy_II        | IOB33S    | IO_L10N_T1_34           | OUTPUT    | LVTTL             |             34 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | W16        | ext_trig_in[6]        | IOB33S    | IO_L18N_T2_34           | INPUT     | LVTTL             |             34 |            |           |             |      NONE |         | FIXED      | NONE                   | NONE             |
 | W17        |                       |           | VCCO_34                 |           |                   |             34 |            |           |             |           |    3.30 |            |                        |                  |
 | W18        | ext_trig_in[3]        | IOB33M    | IO_L22P_T3_34           | INPUT     | LVTTL             |             34 |            |           |             |      NONE |         | FIXED      | NONE                   | NONE             |

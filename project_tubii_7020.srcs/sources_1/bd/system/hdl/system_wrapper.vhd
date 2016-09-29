@@ -31,6 +31,7 @@ entity system_wrapper is
     caen_rdy : out STD_LOGIC;
     clocks_rdy : out STD_LOGIC;
     control_rdy : out STD_LOGIC;
+    control_rdy_II : out STD_LOGIC;
     delay_gt : out STD_LOGIC;
     display_count : out STD_LOGIC;
     display_latch : out STD_LOGIC;
@@ -86,8 +87,8 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    Outt : out STD_LOGIC;
     trig_out : out STD_LOGIC;
+    Outt : out STD_LOGIC;
     display_reset : out STD_LOGIC;
     display_latch : out STD_LOGIC;
     display_count : out STD_LOGIC;
@@ -121,7 +122,8 @@ architecture STRUCTURE of system_wrapper is
     Clk_in : in STD_LOGIC;
     Outtt : out STD_LOGIC;
     generic_delay_out : out STD_LOGIC;
-    speaker : out STD_LOGIC_VECTOR ( 0 to 0 )
+    speaker : out STD_LOGIC_VECTOR ( 0 to 0 );
+    control_rdy_II : out STD_LOGIC
   );
   end component system;
 begin
@@ -156,6 +158,7 @@ system_i: component system
       caen_rdy => caen_rdy,
       clocks_rdy => clocks_rdy,
       control_rdy => control_rdy,
+      control_rdy_II => control_rdy_II,
       delay_gt => delay_gt,
       display_count => display_count,
       display_latch => display_latch,
