@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Thu Sep 29 14:55:26 2016
+| Date             : Mon Oct 03 13:23:35 2016
 | Host             : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -51,18 +51,18 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.055 |        2 |       --- |             --- |
-| Slice Logic              |     0.017 |    30734 |       --- |             --- |
-|   LUT as Logic           |     0.014 |    12975 |     53200 |           24.38 |
+| Slice Logic              |     0.017 |    31316 |       --- |             --- |
+|   LUT as Logic           |     0.014 |    13453 |     53200 |           25.28 |
 |   CARRY4                 |     0.002 |     1285 |     13300 |            9.66 |
 |   LUT as Distributed RAM |    <0.001 |      588 |     17400 |            3.37 |
-|   Register               |    <0.001 |    11927 |    106400 |           11.20 |
+|   Register               |    <0.001 |    12081 |    106400 |           11.35 |
 |   F7/F8 Muxes            |    <0.001 |      199 |     53200 |            0.37 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      227 |       --- |             --- |
-| Signals                  |     0.026 |    22405 |       --- |             --- |
+| Signals                  |     0.026 |    22865 |       --- |             --- |
 | Block RAM                |    <0.001 |       86 |       140 |           61.42 |
-| I/O                      |     0.008 |       55 |       125 |           44.00 |
+| I/O                      |     0.009 |       55 |       125 |           44.00 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.153 |          |           |                 |
@@ -157,7 +157,7 @@ Table of Contents
 |   system_i                                                                                                                                                          |     1.410 |
 |     ShiftRegisters_0                                                                                                                                                |     0.005 |
 |     TrigWordDelay_0                                                                                                                                                 |     0.020 |
-|     axi_interconnect_0                                                                                                                                              |     0.032 |
+|     axi_interconnect_0                                                                                                                                              |     0.031 |
 |       m03_couplers/auto_cc                                                                                                                                          |     0.003 |
 |         inst                                                                                                                                                        |     0.003 |
 |           gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5    |    <0.001 |
@@ -330,14 +330,14 @@ Table of Contents
 |       tier2_xbar_0                                                                                                                                                  |     0.001 |
 |       tier2_xbar_1                                                                                                                                                  |     0.001 |
 |       tier2_xbar_2                                                                                                                                                  |     0.001 |
-|       xbar                                                                                                                                                          |     0.002 |
+|       xbar                                                                                                                                                          |     0.001 |
 |     burstTrigger_0                                                                                                                                                  |     0.002 |
-|     buttonTrigger_0                                                                                                                                                 |     0.002 |
+|     buttonTrigger_0                                                                                                                                                 |     0.001 |
 |     clockLogic_0                                                                                                                                                    |     0.001 |
 |     comboTrigger_0                                                                                                                                                  |     0.001 |
 |     countDisplay_0                                                                                                                                                  |     0.001 |
-|     fifo_generator_0                                                                                                                                                |     0.007 |
-|       U0                                                                                                                                                            |     0.007 |
+|     fifo_generator_0                                                                                                                                                |     0.006 |
+|       U0                                                                                                                                                            |     0.006 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
 |     genericDelay                                                                                                                                                    |     0.002 |
 |     genericPulser                                                                                                                                                   |     0.001 |
@@ -354,14 +354,16 @@ Table of Contents
 |     smelliePulser                                                                                                                                                   |    <0.001 |
 |     tellieDelay                                                                                                                                                     |    <0.001 |
 |     telliePulser                                                                                                                                                    |    <0.001 |
-|     triggers_0                                                                                                                                                      |     0.005 |
+|     triggers_0                                                                                                                                                      |     0.006 |
 |     util_reduced_logic_0                                                                                                                                            |    <0.001 |
 |     util_reduced_logic_1                                                                                                                                            |    <0.001 |
 |     util_reduced_logic_2                                                                                                                                            |    <0.001 |
+|     util_reduced_logic_3                                                                                                                                            |    <0.001 |
 |     util_vector_logic_0                                                                                                                                             |    <0.001 |
 |     util_vector_logic_1                                                                                                                                             |    <0.001 |
 |     util_vector_logic_2                                                                                                                                             |    <0.001 |
 |     util_vector_logic_3                                                                                                                                             |    <0.001 |
+|     util_vector_logic_4                                                                                                                                             |    <0.001 |
 |     xadc_wiz_0                                                                                                                                                      |     0.004 |
 |       U0                                                                                                                                                            |     0.004 |
 |     xlconcat_0                                                                                                                                                      |     0.000 |

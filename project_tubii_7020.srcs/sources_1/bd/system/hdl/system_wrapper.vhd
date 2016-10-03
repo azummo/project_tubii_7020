@@ -94,7 +94,6 @@ architecture STRUCTURE of system_wrapper is
     display_count : out STD_LOGIC;
     generic_delay_in : in STD_LOGIC;
     tellie_delay_in : in STD_LOGIC;
-    tellie_delay_out : out STD_LOGIC;
     smellie_delay_out : out STD_LOGIC;
     smellie_delay_in : in STD_LOGIC;
     sync : in STD_LOGIC;
@@ -110,6 +109,7 @@ architecture STRUCTURE of system_wrapper is
     ext_trig_in : in STD_LOGIC_VECTOR ( 15 downto 0 );
     muxer : out STD_LOGIC_VECTOR ( 2 downto 0 );
     enablemux : out STD_LOGIC;
+    control_rdy_II : out STD_LOGIC;
     control_rdy : out STD_LOGIC;
     caen_rdy : out STD_LOGIC;
     mtcamimic_rdy : out STD_LOGIC;
@@ -123,7 +123,7 @@ architecture STRUCTURE of system_wrapper is
     Outtt : out STD_LOGIC;
     generic_delay_out : out STD_LOGIC;
     speaker : out STD_LOGIC_VECTOR ( 0 to 0 );
-    control_rdy_II : out STD_LOGIC
+    tellie_delay_out : out STD_LOGIC
   );
   end component system;
 begin

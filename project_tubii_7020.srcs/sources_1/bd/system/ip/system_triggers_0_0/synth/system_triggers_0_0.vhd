@@ -46,8 +46,8 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: xilinx.com:user:triggers:1.0
--- IP Revision: 40
+-- IP VLNV: xilinx.com:user:triggers:2.0
+-- IP Revision: 3
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -57,6 +57,7 @@ ENTITY system_triggers_0_0 IS
   PORT (
     trigs_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
     trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+    trigger_async_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
     speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
     counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
     speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
@@ -71,7 +72,7 @@ ENTITY system_triggers_0_0 IS
     tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
-    s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+    s00_axi_awaddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
     s00_axi_awready : OUT STD_LOGIC;
@@ -82,7 +83,7 @@ ENTITY system_triggers_0_0 IS
     s00_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s00_axi_bvalid : OUT STD_LOGIC;
     s00_axi_bready : IN STD_LOGIC;
-    s00_axi_araddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+    s00_axi_araddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
     s00_axi_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_arvalid : IN STD_LOGIC;
     s00_axi_arready : OUT STD_LOGIC;
@@ -97,7 +98,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : string;
   ATTRIBUTE DowngradeIPIdentifiedWarnings OF system_triggers_0_0_arch: ARCHITECTURE IS "yes";
 
-  COMPONENT triggers_v1_0 IS
+  COMPONENT triggers_v2_0 IS
     GENERIC (
       C_S00_AXI_DATA_WIDTH : INTEGER;
       C_S00_AXI_ADDR_WIDTH : INTEGER
@@ -105,6 +106,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
     PORT (
       trigs_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
       trigger_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
+      trigger_async_mask : OUT STD_LOGIC_VECTOR(23 DOWNTO 0);
       speaker_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
       counter_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
       speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
@@ -119,7 +121,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       tubii_word : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
-      s00_axi_awaddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+      s00_axi_awaddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
       s00_axi_awready : OUT STD_LOGIC;
@@ -130,7 +132,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       s00_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
       s00_axi_bvalid : OUT STD_LOGIC;
       s00_axi_bready : IN STD_LOGIC;
-      s00_axi_araddr : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+      s00_axi_araddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
       s00_axi_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_arvalid : IN STD_LOGIC;
       s00_axi_arready : OUT STD_LOGIC;
@@ -139,13 +141,13 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       s00_axi_rvalid : OUT STD_LOGIC;
       s00_axi_rready : IN STD_LOGIC
     );
-  END COMPONENT triggers_v1_0;
+  END COMPONENT triggers_v2_0;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "triggers_v1_0,Vivado 2013.4";
+  ATTRIBUTE X_CORE_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "triggers_v2_0,Vivado 2013.4";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
-  ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggers_0_0_arch : ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{}";
+  ATTRIBUTE CHECK_LICENSE_TYPE OF system_triggers_0_0_arch : ARCHITECTURE IS "system_triggers_0_0,triggers_v2_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=1.0,x_ipCoreRevision=40,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=5}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_triggers_0_0_arch: ARCHITECTURE IS "system_triggers_0_0,triggers_v2_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=triggers,x_ipVersion=2.0,x_ipCoreRevision=3,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=6}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -169,14 +171,15 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RVALID";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RREADY";
 BEGIN
-  U0 : triggers_v1_0
+  U0 : triggers_v2_0
     GENERIC MAP (
       C_S00_AXI_DATA_WIDTH => 32,
-      C_S00_AXI_ADDR_WIDTH => 5
+      C_S00_AXI_ADDR_WIDTH => 6
     )
     PORT MAP (
       trigs_in => trigs_in,
       trigger_mask => trigger_mask,
+      trigger_async_mask => trigger_async_mask,
       speaker_mask => speaker_mask,
       counter_mask => counter_mask,
       speaker_scale => speaker_scale,
