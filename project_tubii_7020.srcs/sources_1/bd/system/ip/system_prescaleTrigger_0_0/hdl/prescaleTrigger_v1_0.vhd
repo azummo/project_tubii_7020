@@ -16,8 +16,8 @@ entity prescaleTrigger_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        prescale_trigin   : in std_logic_vector(15 downto 0);
-        prescale_trigout  : out std_logic;
+        prescale_mask   : out std_logic_vector(15 downto 0);
+        prescale_rate   : out std_logic_vector(7 downto 0);
 
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -78,8 +78,8 @@ architecture arch_imp of prescaleTrigger_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-        PRESCALE_TRIGIN  : in std_logic_vector(15 downto 0);
-        PRESCALE_TRIGOUT : out std_logic
+        PRESCALE_MASK   : out std_logic_vector(15 downto 0);
+        PRESCALE_RATE   : out std_logic_vector(7 downto 0)
 		);
 	end component prescaleTrigger_v1_0_S00_AXI;
 
@@ -113,8 +113,8 @@ prescaleTrigger_v1_0_S00_AXI_inst : prescaleTrigger_v1_0_S00_AXI
 		S_AXI_RRESP	=> s00_axi_rresp,
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
-		PRESCALE_TRIGIN  => prescale_trigin,
-        PRESCALE_TRIGOUT => prescale_trigout
+		PRESCALE_MASK  => prescale_mask,
+        PRESCALE_RATE => prescale_rate
 	);
 
 	-- Add user logic here

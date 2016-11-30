@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Mon Oct 03 12:58:28 2016
-| Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
+| Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
+| Date         : Wed Nov 30 14:31:29 2016
+| Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.8 (Final)
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
 | Device       : xc7z020
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 16441 |     0 |     53200 | 30.90 |
-|   LUT as Logic             | 15772 |     0 |     53200 | 29.64 |
-|   LUT as Memory            |   669 |     0 |     17400 |  3.84 |
-|     LUT as Distributed RAM |   600 |     0 |           |       |
+| Slice LUTs*                | 17183 |     0 |     53200 | 32.29 |
+|   LUT as Logic             | 16314 |     0 |     53200 | 30.66 |
+|   LUT as Memory            |   869 |     0 |     17400 |  4.99 |
+|     LUT as Distributed RAM |   800 |     0 |           |       |
 |     LUT as Shift Register  |    69 |     0 |           |       |
-| Slice Registers            | 12080 |     0 |    106400 | 11.35 |
-|   Register as Flip Flop    | 12080 |     0 |    106400 | 11.35 |
+| Slice Registers            | 13639 |     0 |    106400 | 12.81 |
+|   Register as Flip Flop    | 13639 |     0 |    106400 | 12.81 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |   154 |     0 |     26600 |  0.57 |
 | F8 Muxes                   |    45 |     0 |     13300 |  0.33 |
@@ -128,34 +128,34 @@ Table of Contents
 7. Primitives
 -------------
 
-+----------+------+
-| Ref Name | Used |
-+----------+------+
-| FDRE     | 9446 |
-| LUT6     | 4324 |
-| LUT4     | 3541 |
-| LUT5     | 2827 |
-| LUT2     | 2739 |
-| LUT1     | 2633 |
-| LUT3     | 2507 |
-| FDCE     | 1988 |
-| CARRY4   | 1285 |
-| RAMD32   |  888 |
-| FDPE     |  503 |
-| RAMS32   |  288 |
-| MUXF7    |  154 |
-| FDSE     |  143 |
-| BIBUF    |  130 |
-| RAMB36E1 |   86 |
-| SRLC32E  |   47 |
-| MUXF8    |   45 |
-| OBUF     |   28 |
-| IBUF     |   27 |
-| SRL16E   |   22 |
-| BUFG     |    2 |
-| XADC     |    1 |
-| PS7      |    1 |
-+----------+------+
++----------+-------+
+| Ref Name |  Used |
++----------+-------+
+| FDRE     | 10247 |
+| LUT6     |  4422 |
+| LUT4     |  3721 |
+| LUT5     |  2914 |
+| LUT2     |  2882 |
+| LUT3     |  2690 |
+| LUT1     |  2642 |
+| FDCE     |  2582 |
+| CARRY4   |  1268 |
+| RAMD32   |  1184 |
+| FDPE     |   665 |
+| RAMS32   |   384 |
+| MUXF7    |   154 |
+| FDSE     |   145 |
+| BIBUF    |   130 |
+| RAMB36E1 |    86 |
+| SRLC32E  |    47 |
+| MUXF8    |    45 |
+| OBUF     |    28 |
+| IBUF     |    27 |
+| SRL16E   |    22 |
+| BUFG     |     2 |
+| XADC     |     1 |
+| PS7      |     1 |
++----------+-------+
 
 
 8. Black Boxes

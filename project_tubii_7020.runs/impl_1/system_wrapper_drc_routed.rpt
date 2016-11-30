@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
-| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Mon Oct 03 13:22:48 2016
-| Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
+| Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
+| Date         : Wed Nov 30 14:34:30 2016
+| Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.8 (Final)
 | Command      : report_drc
 -----------------------------------------------------------------------------------
 
@@ -119,7 +119,7 @@ REPORT SUMMARY
                      Delay constraint missing on IO port
                      PS7 block required
            Max violations: <unlimited>
-         Violations found: 192
+         Violations found: 194
 
 2. REPORT DETAILS
 -----------------
@@ -141,14 +141,30 @@ Physical design rule
 Net system_i/util_reduced_logic_1/Res is a gated clock net sourced by a combinational pin system_i/util_reduced_logic_1/Res_INST_0/O, cell system_i/util_reduced_logic_1/Res_INST_0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
+PDRC-153#2 Warning
+Physical design rule  
+Net system_i/util_reduced_logic_4/Res is a gated clock net sourced by a combinational pin system_i/util_reduced_logic_4/Res_INST_0/O, cell system_i/util_reduced_logic_4/Res_INST_0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT system_i/util_reduced_logic_1/Res_INST_0 is driving clock pin of 633 cells. This could lead to large hold time violations. First few involved cells are:
-    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0/DP (in system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0 macro) {RAMD32}
-    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0/SP (in system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0 macro) {RAMD32}
-    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1/DP (in system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1 macro) {RAMD32}
-    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1/SP (in system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1 macro) {RAMD32}
-    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[34] {FDRE}
+    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[21] {FDRE}
+    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[22] {FDRE}
+    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[23] {FDRE}
+    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[24] {FDRE}
+    system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[25] {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT system_i/util_reduced_logic_4/Res_INST_0 is driving clock pin of 633 cells. This could lead to large hold time violations. First few involved cells are:
+    system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29/RAMD_D1 (in system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 macro) {RAMS32}
+    system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29/RAMD (in system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 macro) {RAMS32}
+    system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29/RAMC_D1 (in system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 macro) {RAMD32}
+    system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29/RAMC (in system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 macro) {RAMD32}
+    system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29/RAMB_D1 (in system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_24_29 macro) {RAMD32}
 
 Related violations: <none>
 
@@ -1094,7 +1110,7 @@ Related violations: <none>
 
 RTSTAT-10#1 Advisory
 No routable loads  
-432 net(s) have no routable loads. The problem net(s) are system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWLOCK[0] (the first 15 of 432 listed).
+564 net(s) have no routable loads. The problem net(s) are system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARLOCK[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[0], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[1], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[2], system_i/processing_system7_0/U0/M_AXI_GP0_ARQOS[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[0], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[1], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[2], system_i/processing_system7_0/U0/M_AXI_GP0_AWCACHE[3], system_i/processing_system7_0/U0/M_AXI_GP0_AWLOCK[0] (the first 15 of 564 listed).
 Related violations: <none>
 
 

@@ -17,8 +17,8 @@ entity prescaleTrigger_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-		PRESCALE_TRIGIN   : in std_logic_vector(15 downto 0);
-        PRESCALE_TRiGOUT  : out std_logic;
+		PRESCALE_MASK   : out std_logic_vector(15 downto 0);
+        PRESCALE_RATE   : out std_logic_vector(7 downto 0);
 
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -210,33 +210,11 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
-        -- reg 0 counter
         -- reg 2 prescale rate
         -- reg 3 prescale mask
 
-        for i in 0 to 15 loop
-          if(slv_reg3(i)='1' and PRESCALE_TRIGIN(i)='1') then
-            slv_reg1(1)<='1';
-            exit;
-          end if;
-          slv_reg1(1)<='0';
-        end loop;
-
-        if(slv_reg1(1)='1' and slv_reg1(0)='0') then
-          slv_reg0 <= slv_reg0+1;
-          slv_reg1(0)<='1';
-        elsif(slv_reg1(1)='0') then
-          slv_reg1(0)<='0';
-        end if;
-        
-        if((slv_reg0=(slv_reg2-1))) then
-          PRESCALE_TRIGOUT <= slv_reg1(1);
-        elsif((slv_reg0>(slv_reg2-1))) then
-          PRESCALE_TRIGOUT <= '0';
-          slv_reg0 <= (others=>'0');
-        else
-          PRESCALE_TRIGOUT <= '0';
-        end if;
+        PRESCALE_RATE <= slv_reg2(7 downto 0);
+        PRESCALE_MASK <= slv_reg3(15 downto 0);
 	  
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');

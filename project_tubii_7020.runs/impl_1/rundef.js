@@ -4,13 +4,17 @@
 // Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 //
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH variable below, before executing this script"
+exit
+
 var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2013.4/bin;";
+  PathVal = "/home/snoperator/Xilinx/SDK/2013.4/bin/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/lin64;/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/lin64;/home/snoperator/Xilinx/Vivado/2013.4/bin;";
 } else {
-  PathVal = "C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2013.4/bin;" + PathVal;
+  PathVal = "/home/snoperator/Xilinx/SDK/2013.4/bin/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/lin64;/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/lin64:/home/snoperator/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/lin64;/home/snoperator/Xilinx/Vivado/2013.4/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;
@@ -23,7 +27,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "write_bitstream", "begin" );
+ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
          "-log system_wrapper.rdi -applog -m64 -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace" );
 
