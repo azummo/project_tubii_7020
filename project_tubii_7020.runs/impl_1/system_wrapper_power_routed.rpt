@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date             : Thu Dec  1 07:49:09 2016
+| Date             : Thu Dec  1 13:55:40 2016
 | Host             : monag2.sp.snolab.ca running 64-bit CentOS release 6.8 (Final)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.576 |
-| Dynamic (W)              | 1.423 |
+| Total On-Chip Power (W)  | 1.575 |
+| Dynamic (W)              | 1.422 |
 | Device Static (W)        | 0.153 |
 | Total Off-Chip Power (W) | 0.121 |
 | Effective TJA (C/W)      | 11.5  |
@@ -51,22 +51,22 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.056 |        2 |       --- |             --- |
-| Slice Logic              |     0.018 |    33960 |       --- |             --- |
-|   LUT as Logic           |     0.014 |    14013 |     53200 |           26.34 |
+| Slice Logic              |     0.018 |    33992 |       --- |             --- |
+|   LUT as Logic           |     0.015 |    14022 |     53200 |           26.35 |
 |   CARRY4                 |     0.002 |     1268 |     13300 |            9.53 |
 |   LUT as Distributed RAM |    <0.001 |      784 |     17400 |            4.50 |
-|   Register               |    <0.001 |    13640 |    106400 |           12.81 |
+|   Register               |    <0.001 |    13670 |    106400 |           12.84 |
 |   F7/F8 Muxes            |    <0.001 |      199 |     53200 |            0.37 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.12 |
 |   LUT as Shift Register  |    <0.001 |       61 |     17400 |            0.35 |
 |   Others                 |     0.000 |      237 |       --- |             --- |
-| Signals                  |     0.027 |    24886 |       --- |             --- |
+| Signals                  |     0.027 |    24920 |       --- |             --- |
 | Block RAM                |     0.001 |       86 |       140 |           61.42 |
 | I/O                      |     0.009 |       55 |       125 |           44.00 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.309 |        1 |       --- |             --- |
 | Static Power             |     0.153 |          |           |                 |
-| Total                    |     1.576 |          |           |                 |
+| Total                    |     1.575 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.118 |       0.103 |      0.015 |
+| Vccint    |       1.000 |     0.117 |       0.102 |      0.015 |
 | Vccaux    |       1.800 |     0.021 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.004 |       0.003 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -153,7 +153,7 @@ Table of Contents
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                                                                | Power (W) |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| system_wrapper                                                                                                                                                      |     1.423 |
+| system_wrapper                                                                                                                                                      |     1.422 |
 |   system_i                                                                                                                                                          |     1.413 |
 |     ShiftRegisters_0                                                                                                                                                |     0.005 |
 |     TrigWordDelay_0                                                                                                                                                 |     0.019 |
@@ -395,7 +395,7 @@ Table of Contents
 |     fifo_generator_0                                                                                                                                                |     0.007 |
 |       U0                                                                                                                                                            |     0.007 |
 |     fifo_readout_0                                                                                                                                                  |     0.002 |
-|     genericDelay                                                                                                                                                    |     0.002 |
+|     genericDelay                                                                                                                                                    |     0.001 |
 |     genericPulser                                                                                                                                                   |     0.001 |
 |     gtDelay                                                                                                                                                         |     0.002 |
 |     implement_gtid_0                                                                                                                                                |    <0.001 |
@@ -417,6 +417,8 @@ Table of Contents
 |     util_reduced_logic_2                                                                                                                                            |    <0.001 |
 |     util_reduced_logic_3                                                                                                                                            |    <0.001 |
 |     util_reduced_logic_4                                                                                                                                            |    <0.001 |
+|     util_reduced_logic_5                                                                                                                                            |    <0.001 |
+|     util_reduced_logic_6                                                                                                                                            |    <0.001 |
 |     util_vector_logic_0                                                                                                                                             |    <0.001 |
 |     util_vector_logic_1                                                                                                                                             |    <0.001 |
 |     util_vector_logic_2                                                                                                                                             |    <0.001 |
@@ -424,6 +426,9 @@ Table of Contents
 |     util_vector_logic_4                                                                                                                                             |    <0.001 |
 |     util_vector_logic_5                                                                                                                                             |    <0.001 |
 |     util_vector_logic_6                                                                                                                                             |    <0.001 |
+|     util_vector_logic_7                                                                                                                                             |    <0.001 |
+|     util_vector_logic_8                                                                                                                                             |    <0.001 |
+|     util_vector_logic_9                                                                                                                                             |    <0.001 |
 |     xadc_wiz_0                                                                                                                                                      |     0.004 |
 |       U0                                                                                                                                                            |     0.004 |
 |     xlconcat_0                                                                                                                                                      |     0.000 |

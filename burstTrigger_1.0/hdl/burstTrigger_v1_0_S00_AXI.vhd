@@ -17,8 +17,10 @@ entity burstTrigger_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-        BURST_TRIGIN    : in std_logic_vector(15 downto 0);
+        BURST_TRIGIN    : in std_logic;
         BURST_TRIGOUT   : out std_logic;
+        BURST_MASTER_MASK : out std_logic_vector(15 downto 0);
+        BURST_SLAVE_MASK : out std_logic_vector(15 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -117,7 +119,6 @@ architecture arch_imp of burstTrigger_v1_0_S00_AXI is
 	signal slv_reg4	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg5	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal burst_reg	: std_logic_vector(99 downto 0);
-    signal burst        : std_logic;
 	signal slv_reg_rden	: std_logic;
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	: std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
@@ -214,11 +215,11 @@ begin
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
 
-        -- reg0 is record of past triggers (for last 32 trigger windows)
+        -- reg0 is rate
         -- reg1 is number of triggers
-        -- reg2 is rate
-        -- reg3 is mask
-        -- reg4(0) is trig flag (current)
+        -- reg2,3 is mask
+        BURST_MASTER_MASK <= slv_reg2(15 downto 0);
+        BURST_SLAVE_MASK <= slv_reg3(15 downto 0);
         -- reg4(1) is trig flag (window)
         -- reg5 is a clock
 
@@ -229,19 +230,9 @@ begin
         -- internal clock
         slv_reg5 <= slv_reg5+1;
 
-        -- Has there been a trigger?
-        for i in 0 to 15 loop
-          if(slv_reg3(i)='1' and BURST_TRIGIN(i)='1') then
-            slv_reg4(0)<='1';
-            exit;
-          end if;
-          slv_reg4(0)<='0';
-        end loop;
-
-
         if slv_reg5<"00000000000000000000000000101000" then
             -- is there a flag within window?
-            if(slv_reg4(0)='1') then
+            if(BURST_TRIGIN ='1') then
               slv_reg4(1) <= '1';
             end if;
         end if;
@@ -261,16 +252,15 @@ begin
         
         if slv_reg5="00000000000000000000000000101011" then
             -- count the number of bits
-            --slv_reg1 <= slv_reg1+burst_reg(0)+burst_reg(1)+burst_reg(2)+burst_reg(3)+burst_reg(4)+burst_reg(5)+burst_reg(6)+burst_reg(7)+burst_reg(8)+burst_reg(9)+burst_reg(10)+burst_reg(11)+burst_reg(12)+burst_reg(13)+burst_reg(14)+burst_reg(15)+burst_reg(16)+burst_reg(17)+burst_reg(18)+burst_reg(19)+burst_reg(20)+burst_reg(21)+burst_reg(22)+burst_reg(23)+burst_reg(24)+burst_reg(25)+burst_reg(26)+burst_reg(27)+burst_reg(28)+burst_reg(29)+burst_reg(30)+burst_reg(31);--+burst_reg(32)+burst_reg(33)+burst_reg(34)+burst_reg(35)+burst_reg(36)+burst_reg(37)+burst_reg(38)+burst_reg(39)+burst_reg(40)+burst_reg(41)+burst_reg(42)+burst_reg(43)+burst_reg(44)+burst_reg(45)+burst_reg(46)+burst_reg(47)+burst_reg(48)+burst_reg(49)+burst_reg(50)+burst_reg(51)+burst_reg(52)+burst_reg(53)+burst_reg(54)+burst_reg(55)+burst_reg(56)+burst_reg(57)+burst_reg(58)+burst_reg(59)+burst_reg(60)+burst_reg(61)+burst_reg(62)+burst_reg(63)+burst_reg(64)+burst_reg(65)+burst_reg(66)+burst_reg(67)+burst_reg(68)+burst_reg(69)+burst_reg(70)+burst_reg(71)+burst_reg(72)+burst_reg(73)+burst_reg(74)+burst_reg(75)+burst_reg(76)+burst_reg(77)+burst_reg(78)+burst_reg(79)+burst_reg(80)+burst_reg(81)+burst_reg(82)+burst_reg(83)+burst_reg(84)+burst_reg(85)+burst_reg(86)+burst_reg(87)+burst_reg(88)+burst_reg(89)+burst_reg(90)+burst_reg(91)+burst_reg(92)+burst_reg(93)+burst_reg(94)+burst_reg(95)+burst_reg(96)+burst_reg(97)+burst_reg(98)+burst_reg(99);
             slv_reg1 <= slv_reg1+burst_reg(0);
         end if;
         
         if slv_reg5="00000000000000000000000000101100" then
             -- compare to threshold and set mask
-            if slv_reg1>slv_reg2 then
-                burst <= '1';
+            if slv_reg1>slv_reg0 then
+                BURST_TRIGOUT <= '1';
             else
-                burst <= '0';
+                BURST_TRIGOUT <= '0';
                 slv_reg4 <= (others=>'0');
                 slv_reg5 <= (others=>'0');
             end if;
@@ -281,23 +271,13 @@ begin
             burst_reg <= (others=>'0');
             slv_reg4 <= (others=>'0');
             slv_reg1 <= (others=>'0');
-            burst <= '0';
+            BURST_TRIGOUT <= '0';
         end if;
         
         if slv_reg5="00000101111101011110000100000000" then
             -- Lock out for another half second
             slv_reg5 <= (others=>'0');
         end if;            
-
-        -- If masked in, allow triggers
-        for i in 0 to 15 loop
-          if burst='1' and slv_reg3(i)='1' and BURST_TRIGIN(i)='1' then
-            BURST_TRIGOUT <= '1';
-            exit;
-          else
-            BURST_TRIGOUT <= '0';
-          end if;
-        end loop;
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');

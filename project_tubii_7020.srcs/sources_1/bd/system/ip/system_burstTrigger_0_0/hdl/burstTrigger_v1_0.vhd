@@ -17,8 +17,10 @@ entity burstTrigger_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        burst_trigin  : in std_logic_vector(15 downto 0);
+        burst_trigin  : in std_logic;
         burst_trigout : out std_logic;
+        burst_master_mask : out std_logic_vector(15 downto 0);
+        burst_slave_mask : out std_logic_vector(15 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -78,8 +80,10 @@ architecture arch_imp of burstTrigger_v1_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-        BURST_TRIGIN    : in std_logic_vector(15 downto 0);
-        BURST_TRIGOUT   : out std_logic
+        BURST_TRIGIN    : in std_logic;
+        BURST_TRIGOUT   : out std_logic;
+        BURST_MASTER_MASK : out std_logic_vector(15 downto 0);
+        BURST_SLAVE_MASK : out std_logic_vector(15 downto 0)
 		);
 	end component burstTrigger_v1_0_S00_AXI;
 
@@ -114,7 +118,9 @@ burstTrigger_v1_0_S00_AXI_inst : burstTrigger_v1_0_S00_AXI
 		S_AXI_RVALID	=> s00_axi_rvalid,
 		S_AXI_RREADY	=> s00_axi_rready,
         BURST_TRIGIN    => burst_trigin,
-        BURST_TRIGOUT   => burst_trigout
+        BURST_TRIGOUT   => burst_trigout,
+        BURST_MASTER_MASK => burst_master_mask,
+        BURST_SLAVE_MASK => burst_slave_mask
 	);
 
 	-- Add user logic here
