@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date         : Wed Nov 30 14:33:39 2016
+| Date         : Thu Dec  1 07:47:58 2016
 | Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.8 (Final)
 | Command      : report_clock_utilization -file system_wrapper_clock_utilization_placed.rpt
 | Design       : system_wrapper
@@ -72,8 +72,8 @@ Table of Contents
 | Index | Local Clk Src                                                      | Net Name                          | BELs | Sites | Locked | MaxDelay (ns) | Skew (ns) |
 +-------+--------------------------------------------------------------------+-----------------------------------+------+-------+--------+---------------+-----------+
 |     1 | system_i/fifo_readout_0/U0/fifo_readout_v1_0_S00_AXI_inst/READ_reg | system_i/fifo_readout_0/read      |  195 |   114 |     no |         3.274 |     2.575 |
-|     2 | system_i/util_reduced_logic_1/Res_INST_0                           | system_i/util_reduced_logic_1/Res |  634 |   203 |     no |         3.846 |     3.255 |
-|     3 | system_i/util_reduced_logic_4/Res_INST_0                           | system_i/util_reduced_logic_4/Res |  634 |   175 |     no |         3.559 |     2.442 |
+|     2 | system_i/util_reduced_logic_4/Res_INST_0                           | system_i/util_reduced_logic_4/Res |  634 |   175 |     no |         3.559 |     2.442 |
+|     3 | system_i/util_reduced_logic_1/Res_INST_0                           | system_i/util_reduced_logic_1/Res |  634 |   203 |     no |         3.846 |     3.255 |
 |     4 | system_i/triggers_0/U0/triggers_v2_0_S00_AXI_inst/GTRIGout_reg     | system_i/triggers_0/gtrigout      |  670 |   195 |     no |         3.032 |     1.952 |
 +-------+--------------------------------------------------------------------+-----------------------------------+------+-------+--------+---------------+-----------+
 
@@ -199,20 +199,6 @@ add_cells_to_pblock [get_pblocks  CLKAG_system_i/processing_system7_0/U0/FCLK_CL
 resize_pblock [get_pblocks CLKAG_system_i/processing_system7_0/U0/FCLK_CLK0] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
 #endgroup
 
-# Clock net "system_i/fifo_readout_0/read" driven by instance "system_i/fifo_readout_0/U0/fifo_readout_v1_0_S00_AXI_inst/READ_reg" located at site "SLICE_X56Y71"
-#startgroup
-create_pblock CLKAG_system_i/fifo_readout_0/read
-add_cells_to_pblock [get_pblocks  CLKAG_system_i/fifo_readout_0/read] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="system_i/fifo_readout_0/read"}]]]
-resize_pblock [get_pblocks CLKAG_system_i/fifo_readout_0/read] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
-#endgroup
-
-# Clock net "system_i/util_reduced_logic_1/Res" driven by instance "system_i/util_reduced_logic_1/Res_INST_0" located at site "SLICE_X112Y88"
-#startgroup
-create_pblock CLKAG_system_i/util_reduced_logic_1/Res
-add_cells_to_pblock [get_pblocks  CLKAG_system_i/util_reduced_logic_1/Res] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="system_i/util_reduced_logic_1/Res"}]]]
-resize_pblock [get_pblocks CLKAG_system_i/util_reduced_logic_1/Res] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
-#endgroup
-
 # Clock net "system_i/triggers_0/gtrigout" driven by instance "system_i/triggers_0/U0/triggers_v2_0_S00_AXI_inst/GTRIGout_reg" located at site "SLICE_X66Y83"
 #startgroup
 create_pblock CLKAG_system_i/triggers_0/gtrigout
@@ -225,4 +211,18 @@ resize_pblock [get_pblocks CLKAG_system_i/triggers_0/gtrigout] -add {CLOCKREGION
 create_pblock CLKAG_system_i/util_reduced_logic_4/Res
 add_cells_to_pblock [get_pblocks  CLKAG_system_i/util_reduced_logic_4/Res] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="system_i/util_reduced_logic_4/Res"}]]]
 resize_pblock [get_pblocks CLKAG_system_i/util_reduced_logic_4/Res] -add {CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
+#endgroup
+
+# Clock net "system_i/fifo_readout_0/read" driven by instance "system_i/fifo_readout_0/U0/fifo_readout_v1_0_S00_AXI_inst/READ_reg" located at site "SLICE_X56Y71"
+#startgroup
+create_pblock CLKAG_system_i/fifo_readout_0/read
+add_cells_to_pblock [get_pblocks  CLKAG_system_i/fifo_readout_0/read] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="system_i/fifo_readout_0/read"}]]]
+resize_pblock [get_pblocks CLKAG_system_i/fifo_readout_0/read] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
+#endgroup
+
+# Clock net "system_i/util_reduced_logic_1/Res" driven by instance "system_i/util_reduced_logic_1/Res_INST_0" located at site "SLICE_X112Y88"
+#startgroup
+create_pblock CLKAG_system_i/util_reduced_logic_1/Res
+add_cells_to_pblock [get_pblocks  CLKAG_system_i/util_reduced_logic_1/Res] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="system_i/util_reduced_logic_1/Res"}]]]
+resize_pblock [get_pblocks CLKAG_system_i/util_reduced_logic_1/Res] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
 #endgroup

@@ -143,247 +143,257 @@ ZCould not find module '%s'. The XDC file %s will not be read for any cell of th
 ½
 ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
 1082*designutils2&
-system_auto_cc_6652default:default2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_665/system_auto_cc_665_clocks.xdc2default:defaultZ20-1280
-½
-ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
-1082*designutils2&
 system_auto_cc_6672default:default2˜
 ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_667/system_auto_cc_667_clocks.xdc2default:defaultZ20-1280
 ½
 ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
 1082*designutils2&
-system_auto_cc_6692default:default2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_669/system_auto_cc_669_clocks.xdc2default:defaultZ20-1280
+system_auto_cc_6712default:default2˜
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_671/system_auto_cc_671_clocks.xdc2default:defaultZ20-1280
 ½
 ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
 1082*designutils2&
-system_auto_cc_6712default:default2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_671/system_auto_cc_671_clocks.xdc2default:defaultZ20-1280
+system_auto_cc_6732default:default2˜
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_673/system_auto_cc_673_clocks.xdc2default:defaultZ20-1280
+½
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_6752default:default2˜
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_675/system_auto_cc_675_clocks.xdc2default:defaultZ20-1280
+½
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_6772default:default2˜
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_677/system_auto_cc_677_clocks.xdc2default:defaultZ20-1280
+½
+ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
+1082*designutils2&
+system_auto_cc_6792default:default2˜
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_679/system_auto_cc_679_clocks.xdc2default:defaultZ20-1280
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_696/system_auto_cc_696_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_704/system_auto_cc_704_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m02_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_696/system_auto_cc_696_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_704/system_auto_cc_704_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_696/system_auto_cc_696_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_704/system_auto_cc_704_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_696/system_auto_cc_696_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_704/system_auto_cc_704_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_696/system_auto_cc_696_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_704/system_auto_cc_704_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m02_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_697/system_auto_cc_697_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_705/system_auto_cc_705_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m03_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_697/system_auto_cc_697_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_705/system_auto_cc_705_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_697/system_auto_cc_697_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_705/system_auto_cc_705_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_697/system_auto_cc_697_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_705/system_auto_cc_705_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_697/system_auto_cc_697_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_705/system_auto_cc_705_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m03_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_698/system_auto_cc_698_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_706/system_auto_cc_706_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_698/system_auto_cc_698_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_706/system_auto_cc_706_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_698/system_auto_cc_698_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_706/system_auto_cc_706_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_698/system_auto_cc_698_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_706/system_auto_cc_706_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_698/system_auto_cc_698_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_706/system_auto_cc_706_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m14_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_699/system_auto_cc_699_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_707/system_auto_cc_707_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_699/system_auto_cc_699_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_707/system_auto_cc_707_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_699/system_auto_cc_699_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_707/system_auto_cc_707_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_699/system_auto_cc_699_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_707/system_auto_cc_707_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_699/system_auto_cc_699_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_707/system_auto_cc_707_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m16_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_700/system_auto_cc_700_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_708/system_auto_cc_708_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_700/system_auto_cc_700_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_708/system_auto_cc_708_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_700/system_auto_cc_700_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_708/system_auto_cc_708_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_700/system_auto_cc_700_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_708/system_auto_cc_708_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_700/system_auto_cc_700_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_708/system_auto_cc_708_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m17_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_701/system_auto_cc_701_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_709/system_auto_cc_709_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_701/system_auto_cc_701_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_709/system_auto_cc_709_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_701/system_auto_cc_701_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_709/system_auto_cc_709_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_701/system_auto_cc_701_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_709/system_auto_cc_709_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_701/system_auto_cc_701_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_709/system_auto_cc_709_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m19_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_702/system_auto_cc_702_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_710/system_auto_cc_710_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_702/system_auto_cc_702_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_710/system_auto_cc_710_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_702/system_auto_cc_702_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_710/system_auto_cc_710_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_702/system_auto_cc_702_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_710/system_auto_cc_710_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_702/system_auto_cc_702_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_710/system_auto_cc_710_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m21_couplers/auto_cc/inst2default:defaultZ20-847
 ¨
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_703/system_auto_cc_703_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_711/system_auto_cc_711_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m23_couplers/auto_cc/inst2default:defaultZ20-848
 ó
 "No clocks found for command '%s'.
 1008*	planAhead2v
 bget_clocks -of_objects [get_pins system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/m_axi_aclk]2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_703/system_auto_cc_703_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_711/system_auto_cc_711_clocks.xdc2default:default2
 172default:default8@Z12-1008
 ¸
 aNo clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks.
 626*	planAhead2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_703/system_auto_cc_703_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_711/system_auto_cc_711_clocks.xdc2default:default2
 172default:default8@Z12-626
 –
 "'%s' expects at least one object.
 55*common2 
 get_property2default:default2š
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_703/system_auto_cc_703_clocks.xdc2default:default2
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_711/system_auto_cc_711_clocks.xdc2default:default2
 202default:default8@Z17-55
 ±
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2˜
-ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_703/system_auto_cc_703_clocks.xdc2default:default2I
+ƒ/home/snoperator/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_711/system_auto_cc_711_clocks.xdc2default:default2I
 5system_i/axi_interconnect_0/m23_couplers/auto_cc/inst2default:defaultZ20-847
-Ê
+É
 Parsing XDC File [%s]
-179*designutils2“
-/home/snoperator/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-24343-monag2.sp.snolab.ca/dcp/system_wrapper.xdc2default:defaultZ20-179
-Ó
+179*designutils2’
+~/home/snoperator/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-1605-monag2.sp.snolab.ca/dcp/system_wrapper.xdc2default:defaultZ20-179
+Ò
 Finished Parsing XDC File [%s]
-178*designutils2“
-/home/snoperator/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-24343-monag2.sp.snolab.ca/dcp/system_wrapper.xdc2default:defaultZ20-178
+178*designutils2’
+~/home/snoperator/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-1605-monag2.sp.snolab.ca/dcp/system_wrapper.xdc2default:defaultZ20-178
 C
 Pushed %s inverter(s).
 98*opt2
@@ -404,7 +414,7 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 link_design: 2default:default2
 00:00:182default:default2
 00:00:182default:default2
-1594.6332default:default2
+1594.6372default:default2
 807.3952default:defaultZ17-268
 
 
