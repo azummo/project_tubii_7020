@@ -210,8 +210,8 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
-        -- slv_reg0 is time between pulses
-        -- slv_reg1 is pulse width (in clk pulses)
+        -- slv_reg0 is (period - pulse width) (in clk pulses)
+        -- slv_reg1 is period
         -- slv_reg2 is counter
         -- slv_reg3 is number of pulses left to fire
 
