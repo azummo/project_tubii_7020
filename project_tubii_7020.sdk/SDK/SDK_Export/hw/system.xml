@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<<<<<<< HEAD
 <EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Apr 21 17:37:13 2017" VIVADOVERSION="2013.4">
+=======
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Apr 17 11:29:27 2017" VIVADOVERSION="2013.4">
+>>>>>>> origin/master
 
   <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zynq:microzed:e" DEVICE="7z020" NAME="system_imp" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -203,6 +207,7 @@
         <CONNECTION INSTANCE="axi_interconnect_0_m02_couplers_auto_cc" PORT="m_axi_aclk"/>
         <CONNECTION INSTANCE="prescaleTrigger_0" PORT="s00_axi_aclk"/>
         <CONNECTION INSTANCE="testPulser_0" PORT="s00_axi_aclk"/>
+<<<<<<< HEAD
         <CONNECTION INSTANCE="genericPulser" PORT="s00_axi_aclk"/>
         <CONNECTION INSTANCE="telliePulser" PORT="s00_axi_aclk"/>
         <CONNECTION INSTANCE="smelliePulser" PORT="s00_axi_aclk"/>
@@ -214,6 +219,13 @@
         <CONNECTION INSTANCE="axi_interconnect_0_m17_couplers_auto_cc" PORT="m_axi_aclk"/>
         <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="m_axi_aclk"/>
         <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="m_axi_aclk"/>
+=======
+        <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="m_axi_aclk"/>
+        <CONNECTION INSTANCE="smelliePulser" PORT="s00_axi_aclk"/>
+        <CONNECTION INSTANCE="genericPulser" PORT="s00_axi_aclk"/>
+        <CONNECTION INSTANCE="telliePulser" PORT="s00_axi_aclk"/>
+        <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="m_axi_aclk"/>
+>>>>>>> origin/master
         <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="m_axi_aclk"/>
         <CONNECTION INSTANCE="axi_interconnect_0_m12_couplers_auto_cc" PORT="m_axi_aclk"/>
       </CONNECTIONS>
@@ -765,7 +777,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_787"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_784"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1013,7 +1029,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_788"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_785"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1261,7 +1281,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_789"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_786"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1509,7 +1533,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_790"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_787"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1725,6 +1753,7 @@
         </PORT>
       </PORTS>
     </MODULE>
+<<<<<<< HEAD
     <MODULE FULLNAME="/axi_interconnect_0/m15_couplers/auto_cc" HWVERSION="2.1" INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" IPTYPE="BUS" MODCLASS="BUS" MODTYPE="axi_clock_converter" VLNV="xilinx.com:ip:axi_clock_converter:2.1">
       <PARAMETERS>
         <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
@@ -2469,6 +2498,8 @@
         </PORT>
       </PORTS>
     </MODULE>
+=======
+>>>>>>> origin/master
     <MODULE FULLNAME="/axi_interconnect_0/m19_couplers/auto_cc" HWVERSION="2.1" INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" IPTYPE="BUS" MODCLASS="BUS" MODTYPE="axi_clock_converter" VLNV="xilinx.com:ip:axi_clock_converter:2.1">
       <PARAMETERS>
         <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
@@ -2501,7 +2532,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_794"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_788"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -2749,7 +2784,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_795"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_789"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -2997,7 +3036,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_796"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_790"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3245,7 +3288,11 @@
         <PARAMETER NAME="ACLK_ASYNC" VALUE="1"/>
         <PARAMETER NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER NAME="ACLK_RATIO" VALUE="1:2"/>
+<<<<<<< HEAD
         <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_797"/>
+=======
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_cc_791"/>
+>>>>>>> origin/master
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -6971,6 +7018,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_awaddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_awaddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -6981,6 +7029,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awaddr"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awaddr"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awaddr"/>
@@ -6997,6 +7057,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_awprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_awprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7007,6 +7068,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awprot"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awprot"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awprot"/>
@@ -7023,6 +7096,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_awvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_awvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7033,6 +7107,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awvalid"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awvalid"/>
@@ -7049,6 +7135,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_awready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_awready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7059,6 +7146,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awready"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_awready"/>
@@ -7075,6 +7174,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_wdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_wdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7085,6 +7185,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wdata"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wdata"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wdata"/>
@@ -7101,6 +7213,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_wstrb"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_wstrb"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7111,6 +7224,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wstrb"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wstrb"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wstrb"/>
@@ -7127,6 +7252,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_wvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_wvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7137,6 +7263,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wvalid"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wvalid"/>
@@ -7153,9 +7291,16 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m12_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7166,6 +7311,12 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wready"/>
+=======
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="genericDelay" PORT="s00_axi_wready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_bresp" SIGIS="undef" SIGNAME="axi_interconnect_0_tier2_xbar_1_m_axi_bresp">
@@ -7179,6 +7330,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_bresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_bresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7189,6 +7341,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bresp"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bresp"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bresp"/>
@@ -7205,6 +7369,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_bvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_bvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7215,6 +7380,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bvalid"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bvalid"/>
@@ -7231,6 +7408,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_bready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_bready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7241,6 +7419,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bready"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_bready"/>
@@ -7257,6 +7447,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_araddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_araddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7267,6 +7458,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_araddr"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_araddr"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_araddr"/>
@@ -7283,6 +7486,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_arprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_arprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7293,6 +7497,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arprot"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arprot"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arprot"/>
@@ -7309,6 +7525,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_arvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_arvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7319,6 +7536,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arvalid"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arvalid"/>
@@ -7335,6 +7564,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_arready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_arready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7345,6 +7575,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arready"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_arready"/>
@@ -7361,6 +7603,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_rdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_rdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7371,6 +7614,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rdata"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rdata"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rdata"/>
@@ -7387,6 +7642,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_rresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_rresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7397,6 +7653,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rresp"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rresp"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rresp"/>
@@ -7413,6 +7681,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_rvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_rvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7423,6 +7692,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rvalid"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rvalid"/>
@@ -7439,6 +7720,7 @@
             <CONNECTION INSTANCE="axi_interconnect_0_m14_couplers_auto_cc" PORT="s_axi_rready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m15_couplers_auto_cc" PORT="s_axi_rready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7449,6 +7731,18 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rready"/>
+=======
+            <CONNECTION INSTANCE="gtDelay" PORT="s00_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="countDisplay_0" PORT="s00_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clockLogic_0" PORT="s00_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="oneshot_pulse_0" PORT="s00_axi_rready"/>
@@ -8803,6 +9097,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_awaddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_awaddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8819,6 +9114,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awaddr"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_awaddr"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_awprot" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_awprot">
@@ -8829,6 +9142,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_awprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_awprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8845,6 +9159,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awprot"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_awprot"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_awvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_awvalid">
@@ -8855,6 +9187,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_awvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_awvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8871,6 +9204,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awvalid"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_awvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_awvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_awready" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_awready">
@@ -8881,6 +9232,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_awready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_awready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8897,6 +9249,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awready"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_awready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_wdata" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_wdata">
@@ -8907,6 +9277,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_wdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_wdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8923,6 +9294,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wdata"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_wdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_wdata"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_wstrb" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_wstrb">
@@ -8933,6 +9322,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_wstrb"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_wstrb"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8949,6 +9339,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wstrb"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_wstrb"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_wvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_wvalid">
@@ -8959,6 +9367,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_wvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_wvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -8975,6 +9384,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wvalid"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_wvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_wvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_wready" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_wready">
@@ -8985,6 +9412,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9001,6 +9429,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wready"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_wready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_bresp" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_bresp">
@@ -9011,6 +9457,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_bresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_bresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9027,6 +9474,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bresp"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_bresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_bresp"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_bvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_bvalid">
@@ -9037,6 +9502,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_bvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_bvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9053,6 +9519,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bvalid"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_bvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_bready" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_bready">
@@ -9063,6 +9547,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_bready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_bready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9079,6 +9564,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bready"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_bready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_bready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_araddr" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_araddr">
@@ -9089,6 +9592,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_araddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_araddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9105,6 +9609,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_araddr"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_araddr"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_arprot" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_arprot">
@@ -9115,6 +9637,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_arprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_arprot"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9131,6 +9654,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arprot"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_arprot"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_arvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_arvalid">
@@ -9141,6 +9682,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_arvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_arvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9157,6 +9699,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arvalid"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_arvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_arvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_arready" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_arready">
@@ -9167,6 +9727,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_arready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_arready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9183,6 +9744,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arready"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_arready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_rdata" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_rdata">
@@ -9193,6 +9772,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_rdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_rdata"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9209,6 +9789,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rdata"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_rdata"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_rdata"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_rresp" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_rresp">
@@ -9219,6 +9817,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_rresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_rresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9235,6 +9834,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rresp"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_rresp"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_rvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_rvalid">
@@ -9245,6 +9862,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_rvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_rvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9261,6 +9879,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rvalid"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_rvalid"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_rready" SIGIS="undef" SIGNAME="axi_interconnect_0_m23_couplers_auto_cc_s_axi_rready">
@@ -9271,6 +9907,7 @@
             <CONNECTION INSTANCE="TrigWordDelay_0" PORT="s00_axi_rready"/>
           </CONNECTIONS>
           <CONNECTIONS>
+<<<<<<< HEAD
             <CONNECTION INSTANCE="axi_interconnect_0_m16_couplers_auto_cc" PORT="s_axi_rready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -9287,6 +9924,24 @@
           </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rready"/>
+=======
+            <CONNECTION INSTANCE="axi_interconnect_0_m19_couplers_auto_cc" PORT="s_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m21_couplers_auto_cc" PORT="s_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m22_couplers_auto_cc" PORT="s_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_interconnect_0_m23_couplers_auto_cc" PORT="s_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_rready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="smellieDelay" PORT="s00_axi_rready"/>
+>>>>>>> origin/master
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -9301,7 +9956,7 @@
         <PARAMETER NAME="C_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_AXI_PROTOCOL" VALUE="2"/>
         <PARAMETER NAME="C_NUM_ADDR_RANGES" VALUE="8"/>
-        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0x0000000043c120000000000043c0f0000000000043c090000000000043c040000000000043c020000000000043c010000000000043c000000000000043c200000000000043c160000000000043c150000000000043c140000000000043c130000000000043c100000000000043c0e0000000000043c0d0000000000043c080000000000043c110000000000043c0c0000000000043c0b0000000000043c0a0000000000043c070000000000043c060000000000043c050000000000043c03000"/>
+        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0x0000000043c120000000000043c0f0000000000043c090000000000043c040000000000043c020000000000043c010000000000043c000000000000043c200000000000043c110000000000043c0c0000000000043c0b0000000000043c0a0000000000043c070000000000043c060000000000043c050000000000043c030000000000043c160000000000043c150000000000043c140000000000043c130000000000043c100000000000043c0e0000000000043c0d0000000000043c08000"/>
         <PARAMETER NAME="C_M_AXI_ADDR_WIDTH" VALUE="0x0000000c0000000c0000000c0000000c0000000c0000000c0000000c000000100000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c"/>
         <PARAMETER NAME="C_S_AXI_BASE_ID" VALUE="0x00000000"/>
         <PARAMETER NAME="C_S_AXI_THREAD_ID_WIDTH" VALUE="0x0000000c"/>
@@ -10009,14 +10664,14 @@
         <PARAMETER NAME="S13_BASE_ID" VALUE="0x0000d000"/>
         <PARAMETER NAME="S14_BASE_ID" VALUE="0x0000e000"/>
         <PARAMETER NAME="S15_BASE_ID" VALUE="0x0000f000"/>
-        <PARAMETER NAME="M00_A00_BASE_ADDR" VALUE="0x0000000043c03000"/>
-        <PARAMETER NAME="M00_A01_BASE_ADDR" VALUE="0x0000000043c05000"/>
-        <PARAMETER NAME="M00_A02_BASE_ADDR" VALUE="0x0000000043c06000"/>
-        <PARAMETER NAME="M00_A03_BASE_ADDR" VALUE="0x0000000043c07000"/>
-        <PARAMETER NAME="M00_A04_BASE_ADDR" VALUE="0x0000000043c0a000"/>
-        <PARAMETER NAME="M00_A05_BASE_ADDR" VALUE="0x0000000043c0b000"/>
-        <PARAMETER NAME="M00_A06_BASE_ADDR" VALUE="0x0000000043c0c000"/>
-        <PARAMETER NAME="M00_A07_BASE_ADDR" VALUE="0x0000000043c11000"/>
+        <PARAMETER NAME="M00_A00_BASE_ADDR" VALUE="0x0000000043c08000"/>
+        <PARAMETER NAME="M00_A01_BASE_ADDR" VALUE="0x0000000043c0d000"/>
+        <PARAMETER NAME="M00_A02_BASE_ADDR" VALUE="0x0000000043c0e000"/>
+        <PARAMETER NAME="M00_A03_BASE_ADDR" VALUE="0x0000000043c10000"/>
+        <PARAMETER NAME="M00_A04_BASE_ADDR" VALUE="0x0000000043c13000"/>
+        <PARAMETER NAME="M00_A05_BASE_ADDR" VALUE="0x0000000043c14000"/>
+        <PARAMETER NAME="M00_A06_BASE_ADDR" VALUE="0x0000000043c15000"/>
+        <PARAMETER NAME="M00_A07_BASE_ADDR" VALUE="0x0000000043c16000"/>
         <PARAMETER NAME="M00_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -10025,14 +10680,14 @@
         <PARAMETER NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M01_A00_BASE_ADDR" VALUE="0x0000000043c08000"/>
-        <PARAMETER NAME="M01_A01_BASE_ADDR" VALUE="0x0000000043c0d000"/>
-        <PARAMETER NAME="M01_A02_BASE_ADDR" VALUE="0x0000000043c0e000"/>
-        <PARAMETER NAME="M01_A03_BASE_ADDR" VALUE="0x0000000043c10000"/>
-        <PARAMETER NAME="M01_A04_BASE_ADDR" VALUE="0x0000000043c13000"/>
-        <PARAMETER NAME="M01_A05_BASE_ADDR" VALUE="0x0000000043c14000"/>
-        <PARAMETER NAME="M01_A06_BASE_ADDR" VALUE="0x0000000043c15000"/>
-        <PARAMETER NAME="M01_A07_BASE_ADDR" VALUE="0x0000000043c16000"/>
+        <PARAMETER NAME="M01_A00_BASE_ADDR" VALUE="0x0000000043c03000"/>
+        <PARAMETER NAME="M01_A01_BASE_ADDR" VALUE="0x0000000043c05000"/>
+        <PARAMETER NAME="M01_A02_BASE_ADDR" VALUE="0x0000000043c06000"/>
+        <PARAMETER NAME="M01_A03_BASE_ADDR" VALUE="0x0000000043c07000"/>
+        <PARAMETER NAME="M01_A04_BASE_ADDR" VALUE="0x0000000043c0a000"/>
+        <PARAMETER NAME="M01_A05_BASE_ADDR" VALUE="0x0000000043c0b000"/>
+        <PARAMETER NAME="M01_A06_BASE_ADDR" VALUE="0x0000000043c0c000"/>
+        <PARAMETER NAME="M01_A07_BASE_ADDR" VALUE="0x0000000043c11000"/>
         <PARAMETER NAME="M01_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -16892,12 +17547,15 @@
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xE0001000" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xE0001FFF" INSTANCE="ps7_uart_1" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xE0002000" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xE0002FFF" INSTANCE="ps7_usb_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xF8007100" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xF8007120" INSTANCE="ps7_xadc_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
+<<<<<<< HEAD
+=======
+        <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C11000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C11FFF" INSTANCE="telliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
+>>>>>>> origin/master
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C13000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C13FFF" INSTANCE="TrigWordDelay_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C0F000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C0FFFF" INSTANCE="oneshot_pulse_1" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C0A000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C0AFFF" INSTANCE="oneshot_pulse_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C16000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C16FFF" INSTANCE="testPulser_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C03000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C03FFF" INSTANCE="clockLogic_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
-        <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C11000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C11FFF" INSTANCE="telliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C08000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C08FFF" INSTANCE="smelliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C07000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C07FFF" INSTANCE="genericPulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C10000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C10FFF" INSTANCE="MZ_Happy" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
@@ -16949,12 +17607,15 @@
         <PERIPHERAL INSTANCE="ps7_uart_1"/>
         <PERIPHERAL INSTANCE="ps7_usb_0"/>
         <PERIPHERAL INSTANCE="ps7_xadc_0"/>
+<<<<<<< HEAD
+=======
+        <PERIPHERAL INSTANCE="telliePulser"/>
+>>>>>>> origin/master
         <PERIPHERAL INSTANCE="TrigWordDelay_0"/>
         <PERIPHERAL INSTANCE="oneshot_pulse_1"/>
         <PERIPHERAL INSTANCE="oneshot_pulse_0"/>
         <PERIPHERAL INSTANCE="testPulser_0"/>
         <PERIPHERAL INSTANCE="clockLogic_0"/>
-        <PERIPHERAL INSTANCE="telliePulser"/>
         <PERIPHERAL INSTANCE="smelliePulser"/>
         <PERIPHERAL INSTANCE="genericPulser"/>
         <PERIPHERAL INSTANCE="MZ_Happy"/>
@@ -17155,12 +17816,15 @@
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xE0001000" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xE0001FFF" INSTANCE="ps7_uart_1" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xE0002000" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xE0002FFF" INSTANCE="ps7_usb_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xF8007100" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xF8007120" INSTANCE="ps7_xadc_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MEMTYPE="REGISTER"/>
+<<<<<<< HEAD
+=======
+        <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C11000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C11FFF" INSTANCE="telliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
+>>>>>>> origin/master
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C13000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C13FFF" INSTANCE="TrigWordDelay_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C0F000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C0FFFF" INSTANCE="oneshot_pulse_1" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C0A000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C0AFFF" INSTANCE="oneshot_pulse_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C16000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C16FFF" INSTANCE="testPulser_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C03000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C03FFF" INSTANCE="clockLogic_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
-        <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C11000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C11FFF" INSTANCE="telliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C08000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C08FFF" INSTANCE="smelliePulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C07000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C07FFF" INSTANCE="genericPulser" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x43C10000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x43C10FFF" INSTANCE="MZ_Happy" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
@@ -17212,12 +17876,15 @@
         <PERIPHERAL INSTANCE="ps7_uart_1"/>
         <PERIPHERAL INSTANCE="ps7_usb_0"/>
         <PERIPHERAL INSTANCE="ps7_xadc_0"/>
+<<<<<<< HEAD
+=======
+        <PERIPHERAL INSTANCE="telliePulser"/>
+>>>>>>> origin/master
         <PERIPHERAL INSTANCE="TrigWordDelay_0"/>
         <PERIPHERAL INSTANCE="oneshot_pulse_1"/>
         <PERIPHERAL INSTANCE="oneshot_pulse_0"/>
         <PERIPHERAL INSTANCE="testPulser_0"/>
         <PERIPHERAL INSTANCE="clockLogic_0"/>
-        <PERIPHERAL INSTANCE="telliePulser"/>
         <PERIPHERAL INSTANCE="smelliePulser"/>
         <PERIPHERAL INSTANCE="genericPulser"/>
         <PERIPHERAL INSTANCE="MZ_Happy"/>
