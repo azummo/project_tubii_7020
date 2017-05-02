@@ -223,17 +223,18 @@ begin
           if WORDIN(i)>'0' then         -- Record a pulse
             sgnl(i) <= WORDIN(i);
             arr0(i) <= arr0(i)+1;
+            WORDOUT(i) <= WORDIN(i);
           end if;
 
           if sgnl(i) > '0' then
             arr1(i) <= arr1(i)+1;        -- time since start of pulse
           
-            if arr1(i) > (arr0(i)+slv_reg0) then    -- end of delayed pulse
+            if arr1(i) > slv_reg0 then --(arr0(i)+slv_reg0) then    -- end of delayed pulse
               arr0(i) <= (others => '0');
               arr1(i) <= (others => '0');
               sgnl(i) <= '0';
               WORDOUT(i) <= '0';
-            elsif arr1(i) > slv_reg0 then    -- start of delayed pulse
+            elsif arr1(i) > 0 then --slv_reg0 then    -- start of delayed pulse
               WORDOUT(i) <= sgnl(i);
             end if; 
           end if;                

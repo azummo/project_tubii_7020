@@ -1,0 +1,28 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
+| Date         : Tue May  3 21:20:12 2016
+| Host         : monag2.sp.snolab.ca running 64-bit CentOS release 6.7 (Final)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_implement_gtid_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_implement_gtid_0_0 (xilinx.com:user:implement_gtid:1.0) from (Rev. 26) to (Rev. 27)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+WARNING: Detected external port differences while upgrading IP 'system_implement_gtid_0_0'. These changes may impact your design.
+
+-upgrade has removed port 'sync'
+-upgrade has removed port 'sync24'
+-upgrade has removed port 'reset'
+-upgrade has removed port 'rst_ok'
+
