@@ -1,0 +1,593 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Mon Apr 10 11:15:24 2017
+# Process ID: 4808
+# Log file: C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper.rdi
+# Journal file: C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from C:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 218 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2013.4
+Loading clock regions from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/clg400/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2013.4/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/U0'
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/U0'
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc] for cell 'system_i/fifo_generator_0/U0'
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0.xdc] for cell 'system_i/fifo_generator_0/U0'
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc] for cell 'system_i/xadc_wiz_0/U0'
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc] for cell 'system_i/xadc_wiz_0/U0'
+Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc]
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc] for cell 'system_i/fifo_generator_0/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc:53]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/fifo_generator_0/U0/rd_clk]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc:54]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc:59]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc] for cell 'system_i/fifo_generator_0/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'system_auto_cc_5'. The XDC file c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5_0/system_auto_cc_5_clocks.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'system_auto_cc_755'. The XDC file c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_755/system_auto_cc_755_clocks.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'system_auto_cc_759'. The XDC file c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_759/system_auto_cc_759_clocks.xdc will not be read for any cell of this module.
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_772/system_auto_cc_772_clocks.xdc] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/m_axi_aclk]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_772/system_auto_cc_772_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_772/system_auto_cc_772_clocks.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_772/system_auto_cc_772_clocks.xdc:20]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_772/system_auto_cc_772_clocks.xdc] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_773/system_auto_cc_773_clocks.xdc] for cell 'system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/m_axi_aclk]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_773/system_auto_cc_773_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_773/system_auto_cc_773_clocks.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_773/system_auto_cc_773_clocks.xdc:20]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_773/system_auto_cc_773_clocks.xdc] for cell 'system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_774/system_auto_cc_774_clocks.xdc] for cell 'system_i/axi_interconnect_0/m21_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/axi_interconnect_0/m21_couplers/auto_cc/inst/m_axi_aclk]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_774/system_auto_cc_774_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_774/system_auto_cc_774_clocks.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_774/system_auto_cc_774_clocks.xdc:20]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_774/system_auto_cc_774_clocks.xdc] for cell 'system_i/axi_interconnect_0/m21_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_775/system_auto_cc_775_clocks.xdc] for cell 'system_i/axi_interconnect_0/m23_couplers/auto_cc/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/m_axi_aclk]'. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_775/system_auto_cc_775_clocks.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_775/system_auto_cc_775_clocks.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_775/system_auto_cc_775_clocks.xdc:20]
+Finished Parsing XDC File [c:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_775/system_auto_cc_775_clocks.xdc] for cell 'system_i/axi_interconnect_0/m23_couplers/auto_cc/inst'
+Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-4808-Ian-Penn/dcp/system_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/impl_1/.Xil/Vivado-4808-Ian-Penn/dcp/system_wrapper.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 104 instances were transformed.
+  RAM16X1D => RAM16X1D (RAMD32, RAMD32, GND): 8 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 96 instances
+
+link_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:53 . Memory (MB): peak = 982.004 ; gain = 794.219
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.820 . Memory (MB): peak = 986.961 ; gain = 4.848
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 31224937a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 986.961 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-10] Eliminated 2325 cells.
+Phase 2 Constant Propagation | Checksum: 26d75f15b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 986.961 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 6223 unconnected nets.
+INFO: [Opt 31-11] Eliminated 120 unconnected cells.
+Phase 3 Sweep | Checksum: 1e01839fe
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 986.961 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1e01839fe
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 986.961 ; gain = 0.000
+Implement Debug Cores | Checksum: 2862e52d4
+Logic Optimization | Checksum: 2862e52d4
+
+Starting Power Optimization Task
+
+Starting PowerOpt TimerUpdates Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending PowerOpt TimerUpdates Task | Checksum: 1e01839fe
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 989.887 ; gain = 2.926
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 83 BRAM(s) out of a total of 86 was updated to NO_CHANGE to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 89 newly gated: 0 Total Ports: 172
+Number of Flops added for Enable Generation: 1
+
+Ending Power Optimization Task | Checksum: 29c58005c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:27 . Memory (MB): peak = 1210.574 ; gain = 223.613
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 5 Warnings, 8 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1210.574 ; gain = 228.570
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.568 . Memory (MB): peak = 1210.574 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: 16efe65ed
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: 16efe65ed
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: 16efe65ed
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.4 Build Macros
+Phase 1.1.4 Build Macros | Checksum: 180f9422c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.5 Implementation Feasibility check
+WARNING: [Place 30-568] A LUT 'system_i/util_reduced_logic_1/Res_INST_0' is driving clock pin of 633 registers. This could lead to large hold time violations. First few involved registers are:
+	system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[34] {FDRE}
+	system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[20] {FDRE}
+	system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[18] {FDRE}
+	system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[16] {FDRE}
+	system_i/axi_interconnect_0/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/gpr1.dout_i_reg[19] {FDRE}
+WARNING: [Place 30-568] A LUT 'system_i/util_reduced_logic_4/Res_INST_0' is driving clock pin of 633 registers. This could lead to large hold time violations. First few involved registers are:
+	system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0/DP {RAMD32}
+	system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_0/SP {RAMD32}
+	system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1/DP {RAMD32}
+	system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_1_1/SP {RAMD32}
+	system_i/axi_interconnect_0/m23_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMA {RAMD32}
+Phase 1.1.5 Implementation Feasibility check | Checksum: 180f9422c
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.6 Pre-Place Cells
+Phase 1.1.6 Pre-Place Cells | Checksum: 178736cba
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.7 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.1.7 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11cdf8d6e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.8 Build Placer Netlist Model
+
+Phase 1.1.8.1 Place Init Design
+
+Phase 1.1.8.1.1 Build Clock Data
+Phase 1.1.8.1.1 Build Clock Data | Checksum: 1aa1282e3
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1.1.8.1 Place Init Design | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1.1.8 Build Placer Netlist Model | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 1.1.9 Constrain Clocks/Macros
+
+Phase 1.1.9.1 Constrain Global/Regional Clocks
+Phase 1.1.9.1 Constrain Global/Regional Clocks | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1.1.9 Constrain Clocks/Macros | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1.1 Placer Initialization Core | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 16b875947
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1409662c3
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:38 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1409662c3
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:38 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 11181e7c0
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:46 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1ae212be3
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:46 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 11f8bc9be
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:48 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: 1ac68ae01
+
+Time (s): cpu = 00:02:24 ; elapsed = 00:01:58 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1ac68ae01
+
+Time (s): cpu = 00:02:26 ; elapsed = 00:01:59 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1ac68ae01
+
+Time (s): cpu = 00:02:26 ; elapsed = 00:01:59 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 2736b22fc
+
+Time (s): cpu = 00:02:26 ; elapsed = 00:02:00 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+
+Phase 4.2.1.1 Restore Best Placement
+Phase 4.2.1.1 Restore Best Placement | Checksum: 255adf974
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:07 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: 255adf974
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:07 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 4.2 Post Placement Optimization | Checksum: 255adf974
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:07 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 255adf974
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Congestion Reporting
+Phase 4.4.1 Congestion Reporting | Checksum: 255adf974
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.4.2 Dump Critical Paths 
+Phase 4.4.2 Dump Critical Paths  | Checksum: 255adf974
+
+Time (s): cpu = 00:02:38 ; elapsed = 00:02:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.4.3 Restore STA
+Phase 4.4.3 Restore STA | Checksum: 255adf974
+
+Time (s): cpu = 00:02:38 ; elapsed = 00:02:08 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.4.4 Print Final WNS
+INFO: [Place 30-100] Post Placement Timing Summary | WNS=0.607  | TNS=0.000  |
+
+Phase 4.4.4 Print Final WNS | Checksum: 255adf974
+
+Time (s): cpu = 00:02:51 ; elapsed = 00:02:16 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 4.4 Placer Reporting | Checksum: 255adf974
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:02:17 . Memory (MB): peak = 1210.574 ; gain = 0.000
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 2237c5ede
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:02:17 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2237c5ede
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:02:17 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Ending Placer Task | Checksum: 141b5bc4b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:02:18 . Memory (MB): peak = 1210.574 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 7 Warnings, 8 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:55 ; elapsed = 00:02:19 . Memory (MB): peak = 1210.574 ; gain = 0.000
+INFO: [Timing 38-163] DEBUG : Generate clock report | CPU: 1 secs 
+
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.479 . Memory (MB): peak = 1210.574 ; gain = 0.000
+INFO: [Designutils 20-134] DEBUG : Generate Control Sets report | CPU: 0 secs 
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1210.574 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1210.574 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+
+Phase 1.1 Build Netlist & NodeGraph
+Phase 1.1 Build Netlist & NodeGraph | Checksum: 141b5bc4b
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1257.547 ; gain = 46.973
+Phase 1 Build RT Design | Checksum: 6f0ceed2
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:38 . Memory (MB): peak = 1257.547 ; gain = 46.973
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 6f0ceed2
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:38 . Memory (MB): peak = 1257.547 ; gain = 46.973
+
+Phase 2.2 Restore Routing
+Phase 2.2 Restore Routing | Checksum: 6f0ceed2
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:39 . Memory (MB): peak = 1262.918 ; gain = 52.344
+
+Phase 2.3 Special Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Special Net Routing | Checksum: 8a34f7e1
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:40 . Memory (MB): peak = 1285.020 ; gain = 74.445
+
+Phase 2.4 Local Clock Net Routing
+Phase 2.4 Local Clock Net Routing | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:42 . Memory (MB): peak = 1285.020 ; gain = 74.445
+
+Phase 2.5 Update Timing
+
+Phase 2.5.1 Update timing with NCN CRPR
+
+Phase 2.5.1.1 Hold Budgeting
+Phase 2.5.1.1 Hold Budgeting | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1297.352 ; gain = 86.777
+Phase 2.5.1 Update timing with NCN CRPR | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1297.352 ; gain = 86.777
+Phase 2.5 Update Timing | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1297.352 ; gain = 86.777
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.704  | TNS=0      | WHS=-0.307 | THS=-292   |
+
+
+Phase 2.6 Budgeting
+Phase 2.6 Budgeting | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:00:56 . Memory (MB): peak = 1297.352 ; gain = 86.777
+Phase 2 Router Initialization | Checksum: 10a0bd6e4
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:00:56 . Memory (MB): peak = 1297.352 ; gain = 86.777
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 9e5652bd
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:01:13 . Memory (MB): peak = 1386.234 ; gain = 175.660
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+
+Phase 4.1.1 Remove Overlaps
+ Number of Nodes with overlaps = 1689
+ Number of Nodes with overlaps = 77
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+Phase 4.1.1 Remove Overlaps | Checksum: 3bc10e6f
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:30 . Memory (MB): peak = 1386.375 ; gain = 175.801
+
+Phase 4.1.2 Update Timing
+Phase 4.1.2 Update Timing | Checksum: 3bc10e6f
+
+Time (s): cpu = 00:02:39 ; elapsed = 00:01:33 . Memory (MB): peak = 1386.375 ; gain = 175.801
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.165  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.3 collectNewHoldAndFix
+Phase 4.1.3 collectNewHoldAndFix | Checksum: 147266d0d
+
+Time (s): cpu = 00:02:40 ; elapsed = 00:01:33 . Memory (MB): peak = 1386.375 ; gain = 175.801
+Phase 4.1 Global Iteration 0 | Checksum: 147266d0d
+
+Time (s): cpu = 00:02:40 ; elapsed = 00:01:33 . Memory (MB): peak = 1386.375 ; gain = 175.801
+
+Phase 4.2 Global Iteration 1
+
+Phase 4.2.1 Remove Overlaps
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+INFO: [Route 35-325] The following overlapped node exist in the design and there is low overall congestion. 
+Resolution: Check for routing resource conflicts on the identified nets or significant localized congestion using the Route Congestion Metrics in the Device View. 
+1. INT_L_X32Y134/IMUX_L16
+Overlapping nets: 2
+	system_i/util_vector_logic_8/Res[6]
+	system_i/util_vector_logic_8/Res[1]
+
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+Phase 4.2.1 Remove Overlaps | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:43 ; elapsed = 00:01:36 . Memory (MB): peak = 1386.375 ; gain = 175.801
+
+Phase 4.2.2 Update Timing
+Phase 4.2.2 Update Timing | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:43 ; elapsed = 00:01:37 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.165  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.2.3 collectNewHoldAndFix
+Phase 4.2.3 collectNewHoldAndFix | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:44 ; elapsed = 00:01:37 . Memory (MB): peak = 1386.641 ; gain = 176.066
+Phase 4.2 Global Iteration 1 | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:44 ; elapsed = 00:01:37 . Memory (MB): peak = 1386.641 ; gain = 176.066
+Phase 4 Rip-up And Reroute | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:44 ; elapsed = 00:01:37 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:46 ; elapsed = 00:01:38 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.179  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:46 ; elapsed = 00:01:39 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Full Hold Analysis
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:01:41 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.179  | TNS=0      | WHS=0.038  | THS=0      |
+
+Phase 6.1 Full Hold Analysis | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:01:41 . Memory (MB): peak = 1386.641 ; gain = 176.066
+Phase 6 Post Hold Fix | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:01:41 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 6.24418 %
+  Global Horizontal Routing Utilization  = 6.81702 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 7 Verifying routed nets
+
+ Verification completed successfully
+Phase 7 Verifying routed nets | Checksum: 1348d4da2
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:01:41 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Phase 8 Depositing Routes
+Phase 8 Depositing Routes | Checksum: 1a3160f6e
+
+Time (s): cpu = 00:02:54 ; elapsed = 00:01:45 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Phase 9 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.179  | TNS=0.000  | WHS=0.043  | THS=0.000  |
+
+INFO: [Route 35-61] The design met the timing requirement.
+Phase 9 Post Router Timing | Checksum: 1a3160f6e
+
+Time (s): cpu = 00:03:10 ; elapsed = 00:01:54 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 1a3160f6e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:55 . Memory (MB): peak = 1386.641 ; gain = 176.066
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:55 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Common 17-83] Releasing license: Implementation
+58 Infos, 7 Warnings, 8 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:03:16 ; elapsed = 00:02:00 . Memory (MB): peak = 1386.641 ; gain = 176.066
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Ian/Documents/GitHub/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1386.641 ; gain = 0.000
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:01:08 ; elapsed = 00:00:52 . Memory (MB): peak = 1386.641 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1386.641 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1386.641 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1386.641 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 10 11:23:45 2017...
