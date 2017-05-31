@@ -765,8 +765,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>TrigWordDelay_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>6</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2017-04-27T16:02:09Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>8</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2017-05-26T15:43:20Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

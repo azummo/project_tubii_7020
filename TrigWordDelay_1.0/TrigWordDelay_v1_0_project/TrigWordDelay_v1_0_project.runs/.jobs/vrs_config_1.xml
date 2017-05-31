@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="synth_1" LaunchDir="C:/Users/Ian/Documents/GitHub/project_tubii_7020/TrigWordDelay_1.0/TrigWordDelay_v1_0_project/TrigWordDelay_v1_0_project.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-

@@ -29,8 +29,6 @@ entity triggers_v2_0 is
         gtrigout       : out std_logic;
         synci          : in std_logic;
         sync24i        : in std_logic;
-        trig_word      : out std_logic_vector(23 downto 0);
-        dtrig_word     : in std_logic_vector(23 downto 0);
         tubii_word     : out std_logic_vector(47 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -103,8 +101,6 @@ architecture arch_imp of triggers_v2_0 is
         GTRIGout        : out std_logic;
         SYNCi           : in std_logic;
         SYNC24i         : in std_logic;
-        TRIG_WORD       : out std_logic_vector(23 downto 0);
-        DTRIG_WORD      : in std_logic_vector(23 downto 0);
         TUBII_WORD      : out std_logic_vector(47 downto 0)
 		);
 	end component triggers_v2_0_S00_AXI;
@@ -151,8 +147,6 @@ triggers_v2_0_S00_AXI_inst : triggers_v2_0_S00_AXI
         GTRIGout        => gtrigout,
         SYNCi           => synci,
         SYNC24i         => sync24i,
-        TRIG_WORD       => trig_word,
-        DTRIG_WORD      => dtrig_word,
         TUBII_WORD      => tubii_word
 	);
 

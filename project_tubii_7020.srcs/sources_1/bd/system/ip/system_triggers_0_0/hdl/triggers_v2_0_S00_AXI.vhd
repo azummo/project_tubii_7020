@@ -29,8 +29,6 @@ entity triggers_v2_0_S00_AXI is
         GTID_in        : in std_logic_vector(23 downto 0);
         GTID_out       : out std_logic_vector(23 downto 0);
         GTRIGout       : out std_logic;   
-        TRIG_WORD      : out std_logic_vector(23 downto 0);
-        DTRIG_WORD     : in std_logic_vector(23 downto 0);
         TUBII_WORD     : out std_logic_vector(47 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -246,8 +244,7 @@ begin
       -- slv_reg5 is syncs
       -- slv_reg6 is softgt
       -- slv_reg7 is soft reset
-      TRIG_WORD(23 downto 0)  <= TRIGS_IN(23 downto 0);
-      TUBII_WORD(23 downto 0) <= DTRIG_WORD(23 downto 0);
+      TUBII_WORD(23 downto 0) <= TRIGS_IN(23 downto 0);
       TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
 
       --slv_reg5(0) <= tsync;

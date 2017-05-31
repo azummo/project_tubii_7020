@@ -43,6 +43,7 @@
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_prescaleSignal_0_0/system_prescaleSignal_0_0.upgrade_log"/>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_prescaleSignal_1_1/system_prescaleSignal_1_1.upgrade_log"/>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_clockLogic_0_0/system_clockLogic_0_0.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_trigwordfifo_0_0/system_trigwordfifo_0_0.upgrade_log"/>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="system_wrapper"/>
