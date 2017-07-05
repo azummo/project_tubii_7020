@@ -744,8 +744,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>testPulser_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>18</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2017-01-03T21:59:37Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>19</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2017-06-13T18:15:15Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

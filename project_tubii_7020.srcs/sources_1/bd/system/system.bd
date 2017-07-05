@@ -357,20 +357,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>xadc_wiz_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="xadc_wiz" spirit:vendor="xilinx.com" spirit:version="3.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_xadc_wiz_0_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="XADC_STARUP_SELECTION">channel_sequencer</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="OT_ALARM">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="USER_TEMP_ALARM">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="VCCINT_ALARM">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="VCCAUX_ALARM">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_TEMPERATURE">true</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VCCINT">true</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>implement_gtid_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="implement_gtid" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
@@ -577,31 +563,75 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>genericDelay</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>clockLogic_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="clockLogic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_clockLogic_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>gtDelay</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>oneshot_pulse_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="oneshot_pulse" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_0_7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_oneshot_pulse_0_2</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>smellieDelay</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>oneshot_pulse_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="oneshot_pulse" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_3_6</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_oneshot_pulse_1_1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>tellieDelay</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>fifo_generator_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="fifo_generator" spirit:vendor="xilinx.com" spirit:version="11.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_2_5</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_fifo_generator_1_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Input_Data_Width">24</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Input_Depth">512</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>trigwordfifo_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="trigwordfifo" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_trigwordfifo_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>util_vector_logic_10</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_util_vector_logic_10_10</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_SIZE">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>util_vector_logic_11</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_util_vector_logic_11_11</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_SIZE">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_OPERATION">and</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>util_vector_logic_12</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_util_vector_logic_12_12</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_SIZE">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_OPERATION">not</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>util_vector_logic_13</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_util_vector_logic_13_13</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_SIZE">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_OPERATION">or</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -633,13 +663,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>clockLogic_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="clockLogic" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_clockLogic_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>testPulser_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="testPulser" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
@@ -647,26 +670,38 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>oneshot_pulse_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="oneshot_pulse" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>genericDelay</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_oneshot_pulse_0_2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>oneshot_pulse_1</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="oneshot_pulse" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>gtDelay</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_oneshot_pulse_1_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_0_7</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>fifo_generator_1</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="fifo_generator" spirit:vendor="xilinx.com" spirit:version="11.0"/>
+        <spirit:instanceName>smellieDelay</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_fifo_generator_1_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Input_Data_Width">24</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Input_Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_3_6</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>tellieDelay</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="testDelay" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_testDelay_2_5</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>ellie_control_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="ellie_control" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_ellie_control_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -674,13 +709,6 @@
         <spirit:componentRef spirit:library="user" spirit:name="triggers" spirit:vendor="xilinx.com" spirit:version="2.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_triggers_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>trigwordfifo_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="trigwordfifo" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_trigwordfifo_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -786,11 +814,6 @@
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="implement_gtid_0"/>
       </spirit:interconnection>
       <spirit:interconnection>
-        <spirit:name>axi_interconnect_0_M06_AXI</spirit:name>
-        <spirit:activeInterface spirit:busRef="s_axi_lite" spirit:componentRef="xadc_wiz_0"/>
-        <spirit:activeInterface spirit:busRef="M06_AXI" spirit:componentRef="axi_interconnect_0"/>
-      </spirit:interconnection>
-      <spirit:interconnection>
         <spirit:name>axi_interconnect_0_M03_AXI</spirit:name>
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="prescaleSignal_0"/>
         <spirit:activeInterface spirit:busRef="M03_AXI" spirit:componentRef="axi_interconnect_0"/>
@@ -809,6 +832,11 @@
         <spirit:name>axi_interconnect_0_M20_AXI</spirit:name>
         <spirit:activeInterface spirit:busRef="M20_AXI" spirit:componentRef="axi_interconnect_0"/>
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="trigwordfifo_0"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>axi_interconnect_0_M06_AXI</spirit:name>
+        <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="ellie_control_0"/>
+        <spirit:activeInterface spirit:busRef="M06_AXI" spirit:componentRef="axi_interconnect_0"/>
       </spirit:interconnection>
     </spirit:interconnections>
     <spirit:adHocConnections>
@@ -831,13 +859,13 @@
         <spirit:internalPortReference spirit:componentRef="countDisplay_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="comboTrigger_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="ShiftRegisters_0" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="s_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="burstTrigger_0" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="gtDelay" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="MZ_Happy" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="clockLogic_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="oneshot_pulse_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="oneshot_pulse_1" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="MZ_Happy" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="gtDelay" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="ellie_control_0" spirit:portRef="s00_axi_aclk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>M00_ARESETN_1</spirit:name>
@@ -870,7 +898,6 @@
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M21_ARESETN"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M22_ARESETN"/>
         <spirit:internalPortReference spirit:componentRef="ShiftRegisters_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="s_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="implement_gtid_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="fifo_readout_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="prescaleTrigger_0" spirit:portRef="s00_axi_aresetn"/>
@@ -878,20 +905,21 @@
         <spirit:internalPortReference spirit:componentRef="prescaleSignal_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="prescaleSignal_1" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="burstTrigger_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="genericDelay" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="gtDelay" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="smellieDelay" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="clockLogic_0" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="oneshot_pulse_0" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="oneshot_pulse_1" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="trigwordfifo_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="MZ_Happy" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="genericPulser" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="smelliePulser" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="telliePulser" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="clockLogic_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="testPulser_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="oneshot_pulse_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="oneshot_pulse_1" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="genericDelay" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="gtDelay" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="smellieDelay" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="s00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="ellie_control_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="trigwordfifo_0" spirit:portRef="s00_axi_aresetn"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>triggerOut_0_trig_out</spirit:name>
@@ -927,7 +955,7 @@
       <spirit:adHocConnection>
         <spirit:name>s00_axi_userin_2_1</spirit:name>
         <spirit:externalPortReference spirit:portRef="tellie_delay_in"/>
-        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="pulse_in"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_11" spirit:portRef="Op1"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>testDelay_2_s00_axi_userout</spirit:name>
@@ -1069,6 +1097,7 @@
         <spirit:name>testPulser_0_pulser_out1</spirit:name>
         <spirit:internalPortReference spirit:componentRef="telliePulser" spirit:portRef="pulser_out"/>
         <spirit:externalPortReference spirit:portRef="tellie_pulser_out"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_10" spirit:portRef="Op1"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>testPulser_1_pulser_out</spirit:name>
@@ -1080,12 +1109,6 @@
         <spirit:externalPortReference spirit:portRef="Clk_in"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M02_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="prescaleTrigger_0" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="testPulser_0" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="genericPulser" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="telliePulser" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="smelliePulser" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="smellieDelay" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="genericDelay" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M22_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M19_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M17_ACLK"/>
@@ -1098,10 +1121,16 @@
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M04_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M05_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_interconnect_0" spirit:portRef="M20_ACLK"/>
-        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="fifo_generator_1" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="trigwordfifo_0" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="genericPulser" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="smelliePulser" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="telliePulser" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="testPulser_0" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="genericDelay" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="smellieDelay" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="s00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="triggers_0" spirit:portRef="s00_axi_aclk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>triggerOut_0_counter</spirit:name>
@@ -1340,6 +1369,32 @@
         <spirit:name>trigwordfifo_0_reset</spirit:name>
         <spirit:internalPortReference spirit:componentRef="trigwordfifo_0" spirit:portRef="reset"/>
         <spirit:internalPortReference spirit:componentRef="fifo_generator_1" spirit:portRef="rst"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>util_vector_logic_12_Res</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_12" spirit:portRef="Res"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_11" spirit:portRef="Op2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>util_vector_logic_10_Res</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_10" spirit:portRef="Res"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_13" spirit:portRef="Op1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>util_vector_logic_11_Res</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_11" spirit:portRef="Res"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_13" spirit:portRef="Op2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>util_vector_logic_13_Res</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_13" spirit:portRef="Res"/>
+        <spirit:internalPortReference spirit:componentRef="tellieDelay" spirit:portRef="pulse_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>ellie_control_0_tellie_control</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ellie_control_0" spirit:portRef="tellie_control"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_12" spirit:portRef="Op1"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_10" spirit:portRef="Op2"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>
@@ -3038,21 +3093,21 @@
         <spirit:instanceName>tier2_xbar_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_0_1565</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_0_1577</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>tier2_xbar_1</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_1_1566</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_1_1578</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>tier2_xbar_2</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_crossbar" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_2_1567</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_tier2_xbar_2_1579</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -3181,7 +3236,7 @@
       </spirit:interconnection>
       <spirit:interconnection>
         <spirit:name>xbar_to_i01_couplers</spirit:name>
-        <spirit:activeInterface spirit:busRef="M01_AXI" spirit:componentRef="xbar"/>
+        <spirit:activeInterface spirit:busRef="M02_AXI" spirit:componentRef="xbar"/>
         <spirit:activeInterface spirit:busRef="S_AXI" spirit:componentRef="i01_couplers"/>
       </spirit:interconnection>
       <spirit:interconnection>
@@ -3191,7 +3246,7 @@
       </spirit:interconnection>
       <spirit:interconnection>
         <spirit:name>xbar_to_i02_couplers</spirit:name>
-        <spirit:activeInterface spirit:busRef="M02_AXI" spirit:componentRef="xbar"/>
+        <spirit:activeInterface spirit:busRef="M01_AXI" spirit:componentRef="xbar"/>
         <spirit:activeInterface spirit:busRef="S_AXI" spirit:componentRef="i02_couplers"/>
       </spirit:interconnection>
       <spirit:interconnection>
@@ -3892,7 +3947,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_990</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1032</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4087,7 +4142,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_989</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1031</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4282,7 +4337,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_988</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1030</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4477,7 +4532,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_987</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1029</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -4672,7 +4727,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_986</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1028</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5029,7 +5084,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_985</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1027</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5224,7 +5279,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_984</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1026</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5419,7 +5474,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_983</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1025</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5614,7 +5669,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_982</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1024</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -5971,7 +6026,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_981</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1023</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -7138,7 +7193,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_980</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1022</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -7333,7 +7388,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_979</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1021</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -7528,7 +7583,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_978</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1020</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -7723,7 +7778,7 @@
         <spirit:instanceName>auto_cc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_clock_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_977</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_cc_1019</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -8242,7 +8297,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_pc_160</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">system_auto_pc_163</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -8799,12 +8854,6 @@
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_xadc_wiz_0_Reg</spirit:name>
-            <spirit:displayName>/xadc_wiz_0/s_axi_lite/Reg</spirit:displayName>
-            <spirit:addressOffset>0x43C20000</spirit:addressOffset>
-            <spirit:range>64K</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
             <spirit:name>SEG_prescaleTrigger_0_S00_AXI_reg</spirit:name>
             <spirit:displayName>/prescaleTrigger_0/S00_AXI/S00_AXI_reg</spirit:displayName>
             <spirit:addressOffset>0x43C01000</spirit:addressOffset>
@@ -8829,27 +8878,27 @@
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_genericDelay_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/genericDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0B000</spirit:addressOffset>
+            <spirit:name>SEG_clockLogic_0_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/clockLogic_0/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C03000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_gtDelay_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/gtDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0C000</spirit:addressOffset>
+            <spirit:name>SEG_oneshot_pulse_0_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/oneshot_pulse_0/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0A000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_smellieDelay_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/smellieDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0D000</spirit:addressOffset>
+            <spirit:name>SEG_oneshot_pulse_1_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/oneshot_pulse_1/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0F000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_tellieDelay_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/tellieDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0E000</spirit:addressOffset>
+            <spirit:name>SEG_trigwordfifo_0_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/trigwordfifo_0/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C13000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
@@ -8877,39 +8926,45 @@
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_clockLogic_0_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/clockLogic_0/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C03000</spirit:addressOffset>
-            <spirit:range>4K</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
             <spirit:name>SEG_testPulser_0_S00_AXI_reg</spirit:name>
             <spirit:displayName>/testPulser_0/S00_AXI/S00_AXI_reg</spirit:displayName>
             <spirit:addressOffset>0x43C16000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_oneshot_pulse_0_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/oneshot_pulse_0/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0A000</spirit:addressOffset>
+            <spirit:name>SEG_genericDelay_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/genericDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0B000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
-            <spirit:name>SEG_oneshot_pulse_1_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/oneshot_pulse_1/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C0F000</spirit:addressOffset>
+            <spirit:name>SEG_gtDelay_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/gtDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0C000</spirit:addressOffset>
+            <spirit:range>4K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_smellieDelay_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/smellieDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0D000</spirit:addressOffset>
+            <spirit:range>4K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_tellieDelay_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/tellieDelay/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C0E000</spirit:addressOffset>
+            <spirit:range>4K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_ellie_control_0_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/ellie_control_0/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C17000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
           <spirit:segment>
             <spirit:name>SEG_triggers_0_S00_AXI_reg</spirit:name>
             <spirit:displayName>/triggers_0/S00_AXI/S00_AXI_reg</spirit:displayName>
             <spirit:addressOffset>0x43C09000</spirit:addressOffset>
-            <spirit:range>4K</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
-            <spirit:name>SEG_trigwordfifo_0_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/trigwordfifo_0/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C13000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
         </spirit:segments>
