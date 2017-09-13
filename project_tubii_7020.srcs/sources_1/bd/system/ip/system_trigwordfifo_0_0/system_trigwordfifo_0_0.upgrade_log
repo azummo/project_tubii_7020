@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Tue May 30 15:56:26 2017
+| Date         : Wed Sep 13 11:27:56 2017
 | Host         : Ian-Penn running 64-bit Service Pack 1  (build 7601)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -12,5 +12,5 @@ Upgrade Log for IP 'system_trigwordfifo_0_0'
 1. Summary
 ----------
 
-SUCCESS in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 4) to (Rev. 5)
+SUCCESS in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 6) to (Rev. 7)
 

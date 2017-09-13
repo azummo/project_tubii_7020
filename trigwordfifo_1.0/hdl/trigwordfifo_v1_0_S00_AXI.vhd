@@ -20,6 +20,8 @@ entity trigwordfifo_v1_0_S00_AXI is
         WR_ENABLE   : out std_logic;
         RD_ENABLE   : out std_logic;
         RESET       : out std_logic;
+        WORDIN    : in std_logic_vector(23 downto 0);
+        WORDOUT   : out std_logic_vector(23 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -120,6 +122,12 @@ architecture arch_imp of trigwordfifo_v1_0_S00_AXI is
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
     signal zeros  :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+
+    subtype word is std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    type word_array is array(0 to 23) of word;
+    signal arr0 : word_array;
+    signal arr1 : word_array;
+    signal sgnl : std_logic_vector(23 downto 0);
 
 begin
 	-- I/O Connections assignments
@@ -222,6 +230,28 @@ begin
         end if;
 
         RESET <= slv_reg1(0);
+
+        ---- Extension of the trigger word ----
+        for i in 0 to 23 loop
+          if WORDIN(i)>'0' then         -- Record a pulse
+            sgnl(i) <= WORDIN(i);
+            arr0(i) <= arr0(i)+1;
+            WORDOUT(i) <= WORDIN(i);
+          end if;
+
+          if sgnl(i) > '0' then
+            arr1(i) <= arr1(i)+1;        -- time since start of pulse
+          
+            if arr1(i) > (arr0(i)+slv_reg2) then    -- end of delayed pulse
+              arr0(i) <= (others => '0');
+              arr1(i) <= (others => '0');
+              sgnl(i) <= '0';
+              WORDOUT(i) <= '0';
+            elsif arr1(i) > 0 then --slv_reg0 then    -- start of delayed pulse
+              WORDOUT(i) <= sgnl(i);
+            end if; 
+          end if;                
+        end loop;
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');

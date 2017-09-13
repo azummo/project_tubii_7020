@@ -20,6 +20,8 @@ entity trigwordfifo_v1_0 is
         wr_enable   : out std_logic;
         rd_enable   : out std_logic;
         reset       : out std_logic;
+        wordin      : in std_logic_vector(23 downto 0);
+        wordout     : out std_logic_vector(23 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -81,7 +83,9 @@ architecture arch_imp of trigwordfifo_v1_0 is
 		S_AXI_RREADY	: in std_logic;
 		WR_ENABLE       : out std_logic;
         RD_ENABLE       : out std_logic;
-        RESET           : out std_logic
+        RESET           : out std_logic;
+        WORDIN          : in std_logic_vector(23 downto 0);
+        WORDOUT         : out std_logic_vector(23 downto 0)
 		);
 	end component trigwordfifo_v1_0_S00_AXI;
 
@@ -117,7 +121,9 @@ trigwordfifo_v1_0_S00_AXI_inst : trigwordfifo_v1_0_S00_AXI
 		S_AXI_RREADY	=> s00_axi_rready,
 		WR_ENABLE       => wr_enable,
 		RD_ENABLE       => rd_enable,
-		RESET           => reset
+		RESET           => reset,
+		WORDIN          => wordin,
+		WORDOUT         => wordout
 	);
 
 	-- Add user logic here

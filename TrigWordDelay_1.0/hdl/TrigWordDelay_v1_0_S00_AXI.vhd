@@ -229,7 +229,7 @@ begin
           if sgnl(i) > '0' then
             arr1(i) <= arr1(i)+1;        -- time since start of pulse
           
-            if arr1(i) > slv_reg0 then --(arr0(i)+slv_reg0) then    -- end of delayed pulse
+            if arr1(i) > (arr0(i)+slv_reg0) then    -- end of delayed pulse
               arr0(i) <= (others => '0');
               arr1(i) <= (others => '0');
               sgnl(i) <= '0';
