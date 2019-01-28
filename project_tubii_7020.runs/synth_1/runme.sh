@@ -3,28 +3,24 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 # 
 
-echo "This script was generated under a different operating system."
-echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
-exit
-
 if [ -z "$PATH" ]; then
-  PATH=C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2013.4/bin
+  PATH=/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2018.2/bin
 else
-  PATH=C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2013.4/bin:$PATH
+  PATH=/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2018.2/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=
+  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/lin64
 else
-  LD_LIBRARY_PATH=:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD=`dirname "$0"`
+HD_PWD='/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log system_wrapper.rds -m64 -mode batch -messageDb vivado.pb -source system_wrapper.tcl
+EAStep vivado -log system_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl

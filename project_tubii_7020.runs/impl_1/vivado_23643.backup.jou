@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 25 12:42:30 2019
+# Process ID: 23643
+# Current directory: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1
+# Command line: vivado -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper.vdi
+# Journal file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

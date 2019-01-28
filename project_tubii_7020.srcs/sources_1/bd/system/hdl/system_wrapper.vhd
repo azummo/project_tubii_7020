@@ -1,5 +1,16 @@
-library IEEE; use IEEE.STD_LOGIC_1164.ALL;
-library UNISIM; use UNISIM.VCOMPONENTS.ALL; 
+--Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------
+--Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+--Date        : Fri Jan 25 12:31:44 2019
+--Host        : zummo running 64-bit Ubuntu 16.04.5 LTS
+--Command     : generate_target system_wrapper.bd
+--Design      : system_wrapper
+--Purpose     : IP block netlist
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
 entity system_wrapper is
   port (
     Clk_in : in STD_LOGIC;
@@ -128,7 +139,7 @@ architecture STRUCTURE of system_wrapper is
   end component system;
 begin
 system_i: component system
-    port map (
+     port map (
       Clk_in => Clk_in,
       DDR_addr(14 downto 0) => DDR_addr(14 downto 0),
       DDR_ba(2 downto 0) => DDR_ba(2 downto 0),

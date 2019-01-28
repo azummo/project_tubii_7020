@@ -1,16 +1,20 @@
 //
 // Vivado(TM)
 // rundef.js: a Vivado-generated Runs Script for WSH 5.1/5.6
-// Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //
+
+echo "This script was generated under a different operating system."
+echo "Please update the PATH variable below, before executing this script"
+exit
 
 var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2013.4/bin;";
+  PathVal = "/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/lin64;/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/lin64;/opt/Xilinx/Vivado/2018.2/bin;";
 } else {
-  PathVal = "C:/Xilinx/SDK/2013.4/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/EDK/lib/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2013.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2013.4/bin;" + PathVal;
+  PathVal = "/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/lin64;/opt/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/lin64;/opt/Xilinx/Vivado/2018.2/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;
@@ -23,7 +27,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log system_wrapper.rds -m64 -mode batch -messageDb vivado.pb -source system_wrapper.tcl" );
+         "-log system_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl" );
 
 
 
