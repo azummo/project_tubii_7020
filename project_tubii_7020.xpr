@@ -23,19 +23,16 @@
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ellie_control_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/coincTrigger_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/clockDivider_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/trigwordfifo_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/TrigWordFifo_1.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/triggers_2.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/triggers_2.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/triggers_2.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/triggers_2.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/prescaleSignal_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/sync_gtid_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/SyncGTID_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/triggers_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/tubii_triggers_1.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/tubii_triggers_1.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ShiftRegisters_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/buttonTrigger_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ShiftReg_1.0"/>

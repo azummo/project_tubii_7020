@@ -22,8 +22,13 @@ set_property PACKAGE_PIN D19 [get_ports gt_in]
 set_property PACKAGE_PIN W13 [get_ports trig_out]
 set_property PACKAGE_PIN F16 [get_ports {mtca_mimic_in[0]}]
 set_property PACKAGE_PIN D20 [get_ports {mtca_mimic_in[1]}]
-set_property PACKAGE_PIN P16 [get_ports {ext_trig_in[0]}]
-set_property PACKAGE_PIN P15 [get_ports {ext_trig_in[1]}]
+
+#set_property PACKAGE_PIN P16 [get_ports {ext_trig_in[0]}]
+#set_property PACKAGE_PIN P15 [get_ports {ext_trig_in[1]}]
+
+set_property PACKAGE_PIN J20 [get_ports {ext_trig_in[0]}]
+set_property PACKAGE_PIN H20 [get_ports {ext_trig_in[1]}]
+
 set_property PACKAGE_PIN W19 [get_ports {ext_trig_in[2]}]
 set_property PACKAGE_PIN W18 [get_ports {ext_trig_in[3]}]
 set_property PACKAGE_PIN R18 [get_ports {ext_trig_in[4]}]
@@ -38,6 +43,12 @@ set_property PACKAGE_PIN N15 [get_ports {ext_trig_in[12]}]
 set_property PACKAGE_PIN J14 [get_ports {ext_trig_in[13]}]
 set_property PACKAGE_PIN K14 [get_ports {ext_trig_in[14]}]
 set_property PACKAGE_PIN N16 [get_ports {ext_trig_in[15]}]
+
+
+set_property IOSTANDARD LVTTL [get_ports test_div_out]
+set_property IOSTANDARD LVTTL [get_ports test_coinc_trig_out]
+set_property PACKAGE_PIN U18 [get_ports test_div_out]
+set_property PACKAGE_PIN R19 [get_ports test_coinc_trig_out]
 
 set_property IOSTANDARD LVTTL [get_ports sync]
 set_property IOSTANDARD LVTTL [get_ports sync24]
