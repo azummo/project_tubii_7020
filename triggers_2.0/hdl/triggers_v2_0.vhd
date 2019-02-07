@@ -6,7 +6,8 @@ use ieee.std_logic_unsigned.all;
 entity triggers_v2_0 is
 	generic (
 		-- Users to add parameters here
-
+        wordlength : integer := 25;
+        gtidlength : integer := 24;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -17,19 +18,19 @@ entity triggers_v2_0 is
 	);
 	port (
 		-- Users to add ports here
-		trigs_in       : in std_logic_vector(23 downto 0);
-        trigger_mask   : out std_logic_vector(23 downto 0);
-        trigger_async_mask   : out std_logic_vector(23 downto 0);
-        speaker_mask   : out std_logic_vector(24 downto 0);
-        counter_mask   : out std_logic_vector(24 downto 0);
+		trigs_in       : in std_logic_vector(wordlength-1 downto 0);
+        trigger_mask   : out std_logic_vector(wordlength-1 downto 0);
+        trigger_async_mask   : out std_logic_vector(wordlength-1 downto 0);
+        speaker_mask   : out std_logic_vector(wordlength downto 0);
+        counter_mask   : out std_logic_vector(wordlength downto 0);
         speaker_scale  : out std_logic_vector(7 downto 0);
         gtrig          : in std_logic;
-        gtid_in        : in std_logic_vector(23 downto 0);
-        gtid_out       : out std_logic_vector(23 downto 0);
+        gtid_in        : in std_logic_vector(gtidlength-1 downto 0);
+        gtid_out       : out std_logic_vector(gtidlength-1 downto 0);
         gtrigout       : out std_logic;
         synci          : in std_logic;
         sync24i        : in std_logic;
-        tubii_word     : out std_logic_vector(47 downto 0);
+        tubii_word     : out std_logic_vector(wordlength+gtidlength-1 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -64,6 +65,8 @@ architecture arch_imp of triggers_v2_0 is
 	-- component declaration
 	component triggers_v2_0_S00_AXI is
 		generic (
+		WORDLENGTH : integer := 25;
+		GTIDLENGTH : integer := 24;
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 6
 		);
@@ -89,19 +92,19 @@ architecture arch_imp of triggers_v2_0 is
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
 		S_AXI_RREADY	: in std_logic;
-		TRIGS_IN        : in std_logic_vector(23 downto 0);
-        TRIGGER_MASK    : out std_logic_vector(23 downto 0);
-        TRIGGER_ASYNC_MASK    : out std_logic_vector(23 downto 0);
-        SPEAKER_MASK    : out std_logic_vector(24 downto 0);
-        COUNTER_MASK    : out std_logic_vector(24 downto 0);
+		TRIGS_IN        : in std_logic_vector(wordlength-1 downto 0);
+        TRIGGER_MASK    : out std_logic_vector(wordlength-1 downto 0);
+        TRIGGER_ASYNC_MASK    : out std_logic_vector(wordlength-1 downto 0);
+        SPEAKER_MASK    : out std_logic_vector(wordlength downto 0);
+        COUNTER_MASK    : out std_logic_vector(wordlength downto 0);
         SPEAKER_SCALE   : out std_logic_vector(7 downto 0);
         GTRIG           : in std_logic;
-        GTID_in         : in std_logic_vector(23 downto 0);
-        GTID_out        : out std_logic_vector(23 downto 0);
+        GTID_in         : in std_logic_vector(gtidlength-1 downto 0);
+        GTID_out        : out std_logic_vector(gtidlength-1 downto 0);
         GTRIGout        : out std_logic;
         SYNCi           : in std_logic;
         SYNC24i         : in std_logic;
-        TUBII_WORD      : out std_logic_vector(47 downto 0)
+        TUBII_WORD      : out std_logic_vector(wordlength+gtidlength-1 downto 0)
 		);
 	end component triggers_v2_0_S00_AXI;
 
@@ -110,6 +113,8 @@ begin
 -- Instantiation of Axi Bus Interface S00_AXI
 triggers_v2_0_S00_AXI_inst : triggers_v2_0_S00_AXI
 	generic map (
+	    WORDLENGTH => wordlength,
+	    GTIDLENGTH => gtidlength,
 		C_S_AXI_DATA_WIDTH	=> C_S00_AXI_DATA_WIDTH,
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)

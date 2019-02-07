@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "util_vector_logic_v2_0_1_util_vector_logic,Vivado 2018.2" *)
 (* CHECK_LICENSE_TYPE = "system_util_vector_logic_2_2,util_vector_logic_v2_0_1_util_vector_logic,{}" *)
-(* CORE_GENERATION_INFO = "system_util_vector_logic_2_2,util_vector_logic_v2_0_1_util_vector_logic,{x_ipProduct=Vivado 2018.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=util_vector_logic,x_ipVersion=2.0,x_ipCoreRevision=1,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_OPERATION=and,C_SIZE=25}" *)
+(* CORE_GENERATION_INFO = "system_util_vector_logic_2_2,util_vector_logic_v2_0_1_util_vector_logic,{x_ipProduct=Vivado 2018.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=util_vector_logic,x_ipVersion=2.0,x_ipCoreRevision=1,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_OPERATION=and,C_SIZE=26}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module system_util_vector_logic_2_2 (
   Op1,
@@ -60,13 +60,13 @@ module system_util_vector_logic_2_2 (
   Res
 );
 
-input wire [24 : 0] Op1;
-input wire [24 : 0] Op2;
-output wire [24 : 0] Res;
+input wire [25 : 0] Op1;
+input wire [25 : 0] Op2;
+output wire [25 : 0] Res;
 
   util_vector_logic_v2_0_1_util_vector_logic #(
     .C_OPERATION("and"),
-    .C_SIZE(25)
+    .C_SIZE(26)
   ) inst (
     .Op1(Op1),
     .Op2(Op2),

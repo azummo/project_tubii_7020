@@ -162,11 +162,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_ellie_co
 # IP: bd/system/ip/system_xbar_0/system_xbar_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xbar_0 || ORIG_REF_NAME==system_xbar_0} -quiet] -quiet
 
-# IP: bd/system/ip/system_clockDivider_0_0/system_clockDivider_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_clockDivider_0_0 || ORIG_REF_NAME==system_clockDivider_0_0} -quiet] -quiet
-
-# IP: bd/system/ip/system_coincTrigger_0_0/system_coincTrigger_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_coincTrigger_0_0 || ORIG_REF_NAME==system_coincTrigger_0_0} -quiet] -quiet
+# IP: bd/system/ip/system_anticoincTrigger_0_1/system_anticoincTrigger_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_anticoincTrigger_0_1 || ORIG_REF_NAME==system_anticoincTrigger_0_1} -quiet] -quiet
 
 # IP: bd/system/ip/system_tier2_xbar_0_0/system_tier2_xbar_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_tier2_xbar_0_0 || ORIG_REF_NAME==system_tier2_xbar_0_0} -quiet] -quiet

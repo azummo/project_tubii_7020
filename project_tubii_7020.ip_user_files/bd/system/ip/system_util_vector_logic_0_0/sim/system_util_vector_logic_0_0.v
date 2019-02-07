@@ -59,13 +59,13 @@ module system_util_vector_logic_0_0 (
   Res
 );
 
-input wire [23 : 0] Op1;
-input wire [23 : 0] Op2;
-output wire [23 : 0] Res;
+input wire [24 : 0] Op1;
+input wire [24 : 0] Op2;
+output wire [24 : 0] Res;
 
   util_vector_logic_v2_0_1_util_vector_logic #(
     .C_OPERATION("and"),
-    .C_SIZE(24)
+    .C_SIZE(25)
   ) inst (
     .Op1(Op1),
     .Op2(Op2),

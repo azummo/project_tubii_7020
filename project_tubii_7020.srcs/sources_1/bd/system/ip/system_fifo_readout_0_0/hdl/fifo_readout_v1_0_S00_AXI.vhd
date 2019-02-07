@@ -6,7 +6,8 @@ use ieee.std_logic_unsigned.all;
 entity fifo_readout_v1_0_S00_AXI is
 	generic (
 		-- Users to add parameters here
-
+        WORDLENGTH : integer := 25;
+        GTIDLENGTH : integer := 24;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -20,7 +21,7 @@ entity fifo_readout_v1_0_S00_AXI is
 		READ    : out std_logic;
         RESET   : out std_logic;
         RENABLE : out std_logic;
-        DATA    : in std_logic_vector(47 downto 0);
+        DATA    : in std_logic_vector(WORDLENGTH+GTIDLENGTH-1 downto 0);
         FULL    : in std_logic;
         EMPTY   : in std_logic;
 
@@ -221,8 +222,8 @@ begin
         RENABLE <= '1';
 
         -- Outputs from the FIFO
-        slv_reg1(23 downto 0) <= DATA(23 downto 0);
-        slv_reg2(23 downto 0) <= DATA(47 downto 24);
+        slv_reg1(WORDLENGTH-1 downto 0) <= DATA(WORDLENGTH-1 downto 0);
+        slv_reg2(GTIDLENGTH-1 downto 0) <= DATA(WORDLENGTH+GTIDLENGTH-1 downto WORDLENGTH);
         slv_reg3(0) <= EMPTY;
         slv_reg3(1) <= FULL;
 

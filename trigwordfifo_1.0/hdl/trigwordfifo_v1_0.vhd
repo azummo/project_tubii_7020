@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity trigwordfifo_v1_0 is
 	generic (
 		-- Users to add parameters here
-
+        wordlength : integer := 25;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -20,8 +20,8 @@ entity trigwordfifo_v1_0 is
         wr_enable   : out std_logic;
         rd_enable   : out std_logic;
         reset       : out std_logic;
-        wordin      : in std_logic_vector(23 downto 0);
-        wordout     : out std_logic_vector(23 downto 0);
+        wordin      : in std_logic_vector(wordlength-1 downto 0);
+        wordout     : out std_logic_vector(wordlength-1 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -56,6 +56,7 @@ architecture arch_imp of trigwordfifo_v1_0 is
 	-- component declaration
 	component trigwordfifo_v1_0_S00_AXI is
 		generic (
+		WORDLENGTH : integer := 25;
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 4
 		);
@@ -84,8 +85,8 @@ architecture arch_imp of trigwordfifo_v1_0 is
 		WR_ENABLE       : out std_logic;
         RD_ENABLE       : out std_logic;
         RESET           : out std_logic;
-        WORDIN          : in std_logic_vector(23 downto 0);
-        WORDOUT         : out std_logic_vector(23 downto 0)
+        WORDIN          : in std_logic_vector(wordlength-1 downto 0);
+        WORDOUT         : out std_logic_vector(wordlength-1 downto 0)
 		);
 	end component trigwordfifo_v1_0_S00_AXI;
 
@@ -94,6 +95,7 @@ begin
 -- Instantiation of Axi Bus Interface S00_AXI
 trigwordfifo_v1_0_S00_AXI_inst : trigwordfifo_v1_0_S00_AXI
 	generic map (
+	    WORDLENGTH => wordlength,
 		C_S_AXI_DATA_WIDTH	=> C_S00_AXI_DATA_WIDTH,
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)

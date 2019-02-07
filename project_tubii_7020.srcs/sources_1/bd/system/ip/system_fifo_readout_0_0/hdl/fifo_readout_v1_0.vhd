@@ -6,7 +6,8 @@ use ieee.std_logic_unsigned.all;
 entity fifo_readout_v1_0 is
 	generic (
 		-- Users to add parameters here
-
+        wordlength : integer := 25;
+        gtidlength : integer := 24;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -20,7 +21,7 @@ entity fifo_readout_v1_0 is
         read    : out std_logic;
         reset   : out std_logic;
         renable : out std_logic;
-        data    : in std_logic_vector(47 downto 0);
+        data    : in std_logic_vector(wordlength+gtidlength-1 downto 0);
         full    : in std_logic;
         empty   : in std_logic;
 		-- User ports ends
@@ -57,6 +58,8 @@ architecture arch_imp of fifo_readout_v1_0 is
 	-- component declaration
 	component fifo_readout_v1_0_S00_AXI is
 		generic (
+		WORDLENGTH : integer := 25;
+		GTIDLENGTH : integer := 24;
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 4
 		);
@@ -85,7 +88,7 @@ architecture arch_imp of fifo_readout_v1_0 is
 		READ    : out std_logic;
         RESET   : out std_logic;
         RENABLE : out std_logic;
-        DATA    : in std_logic_vector(47 downto 0);
+        DATA    : in std_logic_vector(WORDLENGTH+GTIDLENGTH-1 downto 0);
         FULL    : in std_logic;
         EMPTY   : in std_logic
 		);
@@ -96,6 +99,8 @@ begin
 -- Instantiation of Axi Bus Interface S00_AXI
 fifo_readout_v1_0_S00_AXI_inst : fifo_readout_v1_0_S00_AXI
 	generic map (
+	    WORDLENGTH => wordlength,
+	    GTIDLENGTH => gtidlength,
 		C_S_AXI_DATA_WIDTH	=> C_S00_AXI_DATA_WIDTH,
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)

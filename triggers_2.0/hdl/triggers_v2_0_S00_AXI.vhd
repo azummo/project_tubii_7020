@@ -6,7 +6,8 @@ use ieee.std_logic_unsigned.all;
 entity triggers_v2_0_S00_AXI is
 	generic (
 		-- Users to add parameters here
-
+		WORDLENGTH : integer := 25;
+		GTIDLENGTH : integer := 24;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -17,19 +18,19 @@ entity triggers_v2_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-		TRIGS_IN       : in std_logic_vector(23 downto 0);
-        TRIGGER_MASK   : out std_logic_vector(23 downto 0);
-        TRIGGER_ASYNC_MASK   : out std_logic_vector(23 downto 0);
-        SPEAKER_MASK   : out std_logic_vector(24 downto 0);
-        COUNTER_MASK   : out std_logic_vector(24 downto 0);
+		TRIGS_IN       : in std_logic_vector(WORDLENGTH-1 downto 0);
+        TRIGGER_MASK   : out std_logic_vector(WORDLENGTH-1 downto 0);
+        TRIGGER_ASYNC_MASK   : out std_logic_vector(WORDLENGTH-1 downto 0);
+        SPEAKER_MASK   : out std_logic_vector(WORDLENGTH downto 0);
+        COUNTER_MASK   : out std_logic_vector(WORDLENGTH downto 0);
         SPEAKER_SCALE  : out std_logic_vector(7 downto 0);
         GTRIG          : in std_logic;
         SYNCi          : in std_logic;
         SYNC24i        : in std_logic;
-        GTID_in        : in std_logic_vector(23 downto 0);
-        GTID_out       : out std_logic_vector(23 downto 0);
+        GTID_in        : in std_logic_vector(GTIDLENGTH-1 downto 0);
+        GTID_out       : out std_logic_vector(GTIDLENGTH-1 downto 0);
         GTRIGout       : out std_logic;   
-        TUBII_WORD     : out std_logic_vector(47 downto 0);
+        TUBII_WORD     : out std_logic_vector(WORDLENGTH+GTIDLENGTH-1 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -232,20 +233,20 @@ begin
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
 	  -- slv_reg0 is trigger in (for debugging)
-      slv_reg0(23 downto 0)  <= TRIGS_IN;
+      slv_reg0(WORDLENGTH-1 downto 0)  <= TRIGS_IN;
       -- slv_reg1 is counter mask
-      COUNTER_MASK <= slv_reg1(24 downto 0);
+      COUNTER_MASK <= slv_reg1(WORDLENGTH downto 0);
       -- slv_reg2 is speaker mask
-      SPEAKER_MASK <= slv_reg2(24 downto 0);
+      SPEAKER_MASK <= slv_reg2(WORDLENGTH downto 0);
       -- slv_reg3 is trigger mask
-      TRIGGER_MASK <= slv_reg3(23 downto 0);
-      TRIGGER_ASYNC_MASK <= slv_reg8(23 downto 0);
+      TRIGGER_MASK <= slv_reg3(WORDLENGTH-1 downto 0);
+      TRIGGER_ASYNC_MASK <= slv_reg8(WORDLENGTH-1 downto 0);
       -- slv_reg4 is gtid
       -- slv_reg5 is syncs
       -- slv_reg6 is softgt
       -- slv_reg7 is soft reset
-      TUBII_WORD(23 downto 0) <= TRIGS_IN(23 downto 0);
-      TUBII_WORD(47 downto 24) <= slv_reg4(23 downto 0);
+      TUBII_WORD(WORDLENGTH-1 downto 0) <= TRIGS_IN(WORDLENGTH-1 downto 0);
+      TUBII_WORD(WORDLENGTH+GTIDLENGTH-1 downto WORDLENGTH) <= slv_reg4(GTIDLENGTH-1 downto 0);
 
       --slv_reg5(0) <= tsync;
       --slv_reg5(1) <= tsync24;
@@ -269,10 +270,10 @@ begin
         slv_reg4(15 downto 0) <= (others=>'0');
         tsync <= '1';
       elsif tsync='0' and tsync24='0' and treset='0' then
-        slv_reg4(23 downto 0) <= GTID_in;
+        slv_reg4(GTIDLENGTH-1 downto 0) <= GTID_in;
       end if;
 
-      GTID_out <= slv_reg4(23 downto 0);
+      GTID_out <= slv_reg4(GTIDLENGTH-1 downto 0);
 
       if(GTRIG='1') then
         tsync <= '0';

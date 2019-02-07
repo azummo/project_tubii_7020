@@ -66,18 +66,18 @@ module system_fifo_generator_1_1 (
   rd_rst_busy
 );
 
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME core_clk, FREQ_HZ 100000000, PHASE 0.000" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME core_clk, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_Clk_in_2" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 core_clk CLK" *)
 input wire clk;
 input wire rst;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_write:1.0 FIFO_WRITE WR_DATA" *)
-input wire [23 : 0] din;
+input wire [24 : 0] din;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_write:1.0 FIFO_WRITE WR_EN" *)
 input wire wr_en;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_read:1.0 FIFO_READ RD_EN" *)
 input wire rd_en;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_read:1.0 FIFO_READ RD_DATA" *)
-output wire [23 : 0] dout;
+output wire [24 : 0] dout;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_write:1.0 FIFO_WRITE FULL" *)
 output wire full;
 (* X_INTERFACE_INFO = "xilinx.com:interface:fifo_read:1.0 FIFO_READ EMPTY" *)
@@ -91,9 +91,9 @@ output wire rd_rst_busy;
     .C_COUNT_TYPE(0),
     .C_DATA_COUNT_WIDTH(15),
     .C_DEFAULT_VALUE("BlankString"),
-    .C_DIN_WIDTH(24),
+    .C_DIN_WIDTH(25),
     .C_DOUT_RST_VAL("0"),
-    .C_DOUT_WIDTH(24),
+    .C_DOUT_WIDTH(25),
     .C_ENABLE_RLOCS(0),
     .C_FAMILY("zynq"),
     .C_FULL_FLAGS_RST_VAL(1),

@@ -52,19 +52,19 @@
 
 (* X_CORE_INFO = "util_reduced_logic_v2_0_4_util_reduced_logic,Vivado 2018.2" *)
 (* CHECK_LICENSE_TYPE = "system_util_reduced_logic_3_3,util_reduced_logic_v2_0_4_util_reduced_logic,{}" *)
-(* CORE_GENERATION_INFO = "system_util_reduced_logic_3_3,util_reduced_logic_v2_0_4_util_reduced_logic,{x_ipProduct=Vivado 2018.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=util_reduced_logic,x_ipVersion=2.0,x_ipCoreRevision=4,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_OPERATION=or,C_SIZE=24}" *)
+(* CORE_GENERATION_INFO = "system_util_reduced_logic_3_3,util_reduced_logic_v2_0_4_util_reduced_logic,{x_ipProduct=Vivado 2018.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=util_reduced_logic,x_ipVersion=2.0,x_ipCoreRevision=4,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_OPERATION=or,C_SIZE=25}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module system_util_reduced_logic_3_3 (
   Op1,
   Res
 );
 
-input wire [23 : 0] Op1;
+input wire [24 : 0] Op1;
 output wire Res;
 
   util_reduced_logic_v2_0_4_util_reduced_logic #(
     .C_OPERATION("or"),
-    .C_SIZE(24)
+    .C_SIZE(25)
   ) inst (
     .Op1(Op1),
     .Res(Res)
