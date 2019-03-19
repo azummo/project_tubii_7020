@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity triggers_v2_0 is
 	generic (
 		-- Users to add parameters here
-        wordlength : integer := 25;
+        wordlength : integer := 26;
         gtidlength : integer := 24;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
@@ -65,7 +65,7 @@ architecture arch_imp of triggers_v2_0 is
 	-- component declaration
 	component triggers_v2_0_S00_AXI is
 		generic (
-		WORDLENGTH : integer := 25;
+		WORDLENGTH : integer := 26;
 		GTIDLENGTH : integer := 24;
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 6

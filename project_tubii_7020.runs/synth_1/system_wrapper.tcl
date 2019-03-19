@@ -29,6 +29,7 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property ip_repo_paths {
+  /home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/ellie_control_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/anticoincTrigger_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0
@@ -75,15 +76,6 @@ set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TU
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_0/system_tier2_xbar_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_0/system_tier2_xbar_2_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_3_0/system_tier2_xbar_3_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_13/system_auto_cc_13_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_13/system_auto_cc_13_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_13/system_auto_cc_13_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_12/system_auto_cc_12_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_12/system_auto_cc_12_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_12/system_auto_cc_12_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_ooc.xdc]
 set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_ooc.xdc]

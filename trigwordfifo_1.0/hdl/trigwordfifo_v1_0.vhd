@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity trigwordfifo_v1_0 is
 	generic (
 		-- Users to add parameters here
-        wordlength : integer := 25;
+        wordlength : integer := 26;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -56,7 +56,7 @@ architecture arch_imp of trigwordfifo_v1_0 is
 	-- component declaration
 	component trigwordfifo_v1_0_S00_AXI is
 		generic (
-		WORDLENGTH : integer := 25;
+		WORDLENGTH : integer := 26;
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 4
 		);

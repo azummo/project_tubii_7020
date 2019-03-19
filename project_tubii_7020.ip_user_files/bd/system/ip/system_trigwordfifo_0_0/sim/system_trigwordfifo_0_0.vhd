@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:trigwordfifo:1.0
--- IP Revision: 9
+-- IP Revision: 12
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -58,8 +58,8 @@ ENTITY system_trigwordfifo_0_0 IS
     wr_enable : OUT STD_LOGIC;
     rd_enable : OUT STD_LOGIC;
     reset : OUT STD_LOGIC;
-    wordin : IN STD_LOGIC_VECTOR(24 DOWNTO 0);
-    wordout : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+    wordin : IN STD_LOGIC_VECTOR(25 DOWNTO 0);
+    wordout : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -97,8 +97,8 @@ ARCHITECTURE system_trigwordfifo_0_0_arch OF system_trigwordfifo_0_0 IS
       wr_enable : OUT STD_LOGIC;
       rd_enable : OUT STD_LOGIC;
       reset : OUT STD_LOGIC;
-      wordin : IN STD_LOGIC_VECTOR(24 DOWNTO 0);
-      wordout : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
+      wordin : IN STD_LOGIC_VECTOR(25 DOWNTO 0);
+      wordout : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -156,7 +156,7 @@ BEGIN
     GENERIC MAP (
       C_S00_AXI_DATA_WIDTH => 32,
       C_S00_AXI_ADDR_WIDTH => 4,
-      wordlength => 25
+      wordlength => 26
     )
     PORT MAP (
       wr_enable => wr_enable,

@@ -36,7 +36,7 @@ set_property PACKAGE_PIN G17 [get_ports {ext_trig_in[10]}]
 set_property PACKAGE_PIN G20 [get_ports {ext_trig_in[11]}]
 set_property PACKAGE_PIN N15 [get_ports {ext_trig_in[12]}]
 set_property PACKAGE_PIN J14 [get_ports {ext_trig_in[13]}]
-set_property PACKAGE_PIN K14 [get_ports {ext_trig_in[14]}]
+set_property PACKAGE_PIN H15 [get_ports {ext_trig_in[14]}]
 set_property PACKAGE_PIN N16 [get_ports {ext_trig_in[15]}]
 
 set_property IOSTANDARD LVTTL [get_ports sync]

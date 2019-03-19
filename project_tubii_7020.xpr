@@ -22,6 +22,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/coincTrigger_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ellie_control_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/anticoincTrigger_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/coincTrigger_1.0"/>

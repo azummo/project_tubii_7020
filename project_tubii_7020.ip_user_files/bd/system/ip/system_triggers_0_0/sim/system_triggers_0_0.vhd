@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:triggers:2.0
--- IP Revision: 7
+-- IP Revision: 10
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -55,11 +55,11 @@ USE ieee.numeric_std.ALL;
 
 ENTITY system_triggers_0_0 IS
   PORT (
-    trigs_in : IN STD_LOGIC_VECTOR(24 DOWNTO 0);
-    trigger_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
-    trigger_async_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
-    speaker_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
-    counter_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+    trigs_in : IN STD_LOGIC_VECTOR(25 DOWNTO 0);
+    trigger_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+    trigger_async_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+    speaker_mask : OUT STD_LOGIC_VECTOR(26 DOWNTO 0);
+    counter_mask : OUT STD_LOGIC_VECTOR(26 DOWNTO 0);
     speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
     gtrig : IN STD_LOGIC;
     gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -67,7 +67,7 @@ ENTITY system_triggers_0_0 IS
     gtrigout : OUT STD_LOGIC;
     synci : IN STD_LOGIC;
     sync24i : IN STD_LOGIC;
-    tubii_word : OUT STD_LOGIC_VECTOR(48 DOWNTO 0);
+    tubii_word : OUT STD_LOGIC_VECTOR(49 DOWNTO 0);
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
@@ -103,11 +103,11 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       gtidlength : INTEGER
     );
     PORT (
-      trigs_in : IN STD_LOGIC_VECTOR(24 DOWNTO 0);
-      trigger_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
-      trigger_async_mask : OUT STD_LOGIC_VECTOR(24 DOWNTO 0);
-      speaker_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
-      counter_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+      trigs_in : IN STD_LOGIC_VECTOR(25 DOWNTO 0);
+      trigger_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+      trigger_async_mask : OUT STD_LOGIC_VECTOR(25 DOWNTO 0);
+      speaker_mask : OUT STD_LOGIC_VECTOR(26 DOWNTO 0);
+      counter_mask : OUT STD_LOGIC_VECTOR(26 DOWNTO 0);
       speaker_scale : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
       gtrig : IN STD_LOGIC;
       gtid_in : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
@@ -115,7 +115,7 @@ ARCHITECTURE system_triggers_0_0_arch OF system_triggers_0_0 IS
       gtrigout : OUT STD_LOGIC;
       synci : IN STD_LOGIC;
       sync24i : IN STD_LOGIC;
-      tubii_word : OUT STD_LOGIC_VECTOR(48 DOWNTO 0);
+      tubii_word : OUT STD_LOGIC_VECTOR(49 DOWNTO 0);
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
@@ -171,7 +171,7 @@ BEGIN
     GENERIC MAP (
       C_S00_AXI_DATA_WIDTH => 32,
       C_S00_AXI_ADDR_WIDTH => 6,
-      wordlength => 25,
+      wordlength => 26,
       gtidlength => 24
     )
     PORT MAP (

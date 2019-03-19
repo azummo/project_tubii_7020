@@ -212,7 +212,7 @@ proc create_root_design { parentCell } {
   # Create instance: axi_interconnect_0, and set properties
   set axi_interconnect_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_interconnect_0 ]
   set_property -dict [ list \
-   CONFIG.NUM_MI {25} \
+   CONFIG.NUM_MI {26} \
    CONFIG.SYNCHRONIZATION_STAGES {2} \
  ] $axi_interconnect_0
 
@@ -221,6 +221,9 @@ proc create_root_design { parentCell } {
 
   # Create instance: clockLogic_0, and set properties
   set clockLogic_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:clockLogic:1.0 clockLogic_0 ]
+
+  # Create instance: coincTrigger_0, and set properties
+  set coincTrigger_0 [ create_bd_cell -type ip -vlnv user.org:user:coincTrigger:1.0 coincTrigger_0 ]
 
   # Create instance: comboTrigger_0, and set properties
   set comboTrigger_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:comboTrigger:1.0 comboTrigger_0 ]
@@ -239,9 +242,9 @@ proc create_root_design { parentCell } {
    CONFIG.Full_Flags_Reset_Value {1} \
    CONFIG.Full_Threshold_Assert_Value {65533} \
    CONFIG.Full_Threshold_Negate_Value {65532} \
-   CONFIG.Input_Data_Width {49} \
+   CONFIG.Input_Data_Width {50} \
    CONFIG.Input_Depth {65536} \
-   CONFIG.Output_Data_Width {49} \
+   CONFIG.Output_Data_Width {50} \
    CONFIG.Output_Depth {65536} \
    CONFIG.Performance_Options {Standard_FIFO} \
    CONFIG.Read_Data_Count_Width {16} \
@@ -256,9 +259,9 @@ proc create_root_design { parentCell } {
    CONFIG.Full_Flags_Reset_Value {1} \
    CONFIG.Full_Threshold_Assert_Value {32766} \
    CONFIG.Full_Threshold_Negate_Value {32765} \
-   CONFIG.Input_Data_Width {25} \
+   CONFIG.Input_Data_Width {26} \
    CONFIG.Input_Depth {32768} \
-   CONFIG.Output_Data_Width {25} \
+   CONFIG.Output_Data_Width {26} \
    CONFIG.Output_Depth {32768} \
    CONFIG.Read_Data_Count_Width {15} \
    CONFIG.Reset_Type {Asynchronous_Reset} \
@@ -1084,28 +1087,28 @@ proc create_root_design { parentCell } {
   set util_reduced_logic_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_reduced_logic:2.0 util_reduced_logic_0 ]
   set_property -dict [ list \
    CONFIG.C_OPERATION {or} \
-   CONFIG.C_SIZE {25} \
+   CONFIG.C_SIZE {26} \
  ] $util_reduced_logic_0
 
   # Create instance: util_reduced_logic_1, and set properties
   set util_reduced_logic_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_reduced_logic:2.0 util_reduced_logic_1 ]
   set_property -dict [ list \
    CONFIG.C_OPERATION {or} \
-   CONFIG.C_SIZE {26} \
+   CONFIG.C_SIZE {27} \
  ] $util_reduced_logic_1
 
   # Create instance: util_reduced_logic_2, and set properties
   set util_reduced_logic_2 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_reduced_logic:2.0 util_reduced_logic_2 ]
   set_property -dict [ list \
    CONFIG.C_OPERATION {or} \
-   CONFIG.C_SIZE {26} \
+   CONFIG.C_SIZE {27} \
  ] $util_reduced_logic_2
 
   # Create instance: util_reduced_logic_3, and set properties
   set util_reduced_logic_3 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_reduced_logic:2.0 util_reduced_logic_3 ]
   set_property -dict [ list \
    CONFIG.C_OPERATION {or} \
-   CONFIG.C_SIZE {25} \
+   CONFIG.C_SIZE {26} \
  ] $util_reduced_logic_3
 
   # Create instance: util_reduced_logic_4, and set properties
@@ -1132,19 +1135,19 @@ proc create_root_design { parentCell } {
   # Create instance: util_vector_logic_0, and set properties
   set util_vector_logic_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0 ]
   set_property -dict [ list \
-   CONFIG.C_SIZE {25} \
+   CONFIG.C_SIZE {26} \
  ] $util_vector_logic_0
 
   # Create instance: util_vector_logic_1, and set properties
   set util_vector_logic_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_1 ]
   set_property -dict [ list \
-   CONFIG.C_SIZE {26} \
+   CONFIG.C_SIZE {27} \
  ] $util_vector_logic_1
 
   # Create instance: util_vector_logic_2, and set properties
   set util_vector_logic_2 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_2 ]
   set_property -dict [ list \
-   CONFIG.C_SIZE {26} \
+   CONFIG.C_SIZE {27} \
  ] $util_vector_logic_2
 
   # Create instance: util_vector_logic_3, and set properties
@@ -1156,7 +1159,7 @@ proc create_root_design { parentCell } {
   # Create instance: util_vector_logic_4, and set properties
   set util_vector_logic_4 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_4 ]
   set_property -dict [ list \
-   CONFIG.C_SIZE {25} \
+   CONFIG.C_SIZE {26} \
  ] $util_vector_logic_4
 
   # Create instance: util_vector_logic_5, and set properties
@@ -1221,13 +1224,13 @@ proc create_root_design { parentCell } {
   set_property -dict [ list \
    CONFIG.IN0_WIDTH {16} \
    CONFIG.IN1_WIDTH {2} \
-   CONFIG.NUM_PORTS {9} \
+   CONFIG.NUM_PORTS {10} \
  ] $xlconcat_0
 
   # Create instance: xlconcat_1, and set properties
   set xlconcat_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_1 ]
   set_property -dict [ list \
-   CONFIG.IN0_WIDTH {25} \
+   CONFIG.IN0_WIDTH {26} \
    CONFIG.IN1_WIDTH {1} \
  ] $xlconcat_1
 
@@ -1257,12 +1260,13 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net axi_interconnect_0_M22_AXI [get_bd_intf_pins axi_interconnect_0/M22_AXI] [get_bd_intf_pins testPulser_0/S00_AXI]
   connect_bd_intf_net -intf_net axi_interconnect_0_M23_AXI [get_bd_intf_pins axi_interconnect_0/M23_AXI] [get_bd_intf_pins prescaleSignal_1/S00_AXI]
   connect_bd_intf_net -intf_net axi_interconnect_0_M24_AXI [get_bd_intf_pins anticoincTrigger_0/S00_AXI] [get_bd_intf_pins axi_interconnect_0/M24_AXI]
+  connect_bd_intf_net -intf_net axi_interconnect_0_M25_AXI [get_bd_intf_pins axi_interconnect_0/M25_AXI] [get_bd_intf_pins coincTrigger_0/S00_AXI]
   connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
   connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins axi_interconnect_0/S00_AXI] [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
 
   # Create port connections
-  connect_bd_net -net M00_ARESETN_1 [get_bd_pins MZ_Happy/s00_axi_aresetn] [get_bd_pins ShiftRegisters_0/s00_axi_aresetn] [get_bd_pins anticoincTrigger_0/s00_axi_aresetn] [get_bd_pins axi_interconnect_0/ARESETN] [get_bd_pins axi_interconnect_0/M00_ARESETN] [get_bd_pins axi_interconnect_0/M01_ARESETN] [get_bd_pins axi_interconnect_0/M02_ARESETN] [get_bd_pins axi_interconnect_0/M03_ARESETN] [get_bd_pins axi_interconnect_0/M04_ARESETN] [get_bd_pins axi_interconnect_0/M05_ARESETN] [get_bd_pins axi_interconnect_0/M06_ARESETN] [get_bd_pins axi_interconnect_0/M07_ARESETN] [get_bd_pins axi_interconnect_0/M08_ARESETN] [get_bd_pins axi_interconnect_0/M09_ARESETN] [get_bd_pins axi_interconnect_0/M10_ARESETN] [get_bd_pins axi_interconnect_0/M11_ARESETN] [get_bd_pins axi_interconnect_0/M12_ARESETN] [get_bd_pins axi_interconnect_0/M13_ARESETN] [get_bd_pins axi_interconnect_0/M14_ARESETN] [get_bd_pins axi_interconnect_0/M15_ARESETN] [get_bd_pins axi_interconnect_0/M16_ARESETN] [get_bd_pins axi_interconnect_0/M17_ARESETN] [get_bd_pins axi_interconnect_0/M18_ARESETN] [get_bd_pins axi_interconnect_0/M19_ARESETN] [get_bd_pins axi_interconnect_0/M20_ARESETN] [get_bd_pins axi_interconnect_0/M21_ARESETN] [get_bd_pins axi_interconnect_0/M22_ARESETN] [get_bd_pins axi_interconnect_0/M23_ARESETN] [get_bd_pins axi_interconnect_0/M24_ARESETN] [get_bd_pins axi_interconnect_0/S00_ARESETN] [get_bd_pins burstTrigger_0/s00_axi_aresetn] [get_bd_pins clockLogic_0/s00_axi_aresetn] [get_bd_pins comboTrigger_0/s00_axi_aresetn] [get_bd_pins countDisplay_0/s00_axi_aresetn] [get_bd_pins ellie_control_0/s00_axi_aresetn] [get_bd_pins fifo_readout_0/s00_axi_aresetn] [get_bd_pins genericDelay/s00_axi_aresetn] [get_bd_pins genericPulser/s00_axi_aresetn] [get_bd_pins gtDelay/s00_axi_aresetn] [get_bd_pins implement_gtid_0/s00_axi_aresetn] [get_bd_pins oneshot_pulse_0/s00_axi_aresetn] [get_bd_pins oneshot_pulse_1/s00_axi_aresetn] [get_bd_pins prescaleSignal_0/s00_axi_aresetn] [get_bd_pins prescaleSignal_1/s00_axi_aresetn] [get_bd_pins prescaleTrigger_0/s00_axi_aresetn] [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins smellieDelay/s00_axi_aresetn] [get_bd_pins smelliePulser/s00_axi_aresetn] [get_bd_pins tellieDelay/s00_axi_aresetn] [get_bd_pins telliePulser/s00_axi_aresetn] [get_bd_pins testPulser_0/s00_axi_aresetn] [get_bd_pins triggers_0/s00_axi_aresetn] [get_bd_pins trigwordfifo_0/s00_axi_aresetn]
+  connect_bd_net -net M00_ARESETN_1 [get_bd_pins MZ_Happy/s00_axi_aresetn] [get_bd_pins ShiftRegisters_0/s00_axi_aresetn] [get_bd_pins anticoincTrigger_0/s00_axi_aresetn] [get_bd_pins axi_interconnect_0/ARESETN] [get_bd_pins axi_interconnect_0/M00_ARESETN] [get_bd_pins axi_interconnect_0/M01_ARESETN] [get_bd_pins axi_interconnect_0/M02_ARESETN] [get_bd_pins axi_interconnect_0/M03_ARESETN] [get_bd_pins axi_interconnect_0/M04_ARESETN] [get_bd_pins axi_interconnect_0/M05_ARESETN] [get_bd_pins axi_interconnect_0/M06_ARESETN] [get_bd_pins axi_interconnect_0/M07_ARESETN] [get_bd_pins axi_interconnect_0/M08_ARESETN] [get_bd_pins axi_interconnect_0/M09_ARESETN] [get_bd_pins axi_interconnect_0/M10_ARESETN] [get_bd_pins axi_interconnect_0/M11_ARESETN] [get_bd_pins axi_interconnect_0/M12_ARESETN] [get_bd_pins axi_interconnect_0/M13_ARESETN] [get_bd_pins axi_interconnect_0/M14_ARESETN] [get_bd_pins axi_interconnect_0/M15_ARESETN] [get_bd_pins axi_interconnect_0/M16_ARESETN] [get_bd_pins axi_interconnect_0/M17_ARESETN] [get_bd_pins axi_interconnect_0/M18_ARESETN] [get_bd_pins axi_interconnect_0/M19_ARESETN] [get_bd_pins axi_interconnect_0/M20_ARESETN] [get_bd_pins axi_interconnect_0/M21_ARESETN] [get_bd_pins axi_interconnect_0/M22_ARESETN] [get_bd_pins axi_interconnect_0/M23_ARESETN] [get_bd_pins axi_interconnect_0/M24_ARESETN] [get_bd_pins axi_interconnect_0/M25_ARESETN] [get_bd_pins axi_interconnect_0/S00_ARESETN] [get_bd_pins burstTrigger_0/s00_axi_aresetn] [get_bd_pins clockLogic_0/s00_axi_aresetn] [get_bd_pins coincTrigger_0/s00_axi_aresetn] [get_bd_pins comboTrigger_0/s00_axi_aresetn] [get_bd_pins countDisplay_0/s00_axi_aresetn] [get_bd_pins ellie_control_0/s00_axi_aresetn] [get_bd_pins fifo_readout_0/s00_axi_aresetn] [get_bd_pins genericDelay/s00_axi_aresetn] [get_bd_pins genericPulser/s00_axi_aresetn] [get_bd_pins gtDelay/s00_axi_aresetn] [get_bd_pins implement_gtid_0/s00_axi_aresetn] [get_bd_pins oneshot_pulse_0/s00_axi_aresetn] [get_bd_pins oneshot_pulse_1/s00_axi_aresetn] [get_bd_pins prescaleSignal_0/s00_axi_aresetn] [get_bd_pins prescaleSignal_1/s00_axi_aresetn] [get_bd_pins prescaleTrigger_0/s00_axi_aresetn] [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins smellieDelay/s00_axi_aresetn] [get_bd_pins smelliePulser/s00_axi_aresetn] [get_bd_pins tellieDelay/s00_axi_aresetn] [get_bd_pins telliePulser/s00_axi_aresetn] [get_bd_pins testPulser_0/s00_axi_aresetn] [get_bd_pins triggers_0/s00_axi_aresetn] [get_bd_pins trigwordfifo_0/s00_axi_aresetn]
   connect_bd_net -net MZ_Happy_pulser_out [get_bd_ports MZ_Happy] [get_bd_pins MZ_Happy/pulser_out]
   connect_bd_net -net ShiftRegs_0_caen_rdy [get_bd_ports caen_rdy] [get_bd_pins ShiftRegisters_0/caen_rdy]
   connect_bd_net -net ShiftRegs_0_clk_out [get_bd_ports load_clk_out] [get_bd_pins ShiftRegisters_0/clk_out]
@@ -1279,13 +1283,14 @@ proc create_root_design { parentCell } {
   connect_bd_net -net burstTrigger_0_s00_axi_trigout1 [get_bd_pins burstTrigger_0/burst_trigout] [get_bd_pins util_vector_logic_9/Op1]
   connect_bd_net -net clk_in [get_bd_ports Clk_in] [get_bd_pins axi_interconnect_0/M02_ACLK] [get_bd_pins axi_interconnect_0/M04_ACLK] [get_bd_pins axi_interconnect_0/M05_ACLK] [get_bd_pins axi_interconnect_0/M12_ACLK] [get_bd_pins axi_interconnect_0/M14_ACLK] [get_bd_pins axi_interconnect_0/M15_ACLK] [get_bd_pins axi_interconnect_0/M16_ACLK] [get_bd_pins axi_interconnect_0/M17_ACLK] [get_bd_pins axi_interconnect_0/M19_ACLK] [get_bd_pins axi_interconnect_0/M20_ACLK] [get_bd_pins axi_interconnect_0/M22_ACLK] [get_bd_pins fifo_generator_0/wr_clk] [get_bd_pins fifo_generator_1/clk] [get_bd_pins fifo_readout_0/s00_axi_aclk] [get_bd_pins genericDelay/s00_axi_aclk] [get_bd_pins genericPulser/s00_axi_aclk] [get_bd_pins prescaleTrigger_0/s00_axi_aclk] [get_bd_pins smellieDelay/s00_axi_aclk] [get_bd_pins smelliePulser/s00_axi_aclk] [get_bd_pins tellieDelay/s00_axi_aclk] [get_bd_pins telliePulser/s00_axi_aclk] [get_bd_pins testPulser_0/s00_axi_aclk] [get_bd_pins triggers_0/s00_axi_aclk] [get_bd_pins trigwordfifo_0/s00_axi_aclk]
   connect_bd_net -net clockLogic_0_reset_clk [get_bd_ports reset_clk] [get_bd_pins clockLogic_0/reset_clk]
+  connect_bd_net -net coincTrigger_0_coinc_trigout [get_bd_pins coincTrigger_0/coinc_trigout] [get_bd_pins xlconcat_0/In9]
   connect_bd_net -net comboTrigger_0_s00_axi_trigout [get_bd_pins comboTrigger_0/combo_trigout] [get_bd_pins xlconcat_0/In3]
   connect_bd_net -net countDisplay_0_display_clr [get_bd_ports display_reset] [get_bd_pins countDisplay_0/display_clr]
   connect_bd_net -net countDisplay_0_display_latch [get_bd_ports display_latch] [get_bd_pins countDisplay_0/display_latch]
   connect_bd_net -net countDisplay_0_display_pulse_o [get_bd_ports display_count] [get_bd_pins countDisplay_0/display_pulse_o]
   connect_bd_net -net data_in_1 [get_bd_ports read_data_in] [get_bd_pins ShiftRegisters_0/data_in]
   connect_bd_net -net ellie_control_0_tellie_control [get_bd_pins ellie_control_0/tellie_control] [get_bd_pins util_vector_logic_10/Op2] [get_bd_pins util_vector_logic_12/Op1]
-  connect_bd_net -net ext_trig_in_1 [get_bd_ports ext_trig_in] [get_bd_pins anticoincTrigger_0/anticoinc_trigin] [get_bd_pins comboTrigger_0/combo_trigin] [get_bd_pins util_vector_logic_5/Op1] [get_bd_pins util_vector_logic_7/Op1] [get_bd_pins xlconcat_0/In0]
+  connect_bd_net -net ext_trig_in_1 [get_bd_ports ext_trig_in] [get_bd_pins anticoincTrigger_0/anticoinc_trigin] [get_bd_pins coincTrigger_0/coinc_trigin] [get_bd_pins comboTrigger_0/combo_trigin] [get_bd_pins util_vector_logic_5/Op1] [get_bd_pins util_vector_logic_7/Op1] [get_bd_pins xlconcat_0/In0]
   connect_bd_net -net fifo_generator_0_dout [get_bd_pins fifo_generator_0/dout] [get_bd_pins fifo_readout_0/data]
   connect_bd_net -net fifo_generator_0_empty [get_bd_pins fifo_generator_0/empty] [get_bd_pins fifo_readout_0/empty]
   connect_bd_net -net fifo_generator_0_full [get_bd_pins fifo_generator_0/full] [get_bd_pins fifo_readout_0/full]
@@ -1298,12 +1303,12 @@ proc create_root_design { parentCell } {
   connect_bd_net -net mtca_mimic_in_1 [get_bd_ports mtca_mimic_in] [get_bd_pins xlconcat_0/In1]
   connect_bd_net -net oneshot_pulse_0_pulse_o [get_bd_ports generic_delay_out] [get_bd_pins oneshot_pulse_0/pulse_o]
   connect_bd_net -net oneshot_pulse_1_pulse_o [get_bd_pins countDisplay_0/display_pulse_i] [get_bd_pins oneshot_pulse_1/pulse_o]
-  connect_bd_net -net prescaleSignal_0_output [get_bd_pins prescaleSignal_0/output] [get_bd_pins util_vector_logic_3/Op1]
-  connect_bd_net -net prescaleSignal_1_output [get_bd_pins prescaleSignal_1/output] [get_bd_pins util_vector_logic_6/Op2]
+  connect_bd_net -net prescaleSignal_0_output [get_bd_pins prescaleSignal_0/prescale_output] [get_bd_pins util_vector_logic_3/Op1]
+  connect_bd_net -net prescaleSignal_1_output [get_bd_pins prescaleSignal_1/prescale_output] [get_bd_pins util_vector_logic_6/Op2]
   connect_bd_net -net prescaleTrigger_0_prescale_mask [get_bd_pins prescaleTrigger_0/prescale_mask] [get_bd_pins util_vector_logic_5/Op2]
   connect_bd_net -net prescaleTrigger_0_prescale_rate [get_bd_pins prescaleSignal_1/rate] [get_bd_pins prescaleTrigger_0/prescale_rate]
   connect_bd_net -net prescaleTrigger_0_s00_axi_trigout [get_bd_pins util_vector_logic_6/Res] [get_bd_pins xlconcat_0/In4]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins MZ_Happy/s00_axi_aclk] [get_bd_pins ShiftRegisters_0/s00_axi_aclk] [get_bd_pins anticoincTrigger_0/s00_axi_aclk] [get_bd_pins axi_interconnect_0/ACLK] [get_bd_pins axi_interconnect_0/M00_ACLK] [get_bd_pins axi_interconnect_0/M01_ACLK] [get_bd_pins axi_interconnect_0/M06_ACLK] [get_bd_pins axi_interconnect_0/M07_ACLK] [get_bd_pins axi_interconnect_0/M08_ACLK] [get_bd_pins axi_interconnect_0/M09_ACLK] [get_bd_pins axi_interconnect_0/M10_ACLK] [get_bd_pins axi_interconnect_0/M11_ACLK] [get_bd_pins axi_interconnect_0/M13_ACLK] [get_bd_pins axi_interconnect_0/M18_ACLK] [get_bd_pins axi_interconnect_0/M24_ACLK] [get_bd_pins axi_interconnect_0/S00_ACLK] [get_bd_pins burstTrigger_0/s00_axi_aclk] [get_bd_pins clockLogic_0/s00_axi_aclk] [get_bd_pins comboTrigger_0/s00_axi_aclk] [get_bd_pins countDisplay_0/s00_axi_aclk] [get_bd_pins ellie_control_0/s00_axi_aclk] [get_bd_pins gtDelay/s00_axi_aclk] [get_bd_pins oneshot_pulse_0/s00_axi_aclk] [get_bd_pins oneshot_pulse_1/s00_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins MZ_Happy/s00_axi_aclk] [get_bd_pins ShiftRegisters_0/s00_axi_aclk] [get_bd_pins anticoincTrigger_0/s00_axi_aclk] [get_bd_pins axi_interconnect_0/ACLK] [get_bd_pins axi_interconnect_0/M00_ACLK] [get_bd_pins axi_interconnect_0/M01_ACLK] [get_bd_pins axi_interconnect_0/M03_ACLK] [get_bd_pins axi_interconnect_0/M06_ACLK] [get_bd_pins axi_interconnect_0/M07_ACLK] [get_bd_pins axi_interconnect_0/M08_ACLK] [get_bd_pins axi_interconnect_0/M09_ACLK] [get_bd_pins axi_interconnect_0/M10_ACLK] [get_bd_pins axi_interconnect_0/M11_ACLK] [get_bd_pins axi_interconnect_0/M13_ACLK] [get_bd_pins axi_interconnect_0/M18_ACLK] [get_bd_pins axi_interconnect_0/M21_ACLK] [get_bd_pins axi_interconnect_0/M23_ACLK] [get_bd_pins axi_interconnect_0/M24_ACLK] [get_bd_pins axi_interconnect_0/M25_ACLK] [get_bd_pins axi_interconnect_0/S00_ACLK] [get_bd_pins burstTrigger_0/s00_axi_aclk] [get_bd_pins clockLogic_0/s00_axi_aclk] [get_bd_pins coincTrigger_0/s00_axi_aclk] [get_bd_pins comboTrigger_0/s00_axi_aclk] [get_bd_pins countDisplay_0/s00_axi_aclk] [get_bd_pins ellie_control_0/s00_axi_aclk] [get_bd_pins gtDelay/s00_axi_aclk] [get_bd_pins implement_gtid_0/s00_axi_aclk] [get_bd_pins oneshot_pulse_0/s00_axi_aclk] [get_bd_pins oneshot_pulse_1/s00_axi_aclk] [get_bd_pins prescaleSignal_0/s00_axi_aclk] [get_bd_pins prescaleSignal_1/s00_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
   connect_bd_net -net readShift_0_clk_out [get_bd_ports read_clk_out] [get_bd_pins ShiftRegisters_0/read_cntrl]
   connect_bd_net -net s00_axi_userin_1 [get_bd_ports generic_delay_in] [get_bd_pins genericDelay/pulse_in]
   connect_bd_net -net s00_axi_userin_2_1 [get_bd_ports tellie_delay_in] [get_bd_pins util_vector_logic_11/Op1]
@@ -1319,12 +1324,12 @@ proc create_root_design { parentCell } {
   connect_bd_net -net testPulser_0_pulser_out2 [get_bd_pins testPulser_0/pulser_out] [get_bd_pins xlconcat_0/In5]
   connect_bd_net -net testPulser_1_pulser_out [get_bd_ports smellie_pulser_out] [get_bd_pins smelliePulser/pulser_out]
   connect_bd_net -net triggerOut_0_counter [get_bd_pins oneshot_pulse_1/pulse_i] [get_bd_pins util_reduced_logic_2/Res]
-  connect_bd_net -net triggerOut_0_gtrigout [get_bd_ports Outtt] [get_bd_pins axi_interconnect_0/M21_ACLK] [get_bd_pins fifo_generator_0/wr_en] [get_bd_pins gtDelay/pulse_in] [get_bd_pins implement_gtid_0/s00_axi_aclk] [get_bd_pins triggers_0/gtrigout]
+  connect_bd_net -net triggerOut_0_gtrigout [get_bd_ports Outtt] [get_bd_pins fifo_generator_0/wr_en] [get_bd_pins gtDelay/pulse_in] [get_bd_pins implement_gtid_0/gtrig_in] [get_bd_pins triggers_0/gtrigout]
   connect_bd_net -net triggerOut_0_trig_out [get_bd_ports Outt] [get_bd_ports trig_out] [get_bd_pins util_reduced_logic_0/Res]
   connect_bd_net -net triggerOut_0_tubii_word [get_bd_pins fifo_generator_0/din] [get_bd_pins triggers_0/tubii_word]
   connect_bd_net -net triggers_0_counter_mask [get_bd_pins triggers_0/counter_mask] [get_bd_pins util_vector_logic_2/Op2]
   connect_bd_net -net triggers_0_gtid_out [get_bd_pins implement_gtid_0/gtid_in] [get_bd_pins triggers_0/gtid_out]
-  connect_bd_net -net triggers_0_speaker [get_bd_pins axi_interconnect_0/M03_ACLK] [get_bd_pins prescaleSignal_0/s00_axi_aclk] [get_bd_pins util_reduced_logic_1/Res] [get_bd_pins util_vector_logic_3/Op2]
+  connect_bd_net -net triggers_0_speaker [get_bd_pins prescaleSignal_0/prescale_input] [get_bd_pins util_reduced_logic_1/Res] [get_bd_pins util_vector_logic_3/Op2]
   connect_bd_net -net triggers_0_speaker_mask [get_bd_pins triggers_0/speaker_mask] [get_bd_pins util_vector_logic_1/Op2]
   connect_bd_net -net triggers_0_speaker_scale [get_bd_pins prescaleSignal_0/rate] [get_bd_pins triggers_0/speaker_scale]
   connect_bd_net -net triggers_0_trigger_async_mask [get_bd_pins triggers_0/trigger_async_mask] [get_bd_pins util_vector_logic_4/Op2]
@@ -1334,7 +1339,7 @@ proc create_root_design { parentCell } {
   connect_bd_net -net trigwordfifo_0_wordout [get_bd_pins triggers_0/trigs_in] [get_bd_pins trigwordfifo_0/wordout]
   connect_bd_net -net trigwordfifo_0_wr_enable [get_bd_pins fifo_generator_1/wr_en] [get_bd_pins trigwordfifo_0/wr_enable]
   connect_bd_net -net util_reduced_logic_3_Res [get_bd_ports tellie_delay_out] [get_bd_pins util_reduced_logic_3/Res]
-  connect_bd_net -net util_reduced_logic_4_Res [get_bd_pins axi_interconnect_0/M23_ACLK] [get_bd_pins prescaleSignal_1/s00_axi_aclk] [get_bd_pins util_reduced_logic_4/Res] [get_bd_pins util_vector_logic_6/Op1]
+  connect_bd_net -net util_reduced_logic_4_Res [get_bd_pins prescaleSignal_1/prescale_input] [get_bd_pins util_reduced_logic_4/Res] [get_bd_pins util_vector_logic_6/Op1]
   connect_bd_net -net util_reduced_logic_5_Res [get_bd_pins burstTrigger_0/burst_trigin] [get_bd_pins util_reduced_logic_5/Res]
   connect_bd_net -net util_reduced_logic_6_Res [get_bd_pins util_reduced_logic_6/Res] [get_bd_pins util_vector_logic_9/Op2]
   connect_bd_net -net util_vector_logic_0_Res [get_bd_pins util_reduced_logic_0/Op1] [get_bd_pins util_vector_logic_0/Res]
@@ -1359,6 +1364,7 @@ proc create_root_design { parentCell } {
   create_bd_addr_seg -range 0x00001000 -offset 0x43C18000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs anticoincTrigger_0/S00_AXI/S00_AXI_reg] SEG_anticoincTrigger_0_S00_AXI_reg
   create_bd_addr_seg -range 0x00001000 -offset 0x43C12000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs burstTrigger_0/S00_AXI/S00_AXI_reg] SEG_burstTrigger_0_S00_AXI_reg
   create_bd_addr_seg -range 0x00001000 -offset 0x43C03000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs clockLogic_0/S00_AXI/S00_AXI_reg] SEG_clockLogic_0_S00_AXI_reg
+  create_bd_addr_seg -range 0x00001000 -offset 0x43C19000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs coincTrigger_0/S00_AXI/S00_AXI_reg] SEG_coincTrigger_0_S00_AXI_reg
   create_bd_addr_seg -range 0x00001000 -offset 0x43C04000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs comboTrigger_0/S00_AXI/S00_AXI_reg] SEG_comboTrigger_0_S00_AXI_reg
   create_bd_addr_seg -range 0x00001000 -offset 0x43C05000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs countDisplay_0/S00_AXI/S00_AXI_reg] SEG_countDisplay_0_S00_AXI_reg
   create_bd_addr_seg -range 0x00001000 -offset 0x43C17000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs ellie_control_0/S00_AXI/S00_AXI_reg] SEG_ellie_control_0_S00_AXI_reg

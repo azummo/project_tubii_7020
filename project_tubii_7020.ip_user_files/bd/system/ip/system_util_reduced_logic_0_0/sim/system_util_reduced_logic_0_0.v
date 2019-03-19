@@ -58,12 +58,12 @@ module system_util_reduced_logic_0_0 (
   Res
 );
 
-input wire [24 : 0] Op1;
+input wire [25 : 0] Op1;
 output wire Res;
 
   util_reduced_logic_v2_0_4_util_reduced_logic #(
     .C_OPERATION("or"),
-    .C_SIZE(25)
+    .C_SIZE(26)
   ) inst (
     .Op1(Op1),
     .Res(Res)

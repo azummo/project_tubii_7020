@@ -1,0 +1,417 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 17:31:28 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_1_1 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 17:31:28 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_0_0 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 16:55:34 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_1_1 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 16:55:32 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_0_0 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 16:36:51 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_implement_gtid_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_implement_gtid_0_0 (xilinx.com:user:implement_gtid:1.0) from (Rev. 27) to (Rev. 28)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_implement_gtid_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'gtrig_in'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 16:23:32 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_1_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_prescaleSignal_1_1 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 12) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_prescaleSignal_1_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'output'
+
+-Upgrade has added port 'prescale_input'
+
+-Upgrade has added port 'prescale_output'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 16:23:32 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_prescaleSignal_0_0 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 12) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_prescaleSignal_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'output'
+
+-Upgrade has added port 'prescale_input'
+
+-Upgrade has added port 'prescale_output'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:57:02 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_1_1 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:57:02 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_prescaleSignal_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_prescaleSignal_0_0 (xilinx.com:user:prescaleSignal:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:38:04 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_fifo_readout_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_fifo_readout_0_0 (xilinx.com:user:fifo_readout:1.0) from (Rev. 19) to (Rev. 20)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_fifo_readout_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'data' width 50 differs from original width 49
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:37:20 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_fifo_readout_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_fifo_readout_0_0 (xilinx.com:user:fifo_readout:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:34:19 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_triggers_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:2.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_triggers_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'counter_mask' width 27 differs from original width 26
+
+-Upgraded port 'speaker_mask' width 27 differs from original width 26
+
+-Upgraded port 'trigger_async_mask' width 26 differs from original width 25
+
+-Upgraded port 'trigger_mask' width 26 differs from original width 25
+
+-Upgraded port 'trigs_in' width 26 differs from original width 25
+
+-Upgraded port 'tubii_word' width 50 differs from original width 49
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:33:17 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_triggers_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:2.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:28:50 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_trigwordfifo_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 11) to (Rev. 12)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_trigwordfifo_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'wordin' width 26 differs from original width 25
+
+-Upgraded port 'wordout' width 26 differs from original width 25
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:13:33 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_trigwordfifo_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar  6 15:06:31 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_trigwordfifo_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 9) to (Rev. 10)
+

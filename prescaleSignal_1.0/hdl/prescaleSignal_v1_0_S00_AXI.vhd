@@ -18,7 +18,8 @@ entity prescaleSignal_v1_0_S00_AXI is
 	port (
 		-- Users to add ports here
 		RATE : in std_logic_vector(7 downto 0);
-        OUTPUT : out std_logic;
+		PRESCALE_INPUT : in std_logic;
+        PRESCALE_OUTPUT : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -118,7 +119,10 @@ architecture arch_imp of prescaleSignal_v1_0_S00_AXI is
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
-
+	
+	-- prescaleSignal signals
+	signal counter : integer := 0;
+	
 begin
 	-- I/O Connections assignments
 
@@ -209,15 +213,6 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
-	    -- reg 0 counter
-	    slv_reg0 <= slv_reg0+1;
-	    
-        if(slv_reg0(7 downto 0)+2 > RATE) then
-          OUTPUT <= '1';
-          slv_reg0 <= (others => '0');
-        else
-          OUTPUT <= '0';
-        end if;
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
@@ -395,6 +390,22 @@ begin
 
 
 	-- Add user logic here
+
+	process (PRESCALE_INPUT)
+	begin
+	  if rising_edge(PRESCALE_INPUT) then 
+	  -- if this is the "slv_reg0"-th prescaled signal output high and
+	  -- reset counter to 0
+        if(counter+2 > RATE) then
+          PRESCALE_OUTPUT <= '1';
+          counter <= 0;
+      -- else set output low and increment counter
+        else
+          PRESCALE_OUTPUT <= '0';
+          counter <= counter+1;
+        end if;
+      end if;
+    end process;
 
 	-- User logic ends
 

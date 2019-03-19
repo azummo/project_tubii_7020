@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity trigwordfifo_v1_0_S00_AXI is
 	generic (
 		-- Users to add parameters here
-        WORDLENGTH : integer := 25;
+        WORDLENGTH : integer := 26;
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 

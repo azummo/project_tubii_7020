@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:fifo_readout:1.0
--- IP Revision: 18
+-- IP Revision: 20
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -58,7 +58,7 @@ ENTITY system_fifo_readout_0_0 IS
     read : OUT STD_LOGIC;
     reset : OUT STD_LOGIC;
     renable : OUT STD_LOGIC;
-    data : IN STD_LOGIC_VECTOR(48 DOWNTO 0);
+    data : IN STD_LOGIC_VECTOR(49 DOWNTO 0);
     full : IN STD_LOGIC;
     empty : IN STD_LOGIC;
     s00_axi_aclk : IN STD_LOGIC;
@@ -99,7 +99,7 @@ ARCHITECTURE system_fifo_readout_0_0_arch OF system_fifo_readout_0_0 IS
       read : OUT STD_LOGIC;
       reset : OUT STD_LOGIC;
       renable : OUT STD_LOGIC;
-      data : IN STD_LOGIC_VECTOR(48 DOWNTO 0);
+      data : IN STD_LOGIC_VECTOR(49 DOWNTO 0);
       full : IN STD_LOGIC;
       empty : IN STD_LOGIC;
       s00_axi_aclk : IN STD_LOGIC;
@@ -159,7 +159,7 @@ BEGIN
     GENERIC MAP (
       C_S00_AXI_DATA_WIDTH => 32,
       C_S00_AXI_ADDR_WIDTH => 4,
-      wordlength => 25,
+      wordlength => 26,
       gtidlength => 24
     )
     PORT MAP (

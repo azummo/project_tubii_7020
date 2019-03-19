@@ -19,6 +19,7 @@ entity implement_gtid_v1_0_S00_AXI is
 		-- Users to add ports here
         GTID_in     : in std_logic_vector(23 downto 0);
         GTID_out    : out std_logic_vector(23 downto 0);
+        GTRIG_in : in std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -210,11 +211,6 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then
-        if(GTID_in(15 downto 0) = "1111111111111110") then
-          GTID_out <= GTID_in+2;
-        else
-          GTID_out <= GTID_in+1;
-        end if;
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
@@ -392,6 +388,17 @@ begin
 
 
 	-- Add user logic here
+
+	process (GTRIG_in)
+	begin
+	  if rising_edge(GTRIG_in) then
+        if(GTID_in(15 downto 0) = "1111111111111110") then
+          GTID_out <= GTID_in+2;
+        else
+          GTID_out <= GTID_in+1;
+        end if;
+      end if;
+    end process;
 
 	-- User logic ends
 
