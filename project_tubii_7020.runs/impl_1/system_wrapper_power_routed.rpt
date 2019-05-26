@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Wed Mar  6 17:48:43 2019
+| Date             : Thu May 23 18:08:35 2019
 | Host             : zummo running 64-bit Ubuntu 16.04.6 LTS
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 | Design           : system_wrapper
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.785        |
+| Total On-Chip Power (W)  | 1.784        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.625        |
@@ -52,21 +52,21 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.020 |        3 |       --- |             --- |
-| Slice Logic             |     0.025 |    25708 |       --- |             --- |
-|   LUT as Logic          |     0.020 |     9527 |     53200 |           17.91 |
+| Clocks                  |     0.019 |        3 |       --- |             --- |
+| Slice Logic             |     0.026 |    25985 |       --- |             --- |
+|   LUT as Logic          |     0.021 |     9598 |     53200 |           18.04 |
 |   CARRY4                |     0.004 |     1395 |     13300 |           10.49 |
-|   Register              |     0.001 |    11881 |    106400 |           11.17 |
+|   Register              |     0.001 |    12048 |    106400 |           11.32 |
 |   F7/F8 Muxes           |    <0.001 |      244 |     53200 |            0.46 |
 |   BUFG                  |    <0.001 |        1 |        32 |            3.13 |
 |   LUT as Shift Register |    <0.001 |       64 |     17400 |            0.37 |
-|   Others                |     0.000 |     1090 |       --- |             --- |
-| Signals                 |     0.038 |    19436 |       --- |             --- |
+|   Others                |     0.000 |     1091 |       --- |             --- |
+| Signals                 |     0.038 |    19679 |       --- |             --- |
 | Block RAM               |     0.003 |      114 |       140 |           81.43 |
 | I/O                     |     0.007 |       55 |       125 |           44.00 |
 | PS7                     |     1.531 |        1 |       --- |             --- |
 | Static Power            |     0.160 |          |           |                 |
-| Total                   |     1.785 |          |           |                 |
+| Total                   |     1.784 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.106 |       0.086 |      0.019 |
+| Vccint    |       1.000 |     0.105 |       0.086 |      0.019 |
 | Vccaux    |       1.800 |     0.016 |       0.000 |      0.016 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -240,11 +240,11 @@ Table of Contents
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
+|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w                  |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
+|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |     0.000 |
@@ -263,11 +263,11 @@ Table of Contents
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
+|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w                  |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
+|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |     0.000 |
@@ -286,11 +286,11 @@ Table of Contents
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
+|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w                  |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |    <0.001 |
-|                 xpm_cdc_single_src2dest_inst                                          |     0.000 |
+|                 xpm_cdc_single_src2dest_inst                                          |    <0.001 |
 |             gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b                 |    <0.001 |
 |               handshake                                                               |    <0.001 |
 |                 xpm_cdc_single_dest2src_inst                                          |     0.000 |
@@ -505,7 +505,7 @@ Table of Contents
 |               gntv_or_sync_fifo.gcx.clkx                                              |    <0.001 |
 |                 rd_pntr_cdc_inst                                                      |    <0.001 |
 |                 wr_pntr_cdc_inst                                                      |    <0.001 |
-|               gntv_or_sync_fifo.gl0.rd                                                |     0.002 |
+|               gntv_or_sync_fifo.gl0.rd                                                |     0.001 |
 |                 gras.rsts                                                             |    <0.001 |
 |                   c0                                                                  |    <0.001 |
 |                   c1                                                                  |    <0.001 |
@@ -515,11 +515,11 @@ Table of Contents
 |                   c1                                                                  |    <0.001 |
 |                   c2                                                                  |    <0.001 |
 |                 wpntr                                                                 |    <0.001 |
-|               gntv_or_sync_fifo.mem                                                   |     0.006 |
-|                 gbm.gbmg.gbmga.ngecc.bmg                                              |     0.006 |
-|                   inst_blk_mem_gen                                                    |     0.006 |
-|                     gnbram.gnativebmg.native_blk_mem_gen                              |     0.006 |
-|                       valid.cstr                                                      |     0.006 |
+|               gntv_or_sync_fifo.mem                                                   |     0.007 |
+|                 gbm.gbmg.gbmga.ngecc.bmg                                              |     0.007 |
+|                   inst_blk_mem_gen                                                    |     0.007 |
+|                     gnbram.gnativebmg.native_blk_mem_gen                              |     0.007 |
+|                       valid.cstr                                                      |     0.007 |
 |                         has_mux_b.B                                                   |     0.001 |
 |                         ramloop[0].ram.r                                              |    <0.001 |
 |                           prim_noinit.ram                                             |    <0.001 |
@@ -785,9 +785,9 @@ Table of Contents
 |     mz_happy_RnM                                                                      |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testPulser_v1_0_S00_AXI_inst                                                  |     0.002 |
-|     oneshot_pulse_0                                                                   |     0.001 |
-|       U0                                                                              |     0.001 |
-|         oneshot_pulse_v1_0_S00_AXI_inst                                               |     0.001 |
+|     oneshot_pulse_0                                                                   |    <0.001 |
+|       U0                                                                              |    <0.001 |
+|         oneshot_pulse_v1_0_S00_AXI_inst                                               |    <0.001 |
 |     oneshot_pulse_1                                                                   |     0.001 |
 |       U0                                                                              |     0.001 |
 |         oneshot_pulse_v1_0_S00_AXI_inst                                               |     0.001 |
@@ -802,15 +802,18 @@ Table of Contents
 |         prescaleTrigger_v1_0_S00_AXI_inst                                             |    <0.001 |
 |     processing_system7_0                                                              |     1.536 |
 |       inst                                                                            |     1.536 |
+|     register_mux_0                                                                    |    <0.001 |
+|       U0                                                                              |    <0.001 |
+|         register_mux_v1_0_S00_AXI_inst                                                |    <0.001 |
 |     smellieDelay                                                                      |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testDelay_v1_0_S00_AXI_inst                                                   |     0.002 |
 |     smelliePulser                                                                     |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testPulser_v1_0_S00_AXI_inst                                                  |     0.002 |
-|     tellieDelay                                                                       |     0.001 |
-|       U0                                                                              |     0.001 |
-|         testDelay_v1_0_S00_AXI_inst                                                   |     0.001 |
+|     tellieDelay                                                                       |     0.002 |
+|       U0                                                                              |     0.002 |
+|         testDelay_v1_0_S00_AXI_inst                                                   |     0.002 |
 |     telliePulser                                                                      |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testPulser_v1_0_S00_AXI_inst                                                  |     0.002 |

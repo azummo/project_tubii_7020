@@ -1,0 +1,89 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 15 11:39:35 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file oneshot_pulse_v1_0_control_sets_placed.rpt
+| Design       : oneshot_pulse_v1_0
+| Device       : xc7z020
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    21 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            2 |
+|     12 |            1 |
+|     14 |            1 |
+|    16+ |           16 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              12 |            4 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             328 |           53 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+-------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+
+|       Clock Signal      |                     Enable Signal                     |                         Set/Reset Signal                         | Slice Load Count | Bel Load Count |
++-------------------------+-------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+
+|  s00_axi_aclk_IBUF_BUFG | pulse_i_IBUF                                          | oneshot_pulse_v1_0_S00_AXI_inst/gtOp_inferred__0/i__carry__2_n_0 |                1 |              2 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/axi_arready0          | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |              4 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready0          | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |              4 |
+|  s00_axi_aclk_IBUF_BUFG |                                                       | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                4 |             12 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg3[7]_i_1_n_0   | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                4 |             14 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg3[31]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg0[15]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/p_1_in[31]            | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                2 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/p_1_in[23]            | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/p_1_in[15]            | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/p_1_in[7]             | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg0[23]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg3[23]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                1 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg3[15]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg1[7]_i_1_n_0   | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg1[31]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                5 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg1[23]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                3 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg1[15]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                2 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg0[7]_i_1_n_0   | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                2 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/slv_reg0[31]_i_1_n_0  | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                4 |             16 |
+|  s00_axi_aclk_IBUF_BUFG | oneshot_pulse_v1_0_S00_AXI_inst/axi_rdata[31]_i_1_n_0 | oneshot_pulse_v1_0_S00_AXI_inst/axi_awready_i_1_n_0              |                9 |             64 |
++-------------------------+-------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+
+
+

@@ -23,9 +23,9 @@
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/coincTrigger_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/register_mux_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/ellie_control_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/anticoincTrigger_1.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/coincTrigger_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/clockDivider_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/trigwordfifo_1.0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/TrigWordFifo_1.0"/>

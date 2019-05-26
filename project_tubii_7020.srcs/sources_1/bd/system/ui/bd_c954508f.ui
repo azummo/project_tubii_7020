@@ -45,6 +45,7 @@ preplace inst prescaleSignal_0 -pg 1 -lvl 14 -y 310 -defaultsOSRD
 preplace inst util_vector_logic_8 -pg 1 -lvl 4 -y 280 -defaultsOSRD
 preplace inst util_reduced_logic_6 -pg 1 -lvl 7 -y 320 -defaultsOSRD
 preplace inst tellieDelay -pg 1 -lvl 8 -y 1460 -defaultsOSRD
+preplace inst register_mux_0 -pg 1 -lvl 12 -y 1560 -defaultsOSRD
 preplace inst prescaleSignal_1 -pg 1 -lvl 7 -y 1280 -defaultsOSRD
 preplace inst util_vector_logic_9 -pg 1 -lvl 8 -y 440 -defaultsOSRD
 preplace inst util_vector_logic_10 -pg 1 -lvl 5 -y 1720 -defaultsOSRD
@@ -57,9 +58,9 @@ preplace inst util_vector_logic_11 -pg 1 -lvl 6 -y 1860 -defaultsOSRD
 preplace inst coincTrigger_0 -pg 1 -lvl 6 -y 490 -defaultsOSRD
 preplace inst util_vector_logic_12 -pg 1 -lvl 5 -y 1870 -defaultsOSRD
 preplace inst smellieDelay -pg 1 -lvl 8 -y 1710 -defaultsOSRD
-preplace inst genericDelay -pg 1 -lvl 11 -y 1660 -defaultsOSRD
+preplace inst genericDelay -pg 1 -lvl 10 -y 1540 -defaultsOSRD
 preplace inst telliePulser -pg 1 -lvl 4 -y 1480 -defaultsOSRD
-preplace inst oneshot_pulse_0 -pg 1 -lvl 12 -y 1490 -defaultsOSRD
+preplace inst oneshot_pulse_0 -pg 1 -lvl 11 -y 1550 -defaultsOSRD
 preplace inst util_vector_logic_13 -pg 1 -lvl 7 -y 1740 -defaultsOSRD
 preplace inst smelliePulser -pg 1 -lvl 4 -y 1640 -defaultsOSRD
 preplace inst oneshot_pulse_1 -pg 1 -lvl 14 -y 500 -defaultsOSRD
@@ -94,127 +95,129 @@ preplace inst fifo_readout_0 -pg 1 -lvl 13 -y 1370 -defaultsOSRD
 preplace inst util_vector_logic_7 -pg 1 -lvl 3 -y 170 -defaultsOSRD
 preplace inst util_reduced_logic_5 -pg 1 -lvl 4 -y 150 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -y 550 -defaultsOSRD
-preplace netloc axi_interconnect_0_M13_AXI 1 2 10 1160 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 5080J
-preplace netloc axi_interconnect_0_M08_AXI 1 2 11 1140 -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 5570J
-preplace netloc util_vector_logic_8_Res 1 4 3 NJ 280 2590J 230 3120
+preplace netloc axi_interconnect_0_M13_AXI 1 2 9 1200 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 4600J
+preplace netloc axi_interconnect_0_M08_AXI 1 2 11 1260 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ
+preplace netloc util_vector_logic_8_Res 1 4 3 NJ 280 2580J 240 3100
 preplace netloc triggers_0_trigger_async_mask 1 11 1 5070
-preplace netloc util_reduced_logic_3_Res 1 13 3 5900J 210 NJ 210 6730J
-preplace netloc triggers_0_gtid_out 1 11 2 5120J 680 N
-preplace netloc MZ_Happy_pulser_out 1 4 12 NJ 2010 NJ 2010 3120J 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ
-preplace netloc triggerOut_0_trig_out 1 13 3 NJ 110 NJ 110 6730J
-preplace netloc clockLogic_0_reset_clk 1 12 4 NJ 1180 5920J 1070 NJ 1070 6710J
-preplace netloc axi_interconnect_0_M07_AXI 1 2 12 1200 950 NJ 950 NJ 950 NJ 950 3080J 530 NJ 530 NJ 530 4290J 330 4660J 420 NJ 420 NJ 420 5960J
-preplace netloc backup_clk_in_use_1 1 0 12 130J 390 NJ 390 1250J 400 NJ 400 NJ 400 2570J 750 NJ 750 3490J 690 3870J 680 NJ 680 NJ 680 5100
+preplace netloc util_reduced_logic_3_Res 1 13 3 5930J 210 NJ 210 6760J
+preplace netloc triggers_0_gtid_out 1 11 2 5110J 770 5500
+preplace netloc MZ_Happy_pulser_out 1 4 12 NJ 2010 NJ 2010 NJ 2010 NJ 2010 NJ 2010 NJ 2010 NJ 2010 NJ 2010 NJ 2010 6070J 1840 NJ 1840 NJ
+preplace netloc triggerOut_0_trig_out 1 13 3 NJ 110 NJ 110 6760J
+preplace netloc clockLogic_0_reset_clk 1 12 4 5550J 970 NJ 970 NJ 970 6750J
+preplace netloc axi_interconnect_0_M26_AXI 1 2 10 1200J 1310 1800J 1400 NJ 1400 NJ 1400 3040J 1550 NJ 1550 3950J 1440 NJ 1440 NJ 1440 5070
+preplace netloc axi_interconnect_0_M07_AXI 1 2 12 1260 760 NJ 760 NJ 760 NJ 760 3100J 570 NJ 570 NJ 570 NJ 570 4660J 420 NJ 420 NJ 420 5950J
+preplace netloc backup_clk_in_use_1 1 0 12 120J -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 5100
 preplace netloc trigwordfifo_0_wr_enable 1 10 1 4620
 preplace netloc prescaleSignal_0_output 1 14 1 N
 preplace netloc util_vector_logic_0_Res 1 12 1 N
-preplace netloc processing_system7_0_FIXED_IO 1 0 2 140J 430 630
-preplace netloc countDisplay_0_display_latch 1 15 1 6730
-preplace netloc gt_in_1 1 0 11 NJ 370 NJ 370 NJ 370 NJ 370 NJ 370 2560J 220 NJ 220 NJ 220 NJ 220 NJ 220 4610
-preplace netloc triggers_0_counter_mask 1 11 1 5110
-preplace netloc prescaleTrigger_0_s00_axi_trigout 1 8 2 3920 540 4270
-preplace netloc axi_interconnect_0_M24_AXI 1 2 4 1220 80 NJ 80 NJ 80 2640J
-preplace netloc axi_interconnect_0_M04_AXI 1 2 9 1250 930 NJ 930 NJ 930 2540J 970 NJ 970 3540J 820 3860J 850 4310J 840 NJ
-preplace netloc util_reduced_logic_6_Res 1 7 1 3540
-preplace netloc prescaleTrigger_0_prescale_rate 1 6 1 3070
-preplace netloc fifo_generator_0_empty 1 12 2 5570 1230 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 0 2 120J 680 620
+preplace netloc countDisplay_0_display_latch 1 15 1 6760
+preplace netloc register_mux_0_mux_out 1 12 4 5580J 1540 5930J 1570 NJ 1570 6760
+preplace netloc gt_in_1 1 0 11 NJ 370 NJ 370 1140J 380 NJ 380 NJ 380 2560J 230 NJ 230 NJ 230 NJ 230 NJ 230 4680
+preplace netloc triggers_0_counter_mask 1 11 1 5090
+preplace netloc prescaleTrigger_0_s00_axi_trigout 1 8 2 3950 530 4270
+preplace netloc axi_interconnect_0_M24_AXI 1 2 4 1250 90 NJ 90 NJ 90 2550J
+preplace netloc axi_interconnect_0_M04_AXI 1 2 9 1230 750 NJ 750 NJ 750 NJ 750 NJ 750 NJ 750 3900J 850 4290J 840 NJ
+preplace netloc util_reduced_logic_6_Res 1 7 1 3520
+preplace netloc prescaleTrigger_0_prescale_rate 1 6 1 3050
+preplace netloc fifo_generator_0_empty 1 12 2 5580 1230 NJ
 preplace netloc axi_interconnect_0_M22_AXI 1 2 4 1120 1230 NJ 1230 NJ 1230 NJ
-preplace netloc axi_interconnect_0_M18_AXI 1 2 2 1170 1200 1750J
-preplace netloc util_vector_logic_5_Res 1 7 1 3490
-preplace netloc xlconcat_1_dout 1 11 1 5120
-preplace netloc axi_interconnect_0_M12_AXI 1 2 2 1170 1080 1830J
+preplace netloc axi_interconnect_0_M18_AXI 1 2 2 1140 1200 1770J
+preplace netloc util_vector_logic_5_Res 1 7 1 3550
+preplace netloc xlconcat_1_dout 1 11 1 5090
+preplace netloc axi_interconnect_0_M12_AXI 1 2 2 1220 1090 1850J
 preplace netloc fifo_generator_1_dout 1 9 2 4310 260 NJ
 preplace netloc prescaleTrigger_0_prescale_mask 1 6 1 N
-preplace netloc triggers_0_speaker 1 13 2 5910 410 6360
-preplace netloc testPulser_0_pulser_out 1 4 12 2240J 1170 NJ 1170 NJ 1170 NJ 1170 NJ 1170 NJ 1170 NJ 1170 5070J 1270 5530J 1240 5910J 1060 NJ 1060 6720J
-preplace netloc xlconcat_0_dout 1 9 3 4270 210 4600 -10 5140
+preplace netloc triggers_0_speaker 1 13 2 5950 410 6430
+preplace netloc testPulser_0_pulser_out 1 4 12 NJ 1320 2550J 1380 NJ 1380 3530J 1360 NJ 1360 NJ 1360 NJ 1360 NJ 1360 5490J 1530 5950J 1580 NJ 1580 6750J
+preplace netloc xlconcat_0_dout 1 9 3 4270 220 4610 -10 5110
 preplace netloc fifo_readout_0_renable 1 13 1 5920
-preplace netloc burstTrigger_0_burst_slave_mask 1 3 4 1820 40 NJ 40 NJ 40 3030
-preplace netloc util_reduced_logic_4_Res 1 6 3 3120 940 NJ 940 3930
-preplace netloc ShiftRegs_0_mtcamimic_rdy 1 13 3 5940J 1580 NJ 1580 NJ
-preplace netloc axi_interconnect_0_M16_AXI 1 2 6 1120 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 3510J
-preplace netloc triggers_0_speaker_scale 1 11 3 5080J 40 NJ 40 5910
-preplace netloc s00_axi_userin_2_1 1 0 6 140J 1790 NJ 1790 NJ 1790 NJ 1790 2210J 1810 2590
-preplace netloc processing_system7_0_DDR 1 0 2 NJ 670 620
-preplace netloc axi_interconnect_0_M23_AXI 1 2 5 1270 1220 1800J 1160 NJ 1160 NJ 1160 3040J
-preplace netloc util_vector_logic_7_Res 1 3 1 1810
-preplace netloc axi_interconnect_0_M01_AXI 1 2 4 1210 620 NJ 620 NJ 620 NJ
-preplace netloc axi_interconnect_0_M02_AXI 1 2 4 1240 850 NJ 850 NJ 850 NJ
-preplace netloc testDelay_2_s00_axi_userout 1 8 1 3890
-preplace netloc testDelay_0_s00_axi_userout1 1 13 3 5900J 1050 NJ 1050 6730J
-preplace netloc sync_1 1 0 11 110J 380 NJ 380 1260J 390 NJ 390 NJ 390 2560J 790 3090J 770 3510J 710 3920J 700 NJ 700 4620
+preplace netloc burstTrigger_0_burst_slave_mask 1 3 4 1850 20 NJ 20 NJ 20 3030
+preplace netloc util_reduced_logic_4_Res 1 6 3 3120 760 NJ 760 3880
+preplace netloc ShiftRegs_0_mtcamimic_rdy 1 13 3 6000J 1590 NJ 1590 6770J
+preplace netloc axi_interconnect_0_M16_AXI 1 2 6 1160 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 3520J
+preplace netloc triggers_0_speaker_scale 1 11 3 NJ 920 NJ 920 5930
+preplace netloc s00_axi_userin_2_1 1 0 6 NJ 1620 640J 1690 NJ 1690 1760J 1720 2240J 1650 2590
+preplace netloc processing_system7_0_DDR 1 0 2 NJ 670 630
+preplace netloc axi_interconnect_0_M23_AXI 1 2 5 1110 1220 NJ 1220 NJ 1220 2600J 1160 3040J
+preplace netloc util_vector_logic_7_Res 1 3 1 1780
+preplace netloc axi_interconnect_0_M01_AXI 1 2 4 1200 620 NJ 620 NJ 620 NJ
+preplace netloc axi_interconnect_0_M02_AXI 1 2 4 1280 850 NJ 850 NJ 850 NJ
+preplace netloc testDelay_2_s00_axi_userout 1 8 1 3910
+preplace netloc testDelay_0_s00_axi_userout1 1 13 3 NJ 1070 NJ 1070 NJ
+preplace netloc sync_1 1 0 11 140J 380 NJ 380 1130J 390 NJ 390 NJ 390 2540J 780 NJ 780 NJ 780 3890J 870 NJ 870 4610
 preplace netloc util_vector_logic_13_Res 1 7 1 3510
-preplace netloc fifo_generator_0_dout 1 12 2 5580 1250 NJ
-preplace netloc oneshot_pulse_1_pulse_o 1 14 1 6370
-preplace netloc testDelay_3_s00_axi_userout 1 8 8 3910 1820 NJ 1820 NJ 1820 NJ 1820 NJ 1820 6000J 1740 NJ 1740 NJ
-preplace netloc axi_interconnect_0_M20_AXI 1 2 8 1190 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 4300J
-preplace netloc triggers_0_speaker_mask 1 11 1 5090
-preplace netloc axi_interconnect_0_M05_AXI 1 2 11 1120 -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 5540J
-preplace netloc axi_interconnect_0_M19_AXI 1 2 2 1110 1210 1770J
-preplace netloc trigwordfifo_0_wordout 1 10 1 4630
-preplace netloc burstTrigger_0_burst_master_mask 1 2 5 1270 30 NJ 30 NJ 30 NJ 30 3040
-preplace netloc testPulser_0_pulser_out1 1 4 12 2230 1800 2630J 1790 3040J 1830 NJ 1830 NJ 1830 NJ 1830 NJ 1830 NJ 1830 NJ 1830 5990J 1720 NJ 1720 NJ
-preplace netloc axi_interconnect_0_M25_AXI 1 2 4 1260 460 NJ 460 NJ 460 NJ
+preplace netloc fifo_generator_0_dout 1 12 2 5590 1250 NJ
+preplace netloc oneshot_pulse_1_pulse_o 1 14 1 6430
+preplace netloc testDelay_3_s00_axi_userout 1 8 8 3930 1830 NJ 1830 NJ 1830 NJ 1830 NJ 1830 6060J 1740 NJ 1740 NJ
+preplace netloc axi_interconnect_0_M20_AXI 1 2 8 1190 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 4300J
+preplace netloc triggers_0_speaker_mask 1 11 1 5080
+preplace netloc axi_interconnect_0_M05_AXI 1 2 11 1150 -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 5560J
+preplace netloc axi_interconnect_0_M19_AXI 1 2 2 1130 1210 1790J
+preplace netloc trigwordfifo_0_wordout 1 10 1 4650
+preplace netloc burstTrigger_0_burst_master_mask 1 2 5 1270 10 NJ 10 NJ 10 NJ 10 3040
+preplace netloc testPulser_0_pulser_out1 1 4 12 2220 1790 NJ 1790 3040J 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ 1840 6050J 1720 NJ 1720 NJ
+preplace netloc axi_interconnect_0_M25_AXI 1 2 4 1270 460 NJ 460 NJ 460 NJ
 preplace netloc util_vector_logic_12_Res 1 5 1 N
-preplace netloc testPulser_0_pulser_out2 1 6 3 3060J 380 3500J 370 3890
-preplace netloc ShiftRegs_0_control_rdy 1 13 3 5920 1540 NJ 1540 6730J
-preplace netloc axi_interconnect_0_M09_AXI 1 2 13 N 960 NJ 960 NJ 960 NJ 960 3100J 580 NJ 580 NJ 580 NJ 580 NJ 580 NJ 580 NJ 580 5910J 590 6360J
-preplace netloc oneshot_pulse_0_pulse_o 1 12 4 NJ 1490 NJ 1490 NJ 1490 6710J
-preplace netloc anticoincTrigger_0_anticoinc_trigout 1 6 3 NJ 130 NJ 130 3900
-preplace netloc s00_axi_userin_1 1 0 11 NJ 1590 640J 1650 NJ 1650 1830J 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 4600
-preplace netloc axi_interconnect_0_M10_AXI 1 2 10 1170 -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 5130J
-preplace netloc ShiftRegs_0_muxer 1 13 3 5900 1480 NJ 1480 NJ
+preplace netloc testPulser_0_pulser_out2 1 6 3 3080J 390 3510J 370 3930
+preplace netloc ShiftRegs_0_control_rdy 1 13 3 5990 1560 NJ 1560 6750J
+preplace netloc axi_interconnect_0_M09_AXI 1 2 13 1170 -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 6440J
+preplace netloc oneshot_pulse_0_pulse_o 1 11 1 5100
+preplace netloc anticoincTrigger_0_anticoinc_trigout 1 6 3 NJ 130 NJ 130 3940
+preplace netloc s00_axi_userin_1 1 0 12 NJ 1590 620J 1680 1190J 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ 1560 4320J 1450 N 1450 5060
+preplace netloc axi_interconnect_0_M10_AXI 1 2 10 1240 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 4660J 1070 5090J
+preplace netloc ShiftRegs_0_muxer 1 13 3 5960 1480 NJ 1480 NJ
 preplace netloc triggerOut_0_counter 1 13 1 N
-preplace netloc mtca_mimic_in_1 1 0 9 110J 340 620J 350 1270J 380 NJ 380 NJ 380 2580J 770 3040J 400 3480J 340 3860
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 15 150 420 650 1660 NJ 1660 1760 1400 NJ 1400 2550 1150 3030J 1180 NJ 1180 NJ 1180 NJ 1180 NJ 1180 5060 1300 5510 590 5900 610 6380
-preplace netloc implement_gtid_0_gtid 1 10 4 4650 780 NJ 780 5530J 800 5910
-preplace netloc sync24_1 1 0 11 140J 400 NJ 400 1240J 410 NJ 410 NJ 410 2540J 780 NJ 780 3540J 720 3930J 710 NJ 710 4600
-preplace netloc axi_interconnect_0_M06_AXI 1 2 2 1210 940 1790J
-preplace netloc triggerOut_0_tubii_word 1 11 3 N 980 NJ 980 5950J
-preplace netloc ShiftRegs_0_caen_rdy 1 13 3 5930 1560 NJ 1560 NJ
-preplace netloc axi_interconnect_0_M17_AXI 1 2 6 1110 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 3500J
-preplace netloc readShift_0_clk_out 1 13 3 5980J 1660 NJ 1660 NJ
-preplace netloc fifo_generator_0_full 1 12 2 5560 1160 5930J
-preplace netloc ShiftRegs_0_clk_out 1 13 3 5960 1620 NJ 1620 NJ
-preplace netloc ext_trig_in_1 1 0 9 120J 330 NJ 330 1150 90 NJ 90 NJ 90 2630 240 3110 260 NJ 260 3920J
+preplace netloc mtca_mimic_in_1 1 0 9 150J 350 NJ 350 NJ 350 NJ 350 NJ 350 2580J 740 3060J 250 NJ 250 3870
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 15 160 430 650 1700 NJ 1700 1830 1170 NJ 1170 2550 1150 3030J 1390 3550J 1370 NJ 1370 NJ 1370 4610J 1370 5110 1070 5540 600 5940 600 6440
+preplace netloc implement_gtid_0_gtid 1 10 4 4690 590 NJ 590 NJ 590 5920
+preplace netloc sync24_1 1 0 11 130J 210 NJ 210 1140J 70 NJ 70 NJ 70 2550J 30 NJ 30 NJ 30 NJ 30 NJ 30 4640
+preplace netloc axi_interconnect_0_M06_AXI 1 2 2 1280 1030 1810J
+preplace netloc triggerOut_0_tubii_word 1 11 3 N 980 NJ 980 5930J
+preplace netloc ShiftRegs_0_caen_rdy 1 13 3 5980 1550 NJ 1550 6760J
+preplace netloc axi_interconnect_0_M17_AXI 1 2 6 1150 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 3500J
+preplace netloc readShift_0_clk_out 1 13 3 6040J 1660 NJ 1660 NJ
+preplace netloc fifo_generator_0_full 1 12 2 5570 1160 5920J
+preplace netloc ShiftRegs_0_clk_out 1 13 3 6020 1620 NJ 1620 NJ
+preplace netloc ext_trig_in_1 1 0 9 110J 340 NJ 340 1160 80 NJ 80 NJ 80 2610 40 3110 240 NJ 240 3950J
 preplace netloc util_vector_logic_10_Res 1 5 2 2550 1730 NJ
 preplace netloc util_vector_logic_1_Res 1 12 1 N
-preplace netloc coincTrigger_0_coinc_trigout 1 6 3 3030J 390 3490J 360 3880
-preplace netloc util_vector_logic_11_Res 1 6 1 3080
+preplace netloc coincTrigger_0_coinc_trigout 1 6 3 NJ 490 3510J 510 3920
+preplace netloc util_vector_logic_11_Res 1 6 1 3090
 preplace netloc util_vector_logic_3_Res 1 15 1 NJ
-preplace netloc axi_interconnect_0_M14_AXI 1 2 2 1140 1100 1810J
-preplace netloc ShiftRegs_0_enablemux 1 13 3 5910 1500 NJ 1500 NJ
-preplace netloc countDisplay_0_display_pulse_o 1 15 1 6720
+preplace netloc axi_interconnect_0_M14_AXI 1 2 2 1180 1110 1840J
+preplace netloc ShiftRegs_0_enablemux 1 13 3 5970 1500 NJ 1500 NJ
+preplace netloc countDisplay_0_display_pulse_o 1 15 1 6750
 preplace netloc trigwordfifo_0_rd_enable 1 10 1 4630
-preplace netloc M00_ARESETN_1 1 1 14 670 410 1230J 420 1780 420 NJ 420 2600 1140 3100 1140 3540 980 NJ 980 4300 980 4620 1210 5100 1290 5520 600 5950 600 6390
-preplace netloc axi_interconnect_0_M15_AXI 1 2 9 1130 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 4610J
-preplace netloc fifo_readout_0_read 1 13 1 5960
+preplace netloc M00_ARESETN_1 1 1 14 670 390 1120J 400 1780 450 NJ 450 2590 1330 3080 1400 3540 1350 NJ 1350 4310 1060 4630 1080 5080 1080 5530 580 5960 590 6450
+preplace netloc axi_interconnect_0_M15_AXI 1 2 8 1170 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 4280J
+preplace netloc fifo_readout_0_read 1 13 1 5940
 preplace netloc ellie_control_0_tellie_control 1 4 1 2240
 preplace netloc util_vector_logic_2_Res 1 12 1 N
-preplace netloc ShiftRegs_0_data_out 1 13 3 5970 1640 NJ 1640 NJ
-preplace netloc axi_interconnect_0_M21_AXI 1 2 11 1150 740 NJ 740 NJ 740 NJ 740 NJ 740 3480J 680 3860J 670 NJ 670 NJ 670 NJ 670 5500J
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 640
-preplace netloc util_reduced_logic_5_Res 1 4 2 2240 260 2620J
-preplace netloc testDelay_0_s00_axi_userout 1 11 1 5130
-preplace netloc fifo_readout_0_reset 1 13 1 5950
+preplace netloc ShiftRegs_0_data_out 1 13 3 6030 1640 NJ 1640 NJ
+preplace netloc axi_interconnect_0_M21_AXI 1 2 11 1210 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 4600J -20 NJ -20 5570J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 660
+preplace netloc util_reduced_logic_5_Res 1 4 2 2210 270 2600J
+preplace netloc testDelay_0_s00_axi_userout 1 10 1 N
+preplace netloc fifo_readout_0_reset 1 13 1 5930
 preplace netloc trigwordfifo_0_reset 1 10 1 4650
-preplace netloc comboTrigger_0_s00_axi_trigout 1 6 3 3050 410 3520J 350 NJ
+preplace netloc comboTrigger_0_s00_axi_trigout 1 6 3 3070 380 3490J 350 NJ
 preplace netloc triggers_0_trigger_mask 1 11 1 5060
-preplace netloc util_vector_logic_4_Res 1 12 1 5510
-preplace netloc burstTrigger_0_s00_axi_trigout1 1 6 2 3100 430 NJ
+preplace netloc util_vector_logic_4_Res 1 12 1 5530
+preplace netloc burstTrigger_0_s00_axi_trigout1 1 6 2 3050 260 3550J
 preplace netloc util_vector_logic_9_Res 1 8 1 3870
-preplace netloc data_in_1 1 0 13 120J 360 NJ 360 NJ 360 NJ 360 NJ 360 2590J 760 NJ 760 3500J 700 3900J 690 NJ 690 NJ 690 NJ 690 5500
-preplace netloc ShiftRegs_0_clocks_rdy 1 13 3 5950 1600 NJ 1600 NJ
-preplace netloc prescaleSignal_1_output 1 7 2 3530 790 N
-preplace netloc testPulser_1_pulser_out 1 4 12 2240J 1570 NJ 1570 NJ 1570 NJ 1570 NJ 1570 NJ 1570 NJ 1570 5080J 1580 5560J 1540 5890J 1550 NJ 1550 6700J
-preplace netloc axi_interconnect_0_M03_AXI 1 2 12 1130 -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 5950J
-preplace netloc axi_interconnect_0_M11_AXI 1 2 11 1180 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 5490J
-preplace netloc axi_interconnect_0_M00_AXI 1 2 4 1160 240 1780J 210 2230J 270 2610J
+preplace netloc data_in_1 1 0 13 150J 360 NJ 360 1160J 370 NJ 370 NJ 370 2570J 770 NJ 770 NJ 770 3870J 860 4280J 780 NJ 780 NJ 780 5510
+preplace netloc ShiftRegs_0_clocks_rdy 1 13 3 6010 1600 NJ 1600 NJ
+preplace netloc prescaleSignal_1_output 1 7 2 3510 790 N
+preplace netloc testPulser_1_pulser_out 1 4 12 2210J 1620 NJ 1620 NJ 1620 NJ 1620 NJ 1620 4290J 1820 NJ 1820 NJ 1820 NJ 1820 6070J 1760 NJ 1760 NJ
+preplace netloc axi_interconnect_0_M03_AXI 1 2 12 1240 790 NJ 790 NJ 790 NJ 790 3090J 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 5530J 280 5930J
+preplace netloc axi_interconnect_0_M11_AXI 1 2 11 1230 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 4650J 1060 NJ 1060 5500J
+preplace netloc axi_interconnect_0_M00_AXI 1 2 4 1180 360 NJ 360 2210J 300 NJ
 preplace netloc countDisplay_0_display_clr 1 15 1 N
-preplace netloc triggerOut_0_gtrigout 1 11 5 N 960 5580 810 5960 630 NJ 630 NJ
-preplace netloc clk_in 1 0 14 N 820 660 340 NJ 340 1820 940 NJ 940 2640 980 NJ 980 3520 590 NJ 590 4280 320 4640 1280 NJ 1280 5550 1260 5900J
-preplace netloc s00_axi_userin_3_1 1 0 8 120J 1750 NJ 1750 NJ 1750 NJ 1750 2220J 1790 2590J 1670 NJ 1670 3480
-levelinfo -pg 1 90 410 960 1590 2045 2390 2850 3320 3710 4120 4460 4880 5330 5740 6180 6550 6750 -top -380 -bot 5070
+preplace netloc triggerOut_0_gtrigout 1 11 5 N 960 5570 930 5950 630 NJ 630 NJ
+preplace netloc clk_in 1 0 14 N 820 680 1670 NJ 1670 1820 1240 NJ 1240 2610 1170 NJ 1170 3490 1230 NJ 1230 4300 510 4670 1090 NJ 1090 5520 1480 5950J
+preplace netloc s00_axi_userin_3_1 1 0 8 NJ 1650 630J 1710 NJ 1710 1750J 1730 2230J 1640 NJ 1640 NJ 1640 3480
+levelinfo -pg 1 90 410 960 1590 2045 2390 2850 3320 3720 4120 4460 4880 5330 5770 6250 6600 6800 -top -450 -bot 5070
 ",
 }
 {

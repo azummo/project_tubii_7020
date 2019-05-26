@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 15 11:36:18 2019
+# Process ID: 4580
+# Current directory: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.tmp/oneshot_pulse_v1_0_project/oneshot_pulse_v1_0_project.runs/synth_1
+# Command line: vivado -log oneshot_pulse_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source oneshot_pulse_v1_0.tcl
+# Log file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.tmp/oneshot_pulse_v1_0_project/oneshot_pulse_v1_0_project.runs/synth_1/oneshot_pulse_v1_0.vds
+# Journal file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.tmp/oneshot_pulse_v1_0_project/oneshot_pulse_v1_0_project.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source oneshot_pulse_v1_0.tcl -notrace

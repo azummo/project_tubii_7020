@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Wed Mar  6 17:32:25 2019
+--Date        : Thu May 23 17:55:17 2019
 --Host        : zummo running 64-bit Ubuntu 16.04.6 LTS
 --Command     : generate_target system_wrapper.bd
 --Design      : system_wrapper
@@ -98,8 +98,8 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    Outt : out STD_LOGIC;
     trig_out : out STD_LOGIC;
+    Outt : out STD_LOGIC;
     display_reset : out STD_LOGIC;
     display_latch : out STD_LOGIC;
     display_count : out STD_LOGIC;
@@ -120,8 +120,8 @@ architecture STRUCTURE of system_wrapper is
     ext_trig_in : in STD_LOGIC_VECTOR ( 15 downto 0 );
     muxer : out STD_LOGIC_VECTOR ( 2 downto 0 );
     enablemux : out STD_LOGIC;
-    control_rdy : out STD_LOGIC;
     control_rdy_II : out STD_LOGIC;
+    control_rdy : out STD_LOGIC;
     caen_rdy : out STD_LOGIC;
     mtcamimic_rdy : out STD_LOGIC;
     clocks_rdy : out STD_LOGIC;

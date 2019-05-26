@@ -30,9 +30,9 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property ip_repo_paths {
   /home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0
+  /home/zummo/snoplus/TUBii/project_tubii_7020/register_mux_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/ellie_control_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/anticoincTrigger_1.0
-  /home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/clockDivider_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/trigwordfifo_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/TrigWordFifo_1.0

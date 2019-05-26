@@ -168,6 +168,9 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_anticoin
 # IP: bd/system/ip/system_coincTrigger_0_2/system_coincTrigger_0_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_coincTrigger_0_2 || ORIG_REF_NAME==system_coincTrigger_0_2} -quiet] -quiet
 
+# IP: bd/system/ip/system_register_mux_0_0/system_register_mux_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_register_mux_0_0 || ORIG_REF_NAME==system_register_mux_0_0} -quiet] -quiet
+
 # IP: bd/system/ip/system_tier2_xbar_0_0/system_tier2_xbar_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_tier2_xbar_0_0 || ORIG_REF_NAME==system_tier2_xbar_0_0} -quiet] -quiet
 
