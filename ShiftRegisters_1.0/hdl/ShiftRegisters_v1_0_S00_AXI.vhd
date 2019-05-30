@@ -138,6 +138,9 @@ architecture arch_imp of ShiftRegisters_v1_0_S00_AXI is
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
+	
+    signal load_counter : integer := 0;
+    signal read_counter : integer := 0;
 
 begin
 	-- I/O Connections assignments
@@ -229,7 +232,8 @@ begin
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
 	begin
 	  if rising_edge(S_AXI_ACLK) then 
-	    -- Muxer part
+
+      	-- Muxer part
         -- reg0 muxer
         -- reg1 enable
         MUXER(2 downto 0) <= slv_reg0(2 downto 0);
@@ -249,42 +253,46 @@ begin
         -- reg 5 load counter
         -- reg 6 data read out
         -- reg 7 read control
-        -- reg 8 read counter
+        -- reg 8 read counter 
+        
+        
         if (slv_reg4(0)='1') then
           DATA_OUT <= slv_reg3(7);
           slv_reg3(7 downto 1) <= slv_reg3(6 downto 0);
           slv_reg3(31 downto 8) <= (others => '0');
           slv_reg4(0) <= '0';
-          slv_reg5 <= slv_reg5+1;
-          slv_reg8<=(others=>'0');
-        elsif ( slv_reg5>"00000000000000000000000000000000" and slv_reg5<"00000000000000000111111111011000" ) then
-          slv_reg5 <= slv_reg5+1;
-          slv_reg8<=(others=>'0');
-        elsif ( slv_reg5>"00000000000000000111111111010111" and slv_reg5<"00000000000000001000000000000000" ) then
+          load_counter <= load_counter+1;
+          read_counter<=0;
+--        elsif ( slv_reg5>"00000000000000000000000000000000" and slv_reg5<"00000000000000000111111111011000" ) then
+        elsif ( load_counter>0 and load_counter<33000 ) then
+          load_counter <= load_counter+1;
+          read_counter<=0;
+          slv_reg9(0) <= '1';
+        elsif ( load_counter>32999 and load_counter<50000 ) then
           CLK_OUT <= '1';
-          slv_reg5 <= slv_reg5+1;
-          slv_reg8<=(others=>'0');
+          load_counter <= load_counter+1;
+          read_counter<=0;
         elsif (slv_reg7(0)='1') then
           slv_reg6(8 downto 1) <= slv_reg6(7 downto 0);
           slv_reg6(31 downto 8) <= (others => '0');
           slv_reg6(0) <= DATA_IN;
           slv_reg7(0) <= '0';
-          slv_reg5<=(others=>'0');
-          slv_reg8 <= slv_reg8+1;
-        elsif ( slv_reg8>"00000000000000000000000000000000" and slv_reg8<"00000000000000000111111111011000" ) then
-          slv_reg5<=(others=>'0');
-          slv_reg8 <= slv_reg8+1;
-        elsif ( slv_reg8>"00000000000000000111111111010111" and slv_reg8<"00000000000000001000000000000000" ) then
+          load_counter<=0;
+          read_counter <= read_counter+1;
+        elsif ( read_counter>0 and read_counter<33000 ) then
+          load_counter<=0;
+          read_counter <= read_counter+1;
+        elsif ( read_counter>32999 and read_counter<50000 ) then
           CLK_OUT <= '1';
-          slv_reg5 <= (others=>'0');
-          slv_reg8 <= slv_reg8+1;
+          load_counter <= 0;
+          read_counter <= read_counter+1;
         else
           CLK_OUT <= '0';
-          slv_reg5<=(others=>'0');
-          slv_reg8<=(others=>'0');
+          load_counter<=0;
+          read_counter<=0;
         end if;
 
-        READ_CNTRL <= slv_reg7(1);
+        READ_CNTRL <= slv_reg7(1); 
 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
@@ -454,7 +462,7 @@ begin
 	            slv_reg15 <= slv_reg15;
 	        end case;
 	      end if;
-	    end if;
+	    end if; 
 	  end if;                   
 	end process; 
 
@@ -473,7 +481,7 @@ begin
 	    else
 	      if (axi_awready = '1' and S_AXI_AWVALID = '1' and axi_wready = '1' and S_AXI_WVALID = '1' and axi_bvalid = '0'  ) then
 	        axi_bvalid <= '1';
-	        axi_bresp  <= "00"; 
+	        axi_bresp  <= "00";
 	      elsif (S_AXI_BREADY = '1' and axi_bvalid = '1') then   --check if bready is asserted while bvalid is high)
 	        axi_bvalid <= '0';                                 -- (there is a possibility that bready is always asserted high)
 	      end if;

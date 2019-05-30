@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:implement_gtid:1.0
--- IP Revision: 28
+-- IP Revision: 30
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

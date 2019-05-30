@@ -1,7 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+--use ieee.std_logic_arith.all;
+--use ieee.std_logic_unsigned.all;
 
 entity testDelay_v1_0_S00_AXI is
 	generic (
@@ -222,12 +223,12 @@ begin
         -- when Reg2 > Reg1+Reg3, stop output
         if PULSE_IN>'0' then         -- Record a pulse
           sgnl <= PULSE_IN;
-          slv_reg1 <= slv_reg1+1;
+          slv_reg1 <= std_logic_vector(unsigned(slv_reg1)+1);
         end if;
 
         if sgnl > '0' then
-          slv_reg2 <= slv_reg2+1;        -- time since start of pulse
-          slv_reg0 <= slv_reg1+slv_reg3; -- time to end of pulse
+          slv_reg2 <= std_logic_vector(unsigned(slv_reg2)+1);        -- time since start of pulse
+          slv_reg0 <= std_logic_vector(unsigned(slv_reg1)+unsigned(slv_reg3)); -- time to end of pulse
 
           if slv_reg2 > slv_reg3 then    -- start of delayed pulse
             PULSE_OUT <= sgnl;

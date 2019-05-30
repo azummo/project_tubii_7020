@@ -1,6 +1,615 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 23:10:57 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_triggers_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:2.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 23:02:23 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_triggers_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_triggers_0_0 (xilinx.com:user:triggers:2.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:45 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_trigwordfifo_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_trigwordfifo_0_0 (xilinx.com:user:trigwordfifo:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:45 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_1_11'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_1_11 (xilinx.com:user:testPulser:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:45 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_9'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_9 (xilinx.com:user:testPulser:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:45 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_7 (xilinx.com:user:testPulser:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:45 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_12'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_12 (xilinx.com:user:testPulser:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 17:08:44 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_10'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_10 (xilinx.com:user:testPulser:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 16:48:30 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_oneshot_pulse_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_oneshot_pulse_1_1 (xilinx.com:user:oneshot_pulse:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 16:48:30 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_oneshot_pulse_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_oneshot_pulse_0_2 (xilinx.com:user:oneshot_pulse:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed May 29 16:48:28 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_burstTrigger_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_burstTrigger_0_0 (xilinx.com:user:burstTrigger:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:59:20 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testDelay_3_6'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testDelay_3_6 (xilinx.com:user:testDelay:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:59:20 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testDelay_2_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testDelay_2_5 (xilinx.com:user:testDelay:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:59:20 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testDelay_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testDelay_0_7 (xilinx.com:user:testDelay:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:59:20 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testDelay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testDelay_0_0 (xilinx.com:user:testDelay:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:41:49 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_1_11'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_1_11 (xilinx.com:user:testPulser:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:41:49 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_9'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_9 (xilinx.com:user:testPulser:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:41:49 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_7 (xilinx.com:user:testPulser:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:41:49 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_12'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_12 (xilinx.com:user:testPulser:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 17:41:48 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_testPulser_0_10'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_testPulser_0_10 (xilinx.com:user:testPulser:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 11:39:39 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_implement_gtid_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_implement_gtid_0_0 (xilinx.com:user:implement_gtid:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 10:56:06 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_implement_gtid_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_implement_gtid_0_0 (xilinx.com:user:implement_gtid:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue May 28 10:26:44 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 16:41:33 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 15:57:23 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 13:51:13 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 13:14:11 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 11:48:39 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon May 27 11:03:41 2019
+| Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ShiftRegisters_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ShiftRegisters_0_0 (xilinx.com:user:ShiftRegisters:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
 | Date         : Wed Mar  6 17:31:28 2019
 | Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
 | Command      : upgrade_ip

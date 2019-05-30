@@ -1,7 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+--use ieee.std_logic_arith.all;
+--use ieee.std_logic_unsigned.all;
 
 entity burstTrigger_v1_0_S00_AXI is
 	generic (
@@ -228,7 +229,7 @@ begin
         -- emit trigger for Y cnts
 
         -- internal clock
-        slv_reg5 <= slv_reg5+1;
+        slv_reg5 <= std_logic_vector( unsigned(slv_reg5) + 1 );
 
         if slv_reg5<"00000000000000000000000000101000" then
             -- is there a flag within window?
@@ -247,12 +248,16 @@ begin
         if slv_reg5="00000000000000000000000000101010" then
             -- fill in new trigger
             burst_reg(0) <= slv_reg4(1);
-            slv_reg1 <= slv_reg1-burst_reg(99);
+            if burst_reg(99) = '1' then
+              slv_reg1 <= std_logic_vector( unsigned(slv_reg1) - 1 );
+            end if;
         end if;
         
         if slv_reg5="00000000000000000000000000101011" then
             -- count the number of bits
-            slv_reg1 <= slv_reg1+burst_reg(0);
+            if burst_reg(0) = '1' then
+              slv_reg1 <= std_logic_vector( unsigned(slv_reg1) + 1 );
+            end if;
         end if;
         
         if slv_reg5="00000000000000000000000000101100" then

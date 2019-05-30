@@ -1,7 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+-- use ieee.std_logic_arith.all;
+-- use ieee.std_logic_unsigned.all;
 
 entity oneshot_pulse_v1_0_S00_AXI is
 	generic (
@@ -217,7 +218,7 @@ begin
         end if;
         
         if(slv_reg3(0) = '1') then
-          slv_reg0 <= slv_reg0+1;
+          slv_reg0 <= std_logic_vector( unsigned(slv_reg0) + 1 );
         end if;
         
         if(slv_reg0 > slv_reg1) then

@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Thu May 23 17:55:17 2019
+--Date        : Wed May 29 23:13:23 2019
 --Host        : zummo running 64-bit Ubuntu 16.04.6 LTS
 --Command     : generate_target system_wrapper.bd
 --Design      : system_wrapper
@@ -132,9 +132,9 @@ architecture STRUCTURE of system_wrapper is
     smellie_pulser_out : out STD_LOGIC_VECTOR ( 0 to 0 );
     Clk_in : in STD_LOGIC;
     Outtt : out STD_LOGIC;
-    generic_delay_out : out STD_LOGIC;
     speaker : out STD_LOGIC_VECTOR ( 0 to 0 );
-    tellie_delay_out : out STD_LOGIC
+    tellie_delay_out : out STD_LOGIC;
+    generic_delay_out : out STD_LOGIC
   );
   end component system;
 begin

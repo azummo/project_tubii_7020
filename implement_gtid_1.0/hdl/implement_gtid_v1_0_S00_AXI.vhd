@@ -119,8 +119,10 @@ architecture arch_imp of implement_gtid_v1_0_S00_AXI is
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
-    signal gtided       : std_logic;
 
+    signal gtided       : std_logic;
+    signal gtid_in_unsigned_plus_one : unsigned(23 downto 0) := (others=>'0');
+    signal gtid_in_unsigned_plus_two : unsigned(23 downto 0) := (others=>'0');
 begin
 	-- I/O Connections assignments
 
@@ -389,13 +391,18 @@ begin
 
 	-- Add user logic here
 
+   -- Workaround because std_logic_vector(unsigned(GTID_IN)+1) 
+   -- gives overloaded operator error 
+   gtid_in_unsigned_plus_one<=unsigned(GTID_IN)+1;
+   gtid_in_unsigned_plus_two<=unsigned(GTID_IN)+2;
+
 	process (GTRIG_in)
 	begin
 	  if rising_edge(GTRIG_in) then
         if(GTID_in(15 downto 0) = "1111111111111110") then
-          GTID_out <= GTID_in+2;
+          GTID_out <= std_logic_vector(gtid_in_unsigned_plus_two);
         else
-          GTID_out <= GTID_in+1;
+          GTID_out <= std_logic_vector(gtid_in_unsigned_plus_one);
         end if;
       end if;
     end process;

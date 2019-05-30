@@ -1,7 +1,9 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+
+--use ieee.std_logic_arith.all;
+--use ieee.std_logic_unsigned.all;
 
 entity testPulser_v1_0_S00_AXI is
 	generic (
@@ -119,6 +121,8 @@ architecture arch_imp of testPulser_v1_0_S00_AXI is
     signal pulse_on : std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal byte_index	: integer;
+	
+	signal counter : integer := 0;
 
 begin
 	-- I/O Connections assignments
@@ -215,27 +219,27 @@ begin
         -- slv_reg2 is counter
         -- slv_reg3 is number of pulses left to fire
 
-        slv_reg2 <= slv_reg2+1;
+        slv_reg2 <= std_logic_vector( unsigned(slv_reg2) + 1 );
 
         if slv_reg3 = null_reg and pulse_on = '0' then
           PULSER_OUT <= '0';
           pulse_on <= '0';
-          slv_reg2 <= (others=>'0');
+          counter <= 0;
           slv_reg3 <= (others=>'0');
         elsif slv_reg2>slv_reg1 and slv_reg1>slv_reg0 then
           PULSER_OUT <= '0';
           pulse_on <= '0';
           slv_reg2 <= (others=>'0');
-        elsif slv_reg2>slv_reg0 and slv_reg0>0 then
+        elsif slv_reg2>slv_reg0 and unsigned(slv_reg0)>0 then
           PULSER_OUT <= '1';
           if pulse_on = '0' then
-            slv_reg3 <= slv_reg3-1;
+            slv_reg3 <= std_logic_vector( unsigned(slv_reg3) - 1 );
             pulse_on <= '1';
           end if;
         elsif slv_reg0 = null_reg then
           PULSER_OUT <= '0';
           pulse_on <= '0';
-          slv_reg2 <= (others=>'0');
+          counter <= 0;
         end if;
 
 	    if S_AXI_ARESETN = '0' then
