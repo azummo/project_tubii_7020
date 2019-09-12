@@ -2,17 +2,19 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed May 29 23:37:37 2019
-# Process ID: 28745
+# Start of session at: Tue Aug 20 11:35:10 2019
+# Process ID: 12069
 # Current directory: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1
 # Command line: vivado -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
 # Log file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper.vdi
 # Journal file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source system_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1202.934 ; gain = 23.016 ; free physical = 2623 ; free virtual = 7691
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:35 . Memory (MB): peak = 1202.941 ; gain = 23.016 ; free physical = 2610 ; free virtual = 8081
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/clockComparison_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/clockCounter_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/register_mux_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/ellie_control_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/anticoincTrigger_1.0'.
@@ -51,11 +53,11 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/pro
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/prescaleTrigger_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/burstTrigger_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
-add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:29 . Memory (MB): peak = 1277.691 ; gain = 69.758 ; free physical = 2478 ; free virtual = 7620
+add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1274.238 ; gain = 66.297 ; free physical = 2474 ; free virtual = 8011
 Command: link_design -top system_wrapper -part xc7z020clg400-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Netlist 29-17] Analyzing 1719 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 1807 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.2
 INFO: [Device 21-403] Loading part xc7z020clg400-1
@@ -70,20 +72,18 @@ Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_702
 Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/constrs_1/new/constraints.xdc]
 Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc] for cell 'system_i/fifo_generator_0/U0'
 Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/system_fifo_generator_0_0_clocks.xdc] for cell 'system_i/fifo_generator_0/U0'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_8/system_auto_cc_8_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_8/system_auto_cc_8_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_7/system_auto_cc_7_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_7/system_auto_cc_7_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_6/system_auto_cc_6_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_6/system_auto_cc_6_clocks.xdc] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5/system_auto_cc_5_clocks.xdc] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5/system_auto_cc_5_clocks.xdc] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst'
-Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_4/system_auto_cc_4_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
-Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_4/system_auto_cc_4_clocks.xdc] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_8/system_auto_cc_8_clocks.xdc] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_8/system_auto_cc_8_clocks.xdc] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_7/system_auto_cc_7_clocks.xdc] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_7/system_auto_cc_7_clocks.xdc] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_6/system_auto_cc_6_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_6/system_auto_cc_6_clocks.xdc] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5/system_auto_cc_5_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_5/system_auto_cc_5_clocks.xdc] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst'
+Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_4/system_auto_cc_4_clocks.xdc] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_4/system_auto_cc_4_clocks.xdc] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst'
 Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_3/system_auto_cc_3_clocks.xdc] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst'
 Finished Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_3/system_auto_cc_3_clocks.xdc] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst'
 Parsing XDC File [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_2/system_auto_cc_2_clocks.xdc] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst'
@@ -98,86 +98,76 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gra
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m20_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m04_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m19_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
@@ -200,34 +190,14 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_han
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
@@ -274,6 +244,26 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sin
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m02_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m28_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m22_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
@@ -354,26 +344,6 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sin
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m17_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m16_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
@@ -394,26 +364,6 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sin
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m15_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
-Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
-Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m14_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
@@ -426,6 +376,26 @@ Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sin
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m12_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b/handshake/xpm_cdc_single_dest2src_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_src2dest_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/axi_interconnect_0/m05_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w/handshake/xpm_cdc_single_dest2src_inst'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
 Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
@@ -440,10 +410,9 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-33 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+35 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:39 ; elapsed = 00:01:32 . Memory (MB): peak = 2791.191 ; gain = 1513.500 ; free physical = 1602 ; free virtual = 6877
-write_hwdef: Time (s): cpu = 00:00:01 ; elapsed = 00:00:38 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1488 ; free virtual = 6878
+link_design: Time (s): cpu = 00:00:38 ; elapsed = 00:01:48 . Memory (MB): peak = 2808.730 ; gain = 1534.492 ; free physical = 1537 ; free virtual = 7300
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -454,61 +423,61 @@ INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1478 ; free virtual = 6873
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1542 ; free virtual = 7294
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 242b3a8bd
+Ending Cache Timing Information Task | Checksum: 24a8078d6
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.78 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1457 ; free virtual = 6853
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.88 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1523 ; free virtual = 7276
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 2275e40d9
+Phase 1 Retarget | Checksum: 21666a1bb
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1475 ; free virtual = 6874
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1538 ; free virtual = 7295
 INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: 229cc9bf9
+Phase 2 Constant propagation | Checksum: 22369010c
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1474 ; free virtual = 6874
-INFO: [Opt 31-389] Phase Constant propagation created 4 cells and removed 8 cells
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1545 ; free virtual = 7302
+INFO: [Opt 31-389] Phase Constant propagation created 6 cells and removed 16 cells
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 229ef29cb
+Phase 3 Sweep | Checksum: 211018dfa
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1470 ; free virtual = 6872
-INFO: [Opt 31-389] Phase Sweep created 2 cells and removed 481 cells
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1543 ; free virtual = 7300
+INFO: [Opt 31-389] Phase Sweep created 2 cells and removed 462 cells
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: 229ef29cb
+Phase 4 BUFG optimization | Checksum: 211018dfa
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1469 ; free virtual = 6871
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1543 ; free virtual = 7300
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
-Phase 5 Shift Register Optimization | Checksum: dfc18440
+Phase 5 Shift Register Optimization | Checksum: 1988147ff
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1468 ; free virtual = 6872
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1536 ; free virtual = 7299
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 1a77f02f2
+Phase 6 Post Processing Netlist | Checksum: 1e49b0a35
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1466 ; free virtual = 6871
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1537 ; free virtual = 7299
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1466 ; free virtual = 6871
-Ending Logic Optimization Task | Checksum: 12aed952f
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1537 ; free virtual = 7299
+Ending Logic Optimization Task | Checksum: 1d0aab5a8
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1466 ; free virtual = 6871
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1537 ; free virtual = 7299
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -527,41 +496,40 @@ INFO: [Pwropt 34-201] Structural ODC has moved 5 WE to EN ports
 Number of BRAM Ports augmented: 218 newly gated: 5 Total Ports: 228
 Number of Flops added for Enable Generation: 1
 
-Ending PowerOpt Patch Enables Task | Checksum: 10ecbc583
+Ending PowerOpt Patch Enables Task | Checksum: 24a6b78de
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1355 ; free virtual = 6787
-Ending Power Optimization Task | Checksum: 10ecbc583
+Time (s): cpu = 00:00:00.79 ; elapsed = 00:00:00.94 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1457 ; free virtual = 7222
+Ending Power Optimization Task | Checksum: 24a6b78de
 
-Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1375 ; free virtual = 6807
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1479 ; free virtual = 7244
 
 Starting Final Cleanup Task
 
 Starting Logic Optimization Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Logic Optimization Task | Checksum: 2225ca103
+Ending Logic Optimization Task | Checksum: 21b187ec5
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1371 ; free virtual = 6806
-Ending Final Cleanup Task | Checksum: 2225ca103
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1488 ; free virtual = 7242
+Ending Final Cleanup Task | Checksum: 21b187ec5
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1371 ; free virtual = 6806
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1488 ; free virtual = 7242
 INFO: [Common 17-83] Releasing license: Implementation
-56 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+58 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1371 ; free virtual = 6806
+opt_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1488 ; free virtual = 7242
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1360 ; free virtual = 6799
+Write XDEF Complete: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1479 ; free virtual = 7238
 INFO: [Common 17-1381] The checkpoint '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1355 ; free virtual = 6798
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1446 ; free virtual = 7226
 INFO: [runtcl-4] Executing : report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
 Command: report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
 INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Coretcl 2-168] The results of DRC are in file /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_drc_opted.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1343 ; free virtual = 6788
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -579,13 +547,13 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1337 ; free virtual = 6782
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14c41cc83
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1440 ; free virtual = 7238
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 18bbe22f7
 
-Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.62 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1337 ; free virtual = 6782
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.18 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1440 ; free virtual = 7238
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1334 ; free virtual = 6780
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1438 ; free virtual = 7238
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -601,35 +569,35 @@ WARNING: [Place 30-568] A LUT 'system_i/util_reduced_logic_4/inst/Res_INST_0' is
 	system_i/prescaleSignal_1/U0/prescaleSignal_v1_0_S00_AXI_inst/counter_reg[1] {FDRE}
 	system_i/prescaleSignal_1/U0/prescaleSignal_v1_0_S00_AXI_inst/counter_reg[2] {FDRE}
 	system_i/prescaleSignal_1/U0/prescaleSignal_v1_0_S00_AXI_inst/counter_reg[3] {FDRE}
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 85d44be2
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 114acb20d
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1298 ; free virtual = 6754
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1388 ; free virtual = 7210
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 1d532be87
+Phase 1.3 Build Placer Netlist Model | Checksum: d9f8ddb7
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1265 ; free virtual = 6738
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1376 ; free virtual = 7182
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 1d532be87
+Phase 1.4 Constrain Clocks/Macros | Checksum: d9f8ddb7
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1265 ; free virtual = 6739
-Phase 1 Placer Initialization | Checksum: 1d532be87
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1376 ; free virtual = 7182
+Phase 1 Placer Initialization | Checksum: d9f8ddb7
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1265 ; free virtual = 6739
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1376 ; free virtual = 7182
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 1a00dc015
+Phase 2.1 Floorplanning | Checksum: 17488db6e
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1252 ; free virtual = 6727
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1368 ; free virtual = 7169
 
 Phase 2.2 Physical Synthesis In Placer
 INFO: [Physopt 32-65] No nets found for high-fanout optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1238 ; free virtual = 6715
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1268 ; free virtual = 7092
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -643,52 +611,52 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2 Physical Synthesis In Placer | Checksum: 188765cc1
+Phase 2.2 Physical Synthesis In Placer | Checksum: 19e1c0b57
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:26 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1238 ; free virtual = 6714
-Phase 2 Global Placement | Checksum: 19753db1e
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:29 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1268 ; free virtual = 7091
+Phase 2 Global Placement | Checksum: 10b4f22c9
 
-Time (s): cpu = 00:00:46 ; elapsed = 00:00:27 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1242 ; free virtual = 6720
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:31 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1264 ; free virtual = 7091
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 19753db1e
+Phase 3.1 Commit Multi Column Macros | Checksum: 10b4f22c9
 
-Time (s): cpu = 00:00:46 ; elapsed = 00:00:27 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1242 ; free virtual = 6720
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:31 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1267 ; free virtual = 7091
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1e2e2f1db
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: d274132e
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:29 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1160 ; free virtual = 6696
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1230 ; free virtual = 7063
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 1ae59e0d7
+Phase 3.3 Area Swap Optimization | Checksum: 16ef65247
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:30 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1159 ; free virtual = 6696
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1229 ; free virtual = 7063
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 201ab2c9b
+Phase 3.4 Pipeline Register Optimization | Checksum: 11ccc9589
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:30 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1158 ; free virtual = 6696
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1229 ; free virtual = 7063
 
 Phase 3.5 Small Shape Detail Placement
-Phase 3.5 Small Shape Detail Placement | Checksum: 19ce89cb3
+Phase 3.5 Small Shape Detail Placement | Checksum: f60ab45f
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:36 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1176 ; free virtual = 6761
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:42 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1216 ; free virtual = 7048
 
 Phase 3.6 Re-assign LUT pins
-Phase 3.6 Re-assign LUT pins | Checksum: 210082981
+Phase 3.6 Re-assign LUT pins | Checksum: e8be1706
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:37 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1173 ; free virtual = 6761
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:43 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1217 ; free virtual = 7048
 
 Phase 3.7 Pipeline Register Optimization
-Phase 3.7 Pipeline Register Optimization | Checksum: 174b488ac
+Phase 3.7 Pipeline Register Optimization | Checksum: e8be1706
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:37 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1171 ; free virtual = 6760
-Phase 3 Detail Placement | Checksum: 174b488ac
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:43 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1217 ; free virtual = 7048
+Phase 3 Detail Placement | Checksum: e8be1706
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:37 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1169 ; free virtual = 6760
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:44 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1217 ; free virtual = 7048
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -696,59 +664,59 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 90e4e43d
+Post Placement Optimization Initialization | Checksum: 144cbde10
 
 Phase 4.1.1.1 BUFG Insertion
 INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 90e4e43d
+Phase 4.1.1.1 BUFG Insertion | Checksum: 144cbde10
 
-Time (s): cpu = 00:01:06 ; elapsed = 00:00:41 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1153 ; free virtual = 6754
-INFO: [Place 30-746] Post Placement Timing Summary WNS=0.859. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: ffdb1702
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:49 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1159 ; free virtual = 7006
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.559. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: ffaba0a9
 
-Time (s): cpu = 00:01:06 ; elapsed = 00:00:41 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1152 ; free virtual = 6754
-Phase 4.1 Post Commit Optimization | Checksum: ffdb1702
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:50 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1156 ; free virtual = 7005
+Phase 4.1 Post Commit Optimization | Checksum: ffaba0a9
 
-Time (s): cpu = 00:01:06 ; elapsed = 00:00:41 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1151 ; free virtual = 6754
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:50 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1150 ; free virtual = 6999
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: ffdb1702
+Phase 4.2 Post Placement Cleanup | Checksum: ffaba0a9
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:41 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1151 ; free virtual = 6754
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:50 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1156 ; free virtual = 7005
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: ffdb1702
+Phase 4.3 Placer Reporting | Checksum: ffaba0a9
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:41 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1151 ; free virtual = 6754
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:51 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1155 ; free virtual = 7004
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 16af6f064
+Phase 4.4 Final Placement Cleanup | Checksum: 1c176dea2
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1151 ; free virtual = 6754
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 16af6f064
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:51 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1156 ; free virtual = 7005
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1c176dea2
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1151 ; free virtual = 6754
-Ending Placer Task | Checksum: 8ba01909
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:51 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1156 ; free virtual = 7005
+Ending Placer Task | Checksum: 184bf4de9
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1173 ; free virtual = 6776
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:51 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1180 ; free virtual = 7027
 INFO: [Common 17-83] Releasing license: Implementation
-79 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+81 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:01:12 ; elapsed = 00:00:46 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1173 ; free virtual = 6776
+place_design: Time (s): cpu = 00:01:23 ; elapsed = 00:00:55 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1186 ; free virtual = 7031
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1131 ; free virtual = 6767
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1144 ; free virtual = 7025
 INFO: [Common 17-1381] The checkpoint '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1159 ; free virtual = 6770
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1127 ; free virtual = 6993
 INFO: [runtcl-4] Executing : report_io -file system_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1149 ; free virtual = 6760
+report_io: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.28 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1117 ; free virtual = 6983
 INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_placed.rpt -pb system_wrapper_utilization_placed.pb
-report_utilization: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1159 ; free virtual = 6770
+report_utilization: Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.45 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1126 ; free virtual = 6993
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file system_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1159 ; free virtual = 6770
+report_control_sets: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 1125 ; free virtual = 6992
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -760,128 +728,123 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
-Checksum: PlaceDB: 1b044d9d ConstDB: 0 ShapeSum: 709bcb6c RouteDB: 0
+Checksum: PlaceDB: b5e1675a ConstDB: 0 ShapeSum: cedde68f RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 11efb4c1d
+Phase 1 Build RT Design | Checksum: 14875e6e5
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1017 ; free virtual = 6629
-Post Restoration Checksum: NetGraph: 54cff00f NumContArr: ca2b5c0e Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 873 ; free virtual = 6847
+Post Restoration Checksum: NetGraph: 6378565b NumContArr: e4fd908a Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 11efb4c1d
+Phase 2.1 Create Timer | Checksum: 14875e6e5
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1016 ; free virtual = 6629
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:31 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 913 ; free virtual = 6879
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 11efb4c1d
+Phase 2.2 Fix Topology Constraints | Checksum: 14875e6e5
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1001 ; free virtual = 6613
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:31 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 898 ; free virtual = 6862
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 11efb4c1d
+Phase 2.3 Pre Route Cleanup | Checksum: 14875e6e5
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 1001 ; free virtual = 6613
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:31 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 908 ; free virtual = 6862
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 143edf687
+Phase 2.4 Update Timing | Checksum: 1922ebba3
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:00:26 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 982 ; free virtual = 6595
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.042  | TNS=0.000  | WHS=-0.150 | THS=-65.811|
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:39 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 911 ; free virtual = 6895
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.801  | TNS=0.000  | WHS=-0.146 | THS=-79.286|
 
 
 Phase 2.5 Update Timing for Bus Skew
 
 Phase 2.5.1 Update Timing
-Phase 2.5.1 Update Timing | Checksum: 14cb9d8d5
+Phase 2.5.1 Update Timing | Checksum: 1660fd104
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 980 ; free virtual = 6594
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.042  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:43 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 889 ; free virtual = 6880
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.801  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 2.5 Update Timing for Bus Skew | Checksum: 14cb9d8d5
+Phase 2.5 Update Timing for Bus Skew | Checksum: 1660fd104
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 980 ; free virtual = 6594
-Phase 2 Router Initialization | Checksum: 224082a2c
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:43 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 888 ; free virtual = 6879
+Phase 2 Router Initialization | Checksum: e51a658c
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 979 ; free virtual = 6594
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:43 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 886 ; free virtual = 6879
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 1976518db
+Phase 3 Initial Routing | Checksum: 12e1d4d70
 
-Time (s): cpu = 00:00:55 ; elapsed = 00:00:32 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 974 ; free virtual = 6590
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:50 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 866 ; free virtual = 6860
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 1630
- Number of Nodes with overlaps = 99
- Number of Nodes with overlaps = 29
- Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 1580
+ Number of Nodes with overlaps = 101
+ Number of Nodes with overlaps = 24
+ Number of Nodes with overlaps = 12
  Number of Nodes with overlaps = 7
- Number of Nodes with overlaps = 6
- Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.385  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.378  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 1142f3db0
+Phase 4.1 Global Iteration 0 | Checksum: 12fd7ad9b
 
-Time (s): cpu = 00:01:23 ; elapsed = 00:00:40 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 965 ; free virtual = 6586
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:19 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 805 ; free virtual = 6774
+Phase 4 Rip-up And Reroute | Checksum: 12fd7ad9b
 
-Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 1
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.385  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 4.2 Global Iteration 1 | Checksum: 17ce0b0f9
-
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
-Phase 4 Rip-up And Reroute | Checksum: 17ce0b0f9
-
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:19 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 805 ; free virtual = 6773
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 17ce0b0f9
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 965 ; free virtual = 6586
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 164082008
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 802 ; free virtual = 6771
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.402  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: fff8c2c2
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 795 ; free virtual = 6764
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 17ce0b0f9
+Phase 5.2 Clock Skew Optimization | Checksum: fff8c2c2
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 965 ; free virtual = 6586
-Phase 5 Delay and Skew Optimization | Checksum: 17ce0b0f9
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 790 ; free virtual = 6759
+Phase 5 Delay and Skew Optimization | Checksum: fff8c2c2
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 965 ; free virtual = 6586
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 789 ; free virtual = 6758
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1a43f85db
+Phase 6.1.1 Update Timing | Checksum: 10528ac89
 
-Time (s): cpu = 00:01:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6585
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.399  | TNS=0.000  | WHS=0.031  | THS=0.000  |
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:22 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 756 ; free virtual = 6738
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.402  | TNS=0.000  | WHS=0.030  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 16b8b755a
+Phase 6.1 Hold Fix Iter | Checksum: 168ce9370
 
-Time (s): cpu = 00:01:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
-Phase 6 Post Hold Fix | Checksum: 16b8b755a
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:22 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 755 ; free virtual = 6737
+Phase 6 Post Hold Fix | Checksum: 168ce9370
 
-Time (s): cpu = 00:01:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:22 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 754 ; free virtual = 6736
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 4.94543 %
-  Global Horizontal Routing Utilization  = 6.00752 %
+  Global Vertical Routing Utilization    = 5.33463 %
+  Global Horizontal Routing Utilization  = 6.31939 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -890,51 +853,52 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 216ff28d7
+Phase 7 Route finalize | Checksum: 1071c2ef8
 
-Time (s): cpu = 00:01:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:22 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 753 ; free virtual = 6733
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 216ff28d7
+Phase 8 Verifying routed nets | Checksum: 1071c2ef8
 
-Time (s): cpu = 00:01:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 964 ; free virtual = 6586
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:22 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 753 ; free virtual = 6734
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 230c96cd1
+Phase 9 Depositing Routes | Checksum: 181d5c39c
 
-Time (s): cpu = 00:01:30 ; elapsed = 00:00:44 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 962 ; free virtual = 6585
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:24 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 798 ; free virtual = 6780
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=0.399  | TNS=0.000  | WHS=0.031  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.402  | TNS=0.000  | WHS=0.030  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 230c96cd1
+Phase 10 Post Router Timing | Checksum: 181d5c39c
 
-Time (s): cpu = 00:01:31 ; elapsed = 00:00:44 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 965 ; free virtual = 6587
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:24 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 798 ; free virtual = 6780
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:31 ; elapsed = 00:00:44 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 988 ; free virtual = 6611
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:24 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 823 ; free virtual = 6805
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-98 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+100 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:37 ; elapsed = 00:00:55 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 988 ; free virtual = 6611
+route_design: Time (s): cpu = 00:02:11 ; elapsed = 00:01:30 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 827 ; free virtual = 6813
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 944 ; free virtual = 6607
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 778 ; free virtual = 6810
 INFO: [Common 17-1381] The checkpoint '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 977 ; free virtual = 6611
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 822 ; free virtual = 6866
 INFO: [runtcl-4] Executing : report_drc -file system_wrapper_drc_routed.rpt -pb system_wrapper_drc_routed.pb -rpx system_wrapper_drc_routed.rpx
 Command: report_drc -file system_wrapper_drc_routed.rpt -pb system_wrapper_drc_routed.pb -rpx system_wrapper_drc_routed.rpx
 INFO: [DRC 23-27] Running DRC with 4 threads
 INFO: [Coretcl 2-168] The results of DRC are in file /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_drc_routed.rpt.
 report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 803 ; free virtual = 6843
 INFO: [runtcl-4] Executing : report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -942,7 +906,7 @@ INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 4 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/system_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 881 ; free virtual = 6521
+report_methodology: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 681 ; free virtual = 6753
 INFO: [runtcl-4] Executing : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 Command: report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -951,9 +915,9 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-110 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+112 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 2791.191 ; gain = 0.000 ; free physical = 841 ; free virtual = 6492
+report_power: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2808.730 ; gain = 0.000 ; free physical = 575 ; free virtual = 6723
 INFO: [runtcl-4] Executing : report_route_status -file system_wrapper_route_status.rpt -pb system_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file system_wrapper_timing_summary_routed.rpt -pb system_wrapper_timing_summary_routed.pb -rpx system_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
@@ -1005,9 +969,9 @@ Creating bitstream...
 Writing bitstream ./system_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed May 29 23:46:17 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-186] '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Aug 20 11:44:55 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-129 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+131 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:51 ; elapsed = 00:00:38 . Memory (MB): peak = 2919.090 ; gain = 127.898 ; free physical = 789 ; free virtual = 6459
-INFO: [Common 17-206] Exiting Vivado at Wed May 29 23:46:18 2019...
+write_bitstream: Time (s): cpu = 00:01:04 ; elapsed = 00:00:52 . Memory (MB): peak = 2941.902 ; gain = 133.172 ; free physical = 551 ; free virtual = 6731
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 20 11:44:56 2019...

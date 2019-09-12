@@ -72,6 +72,8 @@ set rc [catch {
   set_property parent.project_path /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.xpr [current_project]
   set_property ip_repo_paths {
   /home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0
+  /home/zummo/snoplus/TUBii/project_tubii_7020/clockComparison_1.0
+  /home/zummo/snoplus/TUBii/project_tubii_7020/clockCounter_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/register_mux_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/ellie_control_1.0
   /home/zummo/snoplus/TUBii/project_tubii_7020/anticoincTrigger_1.0
