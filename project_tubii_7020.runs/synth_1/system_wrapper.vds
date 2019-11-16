@@ -2,14 +2,15 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Aug 20 11:16:08 2019
-# Process ID: 11234
+# Start of session at: Thu Nov 14 07:40:56 2019
+# Process ID: 16536
 # Current directory: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/synth_1
 # Command line: vivado -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
 # Log file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/synth_1/system_wrapper.vds
 # Journal file: /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source system_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1202.941 ; gain = 23.016 ; free physical = 115 ; free virtual = 7815
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/coincTrigger_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/clockComparison_1.0'.
@@ -52,20 +53,20 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/pro
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/prescaleTrigger_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zummo/snoplus/TUBii/project_tubii_7020/burstTrigger_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
-add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1277.297 ; gain = 74.352 ; free physical = 165 ; free virtual = 8479
+add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1277.293 ; gain = 74.352 ; free physical = 125 ; free virtual = 7738
 Command: synth_design -top system_wrapper -part xc7z020clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 11283 
+INFO: Helper process launched with PID 16574 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 1378.750 ; gain = 89.844 ; free physical = 190 ; free virtual = 8359
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 1378.746 ; gain = 89.844 ; free physical = 137 ; free virtual = 7624
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'system_wrapper' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:77]
-INFO: [Synth 8-3491] module 'system' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10633' bound to instance 'system_i' of component 'system' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:141]
-INFO: [Synth 8-638] synthesizing module 'system' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10700]
-INFO: [Synth 8-3491] module 'system_testPulser_0_7' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd:56' bound to instance 'mz_happy_RnM' of component 'system_testPulser_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12607]
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:76]
+INFO: [Synth 8-3491] module 'system' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10633' bound to instance 'system_i' of component 'system' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'system' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10699]
+INFO: [Synth 8-3491] module 'system_testPulser_0_7' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd:56' bound to instance 'mz_happy_RnM' of component 'system_testPulser_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12605]
 INFO: [Synth 8-638] synthesizing module 'system_testPulser_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -86,7 +87,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'testPulser_v1_0_S00_AXI' (1#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0_S00_AXI.vhd:89]
 INFO: [Synth 8-256] done synthesizing module 'testPulser_v1_0' (2#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd:50]
 INFO: [Synth 8-256] done synthesizing module 'system_testPulser_0_7' (3#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/synth/system_testPulser_0_7.vhd:83]
-INFO: [Synth 8-3491] module 'system_ShiftRegisters_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd:56' bound to instance 'ShiftRegisters_0' of component 'system_ShiftRegisters_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12632]
+INFO: [Synth 8-3491] module 'system_ShiftRegisters_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd:56' bound to instance 'ShiftRegisters_0' of component 'system_ShiftRegisters_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12630]
 INFO: [Synth 8-638] synthesizing module 'system_ShiftRegisters_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd:92]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
@@ -106,7 +107,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'ShiftRegisters_v1_0_S00_AXI' (4#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0_S00_AXI.vhd:96]
 INFO: [Synth 8-256] done synthesizing module 'ShiftRegisters_v1_0' (5#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/hdl/ShiftRegisters_v1_0.vhd:59]
 INFO: [Synth 8-256] done synthesizing module 'system_ShiftRegisters_0_0' (6#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ShiftRegisters_0_0/synth/system_ShiftRegisters_0_0.vhd:92]
-INFO: [Synth 8-3491] module 'system_anticoincTrigger_0_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_anticoincTrigger_0_1/synth/system_anticoincTrigger_0_1.vhd:56' bound to instance 'anticoincTrigger_0' of component 'system_anticoincTrigger_0_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12666]
+INFO: [Synth 8-3491] module 'system_anticoincTrigger_0_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_anticoincTrigger_0_1/synth/system_anticoincTrigger_0_1.vhd:56' bound to instance 'anticoincTrigger_0' of component 'system_anticoincTrigger_0_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:12664]
 INFO: [Synth 8-638] synthesizing module 'system_anticoincTrigger_0_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_anticoincTrigger_0_1/synth/system_anticoincTrigger_0_1.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
@@ -2945,7 +2946,7 @@ WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_ar_t
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_w_beat_cnt_i_reg was removed.  [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/15a3/hdl/axi_crossbar_v2_1_vl_rfs.v:2078]
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_r_beat_cnt_i_reg was removed.  [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/15a3/hdl/axi_crossbar_v2_1_vl_rfs.v:2091]
 INFO: [Synth 8-256] done synthesizing module 'system_axi_interconnect_0_0' (90#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:5961]
-INFO: [Synth 8-3491] module 'system_burstTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd:56' bound to instance 'burstTrigger_0' of component 'system_burstTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13367]
+INFO: [Synth 8-3491] module 'system_burstTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd:56' bound to instance 'burstTrigger_0' of component 'system_burstTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13365]
 INFO: [Synth 8-638] synthesizing module 'system_burstTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd:86]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -2965,7 +2966,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'burstTrigger_v1_0_S00_AXI' (91#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0_S00_AXI.vhd:91]
 INFO: [Synth 8-256] done synthesizing module 'burstTrigger_v1_0' (92#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/hdl/burstTrigger_v1_0.vhd:53]
 INFO: [Synth 8-256] done synthesizing module 'system_burstTrigger_0_0' (93#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_burstTrigger_0_0/synth/system_burstTrigger_0_0.vhd:86]
-INFO: [Synth 8-3491] module 'system_clockComparison_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockComparison_0_0/synth/system_clockComparison_0_0.vhd:56' bound to instance 'clockComparison_0' of component 'system_clockComparison_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13395]
+INFO: [Synth 8-3491] module 'system_clockComparison_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockComparison_0_0/synth/system_clockComparison_0_0.vhd:56' bound to instance 'clockComparison_0' of component 'system_clockComparison_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13393]
 INFO: [Synth 8-638] synthesizing module 'system_clockComparison_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockComparison_0_0/synth/system_clockComparison_0_0.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -2987,7 +2988,7 @@ WARNING: [Synth 8-6014] Unused sequential element clk_diff_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'clockComparison_v1_0_S00_AXI' (94#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/0c1e/hdl/clockComparison_v1_0_S00_AXI.vhd:88]
 INFO: [Synth 8-256] done synthesizing module 'clockComparison_v1_0' (95#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/0c1e/hdl/clockComparison_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_clockComparison_0_0' (96#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockComparison_0_0/synth/system_clockComparison_0_0.vhd:83]
-INFO: [Synth 8-3491] module 'system_clockCounter_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_0_0/synth/system_clockCounter_0_0.vhd:56' bound to instance 'clockCounter_0' of component 'system_clockCounter_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13420]
+INFO: [Synth 8-3491] module 'system_clockCounter_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_0_0/synth/system_clockCounter_0_0.vhd:56' bound to instance 'clockCounter_0' of component 'system_clockCounter_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13418]
 INFO: [Synth 8-638] synthesizing module 'system_clockCounter_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_0_0/synth/system_clockCounter_0_0.vhd:82]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
@@ -3008,13 +3009,13 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'clockCounter_v1_0_S00_AXI' (97#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/9122/hdl/clockCounter_v1_0_S00_AXI.vhd:86]
 INFO: [Synth 8-256] done synthesizing module 'clockCounter_v1_0' (98#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/9122/hdl/clockCounter_v1_0.vhd:49]
 INFO: [Synth 8-256] done synthesizing module 'system_clockCounter_0_0' (99#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_0_0/synth/system_clockCounter_0_0.vhd:82]
-INFO: [Synth 8-3491] module 'system_clockCounter_1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_1_0/synth/system_clockCounter_1_0.vhd:56' bound to instance 'clockCounter_1' of component 'system_clockCounter_1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13444]
+INFO: [Synth 8-3491] module 'system_clockCounter_1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_1_0/synth/system_clockCounter_1_0.vhd:56' bound to instance 'clockCounter_1' of component 'system_clockCounter_1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13442]
 INFO: [Synth 8-638] synthesizing module 'system_clockCounter_1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_1_0/synth/system_clockCounter_1_0.vhd:82]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
 INFO: [Synth 8-3491] module 'clockCounter_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/9122/hdl/clockCounter_v1_0.vhd:5' bound to instance 'U0' of component 'clockCounter_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_1_0/synth/system_clockCounter_1_0.vhd:146]
 INFO: [Synth 8-256] done synthesizing module 'system_clockCounter_1_0' (100#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockCounter_1_0/synth/system_clockCounter_1_0.vhd:82]
-INFO: [Synth 8-3491] module 'system_clockLogic_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd:59' bound to instance 'clockLogic_0' of component 'system_clockLogic_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13468]
+INFO: [Synth 8-3491] module 'system_clockLogic_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd:59' bound to instance 'clockLogic_0' of component 'system_clockLogic_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13466]
 INFO: [Synth 8-638] synthesizing module 'system_clockLogic_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd:87]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3034,7 +3035,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'clockLogic_v1_0_S00_AXI' (101#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/hdl/clockLogic_v1_0_S00_AXI.vhd:88]
 INFO: [Synth 8-256] done synthesizing module 'clockLogic_v1_0' (102#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/hdl/clockLogic_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_clockLogic_0_0' (103#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_clockLogic_0_0/synth/system_clockLogic_0_0.vhd:87]
-INFO: [Synth 8-3491] module 'system_coincTrigger_0_2' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_coincTrigger_0_2/synth/system_coincTrigger_0_2.vhd:56' bound to instance 'coincTrigger_0' of component 'system_coincTrigger_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13494]
+INFO: [Synth 8-3491] module 'system_coincTrigger_0_2' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_coincTrigger_0_2/synth/system_coincTrigger_0_2.vhd:56' bound to instance 'coincTrigger_0' of component 'system_coincTrigger_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13492]
 INFO: [Synth 8-638] synthesizing module 'system_coincTrigger_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_coincTrigger_0_2/synth/system_coincTrigger_0_2.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
@@ -3054,7 +3055,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'coincTrigger_v1_0_S00_AXI' (104#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/a28c/hdl/coincTrigger_v1_0_S00_AXI.vhd:92]
 INFO: [Synth 8-256] done synthesizing module 'coincTrigger_v1_0' (105#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/a28c/hdl/coincTrigger_v1_0.vhd:52]
 INFO: [Synth 8-256] done synthesizing module 'system_coincTrigger_0_2' (106#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_coincTrigger_0_2/synth/system_coincTrigger_0_2.vhd:84]
-INFO: [Synth 8-3491] module 'system_comboTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd:56' bound to instance 'comboTrigger_0' of component 'system_comboTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13520]
+INFO: [Synth 8-3491] module 'system_comboTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd:56' bound to instance 'comboTrigger_0' of component 'system_comboTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13518]
 INFO: [Synth 8-638] synthesizing module 'system_comboTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3074,7 +3075,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'comboTrigger_v1_0_S00_AXI' (107#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0_S00_AXI.vhd:91]
 INFO: [Synth 8-256] done synthesizing module 'comboTrigger_v1_0' (108#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/hdl/comboTrigger_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_comboTrigger_0_0' (109#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_comboTrigger_0_0/synth/system_comboTrigger_0_0.vhd:84]
-INFO: [Synth 8-3491] module 'system_countDisplay_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd:56' bound to instance 'countDisplay_0' of component 'system_countDisplay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13546]
+INFO: [Synth 8-3491] module 'system_countDisplay_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd:56' bound to instance 'countDisplay_0' of component 'system_countDisplay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13544]
 INFO: [Synth 8-638] synthesizing module 'system_countDisplay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd:86]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3094,7 +3095,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'countDisplay_v1_0_S00_AXI' (110#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0_S00_AXI.vhd:90]
 INFO: [Synth 8-256] done synthesizing module 'countDisplay_v1_0' (111#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/hdl/countDisplay_v1_0.vhd:53]
 INFO: [Synth 8-256] done synthesizing module 'system_countDisplay_0_0' (112#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_countDisplay_0_0/synth/system_countDisplay_0_0.vhd:86]
-INFO: [Synth 8-3491] module 'system_ellie_control_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/synth/system_ellie_control_0_0.vhd:56' bound to instance 'ellie_control_0' of component 'system_ellie_control_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13574]
+INFO: [Synth 8-3491] module 'system_ellie_control_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/synth/system_ellie_control_0_0.vhd:56' bound to instance 'ellie_control_0' of component 'system_ellie_control_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13572]
 INFO: [Synth 8-638] synthesizing module 'system_ellie_control_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/synth/system_ellie_control_0_0.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
@@ -3114,7 +3115,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'ellie_control_v1_0_S00_AXI' (113#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/hdl/ellie_control_v1_0_S00_AXI.vhd:87]
 INFO: [Synth 8-256] done synthesizing module 'ellie_control_v1_0' (114#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/hdl/ellie_control_v1_0.vhd:50]
 INFO: [Synth 8-256] done synthesizing module 'system_ellie_control_0_0' (115#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_ellie_control_0_0/synth/system_ellie_control_0_0.vhd:83]
-INFO: [Synth 8-3491] module 'system_fifo_generator_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd:59' bound to instance 'fifo_generator_0' of component 'system_fifo_generator_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13599]
+INFO: [Synth 8-3491] module 'system_fifo_generator_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd:59' bound to instance 'fifo_generator_0' of component 'system_fifo_generator_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13597]
 INFO: [Synth 8-638] synthesizing module 'system_fifo_generator_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd:75]
 	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
 	Parameter C_SELECT_XPM bound to: 0 - type: integer 
@@ -3322,7 +3323,7 @@ INFO: [Synth 8-3491] module 'fifo_generator_v13_2_2' declared at '/home/zummo/sn
 INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1107]
 INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:358]
 INFO: [Synth 8-256] done synthesizing module 'system_fifo_generator_0_0' (144#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_0_0/synth/system_fifo_generator_0_0.vhd:75]
-INFO: [Synth 8-3491] module 'system_fifo_generator_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_1_1/synth/system_fifo_generator_1_1.vhd:59' bound to instance 'fifo_generator_1' of component 'system_fifo_generator_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13613]
+INFO: [Synth 8-3491] module 'system_fifo_generator_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_1_1/synth/system_fifo_generator_1_1.vhd:59' bound to instance 'fifo_generator_1' of component 'system_fifo_generator_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13611]
 INFO: [Synth 8-638] synthesizing module 'system_fifo_generator_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_1_1/synth/system_fifo_generator_1_1.vhd:74]
 	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter C_SELECT_XPM bound to: 0 - type: integer 
@@ -3528,7 +3529,7 @@ INFO: [Synth 8-638] synthesizing module 'system_fifo_generator_1_1' [/home/zummo
 	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'fifo_generator_v13_2_2' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd:38483' bound to instance 'U0' of component 'fifo_generator_v13_2_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_1_1/synth/system_fifo_generator_1_1.vhd:542]
 INFO: [Synth 8-256] done synthesizing module 'system_fifo_generator_1_1' (147#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_generator_1_1/synth/system_fifo_generator_1_1.vhd:74]
-INFO: [Synth 8-3491] module 'system_fifo_readout_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd:56' bound to instance 'fifo_readout_0' of component 'system_fifo_readout_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13626]
+INFO: [Synth 8-3491] module 'system_fifo_readout_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd:56' bound to instance 'fifo_readout_0' of component 'system_fifo_readout_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13624]
 INFO: [Synth 8-638] synthesizing module 'system_fifo_readout_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd:88]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3556,7 +3557,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'fifo_readout_v1_0_S00_AXI' (148#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0_S00_AXI.vhd:94]
 INFO: [Synth 8-256] done synthesizing module 'fifo_readout_v1_0' (149#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/hdl/fifo_readout_v1_0.vhd:56]
 INFO: [Synth 8-256] done synthesizing module 'system_fifo_readout_0_0' (150#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_fifo_readout_0_0/synth/system_fifo_readout_0_0.vhd:88]
-INFO: [Synth 8-3491] module 'system_testDelay_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd:56' bound to instance 'genericDelay' of component 'system_testDelay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13656]
+INFO: [Synth 8-3491] module 'system_testDelay_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd:56' bound to instance 'genericDelay' of component 'system_testDelay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13654]
 INFO: [Synth 8-638] synthesizing module 'system_testDelay_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3576,19 +3577,19 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'testDelay_v1_0_S00_AXI' (151#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0_S00_AXI.vhd:91]
 INFO: [Synth 8-256] done synthesizing module 'testDelay_v1_0' (152#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_testDelay_0_0' (153#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/synth/system_testDelay_0_0.vhd:84]
-INFO: [Synth 8-3491] module 'system_testPulser_0_9' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd:56' bound to instance 'genericPulser' of component 'system_testPulser_0_9' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13682]
+INFO: [Synth 8-3491] module 'system_testPulser_0_9' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd:56' bound to instance 'genericPulser' of component 'system_testPulser_0_9' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13680]
 INFO: [Synth 8-638] synthesizing module 'system_testPulser_0_9' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testPulser_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd:6' bound to instance 'U0' of component 'testPulser_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd:150]
 INFO: [Synth 8-256] done synthesizing module 'system_testPulser_0_9' (154#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_9/synth/system_testPulser_0_9.vhd:83]
-INFO: [Synth 8-3491] module 'system_testDelay_0_7' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd:56' bound to instance 'gtDelay' of component 'system_testDelay_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13707]
+INFO: [Synth 8-3491] module 'system_testDelay_0_7' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd:56' bound to instance 'gtDelay' of component 'system_testDelay_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13705]
 INFO: [Synth 8-638] synthesizing module 'system_testDelay_0_7' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testDelay_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd:6' bound to instance 'U0' of component 'testDelay_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd:152]
 INFO: [Synth 8-256] done synthesizing module 'system_testDelay_0_7' (155#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_7/synth/system_testDelay_0_7.vhd:84]
-INFO: [Synth 8-3491] module 'system_implement_gtid_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd:56' bound to instance 'implement_gtid_0' of component 'system_implement_gtid_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13733]
+INFO: [Synth 8-3491] module 'system_implement_gtid_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd:56' bound to instance 'implement_gtid_0' of component 'system_implement_gtid_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13731]
 INFO: [Synth 8-638] synthesizing module 'system_implement_gtid_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3608,7 +3609,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'implement_gtid_v1_0_S00_AXI' (156#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0_S00_AXI.vhd:89]
 INFO: [Synth 8-256] done synthesizing module 'implement_gtid_v1_0' (157#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/hdl/implement_gtid_v1_0.vhd:52]
 INFO: [Synth 8-256] done synthesizing module 'system_implement_gtid_0_0' (158#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_implement_gtid_0_0/synth/system_implement_gtid_0_0.vhd:85]
-INFO: [Synth 8-3491] module 'system_oneshot_pulse_0_2' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd:56' bound to instance 'oneshot_pulse_0' of component 'system_oneshot_pulse_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13760]
+INFO: [Synth 8-3491] module 'system_oneshot_pulse_0_2' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd:56' bound to instance 'oneshot_pulse_0' of component 'system_oneshot_pulse_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13758]
 INFO: [Synth 8-638] synthesizing module 'system_oneshot_pulse_0_2' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3628,13 +3629,13 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'oneshot_pulse_v1_0_S00_AXI' (159#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0_S00_AXI.vhd:89]
 INFO: [Synth 8-256] done synthesizing module 'oneshot_pulse_v1_0' (160#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_oneshot_pulse_0_2' (161#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_0_2/synth/system_oneshot_pulse_0_2.vhd:84]
-INFO: [Synth 8-3491] module 'system_oneshot_pulse_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd:56' bound to instance 'oneshot_pulse_1' of component 'system_oneshot_pulse_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13786]
+INFO: [Synth 8-3491] module 'system_oneshot_pulse_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd:56' bound to instance 'oneshot_pulse_1' of component 'system_oneshot_pulse_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13784]
 INFO: [Synth 8-638] synthesizing module 'system_oneshot_pulse_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'oneshot_pulse_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/hdl/oneshot_pulse_v1_0.vhd:6' bound to instance 'U0' of component 'oneshot_pulse_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd:152]
 INFO: [Synth 8-256] done synthesizing module 'system_oneshot_pulse_1_1' (162#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_oneshot_pulse_1_1/synth/system_oneshot_pulse_1_1.vhd:84]
-INFO: [Synth 8-3491] module 'system_prescaleSignal_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/synth/system_prescaleSignal_0_0.vhd:56' bound to instance 'prescaleSignal_0' of component 'system_prescaleSignal_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13812]
+INFO: [Synth 8-3491] module 'system_prescaleSignal_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/synth/system_prescaleSignal_0_0.vhd:56' bound to instance 'prescaleSignal_0' of component 'system_prescaleSignal_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13810]
 INFO: [Synth 8-638] synthesizing module 'system_prescaleSignal_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/synth/system_prescaleSignal_0_0.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3654,13 +3655,13 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'prescaleSignal_v1_0_S00_AXI' (163#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/hdl/prescaleSignal_v1_0_S00_AXI.vhd:89]
 INFO: [Synth 8-256] done synthesizing module 'prescaleSignal_v1_0' (164#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/hdl/prescaleSignal_v1_0.vhd:52]
 INFO: [Synth 8-256] done synthesizing module 'system_prescaleSignal_0_0' (165#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/synth/system_prescaleSignal_0_0.vhd:85]
-INFO: [Synth 8-3491] module 'system_prescaleSignal_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_1_1/synth/system_prescaleSignal_1_1.vhd:56' bound to instance 'prescaleSignal_1' of component 'system_prescaleSignal_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13839]
+INFO: [Synth 8-3491] module 'system_prescaleSignal_1_1' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_1_1/synth/system_prescaleSignal_1_1.vhd:56' bound to instance 'prescaleSignal_1' of component 'system_prescaleSignal_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13837]
 INFO: [Synth 8-638] synthesizing module 'system_prescaleSignal_1_1' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_1_1/synth/system_prescaleSignal_1_1.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'prescaleSignal_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_0_0/hdl/prescaleSignal_v1_0.vhd:6' bound to instance 'U0' of component 'prescaleSignal_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_1_1/synth/system_prescaleSignal_1_1.vhd:154]
 INFO: [Synth 8-256] done synthesizing module 'system_prescaleSignal_1_1' (166#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleSignal_1_1/synth/system_prescaleSignal_1_1.vhd:85]
-INFO: [Synth 8-3491] module 'system_prescaleTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd:56' bound to instance 'prescaleTrigger_0' of component 'system_prescaleTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13866]
+INFO: [Synth 8-3491] module 'system_prescaleTrigger_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd:56' bound to instance 'prescaleTrigger_0' of component 'system_prescaleTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13864]
 INFO: [Synth 8-638] synthesizing module 'system_prescaleTrigger_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3680,7 +3681,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'prescaleTrigger_v1_0_S00_AXI' (167#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0_S00_AXI.vhd:89]
 INFO: [Synth 8-256] done synthesizing module 'prescaleTrigger_v1_0' (168#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/hdl/prescaleTrigger_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_prescaleTrigger_0_0' (169#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_prescaleTrigger_0_0/synth/system_prescaleTrigger_0_0.vhd:84]
-INFO: [Synth 8-3491] module 'system_processing_system7_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'system_processing_system7_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13892]
+INFO: [Synth 8-3491] module 'system_processing_system7_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'system_processing_system7_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13890]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
 	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
 	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
@@ -3740,7 +3741,7 @@ INFO: [Synth 8-3491] module 'system_processing_system7_0_0' declared at '/home/z
 INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1347]
 INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1348]
 WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:353]
-INFO: [Synth 8-3491] module 'system_register_mux_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_register_mux_0_0/synth/system_register_mux_0_0.vhd:56' bound to instance 'register_mux_0' of component 'system_register_mux_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13970]
+INFO: [Synth 8-3491] module 'system_register_mux_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_register_mux_0_0/synth/system_register_mux_0_0.vhd:56' bound to instance 'register_mux_0' of component 'system_register_mux_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13968]
 INFO: [Synth 8-638] synthesizing module 'system_register_mux_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_register_mux_0_0/synth/system_register_mux_0_0.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -3760,37 +3761,37 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'register_mux_v1_0_S00_AXI' (175#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/f3d5/hdl/register_mux_v1_0_S00_AXI.vhd:88]
 INFO: [Synth 8-256] done synthesizing module 'register_mux_v1_0' (176#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ipshared/f3d5/hdl/register_mux_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'system_register_mux_0_0' (177#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_register_mux_0_0/synth/system_register_mux_0_0.vhd:85]
-INFO: [Synth 8-3491] module 'system_testDelay_3_6' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd:56' bound to instance 'smellieDelay' of component 'system_testDelay_3_6' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13997]
+INFO: [Synth 8-3491] module 'system_testDelay_3_6' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd:56' bound to instance 'smellieDelay' of component 'system_testDelay_3_6' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:13995]
 INFO: [Synth 8-638] synthesizing module 'system_testDelay_3_6' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testDelay_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd:6' bound to instance 'U0' of component 'testDelay_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd:152]
 INFO: [Synth 8-256] done synthesizing module 'system_testDelay_3_6' (178#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_3_6/synth/system_testDelay_3_6.vhd:84]
-INFO: [Synth 8-3491] module 'system_testPulser_1_11' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd:56' bound to instance 'smelliePulser' of component 'system_testPulser_1_11' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14023]
+INFO: [Synth 8-3491] module 'system_testPulser_1_11' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd:56' bound to instance 'smelliePulser' of component 'system_testPulser_1_11' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14021]
 INFO: [Synth 8-638] synthesizing module 'system_testPulser_1_11' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testPulser_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd:6' bound to instance 'U0' of component 'testPulser_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd:150]
 INFO: [Synth 8-256] done synthesizing module 'system_testPulser_1_11' (179#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_1_11/synth/system_testPulser_1_11.vhd:83]
-INFO: [Synth 8-3491] module 'system_testDelay_2_5' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd:56' bound to instance 'tellieDelay' of component 'system_testDelay_2_5' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14048]
+INFO: [Synth 8-3491] module 'system_testDelay_2_5' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd:56' bound to instance 'tellieDelay' of component 'system_testDelay_2_5' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14046]
 INFO: [Synth 8-638] synthesizing module 'system_testDelay_2_5' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd:84]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testDelay_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_0_0/hdl/testDelay_v1_0.vhd:6' bound to instance 'U0' of component 'testDelay_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd:152]
 INFO: [Synth 8-256] done synthesizing module 'system_testDelay_2_5' (180#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testDelay_2_5/synth/system_testDelay_2_5.vhd:84]
-INFO: [Synth 8-3491] module 'system_testPulser_0_10' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd:56' bound to instance 'telliePulser' of component 'system_testPulser_0_10' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14074]
+INFO: [Synth 8-3491] module 'system_testPulser_0_10' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd:56' bound to instance 'telliePulser' of component 'system_testPulser_0_10' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14072]
 INFO: [Synth 8-638] synthesizing module 'system_testPulser_0_10' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testPulser_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd:6' bound to instance 'U0' of component 'testPulser_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd:150]
 INFO: [Synth 8-256] done synthesizing module 'system_testPulser_0_10' (181#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_10/synth/system_testPulser_0_10.vhd:83]
-INFO: [Synth 8-3491] module 'system_testPulser_0_12' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_12/synth/system_testPulser_0_12.vhd:56' bound to instance 'testPulser_0' of component 'system_testPulser_0_12' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14099]
+INFO: [Synth 8-3491] module 'system_testPulser_0_12' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_12/synth/system_testPulser_0_12.vhd:56' bound to instance 'testPulser_0' of component 'system_testPulser_0_12' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14097]
 INFO: [Synth 8-638] synthesizing module 'system_testPulser_0_12' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_12/synth/system_testPulser_0_12.vhd:83]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-3491] module 'testPulser_v1_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_7/hdl/testPulser_v1_0.vhd:6' bound to instance 'U0' of component 'testPulser_v1_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_12/synth/system_testPulser_0_12.vhd:150]
 INFO: [Synth 8-256] done synthesizing module 'system_testPulser_0_12' (182#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_testPulser_0_12/synth/system_testPulser_0_12.vhd:83]
-INFO: [Synth 8-3491] module 'system_triggers_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd:56' bound to instance 'triggers_0' of component 'system_triggers_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14124]
+INFO: [Synth 8-3491] module 'system_triggers_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd:56' bound to instance 'triggers_0' of component 'system_triggers_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14122]
 INFO: [Synth 8-638] synthesizing module 'system_triggers_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd:95]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
@@ -3816,7 +3817,7 @@ WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/h
 INFO: [Synth 8-256] done synthesizing module 'triggers_v2_0_S00_AXI' (183#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v2_0_S00_AXI.vhd:102]
 INFO: [Synth 8-256] done synthesizing module 'triggers_v2_0' (184#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/hdl/triggers_v2_0.vhd:63]
 INFO: [Synth 8-256] done synthesizing module 'system_triggers_0_0' (185#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_triggers_0_0/synth/system_triggers_0_0.vhd:95]
-INFO: [Synth 8-3491] module 'system_trigwordfifo_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_trigwordfifo_0_0/synth/system_trigwordfifo_0_0.vhd:56' bound to instance 'trigwordfifo_0' of component 'system_trigwordfifo_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14161]
+INFO: [Synth 8-3491] module 'system_trigwordfifo_0_0' declared at '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_trigwordfifo_0_0/synth/system_trigwordfifo_0_0.vhd:56' bound to instance 'trigwordfifo_0' of component 'system_trigwordfifo_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:14159]
 INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-638] synthesizing module 'system_trigwordfifo_0_0' [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_trigwordfifo_0_0/synth/system_trigwordfifo_0_0.vhd:87]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -3925,8 +3926,8 @@ INFO: [Synth 8-256] done synthesizing module 'system_trigwordfifo_0_0' (188#1) [
 	Parameter IN31_WIDTH bound to: 1 - type: integer 
 	Parameter dout_width bound to: 27 - type: integer 
 	Parameter NUM_PORTS bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'system' (215#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10700]
-INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (216#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'system' (215#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/synth/system.vhd:10699]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (216#1) [/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:76]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In2[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In3[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In4[0]
@@ -4029,7 +4030,7 @@ WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has un
 WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_RXD[7]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:04:05 ; elapsed = 00:04:27 . Memory (MB): peak = 1760.078 ; gain = 471.172 ; free physical = 349 ; free virtual = 8198
+Finished RTL Elaboration : Time (s): cpu = 00:04:13 ; elapsed = 00:04:33 . Memory (MB): peak = 1760.074 ; gain = 471.172 ; free physical = 327 ; free virtual = 7458
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -4042,10 +4043,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:07 ; elapsed = 00:04:30 . Memory (MB): peak = 1760.078 ; gain = 471.172 ; free physical = 399 ; free virtual = 8252
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:15 ; elapsed = 00:04:36 . Memory (MB): peak = 1760.074 ; gain = 471.172 ; free physical = 382 ; free virtual = 7515
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:07 ; elapsed = 00:04:30 . Memory (MB): peak = 1760.078 ; gain = 471.172 ; free physical = 399 ; free virtual = 8252
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:15 ; elapsed = 00:04:36 . Memory (MB): peak = 1760.074 ; gain = 471.172 ; free physical = 382 ; free virtual = 7515
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 178 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -4397,16 +4398,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.19 . Memory (MB): peak = 2026.199 ; gain = 0.000 ; free physical = 124 ; free virtual = 7834
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.22 . Memory (MB): peak = 2027.195 ; gain = 0.000 ; free physical = 120 ; free virtual = 7152
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:04:33 ; elapsed = 00:05:16 . Memory (MB): peak = 2026.199 ; gain = 737.293 ; free physical = 311 ; free virtual = 8022
+Finished Constraint Validation : Time (s): cpu = 00:04:41 ; elapsed = 00:06:04 . Memory (MB): peak = 2027.195 ; gain = 738.293 ; free physical = 307 ; free virtual = 7343
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:04:33 ; elapsed = 00:05:16 . Memory (MB): peak = 2026.199 ; gain = 737.293 ; free physical = 311 ; free virtual = 8022
+Finished Loading Part and Timing Information : Time (s): cpu = 00:04:41 ; elapsed = 00:06:04 . Memory (MB): peak = 2027.195 ; gain = 738.293 ; free physical = 307 ; free virtual = 7343
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -4656,7 +4657,7 @@ Applied set_property DONT_TOUCH = true for system_i/fifo_generator_0/U0/inst_fif
 Applied set_property DONT_TOUCH = true for system_i/fifo_generator_0/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for system_i/fifo_generator_1/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:34 ; elapsed = 00:05:17 . Memory (MB): peak = 2026.199 ; gain = 737.293 ; free physical = 299 ; free virtual = 8010
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:43 ; elapsed = 00:06:06 . Memory (MB): peak = 2027.195 ; gain = 738.293 ; free physical = 295 ; free virtual = 7332
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "PULSER_OUT" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-802] inferred FSM for state register 'src_state_reg' in module 'axi_clock_converter_v2_1_16_lite_async__xdcDup__1'
@@ -5834,7 +5835,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'dest_state_reg' using enco
 INFO: [Common 17-14] Message 'Synth 8-3354' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-6159] Found Keep on FSM register 'state_reg' in module 'axi_protocol_converter_v2_1_17_b2s_rd_cmd_fsm', re-encoding will not be performed
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:50 ; elapsed = 00:05:36 . Memory (MB): peak = 2026.199 ; gain = 737.293 ; free physical = 256 ; free virtual = 7980
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:59 ; elapsed = 00:06:25 . Memory (MB): peak = 2027.195 ; gain = 738.293 ; free physical = 250 ; free virtual = 7301
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9187,7 +9188,6 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (countDisp
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (countDisplay_0/\U0/countDisplay_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (ellie_control_0/\U0/ellie_control_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (ellie_control_0/\U0/ellie_control_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (register_mux_0/\U0/register_mux_v1_0_S00_AXI_inst/aw_en_reg )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (register_mux_0/\U0/register_mux_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (register_mux_0/\U0/register_mux_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
@@ -9287,7 +9287,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (genericDe
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (genericDelay/\U0/testDelay_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:11 ; elapsed = 00:11:14 . Memory (MB): peak = 2030.121 ; gain = 741.215 ; free physical = 140 ; free virtual = 5591
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:54 ; elapsed = 00:12:12 . Memory (MB): peak = 2031.117 ; gain = 742.215 ; free physical = 151 ; free virtual = 4895
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9304,13 +9304,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:21 ; elapsed = 00:11:59 . Memory (MB): peak = 2044.199 ; gain = 755.293 ; free physical = 138 ; free virtual = 5382
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:04 ; elapsed = 00:12:35 . Memory (MB): peak = 2044.195 ; gain = 755.293 ; free physical = 133 ; free virtual = 4641
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:05:29 ; elapsed = 00:12:45 . Memory (MB): peak = 2123.277 ; gain = 834.371 ; free physical = 122 ; free virtual = 5228
+Finished Timing Optimization : Time (s): cpu = 00:06:11 ; elapsed = 00:12:56 . Memory (MB): peak = 2123.273 ; gain = 834.371 ; free physical = 127 ; free virtual = 4543
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9327,7 +9327,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:05:35 ; elapsed = 00:15:37 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 136 ; free virtual = 4896
+Finished Technology Mapping : Time (s): cpu = 00:06:17 ; elapsed = 00:15:11 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 141 ; free virtual = 4265
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9476,7 +9476,7 @@ WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/
 WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:592]
 INFO: [Common 17-14] Message 'Synth 8-5396' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:05:40 ; elapsed = 00:15:48 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 119 ; free virtual = 4813
+Finished IO Insertion : Time (s): cpu = 00:06:23 ; elapsed = 00:15:36 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 132 ; free virtual = 4306
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -9489,7 +9489,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:05:40 ; elapsed = 00:15:48 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 118 ; free virtual = 4815
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:23 ; elapsed = 00:15:36 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 130 ; free virtual = 4306
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9501,25 +9501,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:43 ; elapsed = 00:15:52 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 125 ; free virtual = 4820
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:26 ; elapsed = 00:15:43 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 121 ; free virtual = 4305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:05:43 ; elapsed = 00:15:52 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 124 ; free virtual = 4820
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:26 ; elapsed = 00:15:43 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 121 ; free virtual = 4305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:05:44 ; elapsed = 00:15:53 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 122 ; free virtual = 4820
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:27 ; elapsed = 00:15:45 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 119 ; free virtual = 4305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:05:44 ; elapsed = 00:15:53 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 121 ; free virtual = 4819
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:27 ; elapsed = 00:15:45 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 119 ; free virtual = 4305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -9581,14 +9581,14 @@ Report Cell Usage:
 |19    |FDRE       | 12818|
 |20    |FDSE       |   136|
 |21    |IBUF       |    27|
-|22    |OBUF       |    28|
+|22    |OBUF       |    27|
 +------+-----------+------+
 
 Report Instance Areas: 
 +------+----------------------------------------------------------------------------------------+------------------------------------------------------------------+------+
 |      |Instance                                                                                |Module                                                            |Cells |
 +------+----------------------------------------------------------------------------------------+------------------------------------------------------------------+------+
-|1     |top                                                                                     |                                                                  | 26126|
+|1     |top                                                                                     |                                                                  | 26125|
 |2     |  system_i                                                                              |system                                                            | 26070|
 |3     |    processing_system7_0                                                                |system_processing_system7_0_0                                     |   484|
 |4     |      inst                                                                              |processing_system7_v5_5_processing_system7                        |   484|
@@ -10287,11 +10287,11 @@ Report Instance Areas:
 |697   |                \ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst           |xpm_cdc_sync_rst                                                  |     5|
 +------+----------------------------------------------------------------------------------------+------------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:05:44 ; elapsed = 00:15:53 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 121 ; free virtual = 4819
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:27 ; elapsed = 00:15:45 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 118 ; free virtual = 4305
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 1805 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:05:22 ; elapsed = 00:16:23 . Memory (MB): peak = 2135.203 ; gain = 580.176 ; free physical = 2434 ; free virtual = 7298
-Synthesis Optimization Complete : Time (s): cpu = 00:05:45 ; elapsed = 00:17:05 . Memory (MB): peak = 2135.203 ; gain = 846.297 ; free physical = 2427 ; free virtual = 7297
+Synthesis finished with 0 errors, 0 critical warnings and 1763 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:06:05 ; elapsed = 00:16:09 . Memory (MB): peak = 2135.199 ; gain = 579.176 ; free physical = 2388 ; free virtual = 6827
+Synthesis Optimization Complete : Time (s): cpu = 00:06:28 ; elapsed = 00:17:33 . Memory (MB): peak = 2135.199 ; gain = 846.297 ; free physical = 2355 ; free virtual = 6820
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 1855 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -10302,12 +10302,13 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   (MUXCY,XORCY) => CARRY4: 16 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-1116 Infos, 410 Warnings, 0 Critical Warnings and 0 Errors encountered.
+1115 Infos, 410 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:05:54 ; elapsed = 00:17:40 . Memory (MB): peak = 2147.289 ; gain = 869.992 ; free physical = 2511 ; free virtual = 7448
+synth_design: Time (s): cpu = 00:06:39 ; elapsed = 00:18:55 . Memory (MB): peak = 2147.285 ; gain = 869.992 ; free physical = 2351 ; free virtual = 6964
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.runs/synth_1/system_wrapper.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2171.301 ; gain = 24.012 ; free physical = 2506 ; free virtual = 7450
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2171.297 ; gain = 24.012 ; free physical = 2317 ; free virtual = 6966
 INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:05 . Memory (MB): peak = 2171.301 ; gain = 0.000 ; free physical = 2481 ; free virtual = 7450
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 20 11:35:05 2019...
+report_utilization: Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:17 . Memory (MB): peak = 2171.297 ; gain = 0.000 ; free physical = 2333 ; free virtual = 7043
+report_utilization: Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:17 . Memory (MB): peak = 2171.297 ; gain = 0.000 ; free physical = 2333 ; free virtual = 7043
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 14 08:01:27 2019...

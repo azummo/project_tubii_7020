@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Tue Aug 20 11:43:49 2019
+| Date         : Thu Nov 14 08:09:10 2019
 | Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx
 | Design       : system_wrapper
@@ -23,25 +23,25 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 1048
+             Violations found: 1047
 +-----------+----------+-------------------------------------------------+------------+
 | Rule      | Severity | Description                                     | Violations |
 +-----------+----------+-------------------------------------------------+------------+
 | PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 2          |
 | TIMING-17 | Warning  | Non-clocked sequential cell                     | 1000       |
-| TIMING-18 | Warning  | Missing input or output delay                   | 46         |
+| TIMING-18 | Warning  | Missing input or output delay                   | 45         |
 +-----------+----------+-------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
 PDRC-190#1 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X49Y32 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
+The FDRE cell system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X60Y28 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell system_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#2 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell system_i/fifo_generator_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X61Y109 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell system_i/fifo_generator_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
+The FDRE cell system_i/fifo_generator_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X63Y100 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell system_i/fifo_generator_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
 Related violations: <none>
 
 TIMING-17#1 Warning
@@ -5161,115 +5161,110 @@ Related violations: <none>
 
 TIMING-18#24 Warning
 Missing input or output delay  
-An output delay is missing on Outt relative to clock(s) clk_fpga_0
+An output delay is missing on caen_rdy relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#25 Warning
 Missing input or output delay  
-An output delay is missing on caen_rdy relative to clock(s) clk_fpga_0
+An output delay is missing on clocks_rdy relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#26 Warning
 Missing input or output delay  
-An output delay is missing on clocks_rdy relative to clock(s) clk_fpga_0
+An output delay is missing on control_rdy relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#27 Warning
 Missing input or output delay  
-An output delay is missing on control_rdy relative to clock(s) clk_fpga_0
+An output delay is missing on control_rdy_II relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#28 Warning
 Missing input or output delay  
-An output delay is missing on control_rdy_II relative to clock(s) clk_fpga_0
+An output delay is missing on delay_gt relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#29 Warning
 Missing input or output delay  
-An output delay is missing on delay_gt relative to clock(s) clk_fpga_0
+An output delay is missing on display_count relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#30 Warning
 Missing input or output delay  
-An output delay is missing on display_count relative to clock(s) clk_fpga_0
+An output delay is missing on display_latch relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#31 Warning
 Missing input or output delay  
-An output delay is missing on display_latch relative to clock(s) clk_fpga_0
+An output delay is missing on display_reset relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#32 Warning
 Missing input or output delay  
-An output delay is missing on display_reset relative to clock(s) clk_fpga_0
+An output delay is missing on enablemux relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#33 Warning
 Missing input or output delay  
-An output delay is missing on enablemux relative to clock(s) clk_fpga_0
+An output delay is missing on generic_delay_out relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#34 Warning
 Missing input or output delay  
-An output delay is missing on generic_delay_out relative to clock(s) clk_fpga_0
+An output delay is missing on load_clk_out relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#35 Warning
 Missing input or output delay  
-An output delay is missing on load_clk_out relative to clock(s) clk_fpga_0
+An output delay is missing on load_data_out relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#36 Warning
 Missing input or output delay  
-An output delay is missing on load_data_out relative to clock(s) clk_fpga_0
+An output delay is missing on mtcamimic_rdy relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#37 Warning
 Missing input or output delay  
-An output delay is missing on mtcamimic_rdy relative to clock(s) clk_fpga_0
+An output delay is missing on muxer[0] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#38 Warning
 Missing input or output delay  
-An output delay is missing on muxer[0] relative to clock(s) clk_fpga_0
+An output delay is missing on muxer[1] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#39 Warning
 Missing input or output delay  
-An output delay is missing on muxer[1] relative to clock(s) clk_fpga_0
+An output delay is missing on muxer[2] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#40 Warning
 Missing input or output delay  
-An output delay is missing on muxer[2] relative to clock(s) clk_fpga_0
+An output delay is missing on read_clk_out relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#41 Warning
 Missing input or output delay  
-An output delay is missing on read_clk_out relative to clock(s) clk_fpga_0
+An output delay is missing on reset_clk relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#42 Warning
 Missing input or output delay  
-An output delay is missing on reset_clk relative to clock(s) clk_fpga_0
+An output delay is missing on speaker[0] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#43 Warning
 Missing input or output delay  
-An output delay is missing on speaker[0] relative to clock(s) clk_fpga_0
+An output delay is missing on tellie_delay_out relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#44 Warning
 Missing input or output delay  
-An output delay is missing on tellie_delay_out relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#45 Warning
-Missing input or output delay  
 An output delay is missing on tellie_pulser_out[0] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
-TIMING-18#46 Warning
+TIMING-18#45 Warning
 Missing input or output delay  
 An output delay is missing on trig_out relative to clock(s) clk_fpga_0
 Related violations: <none>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Aug 20 11:16:00 2019" VIVADOVERSION="2018.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Nov 14 07:40:47 2019" VIVADOVERSION="2018.2">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="system" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -26,11 +26,6 @@
     <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
     <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
     <PORT DIR="O" NAME="trig_out" SIGIS="undef" SIGNAME="util_reduced_logic_0_Res">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="util_reduced_logic_0" PORT="Res"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="Outt" SIGIS="undef" SIGNAME="util_reduced_logic_0_Res">
       <CONNECTIONS>
         <CONNECTION INSTANCE="util_reduced_logic_0" PORT="Res"/>
       </CONNECTIONS>
@@ -142,12 +137,12 @@
         <CONNECTION INSTANCE="ShiftRegisters_0" PORT="enablemux"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="control_rdy_II" SIGIS="undef" SIGNAME="ShiftRegisters_0_control_rdy">
+    <PORT DIR="O" NAME="control_rdy" SIGIS="undef" SIGNAME="ShiftRegisters_0_control_rdy">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ShiftRegisters_0" PORT="control_rdy"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="control_rdy" SIGIS="undef" SIGNAME="ShiftRegisters_0_control_rdy">
+    <PORT DIR="O" NAME="control_rdy_II" SIGIS="undef" SIGNAME="ShiftRegisters_0_control_rdy">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ShiftRegisters_0" PORT="control_rdy"/>
       </CONNECTIONS>
@@ -206,6 +201,7 @@
         <CONNECTION INSTANCE="trigwordfifo_0" PORT="s00_axi_aclk"/>
         <CONNECTION INSTANCE="triggers_0" PORT="s00_axi_aclk"/>
         <CONNECTION INSTANCE="clockCounter_1" PORT="s00_axi_aclk"/>
+        <CONNECTION INSTANCE="clockComparison_0" PORT="clk_comp"/>
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M02_ACLK"/>
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M04_ACLK"/>
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M05_ACLK"/>
@@ -216,7 +212,6 @@
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M20_ACLK"/>
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M22_ACLK"/>
         <CONNECTION INSTANCE="axi_interconnect_0" PORT="M28_ACLK"/>
-        <CONNECTION INSTANCE="clockComparison_0" PORT="clk_comp"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="O" NAME="Outtt" SIGIS="undef" SIGNAME="triggers_0_gtrigout">
@@ -501,8 +496,8 @@
         </PORT>
         <PORT DIR="O" NAME="control_rdy" SIGIS="undef" SIGNAME="ShiftRegisters_0_control_rdy">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="control_rdy"/>
             <CONNECTION INSTANCE="External_Ports" PORT="control_rdy_II"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="control_rdy"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="caen_rdy" SIGIS="undef" SIGNAME="ShiftRegisters_0_caen_rdy">
@@ -1520,6 +1515,16 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="M28_ARESETN" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M29_ACLK" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M29_ARESETN" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
           </CONNECTIONS>
@@ -4469,33 +4474,16 @@
             <CONNECTION INSTANCE="clockCounter_1" PORT="s00_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="M29_ACLK" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M29_ARESETN" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" LEFT="31" NAME="M29_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_awaddr"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="M29_AXI_awlen" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_awsize" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_awburst" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_awlock" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_awcache" SIGIS="undef"/>
         <PORT DIR="O" LEFT="2" NAME="M29_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_awprot">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_awprot"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="M29_AXI_awregion" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_awqos" SIGIS="undef"/>
         <PORT DIR="O" NAME="M29_AXI_awvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_awvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_awvalid"/>
@@ -4516,7 +4504,6 @@
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_wstrb"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="M29_AXI_wlast" SIGIS="undef"/>
         <PORT DIR="O" NAME="M29_AXI_wvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_wvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_wvalid"/>
@@ -4547,18 +4534,11 @@
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_araddr"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="M29_AXI_arlen" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_arsize" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_arburst" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_arlock" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_arcache" SIGIS="undef"/>
         <PORT DIR="O" LEFT="2" NAME="M29_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_arprot">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_arprot"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="M29_AXI_arregion" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M29_AXI_arqos" SIGIS="undef"/>
         <PORT DIR="O" NAME="M29_AXI_arvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_arvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_arvalid"/>
@@ -4579,7 +4559,6 @@
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_rresp"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="M29_AXI_rlast" SIGIS="undef"/>
         <PORT DIR="I" NAME="M29_AXI_rvalid" SIGIS="undef" SIGNAME="axi_interconnect_0_M29_AXI_rvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_rvalid"/>
@@ -5304,38 +5283,22 @@
         <BUSINTERFACE BUSNAME="axi_interconnect_0_M29_AXI" DATAWIDTH="32" NAME="M29_AXI" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="AWADDR" PHYSICAL="M29_AXI_awaddr"/>
-            <PORTMAP LOGICAL="AWLEN" PHYSICAL="M29_AXI_awlen"/>
-            <PORTMAP LOGICAL="AWSIZE" PHYSICAL="M29_AXI_awsize"/>
-            <PORTMAP LOGICAL="AWBURST" PHYSICAL="M29_AXI_awburst"/>
-            <PORTMAP LOGICAL="AWLOCK" PHYSICAL="M29_AXI_awlock"/>
-            <PORTMAP LOGICAL="AWCACHE" PHYSICAL="M29_AXI_awcache"/>
             <PORTMAP LOGICAL="AWPROT" PHYSICAL="M29_AXI_awprot"/>
-            <PORTMAP LOGICAL="AWREGION" PHYSICAL="M29_AXI_awregion"/>
-            <PORTMAP LOGICAL="AWQOS" PHYSICAL="M29_AXI_awqos"/>
             <PORTMAP LOGICAL="AWVALID" PHYSICAL="M29_AXI_awvalid"/>
             <PORTMAP LOGICAL="AWREADY" PHYSICAL="M29_AXI_awready"/>
             <PORTMAP LOGICAL="WDATA" PHYSICAL="M29_AXI_wdata"/>
             <PORTMAP LOGICAL="WSTRB" PHYSICAL="M29_AXI_wstrb"/>
-            <PORTMAP LOGICAL="WLAST" PHYSICAL="M29_AXI_wlast"/>
             <PORTMAP LOGICAL="WVALID" PHYSICAL="M29_AXI_wvalid"/>
             <PORTMAP LOGICAL="WREADY" PHYSICAL="M29_AXI_wready"/>
             <PORTMAP LOGICAL="BRESP" PHYSICAL="M29_AXI_bresp"/>
             <PORTMAP LOGICAL="BVALID" PHYSICAL="M29_AXI_bvalid"/>
             <PORTMAP LOGICAL="BREADY" PHYSICAL="M29_AXI_bready"/>
             <PORTMAP LOGICAL="ARADDR" PHYSICAL="M29_AXI_araddr"/>
-            <PORTMAP LOGICAL="ARLEN" PHYSICAL="M29_AXI_arlen"/>
-            <PORTMAP LOGICAL="ARSIZE" PHYSICAL="M29_AXI_arsize"/>
-            <PORTMAP LOGICAL="ARBURST" PHYSICAL="M29_AXI_arburst"/>
-            <PORTMAP LOGICAL="ARLOCK" PHYSICAL="M29_AXI_arlock"/>
-            <PORTMAP LOGICAL="ARCACHE" PHYSICAL="M29_AXI_arcache"/>
             <PORTMAP LOGICAL="ARPROT" PHYSICAL="M29_AXI_arprot"/>
-            <PORTMAP LOGICAL="ARREGION" PHYSICAL="M29_AXI_arregion"/>
-            <PORTMAP LOGICAL="ARQOS" PHYSICAL="M29_AXI_arqos"/>
             <PORTMAP LOGICAL="ARVALID" PHYSICAL="M29_AXI_arvalid"/>
             <PORTMAP LOGICAL="ARREADY" PHYSICAL="M29_AXI_arready"/>
             <PORTMAP LOGICAL="RDATA" PHYSICAL="M29_AXI_rdata"/>
             <PORTMAP LOGICAL="RRESP" PHYSICAL="M29_AXI_rresp"/>
-            <PORTMAP LOGICAL="RLAST" PHYSICAL="M29_AXI_rlast"/>
             <PORTMAP LOGICAL="RVALID" PHYSICAL="M29_AXI_rvalid"/>
             <PORTMAP LOGICAL="RREADY" PHYSICAL="M29_AXI_rready"/>
           </PORTMAPS>
@@ -8071,8 +8034,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -8260,8 +8223,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -8444,8 +8407,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -9779,8 +9742,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="NUM_READ_THREADS" VALUE="1"/>
           <PARAMETER NAME="NUM_WRITE_THREADS" VALUE="1"/>
@@ -10985,6 +10948,7 @@
             <CONNECTION INSTANCE="telliePulser" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="tellieDelay" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="clockCounter_0" PORT="s00_axi_aclk"/>
+            <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="S00_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M00_ACLK"/>
@@ -11006,7 +10970,6 @@
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M27_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M14_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M16_ACLK"/>
-            <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M29_ACLK"/>
           </CONNECTIONS>
         </PORT>
@@ -11041,6 +11004,7 @@
             <CONNECTION INSTANCE="triggers_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="clockCounter_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="clockCounter_1" PORT="s00_axi_aresetn"/>
+            <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="S00_ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M00_ARESETN"/>
@@ -11072,7 +11036,6 @@
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M26_ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M27_ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M28_ARESETN"/>
-            <CONNECTION INSTANCE="clockComparison_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="axi_interconnect_0" PORT="M29_ARESETN"/>
           </CONNECTIONS>
         </PORT>
@@ -11652,8 +11615,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -11836,8 +11799,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -12394,8 +12357,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -12643,8 +12606,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -12848,8 +12811,8 @@
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
           <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="0"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="1"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="1"/>
+          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="2"/>
+          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="2"/>
           <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="1"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="system_Clk_in_2"/>
@@ -12898,7 +12861,6 @@
         </PORT>
         <PORT DIR="O" NAME="Res" SIGIS="undef" SIGNAME="util_reduced_logic_0_Res">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="Outt"/>
             <CONNECTION INSTANCE="External_Ports" PORT="trig_out"/>
           </CONNECTIONS>
         </PORT>

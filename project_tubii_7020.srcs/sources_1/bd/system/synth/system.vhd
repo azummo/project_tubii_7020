@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Tue Aug 20 11:15:53 2019
+--Date        : Thu Nov 14 07:40:39 2019
 --Host        : zummo running 64-bit Ubuntu 16.04.6 LTS
 --Command     : generate_target system.bd
 --Design      : system
@@ -10655,7 +10655,6 @@ entity system is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     MZ_Happy : out STD_LOGIC;
-    Outt : out STD_LOGIC;
     Outtt : out STD_LOGIC;
     backup_clk_in_use : in STD_LOGIC;
     caen_rdy : out STD_LOGIC;
@@ -12568,7 +12567,6 @@ architecture STRUCTURE of system is
   attribute X_INTERFACE_INFO of FIXED_IO_mio : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO MIO";
 begin
   MZ_Happy <= MZ_Happy_pulser_out;
-  Outt <= triggerOut_0_trig_out;
   Outtt <= triggerOut_0_gtrigout;
   \^clk_in\ <= Clk_in;
   backup_clk_in_use_1 <= backup_clk_in_use;

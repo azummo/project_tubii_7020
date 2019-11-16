@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Tue Aug 20 11:15:55 2019
+--Date        : Thu Nov 14 07:40:41 2019
 --Host        : zummo running 64-bit Ubuntu 16.04.6 LTS
 --Command     : generate_target system_wrapper.bd
 --Design      : system_wrapper
@@ -36,7 +36,6 @@ entity system_wrapper is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     MZ_Happy : out STD_LOGIC;
-    Outt : out STD_LOGIC;
     Outtt : out STD_LOGIC;
     backup_clk_in_use : in STD_LOGIC;
     caen_rdy : out STD_LOGIC;
@@ -99,7 +98,6 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     trig_out : out STD_LOGIC;
-    Outt : out STD_LOGIC;
     display_reset : out STD_LOGIC;
     display_latch : out STD_LOGIC;
     display_count : out STD_LOGIC;
@@ -120,8 +118,8 @@ architecture STRUCTURE of system_wrapper is
     ext_trig_in : in STD_LOGIC_VECTOR ( 15 downto 0 );
     muxer : out STD_LOGIC_VECTOR ( 2 downto 0 );
     enablemux : out STD_LOGIC;
-    control_rdy_II : out STD_LOGIC;
     control_rdy : out STD_LOGIC;
+    control_rdy_II : out STD_LOGIC;
     caen_rdy : out STD_LOGIC;
     mtcamimic_rdy : out STD_LOGIC;
     clocks_rdy : out STD_LOGIC;
@@ -163,7 +161,6 @@ system_i: component system
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       MZ_Happy => MZ_Happy,
-      Outt => Outt,
       Outtt => Outtt,
       backup_clk_in_use => backup_clk_in_use,
       caen_rdy => caen_rdy,

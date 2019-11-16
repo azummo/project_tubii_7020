@@ -164,7 +164,6 @@ proc create_root_design { parentCell } {
    CONFIG.FREQ_HZ {100000000} \
  ] $Clk_in
   set MZ_Happy [ create_bd_port -dir O MZ_Happy ]
-  set Outt [ create_bd_port -dir O Outt ]
   set Outtt [ create_bd_port -dir O Outtt ]
   set backup_clk_in_use [ create_bd_port -dir I backup_clk_in_use ]
   set caen_rdy [ create_bd_port -dir O caen_rdy ]
@@ -1342,7 +1341,7 @@ proc create_root_design { parentCell } {
   connect_bd_net -net testPulser_1_pulser_out [get_bd_ports smellie_pulser_out] [get_bd_pins smelliePulser/pulser_out]
   connect_bd_net -net triggerOut_0_counter [get_bd_pins oneshot_pulse_1/pulse_i] [get_bd_pins util_reduced_logic_2/Res]
   connect_bd_net -net triggerOut_0_gtrigout [get_bd_ports Outtt] [get_bd_pins fifo_generator_0/wr_en] [get_bd_pins gtDelay/pulse_in] [get_bd_pins implement_gtid_0/gtrig_in] [get_bd_pins triggers_0/gtrigout]
-  connect_bd_net -net triggerOut_0_trig_out [get_bd_ports Outt] [get_bd_ports trig_out] [get_bd_pins util_reduced_logic_0/Res]
+  connect_bd_net -net triggerOut_0_trig_out [get_bd_ports trig_out] [get_bd_pins util_reduced_logic_0/Res]
   connect_bd_net -net triggerOut_0_tubii_word [get_bd_pins fifo_generator_0/din] [get_bd_pins triggers_0/tubii_word]
   connect_bd_net -net triggers_0_counter_mask [get_bd_pins triggers_0/counter_mask] [get_bd_pins util_vector_logic_2/Op2]
   connect_bd_net -net triggers_0_gtid_out [get_bd_pins implement_gtid_0/gtid_in] [get_bd_pins triggers_0/gtid_out]

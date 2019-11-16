@@ -29,7 +29,6 @@ preplace port smellie_delay_in -pg 1 -y 1650 -defaultsOSRD
 preplace port display_latch -pg 1 -y 540 -defaultsOSRD
 preplace port generic_delay_out -pg 1 -y 1700 -defaultsOSRD
 preplace port enablemux -pg 1 -y 1500 -defaultsOSRD
-preplace port Outt -pg 1 -y 170 -defaultsOSRD
 preplace port delay_gt -pg 1 -y 1070 -defaultsOSRD
 preplace port smellie_delay_out -pg 1 -y 1740 -defaultsOSRD
 preplace port display_count -pg 1 -y 560 -defaultsOSRD

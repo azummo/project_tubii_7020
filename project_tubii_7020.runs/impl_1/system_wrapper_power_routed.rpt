@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Tue Aug 20 11:43:57 2019
+| Date             : Thu Nov 14 08:09:16 2019
 | Host             : zummo running 64-bit Ubuntu 16.04.6 LTS
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 | Design           : system_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.791        |
+| Total On-Chip Power (W)  | 1.792        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.631        |
+| Dynamic (W)              | 1.632        |
 | Device Static (W)        | 0.160        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 64.3         |
@@ -52,21 +52,21 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.021 |        3 |       --- |             --- |
+| Clocks                  |     0.022 |        3 |       --- |             --- |
 | Slice Logic             |     0.026 |    26178 |       --- |             --- |
-|   LUT as Logic          |     0.021 |     9581 |     53200 |           18.01 |
+|   LUT as Logic          |     0.021 |     9565 |     53200 |           17.98 |
 |   CARRY4                |     0.004 |     1352 |     13300 |           10.17 |
 |   Register              |     0.001 |    12647 |    106400 |           11.89 |
 |   F7/F8 Muxes           |    <0.001 |      308 |     53200 |            0.58 |
 |   BUFG                  |    <0.001 |        1 |        32 |            3.13 |
 |   LUT as Shift Register |    <0.001 |       64 |     17400 |            0.37 |
 |   Others                |     0.000 |     1060 |       --- |             --- |
-| Signals                 |     0.041 |    20398 |       --- |             --- |
+| Signals                 |     0.041 |    20399 |       --- |             --- |
 | Block RAM               |     0.003 |      114 |       140 |           81.43 |
-| I/O                     |     0.009 |       55 |       125 |           44.00 |
+| I/O                     |     0.009 |       54 |       125 |           43.20 |
 | PS7                     |     1.531 |        1 |       --- |             --- |
 | Static Power            |     0.160 |          |           |                 |
-| Total                   |     1.791 |          |           |                 |
+| Total                   |     1.792 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.111 |       0.091 |      0.019 |
+| Vccint    |       1.000 |     0.112 |       0.092 |      0.019 |
 | Vccaux    |       1.800 |     0.016 |       0.000 |      0.016 |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -152,15 +152,15 @@ Table of Contents
 +---------------------------------------------------------------------------------------+-----------+
 | Name                                                                                  | Power (W) |
 +---------------------------------------------------------------------------------------+-----------+
-| system_wrapper                                                                        |     1.631 |
-|   system_i                                                                            |     1.621 |
+| system_wrapper                                                                        |     1.632 |
+|   system_i                                                                            |     1.622 |
 |     ShiftRegisters_0                                                                  |     0.003 |
 |       U0                                                                              |     0.003 |
 |         ShiftRegisters_v1_0_S00_AXI_inst                                              |     0.003 |
 |     anticoincTrigger_0                                                                |     0.001 |
 |       U0                                                                              |     0.001 |
 |         anticoincTrigger_v1_0_S00_AXI_inst                                            |     0.001 |
-|     axi_interconnect_0                                                                |     0.016 |
+|     axi_interconnect_0                                                                |     0.017 |
 |       m02_couplers                                                                    |    <0.001 |
 |         auto_cc                                                                       |    <0.001 |
 |           inst                                                                        |    <0.001 |
@@ -491,7 +491,7 @@ Table of Contents
 |               gntv_or_sync_fifo.gcx.clkx                                              |    <0.001 |
 |                 rd_pntr_cdc_inst                                                      |    <0.001 |
 |                 wr_pntr_cdc_inst                                                      |    <0.001 |
-|               gntv_or_sync_fifo.gl0.rd                                                |     0.002 |
+|               gntv_or_sync_fifo.gl0.rd                                                |     0.001 |
 |                 gras.rsts                                                             |    <0.001 |
 |                   c0                                                                  |    <0.001 |
 |                   c1                                                                  |    <0.001 |
@@ -756,9 +756,9 @@ Table of Contents
 |     fifo_readout_0                                                                    |    <0.001 |
 |       U0                                                                              |    <0.001 |
 |         fifo_readout_v1_0_S00_AXI_inst                                                |    <0.001 |
-|     genericDelay                                                                      |     0.002 |
-|       U0                                                                              |     0.002 |
-|         testDelay_v1_0_S00_AXI_inst                                                   |     0.002 |
+|     genericDelay                                                                      |     0.001 |
+|       U0                                                                              |     0.001 |
+|         testDelay_v1_0_S00_AXI_inst                                                   |     0.001 |
 |     genericPulser                                                                     |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testPulser_v1_0_S00_AXI_inst                                                  |     0.002 |
@@ -786,14 +786,14 @@ Table of Contents
 |     prescaleTrigger_0                                                                 |    <0.001 |
 |       U0                                                                              |    <0.001 |
 |         prescaleTrigger_v1_0_S00_AXI_inst                                             |    <0.001 |
-|     processing_system7_0                                                              |     1.536 |
-|       inst                                                                            |     1.536 |
+|     processing_system7_0                                                              |     1.537 |
+|       inst                                                                            |     1.537 |
 |     register_mux_0                                                                    |    <0.001 |
 |       U0                                                                              |    <0.001 |
 |         register_mux_v1_0_S00_AXI_inst                                                |    <0.001 |
-|     smellieDelay                                                                      |     0.002 |
-|       U0                                                                              |     0.002 |
-|         testDelay_v1_0_S00_AXI_inst                                                   |     0.002 |
+|     smellieDelay                                                                      |     0.001 |
+|       U0                                                                              |     0.001 |
+|         testDelay_v1_0_S00_AXI_inst                                                   |     0.001 |
 |     smelliePulser                                                                     |     0.002 |
 |       U0                                                                              |     0.002 |
 |         testPulser_v1_0_S00_AXI_inst                                                  |     0.002 |
