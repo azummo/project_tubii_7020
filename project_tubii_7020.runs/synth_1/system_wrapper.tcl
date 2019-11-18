@@ -17,7 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7z020clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -79,6 +78,12 @@ set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TU
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_1_0/system_tier2_xbar_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_2_0/system_tier2_xbar_2_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_tier2_xbar_3_0/system_tier2_xbar_3_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_11/system_auto_cc_11_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_10/system_auto_cc_10_ooc.xdc]
 set_property used_in_synthesis false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/zummo/snoplus/TUBii/project_tubii_7020/project_tubii_7020.srcs/sources_1/bd/system/ip/system_auto_cc_9/system_auto_cc_9_ooc.xdc]
