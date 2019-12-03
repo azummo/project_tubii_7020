@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Mon Nov 18 00:04:51 2019
+| Date         : Mon Dec  2 14:57:17 2019
 | Host         : zummo running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
@@ -30,8 +30,8 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 10180 |     0 |     53200 | 19.14 |
-|   LUT as Logic             | 10112 |     0 |     53200 | 19.01 |
+| Slice LUTs*                | 10179 |     0 |     53200 | 19.13 |
+|   LUT as Logic             | 10111 |     0 |     53200 | 19.01 |
 |   LUT as Memory            |    68 |     0 |     17400 |  0.39 |
 |     LUT as Distributed RAM |     0 |     0 |           |       |
 |     LUT as Shift Register  |    68 |     0 |           |       |
@@ -150,13 +150,13 @@ Table of Contents
 | Ref Name |  Used |  Functional Category |
 +----------+-------+----------------------+
 | FDRE     | 13506 |         Flop & Latch |
-| LUT6     |  3457 |                  LUT |
-| LUT2     |  2699 |                  LUT |
-| LUT4     |  2408 |                  LUT |
+| LUT6     |  3454 |                  LUT |
+| LUT2     |  2700 |                  LUT |
+| LUT4     |  2407 |                  LUT |
 | CARRY4   |  1358 |           CarryLogic |
-| LUT5     |  1225 |                  LUT |
+| LUT5     |  1223 |                  LUT |
 | LUT1     |   791 |                  LUT |
-| LUT3     |   733 |                  LUT |
+| LUT3     |   739 |                  LUT |
 | MUXF7    |   262 |                MuxFx |
 | FDSE     |   138 |         Flop & Latch |
 | BIBUF    |   130 |                   IO |

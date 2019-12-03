@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Sun Nov 17 23:56:16 2019
+--Date        : Mon Dec  2 14:38:36 2019
 --Host        : zummo running 64-bit Ubuntu 16.04.6 LTS
 --Command     : generate_target system.bd
 --Design      : system
@@ -12178,44 +12178,6 @@ architecture STRUCTURE of system is
     s00_axi_rready : in STD_LOGIC
   );
   end component system_trigwordfifo_0_0;
-  component system_triggers_0_0 is
-  port (
-    trigs_in : in STD_LOGIC_VECTOR ( 25 downto 0 );
-    trigger_mask : out STD_LOGIC_VECTOR ( 25 downto 0 );
-    trigger_async_mask : out STD_LOGIC_VECTOR ( 25 downto 0 );
-    speaker_mask : out STD_LOGIC_VECTOR ( 26 downto 0 );
-    counter_mask : out STD_LOGIC_VECTOR ( 26 downto 0 );
-    speaker_scale : out STD_LOGIC_VECTOR ( 7 downto 0 );
-    gtrig : in STD_LOGIC;
-    gtid_in : in STD_LOGIC_VECTOR ( 23 downto 0 );
-    gtid_out : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    gtrigout : out STD_LOGIC;
-    synci : in STD_LOGIC;
-    sync24i : in STD_LOGIC;
-    tubii_word : out STD_LOGIC_VECTOR ( 49 downto 0 );
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 5 downto 0 );
-    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_awvalid : in STD_LOGIC;
-    s00_axi_awready : out STD_LOGIC;
-    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_wvalid : in STD_LOGIC;
-    s00_axi_wready : out STD_LOGIC;
-    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_bvalid : out STD_LOGIC;
-    s00_axi_bready : in STD_LOGIC;
-    s00_axi_araddr : in STD_LOGIC_VECTOR ( 5 downto 0 );
-    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_arvalid : in STD_LOGIC;
-    s00_axi_arready : out STD_LOGIC;
-    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_rvalid : out STD_LOGIC;
-    s00_axi_rready : in STD_LOGIC
-  );
-  end component system_triggers_0_0;
   component system_clockCounter_0_0 is
   port (
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 4 downto 0 );
@@ -12320,6 +12282,44 @@ architecture STRUCTURE of system is
     s00_axi_aresetn : in STD_LOGIC
   );
   end component system_register_mux_1_0;
+  component system_triggers_0_0 is
+  port (
+    trigs_in : in STD_LOGIC_VECTOR ( 25 downto 0 );
+    trigger_mask : out STD_LOGIC_VECTOR ( 25 downto 0 );
+    trigger_async_mask : out STD_LOGIC_VECTOR ( 25 downto 0 );
+    speaker_mask : out STD_LOGIC_VECTOR ( 26 downto 0 );
+    counter_mask : out STD_LOGIC_VECTOR ( 26 downto 0 );
+    speaker_scale : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    gtrig : in STD_LOGIC;
+    gtid_in : in STD_LOGIC_VECTOR ( 23 downto 0 );
+    gtid_out : out STD_LOGIC_VECTOR ( 23 downto 0 );
+    gtrigout : out STD_LOGIC;
+    synci : in STD_LOGIC;
+    sync24i : in STD_LOGIC;
+    tubii_word : out STD_LOGIC_VECTOR ( 49 downto 0 );
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC
+  );
+  end component system_triggers_0_0;
   signal M00_ARESETN_1 : STD_LOGIC;
   signal MZ_Happy_pulser_out : STD_LOGIC;
   signal ShiftRegs_0_caen_rdy : STD_LOGIC;

@@ -261,19 +261,18 @@ begin
         GTRIGout <= GTRIG;
       end if;
 
-      --- New changes for testing
-      -- slv_reg8 is synci counter
-      -- slv_reg9 is sync24 counter
+      -- slv_reg9 is synci counter
+      -- slv_reg10 is sync24 counter
       if slv_reg7(0)='1' then
         slv_reg4 <= (others=>'0');
         treset <= '1';
       elsif SYNC24i='1' then
         slv_reg4 <= (others=>'0');
-        slv_reg9 <= std_logic_vector( unsigned(slv_reg9) + 1 );
+        slv_reg10 <= std_logic_vector( unsigned(slv_reg10) + 1 );
         tsync24 <= '1';
       elsif SYNCi='1' then
         slv_reg4(15 downto 0) <= (others=>'0');
-        slv_reg8 <= std_logic_vector( unsigned(slv_reg8) + 1 );
+        slv_reg9 <= std_logic_vector( unsigned(slv_reg9) + 1 );
         tsync <= '1';
       elsif tsync='0' and tsync24='0' and treset='0' then
         slv_reg4(GTIDLENGTH-1 downto 0) <= GTID_in;
